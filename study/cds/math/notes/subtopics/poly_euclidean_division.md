@@ -1,0 +1,55 @@
+---
+exam: "CDS"
+subject: "Elementary Mathematics"
+topic: "HCF and LCM of Polynomials"
+subtopic: "Euclidean Division Algorithm for Polynomials"
+difficulty: "Hard"
+tags: [cds, math, hcf-lcm-polynomials, subtopic]
+---
+
+# Euclidean Division Algorithm for Polynomials
+
+## Core Concept & Theory
+
+When polynomials cannot be easily factorized using standard quadratic/cubic grouping techniques, the **Euclidean Long Division Algorithm** is used to find their HCF.
+
+Given two polynomials $P(x)$ and $Q(x)$ with $\operatorname{deg}(P) \ge \operatorname{deg}(Q)$:
+1. **Division Step**: Divide $P(x)$ by $Q(x)$ to get quotient $q_1(x)$ and remainder $R_1(x)$:
+   $$P(x) = Q(x) \cdot q_1(x) + R_1(x), \quad \operatorname{deg}(R_1) < \operatorname{deg}(Q)$$
+2. **Successive Division**: If $R_1(x) \neq 0$, make $Q(x)$ the new dividend and $R_1(x)$ the new divisor:
+   $$Q(x) = R_1(x) \cdot q_2(x) + R_2(x)$$
+3. **Termination**: Repeat until the remainder becomes zero: $R_{k-1}(x) = R_k(x) \cdot q_{k+1}(x) + 0$.
+4. **Result**: The non-zero remainder $R_k(x)$ prior to zero remainder (monic or multiplied by scalar common factor) is the $\operatorname{HCF}(P(x), Q(x))$.
+
+---
+
+## Critical Rules for Polynomial Division:
+
+1. **Stage 1 Pre-Extraction Rule (Mandatory)**:
+   Before starting long division, **always factor out all shared monomial terms ($x^k$) and scalar constants** common to BOTH original polynomials $P(x)$ and $Q(x)$. Save this outer HCF to multiply back at the very end.
+
+2. **Intermediate Variable Factor Rule**:
+   If a variable factor $x^k$ appears inside a remainder at an intermediate division step:
+   - **THROW IT AWAY (DISCARD IT)**!
+   - **Why?** Since you already extracted all common $x^k$ factors in Stage 1, the inner polynomials have no common $x$ factor. Any $x^k$ appearing in an intermediate remainder is an unshared artifact of polynomial division (i.e. $x=0$ is NOT a root of both polynomials). Discard $x^k$ to keep the degree minimal!
+
+3. **Numerical Scalar Extraction**:
+   If a constant scalar factor exists in an intermediate remainder (e.g. $-39$ or $11$), **discard it** to prevent fractional algebra.
+
+4. **Negative Leading Coefficient**:
+   If the leading term of a remainder is negative, multiply by $-1$ before making it the next divisor.
+
+---
+
+## Direct Proof / Intuition
+
+Why does $\operatorname{gcd}(P, Q) = \operatorname{gcd}(Q, R)$?
+If $D(x)$ divides both $P(x)$ and $Q(x)$, then $D(x)$ divides $P(x) - Q(x)q(x) = R(x)$.
+Conversely, if $D(x)$ divides $Q(x)$ and $R(x)$, it must divide $Q(x)q(x) + R(x) = P(x)$.
+Thus, the set of common divisors of $(P, Q)$ is identical to $(Q, R)$, proving $\operatorname{HCF}(P, Q) = \operatorname{HCF}(Q, R)$.
+
+---
+
+## Linked Practice Questions
+
+- [Q31: Euclidean Division for 5th Degree Polynomials](/cds/math/notes/questions/q31)

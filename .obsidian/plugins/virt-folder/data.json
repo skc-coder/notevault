@@ -1,0 +1,15 @@
+{
+  "ignorePath": "",
+  "ignoreTags": "",
+  "propertyName": "Folders",
+  "titleProp": "",
+  "iconProp": "vf_icon",
+  "cmdShowTitle": false,
+  "sortTreeBy": "file_name",
+  "sortTreeRev": false,
+  "UseWikiLinks": true,
+  "confirmDelete": true,
+  "autoReveal": false,
+  "firstRun": false,
+  "tagHighlights": []
+}

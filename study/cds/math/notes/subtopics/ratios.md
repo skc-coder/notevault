@@ -1,0 +1,62 @@
+---
+exam: "CDS"
+subject: "Elementary Mathematics"
+topic: "Number System"
+subtopic: "Ratios and Proportions"
+difficulty: "Easy"
+tags: [cds, elementary-mathematics, subtopic]
+---
+
+# Ratios and Proportions
+
+## Theory & Properties
+
+### 1. Continuous Ratio Properties
+Given $\frac{a}{x} = \frac{b}{y} = \frac{c}{z} = k$:
+- Homogeneous algebraic fractions can be solved instantly via direct coefficient replacement ($a=x, b=y, c=z$).
+
+---
+
+### 2. Deep Proof: Why the Addendo Property Works
+
+#### Mathematical Statement
+$$\text{If } \frac{a}{x} = \frac{b}{y} = \frac{c}{z}, \text{ then } \frac{a + b + c}{x + y + z} = \frac{a}{x} = \frac{b}{y} = \frac{c}{z}$$
+
+#### Proof:
+1. **Set the common ratio equal to a constant $k$:**
+   $$\frac{a}{x} = k \implies a = xk$$
+   $$\frac{b}{y} = k \implies b = yk$$
+   $$\frac{c}{z} = k \implies c = zk$$
+
+2. **Add all the numerators together:**
+   $$a + b + c = xk + yk + zk$$
+
+3. **Factor out the common multiplier $k$:**
+   $$a + b + c = k(x + y + z)$$
+
+4. **Divide both sides by $(x + y + z)$:**
+   $$\frac{a + b + c}{x + y + z} = k$$
+
+5. **Conclusion:**
+   Since $k$ was originally equal to $\frac{a}{x}$, $\frac{b}{y}$, and $\frac{c}{z}$, it proves that:
+   $$\frac{a + b + c}{x + y + z} = \frac{a}{x} = \frac{b}{y} = \frac{c}{z}$$
+
+---
+
+### 3. General Multiplier Form (Weighted Addendo)
+The Addendo property also works with any arbitrary weights $l, m, n \neq 0$:
+$$\frac{la + mb + nc}{lx + my + nz} = \frac{a}{x} = \frac{b}{y} = \frac{c}{z}$$
+
+## Linked Practice Questions
+
+- [Question 1: Continuous Equal Ratios](/cds/math/notes/questions/q1)
+
+## Variations
+
+- [Variation 1: Continuous Ratio Substitution](/cds/math/notes/variations/var1)
+- [Variation 2: Weighted Addendo Property](/cds/math/notes/variations/var2)
+- [Variation 3: Homogeneous Quadratic Ratio](/cds/math/notes/variations/var3)
+
+## Navigation
+
+- [Number System Topic](/cds/math/notes/numbers)

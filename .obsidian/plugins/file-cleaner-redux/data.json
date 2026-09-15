@@ -1,0 +1,32 @@
+{
+  "deletionDestination": "system",
+  "obsidianTrashCleanupAge": -1,
+  "notifications": "showAll",
+  "excludeInclude": 0,
+  "excludedFolders": [
+    "archive/",
+    "life/",
+    "padai/cse/networks"
+  ],
+  "attachmentsExcludeInclude": 1,
+  "attachmentExtensions": [
+    "jpg",
+    "png"
+  ],
+  "deletionConfirmation": true,
+  "runOnStartup": false,
+  "removeFolders": true,
+  "ignoredFrontmatter": [],
+  "ignoreAllFrontmatter": false,
+  "codeblockTypes": [],
+  "deleteEmptyMarkdownFiles": true,
+  "deleteEmptyMarkdownFilesWithBacklinks": false,
+  "fileAgeThreshold": 0,
+  "closeNewTabs": false,
+  "deleteEmptyFileOnClose": false,
+  "ExternalPlugins": {
+    "Excalidraw": {
+      "TreatAsAttachments": false
+    }
+  }
+}

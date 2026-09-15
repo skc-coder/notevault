@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "8811c8f72ad074ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7e3ff4c7d60e905",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cecf04000ddfed8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "667c1d30ba273cd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f344771606cf82d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cb13ea123f1ad57",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0d7934d199f4d371",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:math",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9097855cd0435ba2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.328125
+  },
+  "right": {
+    "id": "45372c980f11330e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d8f0e9e48a9ac51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d308ec739a00f1ac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/gate-cs/algorithms/question_db.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a2fddc10a05d671e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/gate-cs/algorithms/question_db.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a459d9516ae170a6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7e9702801176b7b9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "e4759337f8d7769a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/gate-cs/algorithms/question_db.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "65d8d404861a290c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false,
+      "file-cleaner-redux:Clean files": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "9cecf04000ddfed8",
+  "lastOpenFiles": [
+    "attachments/Pasted image 20260425181500.webp",
+    "attachments/Pasted image 20260427181252.webp",
+    "attachments/Recording 20260428113430.m4a",
+    "attachments/Pasted image 20260327145842.webp",
+    "content/mocs/moc os.md",
+    "content/gate-cs/os/semaphore-gate-corner-cases.md",
+    "content/mocs/Classic Problems.md",
+    "content/mocs/Semaphores.md",
+    "content/gate-cs/os/semaphore-synchronization-patterns.md",
+    "content/gate-cs/os/semaphore-implementation-paradigms.md",
+    "content/gate-cs/os/atomicity-of-semaphore-operations.md",
+    "index.md",
+    "content/gate-cs/os/Fork and exec.md",
+    "content/gate-cs/os/classification-of-semaphores.md",
+    "00_meta/agents.md",
+    "00_meta/Prompts.md",
+    "content/gate-cs/os/introduction-to-semaphores.md",
+    "content/gate-cs/os/semaphores.md",
+    "content/gate-cs/os/critical section problem.md",
+    "content/cds/cds_overview.md",
+    "content/gate-cs/os/atomic-hardware-instructions.md",
+    "public/gate-cs/os/semaphores-og-image.webp",
+    "content/gate-cs/os/hardware-supported-synchronization.md",
+    "content/gate-cs/os/test-and-set-lock-mechanism.md",
+    "content/gate-cs/os/Untitled.base",
+    "content/gate-cs/os/test-and-set-mutual-exclusion.md",
+    "content/gate-cs/os/disabling-interrupts-synchronization.md",
+    "content/mocs/moc algo.md",
+    "content/mocs/moc dsa.md",
+    "content/mocs/moc cs.md",
+    "content/mocs/moc cn.md",
+    "attachments/banners/economy.webp",
+    "attachments/banners/probability.webp",
+    "attachments/banners/os.webp",
+    "attachments/banners/maths.webp",
+    "attachments/banners/la.webp",
+    "attachments/banners/graphs.webp",
+    "attachments/banners/dsa.webp",
+    "attachments/banners",
+    "content/general/cpp",
+    "content/general",
+    "content/gate-cs/os",
+    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Standard Notes Backup and Import File.txt",
+    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Items/Tag/Tag-f982d9d4.txt",
+    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Items/Tag/Tag-e61b56c5.txt",
+    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Items/Tag/Tag-cfdc9a05.txt",
+    "00_meta/archive/docs/Canvas.canvas",
+    "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
+    "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",
+    "00_meta/Untitled.canvas",
+    "archive/docs/Canvas.canvas",
+    "archive/_notes (roam, etc)/Untitled.canvas",
+    "archive/_notes (roam, etc)/Untitled 1.canvas",
+    "Untitled.canvas",
+    "_notes (roam, etc)/Untitled.canvas",
+    "_notes (roam, etc)/Untitled 1.canvas"
+  ]
+}

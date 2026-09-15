@@ -1,0 +1,18 @@
+{
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "showUnsupportedFiles": false,
+  "openBehavior": "file:life/home",
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "defaultViewMode": "preview",
+  "readableLineLength": true
+}

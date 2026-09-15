@@ -1,0 +1,121 @@
+/* 
+CSS-Only Banner snippet (Forum post by efemkay & Bluemoondragon07)
+Targets any image with |banner alt tag embedded in note body
+*/
+
+/* LP / Reading view image selectors for banner targeting */
+.internal-embed.image-embed[alt*="banner"],
+.image-embed[alt*="banner"],
+.cm-embed-block:has(img[alt*="banner"]) { 
+    display: contents !important; 
+}
+
+.markdown-rendered img[alt*="banner"],
+.cm-embed-block img[alt*="banner"],
+.workspace-leaf-content img[alt*="banner"] {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 250px !important;
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    object-fit: cover !important;
+    object-position: 50% 50% !important;
+    overflow: hidden !important;
+    user-select: none !important;
+    z-index: 0 !important;
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%) !important;
+    mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%) !important;
+}
+
+.markdown-rendered img[alt*="banner"][alt*="lower"],
+.cm-embed-block img[alt*="banner"][alt*="lower"] { object-position: 50% 30% !important; }
+
+.markdown-rendered img[alt*="banner"][alt*="higher"],
+.cm-embed-block img[alt*="banner"][alt*="higher"] { object-position: 50% 70% !important; }
+
+/* Push note title and body content cleanly below the banner height ONLY on notes containing a banner image */
+.markdown-rendered:has(img[alt*="banner"]) .inline-title,
+.markdown-rendered:has(img[alt*="banner"]) .metadata-container,
+.cm-sizer:has(img[alt*="banner"]) .inline-title,
+.cm-sizer:has(img[alt*="banner"]) .metadata-container,
+.workspace-leaf-content:has(img[alt*="banner"]) .inline-title,
+.workspace-leaf-content:has(img[alt*="banner"]) .metadata-container {
+    position: relative !important;
+    z-index: 2 !important;
+    margin-top: 140px !important;
+}
+
+/* Dashboard CSS Snippet (TfT Hacker & SAGE Extended) */
+
+:root {
+    --dashboard-columns: 4;
+    --dashboard-gap: 20px;
+    --dashboard-min-width: 220px;
+}
+
+.dashboard {
+    font-family: inherit;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 20px !important;
+}
+
+.dashboard .markdown-preview-section {
+    max-width: 100%;
+}
+
+.dashboard h1 {
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
+}
+
+/* Get rid of the parent bullet */
+.dashboard div.markdown-preview-section>div>ul>li>.list-bullet {
+    display: none !important;
+}
+
+/* Remove the indentation guide lines */
+.dashboard.markdown-rendered.show-indentation-guide li>ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li>ol::before {
+    display: none;
+}
+
+div.markdown-preview-section>div>ul.has-list-bullet>li {
+    padding-left: 0px !important;
+}
+
+.dashboard div>ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(var(--dashboard-columns, 4), minmax(0, 1fr));
+    gap: var(--dashboard-gap, 20px);
+}
+
+@media (max-width: 1100px) {
+    .dashboard div>ul {
+        grid-template-columns: repeat(auto-fit, minmax(var(--dashboard-min-width, 220px), 1fr));
+    }
+}
+
+.dashboard div>ul>li {
+    min-width: 0;
+    width: 100%;
+}
+
+/* Column Override Utility Classes for YAML Frontmatter */
+/* Usage in frontmatter: cssclasses: [dashboard, cols-3] or [dashboard, cols-4] */
+.dashboard.cols-2 div>ul { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.dashboard.cols-3 div>ul { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.dashboard.cols-4 div>ul { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.dashboard.cols-5 div>ul { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+.dashboard.cols-6 div>ul { grid-template-columns: repeat(6, minmax(0, 1fr)) !important; }
+
+/* Dataview support */
+.dashboard ul.dataview {
+    row-gap: 0px !important;
+    list-style-type: disc !important;
+}

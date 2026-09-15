@@ -1,0 +1,382 @@
+---
+exam: "CDS"
+subject: "Chemistry"
+topic: "Acids, Bases, Salts & Indicators"
+difficulty: "Hard"
+tags: [cds, chemistry, acids, bases, salts, ph-scale, indicators, lewis-acid, bronsted-lowry, pyq]
+---
+
+# Acids, Bases, Salts & Indicators
+
+Exhaustive notes covering Acid-Base theories (Arrhenius, Brønsted-Lowry, Lewis), indicators, pH scale & applications, key chemical salts (Bleaching Powder, Baking Soda, Washing Soda, Plaster of Paris), strength of acids/bases, and real PYQs (NDA/CDS/CAPF).
+
+---
+
+## 1. Introduction & Physical Properties
+
+* **Acids:**
+  * Taste: Sour.
+  * Effect on Litmus: Turns **blue litmus red**.
+  * Conductivity: Aqueous solutions conduct electricity due to free $H^+$ / $H_3O^+$ ions.
+* **Bases & Alkalis:**
+  * Taste: Bitter, feel soapy/slippery to touch.
+  * Effect on Litmus: Turns **red litmus blue**.
+  * **Alkali:** Bases that are soluble in water (e.g., $NaOH$, $KOH$, $Ca(OH)_2$, $Mg(OH)_2$).
+  * **Crucial Rule:** *All alkalis are bases, but not all bases are alkalis.* (e.g., $Cu(OH)_2$, $Fe(OH)_3$ are insoluble bases, so they are not alkalis). Alkalis are corrosive in nature.
+
+---
+
+## 2. Chemical Theories of Acids and Bases
+
+### A. Arrhenius Theory
+* **Acid:** Substance that releases hydrogen ions ($H^+$ or hydronium $H_3O^+$) when dissolved in water.
+  $$\text{HCl} + \text{H}_2\text{O} \rightarrow \text{H}_3\text{O}^+ + \text{Cl}^-$$
+* **Base:** Substance that releases hydroxide ions ($OH^-$) when dissolved in water.
+  $$\text{NaOH} \xrightarrow{\text{H}_2\text{O}} \text{Na}^+ + \text{OH}^-$$
+
+### B. Brønsted-Lowry Theory (Proton Transfer)
+* **Acid:** Proton ($H^+$) **donor**.
+* **Base:** Proton ($H^+$) **acceptor**.
+* **Conjugate Acid-Base Pairs:**
+  $$\underbrace{\text{NH}_3}_{\text{Base}} + \underbrace{\text{H}_2\text{O}}_{\text{Acid}} \rightleftharpoons \underbrace{\text{NH}_4^+}_{\text{Conjugate Acid}} + \underbrace{\text{OH}^-}_{\text{Conjugate Base}}$$
+  * When a base accepts $H^+$, it forms its **conjugate acid**.
+  * When an acid donates $H^+$, it leaves behind its **conjugate base**.
+
+### C. Lewis Theory (Electron Pair Transfer)
+* **Lewis Acid:** **Electron-pair acceptor** (Electron-deficient species, electrophiles, vacant orbitals).
+  * Examples: $BF_3$, $AlCl_3$, $AlF_3$, $BH_3$, $H^+$.
+* **Lewis Base:** **Electron-pair donor** (Electron-rich species, nucleophiles, at least 1 lone pair).
+  * Examples: $NH_3$, $H_2O$, $OH^-$, $F^-$, $Cl^-$.
+
+```
+Lewis Acid (e- acceptor, empty orbital)  +  Lewis Base (e- donor, lone pair)
+             BF3                           +              :NH3
+                                           -->  F3B <- NH3  (Coordinate Bond)
+```
+
+---
+
+## 3. Acid-Base Indicators
+
+Indicators change color depending on whether they are in an acidic or basic medium.
+
+### A. Natural & Synthetic Indicators Table
+ ACID = RCBY, blue for hydrangea
+ BASE = PBGY, Pink for hydrogena and phenotloene
+
+| Indicator                    | Type      | Natural Origin / Source               | Color in Acid | Color in Neutral | Color in Base      |
+| :--------------------------- | :-------- | :------------------------------------ | :------------ | :--------------- | :----------------- |
+| **Litmus**                   | Natural   | Lichen (*Thallophyta* plant division) | **Red**       | Purple           | **Blue**           |
+| **Red Cabbage Leaf Extract** | Natural   | Red Cabbage                           | **Red**       | Purple           | **Green / Yellow** |
+| **Turmeric (Haldi)**         | Natural   | Turmeric root                         | **Yellow**    | Yellow           | **Reddish-Brown**  |
+| **Hydrangea Petals**         | Natural   | Flower petals                         | **Blue**      | Blue             | **Pink**           |
+| **Petunia / Geranium**       | Natural   | Flower petals                         | Change color  | Original         | Change color       |
+| **Methyl Orange**            | Synthetic | Chemical                              | **Red**       | Orange           | **Yellow**         |
+| **Phenolphthalein**          | Synthetic | Chemical                              | **Colorless** | Colorless        | **Pink**           |
+
+* **Turmeric Reaction on Clothes:** A turmeric stain on a white shirt stays yellow. When washed with soap (which is basic), it turns **reddish-brown**. When washed thoroughly with plenty of water, it turns back to **yellow**.
+
+### B. Olfactory Indicators
+Indicators whose **smell/odour changes** in acidic or basic media.
+* **Vanilla essence, Onion extract, Clove oil:** Retain their characteristic smell in acidic medium, but their smell **disappears / is destroyed in basic medium** ($NaOH$).
+
+---
+
+## 4. Chemical Reactions of Acids and Bases
+
+### 1. Acid + Metal $\rightarrow$ Salt + Hydrogen Gas ($\text{H}_2\uparrow$)
+$$\text{Zn} + \text{H}_2\text{SO}_4 \rightarrow \text{ZnSO}_4 + \text{H}_2\uparrow$$
+* **Test for $\text{H}_2$ Gas:** Brings a burning candle near the gas bubbles; it burns with a characteristic **"POP" sound**.
+
+### 2. Base + Metal $\rightarrow$ Salt + Hydrogen Gas ($\text{H}_2\uparrow$)
+Only certain metals (like $Zn$, $Al$) react with strong bases.
+$$2\text{NaOH} + \text{Zn} \rightarrow \underbrace{\text{Na}_2\text{ZnO}_2}_{\text{Sodium Zincate}} + \text{H}_2\uparrow$$
+
+### 3. Acid + Metal Carbonate / Hydrogen Carbonate $\rightarrow$ Salt + Water + $\text{CO}_2\uparrow$
+$$\text{Na}_2\text{CO}_3 + 2\text{HCl} \rightarrow 2\text{NaCl} + \text{H}_2\text{O} + \text{CO}_2\uparrow$$
+$$\text{NaHCO}_3 + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O} + \text{CO}_2\uparrow$$
+* **Test for $\text{CO}_2$ Gas:** Pass gas into lime water ($Ca(OH)_2$). Lime water turns **milky** due to insoluble $CaCO_3$ precipitate:
+  $$\text{Ca(OH)}_2 + \text{CO}_2 \rightarrow \underbrace{\text{CaCO}_3\downarrow}_{\text{White ppt (Milky)}} + \text{H}_2\text{O}$$
+* **Excess $\text{CO}_2$ Passing:** Milkiness **disappears** because soluble calcium hydrogen carbonate is formed:
+  $$\text{CaCO}_3 + \text{H}_2\text{O} + \text{CO}_2 \rightarrow \underbrace{\text{Ca(HCO}_3)_2}_{\text{Soluble in water}}$$
+
+### 4. Neutralization Reaction (Acid + Base $\rightarrow$ Salt + Water)
+$$\text{NaOH} + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O}$$
+* **Why Curd/Sour items shouldn't be kept in Copper/Brass vessels:** Sour food contains acids (lactic acid) which react with copper/brass to produce poisonous copper salts.
+
+### 5. Metallic Oxide + Acid $\rightarrow$ Salt + Water
+* **Metallic oxides are BASIC in nature** (e.g., $CuO$, $MgO$, $CaO$).
+$$\text{CuO} + 2\text{HCl} \rightarrow \underbrace{\text{CuCl}_2}_{\text{Blue-Green color}} + \text{H}_2\text{O}$$
+
+### 6. Non-Metallic Oxide + Base $\rightarrow$ Salt + Water
+* **Non-metallic oxides are ACIDIC in nature** (e.g., $CO_2$, $SO_2$, $NO_2$).
+$$\text{Ca(OH)}_2 + \text{CO}_2 \rightarrow \text{CaCO}_3 + \text{H}_2\text{O}$$
+* **Neutral Oxides:** $CO$, $NO$, $N_2O$, $H_2O$ (do not react with acid or base).
+
+---
+
+## 5. Dilution & Safety Precautions
+
+* **Dilution:** Mixing an acid or base with water reduces the concentration of ions ($H_3O^+$ or $OH^-$) per unit volume.
+* **CRITICAL SAFETY RULE:** Always add **Acid to Water slowly with constant stirring**. NEVER add Water to Concentrated Acid!
+  * **Reason:** Dissolving acid in water is highly exothermic. Adding water to acid causes localized boiling, splashing of concentrated acid (causing chemical burns), and may fracture the glass container due to excessive local heating.
+
+---
+
+## 6. The pH Scale & Real-Life Applications
+
+The **pH scale** (developed by Sørensen; *p* stands for German *potenz* = power) measures hydrogen ion concentration ($0 \text{ to } 14$).
+
+$$\text{pH} = -\log_{10} [\text{H}^+] = \log_{10} \frac{1}{[\text{H}^+]}$$
+
+* $\text{pH} < 7 \implies$ Acidic solution ($[H^+] > [OH^-]$)
+* $\text{pH} = 7 \implies$ Neutral solution ($[H^+] = [OH^-]$)
+* $\text{pH} > 7 \implies$ Basic / Alkaline solution ($[H^+] < [OH^-]$)
+
+### A. Standard pH Reference Values
+
+| Liquid / Substance                      | Approximate pH Value | Nature              |
+| :-------------------------------------- | :------------------- | :------------------ |
+| **Gastric Juice (HCI in Stomach)**      | $1.2$                | Strongly Acidic     |
+| **Lemon Juice**                         | $2.2 - 2.4$          | Acidic              |
+| **Vinegar (5-8% Acetic Acid)**          | $2.4 - 3.4$          | Acidic              |
+| **Acid Rain Threshold**                 | $< 5.6$              | Acidic              |
+| **Human Saliva (Before Meal)**          | $7.4$                | Slightly Alkaline   |
+| **Human Saliva (After Meal)**           | $5.8$                | Acidic              |
+| **Pure Water ($25^\circ\text{C}$)**     | $7.0$                | Neutral             |
+| **Human Blood**                         | $7.35 - 7.45$        | Slightly Alkaline   |
+| **Tap Water**                           | $6.5 - 8.5$          | Desirable range     |
+| **Milk of Magnesia ($Mg(OH)_2$)**       | $10.0$               | Mild Base / Antacid |
+| **Sodium Hydroxide ($1\text{M NaOH}$)** | $14.0$               | Strongly Basic      |
+
+### B. Natural & Common Acids Matrix (Nature & Uses)
+
+| Source / Common Name | Natural / Commercial Acid | Chemical Formula | Memory Trick & Key Uses |
+| :--- | :--- | :--- | :--- |
+| **Vinegar** | **Acetic Acid / Ethanoic Acid** | $\text{CH}_3\text{COOH}$ | $5-8\%$ solution in water. Used as food preservative & condiment. |
+| **Ant Sting & Nettle Leaf** | **Formic Acid / Methanoic Acid** | $\text{HCOOH}$ | *Formica* = Ant in Latin. Injected by ants/nettle hair causing burning pain. Neutralized by baking soda or **Dock leaf**. |
+| **Citrus Fruits (Lemon, Orange)** | **Citric Acid** | $\text{C}_6\text{H}_8\text{O}_7$ | Gives sharp sour taste; natural antioxidant. |
+| **Vitamin C (Amla, Citrus)** | **Ascorbic Acid** | $\text{C}_6\text{H}_8\text{O}_6$ | **CRITICAL EXAM HOOK:** Vitamin C is **ASCORBIC ACID**, NOT Tartaric or Citric acid! Deficit causes Scurvy. |
+| **Tamarind & Unripe Grapes** | **Tartaric Acid** | $\text{C}_4\text{H}_6\text{O}_6$ | Added to Baking Soda ($\text{NaHCO}_3$) to make **Baking Powder** (neutralizes bitter $\text{Na}_2\text{CO}_3$). |
+| **Tomato** | **Oxalic Acid** | $\text{H}_2\text{C}_2\text{O}_4$ | Used as rust stain remover. Excess forms Calcium Oxalate **kidney stones**. |
+| **Sour Milk / Curd** | **Lactic Acid** | $\text{C}_3\text{H}_6\text{O}_3$ | Formed by *Lactobacillus* bacteria fermenting lactose. |
+| **Eye Wash & Antiseptic** | **Boric Acid** | $\text{H}_3\text{BO}_3$ | Very mild antiseptic; used as eyewash, dusting powder, and carrom board lubricant. |
+| **Gastric Juice in Stomach** | **Hydrochloric Acid** | $\text{HCl}$ | $\text{pH} \approx 1.2$. Kills bacteria & activates pepsin for protein digestion. |
+
+### C. Common Bases & Their Uses
+
+| Base Name | Chemical Formula | Common Name | Key Exam Uses |
+| :--- | :--- | :--- | :--- |
+| **Sodium Hydroxide** | $\text{NaOH}$ | **Caustic Soda** | Hard soaps, paper pulp, petroleum refining, Chlor-Alkali process. |
+| **Potassium Hydroxide** | $\text{KOH}$ | **Caustic Potash** | **Soft soaps** (shaving creams, liquid soaps), absorbing $\text{CO}_2$ gas in lab experiments. |
+| **Calcium Hydroxide** | $\text{Ca(OH)}_2$ | **Slaked Lime / Lime Water** | White-washing, neutralizing acidic soil, making Bleaching Powder ($\text{CaOCl}_2$). |
+| **Magnesium Hydroxide** | $\text{Mg(OH)}_2$ | **Milk of Magnesia** | $\text{pH} \approx 10$. Mild base used as **Antacid** to treat acidity/indigestion. |
+| **Ammonium Hydroxide** | $\text{NH}_4\text{OH}$ | Liquor Ammonia | Window cleaners, grease stain remover, manufacturing fertilizers. |
+| **Aniline** | $\text{C}_6\text{H}_5\text{NH}_2$ | Aminobenzene | **Weak Organic Base** (lone pair on Nitrogen). Used in azo dye manufacturing and rubber processing. |
+
+### D. Everyday Applications & Memory Tricks for pH
+
+1. **How to Remember pH Order Questions:**
+   * **Rule:** Strong Acids ($0-2$) < Weak Acids ($3-6$) < Neutral ($7$) < Mild Bases ($7.4-10$) < Strong Bases ($11-14$).
+   * **Exam Solving Trick (SSC / CDS / NDA):**
+     * Lemon Juice ($\text{pH} \approx 2.2$) $\rightarrow$ Strongly Acidic (Lowest pH)
+     * Coffee ($\text{pH} \approx 5.0$) $\rightarrow$ Weakly Acidic
+     * Blood ($\text{pH} \approx 7.4$) $\rightarrow$ Slightly Alkaline / Basic
+     * Milk of Magnesia ($\text{pH} \approx 10.0$) $\rightarrow$ Basic Antacid (Highest pH)
+     * **Correct Ascending Order:** $\mathbf{\text{Lemon Juice} < \text{Coffee} < \text{Blood} < \text{Milk of Magnesia}}$.
+2. **Human Body pH Range:** Works within a narrow range of **$7.0 - 7.8$**.
+3. **Acid Rain:** Rainwater with $\text{pH} < 5.6$. Caused by atmospheric pollutants ($SO_2, NO_2, CO_2$) dissolving in rain to form $\text{H}_2\text{SO}_4$ and $\text{HNO}_3$. When it flows into rivers, it lowers water pH, killing aquatic life.
+4. **Venus Atmosphere:** Atmosphere of Venus is composed of thick white and yellowish clouds of **Concentrated Sulphuric Acid ($\text{H}_2\text{SO}_4$)** and $95-97\% \text{CO}_2$.
+5. **Tooth Decay:** Starts when mouth $\text{pH} < 5.5$. Tooth enamel is made of **Calcium Phosphate / Hydroxyapatite** ($\text{Ca}_5(\text{PO}_4)_3\text{OH}$), the hardest substance in the human body. Bacteria degrade sugar to produce acid. Toothpaste (which is basic) neutralizes excess acid to prevent decay.
+6. **Soil pH Treatment:**
+   * Acidic Soil ($\text{pH} < 6$): Treated by adding **Quicklime ($\text{CaO}$)**, **Slaked Lime ($\text{Ca(OH)}_2$)**, or **Chalk ($\text{CaCO}_3$)**.
+   * Basic Soil ($\text{pH} > 8.3$): Treated by adding organic matter/manure which releases acids.
+7. **Self-Defense by Plants & Animals:**
+   * Ant stings / Nettle leaves inject **Methanoic Acid ($\text{HCOOH}$)**.
+   * Remedy: Rubbing mild basic baking soda or applying **Dock plant leaf** (nature's remedy growing near nettles).
+
+---
+
+## 7. Demystifying Sodium Carbonates & Soda Terms
+
+> [!IMPORTANT]
+> **What the heck is "Soda Ash" vs "Washing Soda" vs "Baking Soda"?**
+> * **Soda Ash:** Anhydrous Sodium Carbonate ($\text{Na}_2\text{CO}_3$) — *Pure carbonate powder without any water of crystallization*.
+> * **Washing Soda:** Hydrated Sodium Carbonate ($\text{Na}_2\text{CO}_3 \cdot 10\text{H}_2\text{O}$) — *Soda Ash recrystallized with 10 water molecules*.
+> * **Baking Soda:** Sodium Bicarbonate / Sodium Hydrogen Carbonate ($\text{NaHCO}_3$) — *The acidic salt containing Hydrogen*.
+> * **Caustic Soda:** Sodium Hydroxide ($\text{NaOH}$) — *The strong alkali base*.
+
+---
+
+## 8. Strong vs Weak Acids and Bases
+
+### A. Acids
+
+$$\begin{array}{l|l}
+\textbf{Strong Acids (Complete Ionization in Water)} & \textbf{Weak Acids (Partial Ionization)} \\
+\hline
+\text{Hydrochloric Acid (HCl)} & \text{Acetic Acid (CH}_3\text{COOH)} \\
+\text{Hydrobromic Acid (HBr)} & \text{Carbonic Acid (H}_2\text{CO}_3) \\
+\text{Hydroiodic Acid (HI)} & \text{Hydrofluoric Acid (HF)} \\
+\text{Nitric Acid (HNO}_3) & \text{Phosphoric Acid (H}_3\text{PO}_4) \\
+\text{Sulphuric Acid (H}_2\text{SO}_4) & \text{Formic Acid / Methanoic Acid (HCOOH)} \\
+\text{Perchloric Acid (HClO}_4) & \text{Boric Acid (H}_3\text{BO}_3)
+\end{array}$$
+
+### B. Bases
+
+$$\begin{array}{l|l}
+\textbf{Strong Bases (Complete Dissociation)} & \textbf{Weak Bases (Partial Dissociation)} \\
+\hline
+\text{Sodium Hydroxide (NaOH)} & \text{Ammonia (NH}_3) \\
+\text{Potassium Hydroxide (KOH)} & \text{Ammonium Hydroxide (NH}_4\text{OH)} \\
+\text{Lithium Hydroxide (LiOH)} & \text{Magnesium Hydroxide (Mg(OH)}_2) \\
+\text{Barium Hydroxide (Ba(OH)}_2) & \text{Aniline (C}_6\text{H}_5\text{NH}_2) \\
+\text{Calcium Hydroxide (Ca(OH)}_2) & \text{Copper Hydroxide (Cu(OH)}_2)
+\end{array}$$
+
+---
+
+## 9. Important Chemical Salts & Industrial Preparation
+
+### 1. Chlor-Alkali Process (Manufacture of $\text{NaOH}$)
+Electrolysis of concentrated aqueous sodium chloride solution (**Brine**).
+$$2\text{NaCl(aq)} + 2\text{H}_2\text{O(l)} \xrightarrow{\text{Electricity}} 2\text{NaOH(aq)} + \text{Cl}_2\text{(g)} + \text{H}_2\text{(g)}$$
+
+### 2. Bleaching Powder ($\text{CaOCl}_2$)
+* **Chemical Name:** Calcium Oxychloride.
+* **Preparation:** Action of chlorine gas on dry slaked lime ($\text{Ca(OH)}_2$).
+  $$\text{Ca(OH)}_2 + \text{Cl}_2 \rightarrow \text{CaOCl}_2 + \text{H}_2\text{O}$$
+
+### 3. Baking Soda ($\text{NaHCO}_3$)
+* **Chemical Name:** Sodium Hydrogen Carbonate / Sodium Bicarbonate.
+* **Preparation (Solvay Process):**
+  $$\text{NaCl} + \text{H}_2\text{O} + \text{CO}_2 + \text{NH}_3 \rightarrow \text{NH}_4\text{Cl} + \text{NaHCO}_3$$
+
+### 4. Washing Soda ($\text{Na}_2\text{CO}_3 \cdot 10\text{H}_2\text{O}$) vs Soda Ash ($\text{Na}_2\text{CO}_3$)
+* **Soda Ash:** Thermal decomposition of Baking soda produces anhydrous $\text{Na}_2\text{CO}_3$ (Soda Ash):
+  $$2\text{NaHCO}_3 \xrightarrow{\Delta} \underbrace{\text{Na}_2\text{CO}_3}_{\text{Soda Ash}} + \text{H}_2\text{O} + \text{CO}_2\uparrow$$
+* **Washing Soda:** Recrystallization of Soda Ash in water:
+  $$\text{Na}_2\text{CO}_3 + 10\text{H}_2\text{O} \rightarrow \underbrace{\text{Na}_2\text{CO}_3 \cdot 10\text{H}_2\text{O}}_{\text{Washing Soda}}$$
+* **Uses:** Glass, soap, paper industries; manufacturing Borax ($\text{Na}_2\text{B}_4\text{O}_7 \cdot 10\text{H}_2\text{O}$); removing **permanent hardness of water**.
+
+### 5. Borax ($\text{Na}_2\text{B}_4\text{O}_7 \cdot 10\text{H}_2\text{O}$)
+* Prepared by boiling Soda Ash ($\text{Na}_2\text{CO}_3$) with Colemanite mineral. Used in borosilicate glass, flame retardants, and Borax bead qualitative test.
+
+### 6. Plaster of Paris ($\text{CaSO}_4 \cdot \frac{1}{2}\text{H}_2\text{O}$)
+* **Chemical Name:** Calcium Sulphate Hemihydrate. Heating Gypsum at $373\text{ K}$.
+
+### 7. Water of Crystallization & Hydrated Salts Matrix
+
+| Hydrated Compound | Chemical Name | Formula | Water Molecules |
+| :--- | :--- | :--- | :--- |
+| **Copper Sulphate (Blue Vitriol)** | Copper(II) Sulphate Pentahydrate | $\text{CuSO}_4 \cdot 5\text{H}_2\text{O}$ | **5 Molecules** |
+| **Ferrous Sulphate (Green Vitriol)** | Iron(II) Sulphate Heptahydrate | $\text{FeSO}_4 \cdot 7\text{H}_2\text{O}$ | **7 Molecules** |
+| **Washing Soda** | Sodium Carbonate Decahydrate | $\text{Na}_2\text{CO}_3 \cdot 10\text{H}_2\text{O}$ | **10 Molecules** |
+| **Borax** | Sodium Tetraborate Decahydrate | $\text{Na}_2\text{B}_4\text{O}_7 \cdot 10\text{H}_2\text{O}$ | **10 Molecules** |
+| **Gypsum** | Calcium Sulphate Dihydrate | $\text{CaSO}_4 \cdot 2\text{H}_2\text{O}$ | **2 Molecules** |
+| **Plaster of Paris** | Calcium Sulphate Hemihydrate | $\text{CaSO}_4 \cdot \frac{1}{2}\text{H}_2\text{O}$ | **1/2 Molecule** |
+| **White Vitriol** | Zinc Sulphate Heptahydrate | $\text{ZnSO}_4 \cdot 7\text{H}_2\text{O}$ | **7 Molecules** |
+| **Epsom Salt** | Magnesium Sulphate Heptahydrate | $\text{MgSO}_4 \cdot 7\text{H}_2\text{O}$ | **7 Molecules** |
+
+---
+
+## 10. Solved PYQs & Concept Drills
+
+### Q1 (SSC 2026 / CDS AIR 1 Concept Drill)
+**Question:** Which one of the following is the correct order of pH for the given substances?
+*(a) Coffee < Lemon juice < Milk of magnesia < Blood*
+*(b) Milk of magnesia < Blood < Coffee < Lemon juice*
+*(c) Lemon juice < Blood < Coffee < Milk of magnesia*
+*(d) Lemon juice < Coffee < Blood < Milk of magnesia*
+* **Answer:** **(d) Lemon juice < Coffee < Blood < Milk of magnesia**.
+  * **Explanation:** Lemon juice ($\text{pH} \approx 2.2$) < Coffee ($\text{pH} \approx 5.0$) < Blood ($\text{pH} \approx 7.4$) < Milk of magnesia ($\text{pH} \approx 10.0$).
+
+### Q2 (PYQ - Copper Sulphate Water of Crystallization)
+**Question:** The number of water molecules associated with copper sulphate molecule to form crystals is:
+*(a) 2 | (b) 4 | (c) 5 | (d) 6*
+* **Answer:** **(c) 5**. Blue vitriol is $\text{CuSO}_4 \cdot 5\text{H}_2\text{O}$.
+
+### Q3 (PYQ - Nitrogen Oxide Dimerization)
+**Question:** Which one of the following nitrogen oxides may dimerize?
+*(a) $\text{NO}$ | (b) $\text{NO}_2$ | (c) $\text{N}_2\text{O}$ | (d) $\text{N}_2\text{O}_5$*
+* **Answer:** **(b) $\text{NO}_2$**.
+  * **Reason:** Nitrogen Dioxide ($\text{NO}_2$) is an **odd-electron molecule** (contains an unpaired electron). To achieve stability, two $\text{NO}_2$ molecules readily pair up and **dimerize into Dinitrogen Tetroxide ($\text{N}_2\text{O}_4$)**:
+    $$2\text{NO}_2\text{(g) [Brown gas]} \rightleftharpoons \text{N}_2\text{O}_4\text{(g) [Colorless gas]}$$
+
+### Q2 (NDA 1 2024)
+**Question:** Human body works in the pH range of:
+*(a) 6.8 - 7.2 | (b) 7.0 - 7.8 | (c) 6.5 - 7.5 | (d) 7.5 - 8.0*
+* **Answer:** **(b) 7.0 - 7.8**.
+
+### Q3 (CAPF 2021)
+**Question:** A milkman adds a small amount of baking soda to milk. This makes the pH of the milk:
+*(a) strongly alkaline | (b) weakly alkaline | (c) strongly acidic | (d) weakly acidic*
+* **Answer:** **(b) weakly alkaline**. Baking soda ($\text{NaHCO}_3$) is a mild basic salt that prevents milk from turning sour quickly.
+
+### Q4 (NDA 2 2023)
+**Question:** What is the action of litmus on ethanol?
+*(a) Litmus is neutral towards ethanol | (b) Ethanol turns blue litmus red | (c) Ethanol turns red litmus blue | (d) Ethanol decolorizes litmus*
+* **Answer:** **(a) Litmus is neutral towards ethanol**. Ethanol ($\text{C}_2\text{H}_5\text{OH}$) is a neutral organic compound and does not ionize to release $H^+$ in water.
+
+### Q5 (NDA 1 2023)
+**Question:** Toothpaste prevents tooth decay by:
+*(a) neutralizing the excess acidity | (b) means of emulsification | (c) action of fluoride | (d) making a coat of calcium*
+* **Answer:** **(a) neutralizing the excess acidity**. Toothpaste is basic in nature.
+
+### Q6 (CDS 1 2022 / CAPF 2023)
+**Question:** Which one of the following is the main cause of acid rain?
+*(a) Dissolution of sulfur and nitrogen oxides in rain | (b) Dissolution of minerals | (c) Dust particles | (d) Soil solution*
+* **Answer:** **(a) Dissolution of sulfur and nitrogen oxides in rain**.
+
+### Q7 (NDA 2 2021)
+**Question:** Which one of the following is the chemical formula of Plaster of Paris?
+*(a) $\text{CaSO}_4 \cdot \frac{1}{2}\text{H}_2\text{O}$ | (b) $\text{CaSO}_4 \cdot 2\text{H}_2\text{O}$ | (c) $\text{CaSO}_4 \cdot 5\text{H}_2\text{O}$ | (d) $\text{CaSO}_4 \cdot 4\text{H}_2\text{O}$*
+* **Answer:** **(a) $\text{CaSO}_4 \cdot \frac{1}{2}\text{H}_2\text{O}$**.
+
+### Q8 (NDA 1 2024)
+**Question:** Which among the following is the correct composition of Borax?
+*(a) Sodium, Boron, Magnesium, Hydrogen | (b) Sodium, Boron, Oxygen, Hydrogen | (c) Potassium, Boron, Oxygen, Hydrogen | (d) Sodium, Boron, Nitrogen, Hydrogen*
+* **Answer:** **(b) Sodium, Boron, Oxygen and Hydrogen**. Borax formula is $\text{Na}_2\text{B}_4\text{O}_7 \cdot 10\text{H}_2\text{O}$.
+
+### Q9 (NDA 1 2024)
+**Question:** Which one among the following is present in nettle leaf hairs causing burning pain?
+*(a) Methanoic acid | (b) Ethanoic acid | (c) Benzoic acid | (d) Acetic acid*
+* **Answer:** **(a) Methanoic acid** (Formic acid).
+
+### Q11 (CDS Hard Practice - Identification of Lewis Acids)
+**Question:** Which one of the following contains all Lewis acids?
+*(a) $\text{AlCl}_3, \text{Co}^{3+}, \text{BF}_3$*
+*(b) $\text{BCl}_3, \text{NH}_3, \text{OH}^-$*
+*(c) $\text{Mg}^{2+}, \text{H}_2\text{O}, \text{F}^-$*
+*(d) $\text{BF}_3, \text{NH}_3, \text{H}_2\text{O}$*
+
+* **Answer:** **(a) $\text{AlCl}_3, \text{Co}^{3+}, \text{BF}_3$**
+* **Exhaustive Explanation & Lewis Theory:**
+  * **Lewis Acid Definition:** An **electron-pair acceptor** (species that can accept a lone pair of electrons).
+    1. **Electron-deficient molecules:** Molecules with incomplete octet on central atom (e.g. $\text{BF}_3, \text{AlCl}_3, \text{BCl}_3, \text{BH}_3$).
+    2. **Simple Cations:** Positively charged ions seeking electrons (e.g. $\text{Co}^{3+}, \text{Fe}^{3+}, \text{Mg}^{2+}, \text{H}^+$).
+    3. **Molecules with multiple bonds between different electronegative atoms:** (e.g. $\text{CO}_2, \text{SO}_2$).
+  * **Lewis Base Definition:** An **electron-pair donor** (species possessing at least one unshared lone pair of electrons or negative charge).
+    * Examples: Neutral species with lone pair ($\text{NH}_3, \text{H}_2\text{O}, \text{R-OH}$) and Anions ($\text{OH}^-, \text{F}^-, \text{Cl}^-$).
+  * **Detailed Option Breakdown:**
+    * **Option (a):**
+      * $\text{AlCl}_3$: Central $\text{Al}$ has only $6$ valence electrons (electron-deficient $\rightarrow$ **Lewis Acid**).
+      * $\text{Co}^{3+}$: Transition metal cation with vacant d-orbitals ($\rightarrow$ **Lewis Acid**).
+      * $\text{BF}_3$: Central $\text{B}$ has only $6$ valence electrons (electron-deficient $\rightarrow$ **Lewis Acid**).
+      * **All 3 are Lewis acids!**
+    * **Option (b):** $\text{NH}_3$ and $\text{OH}^-$ have lone pairs $\rightarrow$ Lewis Bases (Incorrect).
+    * **Option (c):** $\text{H}_2\text{O}$ and $\text{F}^-$ have lone pairs $\rightarrow$ Lewis Bases (Incorrect).
+    * **Option (d):** $\text{NH}_3$ and $\text{H}_2\text{O}$ have lone pairs $\rightarrow$ Lewis Bases (Incorrect).
+
+---
+
+## Navigation
+
+- [Chemistry Overview](/cds/chemistry/chemistry_overview)
+- [Ch 01. Classification of Matter](/cds/chemistry/notes/classification_of_matter)
+- [Ch 02. Atoms, Molecules & Atomic Structure](/cds/chemistry/notes/atoms_molecules)
+- [Ch 03. Chemical Reactions & Equations](/cds/chemistry/notes/chemical_reactions)
+- [Ch 04. Acids, Bases and Salts](/cds/chemistry/notes/acids_bases_salts)
+- [Ch 05. Common Names & Formulas in Chemistry](/cds/chemistry/notes/common_names)
+
