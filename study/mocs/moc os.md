@@ -57,6 +57,7 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - [[hardware-supported-synchronization]] 19
 - **[[Semaphores]]** 20
 - [[Classic Problems]] 21, 22
+- [[practice synchronization]]
 
 ---
 
