@@ -3,7 +3,7 @@ tags:
   - gate/cs/os
   - concurrency/semaphores
 creation date: 2026-09-16
-type: revisionnote
+type: revision-note
 mastery: new
 review date: 2026-09-23
 ---
