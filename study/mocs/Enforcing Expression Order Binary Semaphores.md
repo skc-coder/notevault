@@ -35,11 +35,11 @@ Variables $x, y,$ and $z$ are shared integers. The computation is partitioned ac
 
 ### 2.1 Bernstein’s Conditions & RAW Data Dependencies
 To produce the exact target expression $z = F_3(F_1(x), F_2(F_3(y)))$, the individual statement evaluations must satisfy:
-1. **$y = F_3(y)$ in $T_1$ MUST execute before $y = F_2(y)$ in $T_2$**  
+1. **$y = F_3(y)$ in $T_1$ MUST execute before $y = F_2(y)$ in $T_2$**
    $\to$ So that $F_2$ operates on the transformed $F_3(y)$, computing $F_2(F_3(y))$.
-2. **$y = F_2(y)$ in $T_2$ MUST execute before $z = F_3(x, y)$ in $T_1$**  
+2. **$y = F_2(y)$ in $T_2$ MUST execute before $z = F_3(x, y)$ in $T_1$**
    $\to$ So that the outer $F_3$ receives the fully evaluated $F_2(F_3(y))$.
-3. **$x = F_1(x)$ in $T_1$ has no data dependency on $y$**  
+3. **$x = F_1(x)$ in $T_1$ has no data dependency on $y$**
    $\to$ It can execute anytime before $z = F_3(x, y)$. Intra-thread sequential execution order inside $T_1$ guarantees this naturally without extra locks.
 
 ### 2.2 The Ping-Pong Handshake Invariant
@@ -61,9 +61,9 @@ binary_semaphore s2 = 0; // Signals T1 that F2(y) is ready
 void T1() {
     y = F3(y);       // 1. Compute inner F3(y)
     V(s1);           // 2. Hand off control to T2
-    
+
     x = F1(x);       // Local computation (runs concurrently or sequentially)
-    
+
     P(s2);           // 3. Block until T2 finishes F2(y)
     z = F3(x, y);    // 4. Compute final outer F3(F1(x), F2(F3(y)))
 }
@@ -76,13 +76,8 @@ void T2() {
 ````
 
 ### Trace Under Edge Scheduling Orders
-
 - **$T_2$ scheduled first:** Executes `P(s1)` $\implies s1$ was $0$, so $T_2$ blocks. $T_1$ runs `y = F3(y)` and signals `V(s1)`, awakening $T_2$.
-    
-      
-    
 - **$T_1$ scheduled first:** Runs `y = F3(y)`, signals `s1`, runs `x = F1(x)`, hits `P(s2)` $\implies s2$ was $0$, so $T_1$ blocks before touching `z`. $T_2$ unblocks, finishes `y = F2(y)`, and signals `s2`, allowing $T_1$ to complete `z`.
-    
 
 ## 4. Problem Variations & Fast Heuristics
 

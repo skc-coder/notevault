@@ -36,7 +36,7 @@ $$V_{\min} = s_1 + s_2$$
 $$V_{\max} = n \cdot s_1 + m \cdot s_2$$
 
 > [!CAUTION] The Single-Thread Double-Step Trap ($2 \times s_1$)
-> $2 \times s_1$ is **physically impossible** when $n, m \ge 2$. 
+> $2 \times s_1$ is **physically impossible** when $n, m \ge 2$.
 > A thread executes its loop strictly sequentially ($i = 1 \to 2 \to \dots \to n$). Its private register does not persist values across intermediate loop iterations. To wipe out all iterations of the competing thread, the final write must be performed by the **other** thread's last iteration loading $s_1$, yielding $s_1 + s_2$.
 
 ---
