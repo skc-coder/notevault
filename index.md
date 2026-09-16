@@ -42,7 +42,6 @@ title: SAGE Master Dashboard
 - 🎲 [[moc probablity|Probability MOC]]
 - 🧩 [[moc logic|Logic MOC]]
 - 🔍 [[moc set theory|Set Theory MOC]]
-- 📍 [[moc center|MOC Center]]
 
 # ⚙️ System & Meta
 - [Prompts](meta/Prompts.md)

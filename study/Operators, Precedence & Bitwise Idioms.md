@@ -32,8 +32,37 @@ In C, operator precedence and associativity resolve syntactic grouping of expres
 > [!property] Right-to-Left Associativity of Unary Not
 > Both logical NOT (`!`) and bitwise NOT (`~`) occupy Unary Priority (Rank 2) with right-to-left associativity:
 > $$!\,!\,a \equiv !(!a)$$
+## Trick to remember
 
-### Relational Chaining Pitfall
+### The 4 Mental Shortcuts for Instant Parsing
+
+**1. "Calculate $\to$ Compare $\to$ Connect $\to$ Assign"**
+- **Calculate:** Math (`*`, `+`, `<<`)
+- **Compare:** Checks (`<`, `==`)
+- **Connect:** Logic (`&`, `|`, `&&`, `||`)
+- **Assign:** Side-effects (`=`)
+
+**2. Bitwise beats Logical; AND beats OR**
+
+- Bitwise operators (`&`, `|`) bind tighter than logical operators (`&&`, `||`).
+- In both worlds, AND always outranks OR: $$
+\& \quad > \quad \mid \quad > \quad \&\& \quad > \quad \parallel
+$$
+**3. Shift vs. Comparison Trap**
+- Shifts act on raw numbers, so they bind tighter than relational checks: `a << 2 < b` is parsed as `(a << 2) < b`.
+
+**4. The C "Historical Bug" Trap**
+- In C, equality and relational operators rank **higher** than bitwise AND/OR:
+    - `if (x & 1 == 0)` parses as `x & (1 == 0)`.
+    - **Rule of Thumb:** Equality always steals the operand from `&`, `^`, and `|`.
+
+### Associativity: Only Three Walk Backwards
+
+- **Prefix Unary**
+- **Assignment:** `a = b = c` $\to$ `a = (b = c)` (values cascade from right to left).
+- **Ternary:** `a ? b : c ? d : e` $\to$ `a ? b : (c ? d : e)` (nested alternatives group into the false branch).
+
+## Relational Chaining Pitfall
 Mathematical continuous chaining does not hold in C due to left-to-right evaluation:
 
 ```c

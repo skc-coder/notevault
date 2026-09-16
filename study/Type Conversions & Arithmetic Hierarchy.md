@@ -11,8 +11,10 @@ Evaluating an assignment and printing integer types in C follows a strict multi-
    * Arguments passed to variadic functions like `printf` undergo default argument promotions: types narrower than `int` (`char`, `short`) are promoted to `int` (or `unsigned int`).
    * `printf` does not inspect the original variable's source type; it simply decodes the promoted bit pattern sitting in the CPU register or stack frame according to the provided format specifier (`%d`, `%u`, etc.).
 
+
 > [!trap] Literal Typing vs. Explicit Casts
 > By default, character constants like `'a'` have type `int` in C (size 4 on 32/64-bit systems), whereas in C++ they have type `char`. Explicit casts such as `(char)'a'` or `(short)45` explicitly narrow the operand type before further evaluation.
+
 
 ### Worked Example: Promotion vs. Assignment Truncation
 ```c
