@@ -1,6 +1,15 @@
-# Moc Cds
+# 🛡️ Combined Defence Services (CDS) MOCs
 
-
+- 🧬 [[moc biology|Biology MOC]]
+- 🛡️ [[moc cds|CDS Overview MOC]]
+- 🧪 [[moc chemistry|Chemistry MOC]]
+- 🏛️ [[moc-economy|Economy MOC]]
+- 🌍 [[moc geography|Geography MOC]]
+- 📜 [[moc gk|General Knowledge MOC]]
+- 📐 [[moc aptitude|Aptitude MOC]]
+- 🧲 [[moc physics|Physics MOC]]
+- 🏛️ [[moc polity|Polity MOC]]
+- 
 ## 1. Elementary Mathematics
 - **Subject Overview**: [Elementary Mathematics Subject Overview](/cds/math/math_overview)
 - **Chapter Notes**:

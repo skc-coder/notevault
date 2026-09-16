@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "preview",
+                "file": "mocs/moc la.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "moc la"
             }
           }
         ]
@@ -217,13 +217,22 @@
   },
   "active": "b0be69a6644d0829",
   "lastOpenFiles": [
+    "study/Determinants.md",
+    "mocs/moc la.md",
     "mocs/moc clang.md",
-    "study/Operators, Precedence & Bitwise Idioms.md",
-    "study/Constant Expressions & Control Flow.md",
-    "study/Bit-Width Conversions & Extensions.md",
-    "study/Integer Representation & Promotion.md",
     "study/Type Conversions & Arithmetic Hierarchy.md",
+    "study/Sequence Points & Short-Circuit Evaluation.md",
+    "study/Constant Expressions & Control Flow.md",
+    "study/Operators, Precedence & Bitwise Idioms.md",
+    "mocs/moc os.md",
+    "study/Bit-Width Conversions & Extensions.md",
+    "study/Counting Semaphores DAG Precedence.md",
+    "study/User vs Kernel Level Threads.md",
+    "study/Coupled Thread Synchronization Invariants.md",
+    "study/Pointers, Array Decay & Indexing.md",
     "index.md",
+    "mocs/moc cds.md",
+    "study/Integer Representation & Promotion.md",
     "mocs/moc cs.md",
     "mocs/moc center.md",
     "mocs/moc polity.md",
@@ -231,9 +240,7 @@
     "mocs/moc gk.md",
     "mocs/moc geography.md",
     "mocs/moc chemistry.md",
-    "mocs/moc cds.md",
     "mocs/moc biology.md",
-    "mocs/moc la.md",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
     "study/attachments/Pasted image 20260325094950.webp",
@@ -246,13 +253,6 @@
     "study/attachments/Pasted image 20260501075008.webp",
     "study/volume formulas.md",
     "study/unit digit.md",
-    "study/number of zeros.md",
-    "study/hcf lcm.md",
-    "study/factors.md",
-    "study/cone.md",
-    "study/Trigonometry.md",
-    "study/Time and Work.md",
-    "study/Speed.md",
     "study/Data model notes.org~",
     "study/todo.txt~",
     "study/#Logic notes.org#",

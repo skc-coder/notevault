@@ -116,17 +116,6 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 
 
 ## Unlinked & Topic Notes
-- [[Bit-Width Conversions & Extensions]]
-- [[Endian]]
-- [[Functions, Prototypes & Variadic printf]]
-- [[Integer Representation & Promotion]]
-- [[Multidimensional Arrays & Complex Declarations]]
-- [[Operators, Precedence & Bitwise Idioms]]
-- [[Pointers, Array Decay & Indexing]]
-- [[Sequence Points & Short-Circuit Evaluation]]
-- [[Storage Classes, Linkage & Memory Layout]]
-- [[Counting Semaphores DAG Precedence]]
-- [[Enforcing Expression Order Binary Semaphores]]
 - [[Coupled Thread Synchronization Invariants]]
 - [[Concurrent Counter Value Range Theorem]]
 - [[User vs Kernel Level Threads]]

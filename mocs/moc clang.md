@@ -1,6 +1,4 @@
 ---
-Folders:
-  - "[[langs]]"
 cssclasses:
   - dashboard
   - cols-4

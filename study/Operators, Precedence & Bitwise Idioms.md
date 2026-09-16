@@ -32,7 +32,8 @@ In C, operator precedence and associativity resolve syntactic grouping of expres
 > [!property] Right-to-Left Associativity of Unary Not
 > Both logical NOT (`!`) and bitwise NOT (`~`) occupy Unary Priority (Rank 2) with right-to-left associativity:
 > $$!\,!\,a \equiv !(!a)$$
-## Trick to remember
+
+## 3. Trick to remember
 
 ### The 4 Mental Shortcuts for Instant Parsing
 
@@ -62,7 +63,8 @@ $$
 - **Assignment:** `a = b = c` $\to$ `a = (b = c)` (values cascade from right to left).
 - **Ternary:** `a ? b : c ? d : e` $\to$ `a ? b : (c ? d : e)` (nested alternatives group into the false branch).
 
-## Relational Chaining Pitfall
+
+## 4. Relational Chaining Pitfall
 Mathematical continuous chaining does not hold in C due to left-to-right evaluation:
 
 ```c
@@ -77,7 +79,8 @@ int res2 = (c > b > a); // Evaluates to 0 (false)
 
 ---
 
-## 3. Bitwise Operators and Standard Idioms
+
+## 5. Bitwise Operators and Standard Idioms
 
 ### Shift Operations
 * **Left Shift (`<<`):** $x \ll n$ is mathematically equivalent to $x \cdot 2^n$.
@@ -109,9 +112,11 @@ a ^= b; b ^= a; a ^= b;
 
 ---
 
-## 4. Assignment and Comma Operators
+
+## 6. Assignment and Comma Operators
 
 * **Compound Assignment:** $V \text{ op}= E \implies V = V \text{ op } (E)$.
+	* E has higher precedence
 * **Comma Operator (`,`):** Evaluates operands left to right, yielding the value and type of the rightmost operand.
 
 ---
