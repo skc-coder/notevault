@@ -20,6 +20,7 @@ More changes
 
 # 💻 GATE Computer Science MOC Hub
 
+- GATE Tracker
 - 🌐 [[moc cs|CS Master MOC]]
 - ⚙️ [[moc os|OS MOC]]
 - 🧮 [[moc dm|DM MOC]]
@@ -35,6 +36,8 @@ More changes
 - 🔢 [[moc la|LA MOC]]
 - 🧮 [[moc maths|Maths MOC]]
 - 🎲 [[moc probablity|Probability MOC]]
+- [moc clang](meta/archive/padai/cse/lang/clang/obsidian-notes/moc%20clang.md)
 
 # System
-- [[00_meta/Prompts]]
+- [Prompts](meta/Prompts.md)
+- 

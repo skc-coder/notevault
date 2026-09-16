@@ -27,8 +27,8 @@ void V(int *S) {
 
 ---
 
-### Paradigm B: Block-Wakeup Implementation (Without Busy Waiting)
-To eliminate CPU cycle wastage, modern operating systems maintain a waiting queue inside the semaphore data structure:
+### Paradigm B: Block-Wakeup Implementation (Without stupid Busy Waiting)
+To reduce CPU cycle wastage, modern operating systems maintain a waiting queue inside the semaphore data structure:
 
 ```c
 typedef struct {
@@ -37,22 +37,23 @@ typedef struct {
 } Semaphore;
 ```
 
+NOTE: The following is not how semaphores are actually implemented. They are not showing many things. Like how to protect updates S->value or queue? They are protected using hardware instructions e.g. TSL. It uses some deterministically small busy wait.
 #### 1. Binary Semaphore (Mutex) with Sleep/Wakeup
 ```c
 void P(Semaphore *S) {
     if (S->value == 0) {
-        put_in_queue(current_process);
+        put_in_queue(current_process); // needs protection
         sleep(); // Transition to BLOCKED state
     }
-    S->value = 0;
+    S->value = 0; // needs protection
 }
 
 void V(Semaphore *S) {
     if (!is_empty(S->queue)) {
-        Process *P = remove_from_queue();
+        Process *P = remove_from_queue(); // needs protection
         wakeup(P); // Transition to READY state
     }
-    S->value = 1;
+    S->value = 1; // needs protection
 }
 ```
 
