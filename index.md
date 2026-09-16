@@ -36,7 +36,7 @@ More changes
 - 🔢 [[moc la|LA MOC]]
 - 🧮 [[moc maths|Maths MOC]]
 - 🎲 [[moc probablity|Probability MOC]]
-- [moc clang](meta/archive/padai/cse/lang/clang/obsidian-notes/moc%20clang.md)
+- [moc clang](study/mocs/moc%20clang.md)
 
 # System
 - [Prompts](meta/Prompts.md)

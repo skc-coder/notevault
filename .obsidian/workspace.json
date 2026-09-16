@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a7e3ff4c7d60e905",
+        "id": "0ae94857d0eb38bc",
         "type": "tabs",
         "children": [
           {
-            "id": "9cecf04000ddfed8",
+            "id": "b0be69a6644d0829",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
+            }
+          },
+          {
+            "id": "e5dea70113bc00d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/Bit-Width Conversions & Extensions.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bit-Width Conversions & Extensions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.328125
+    "width": 333.328125,
+    "collapsed": true
   },
   "right": {
     "id": "45372c980f11330e",
@@ -172,11 +192,22 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "e8170920f792445a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,57 +223,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false,
+      "file-cleaner-redux:Clean files": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "9cecf04000ddfed8",
+  "active": "e5dea70113bc00d1",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260425181500.webp",
-    "attachments/Pasted image 20260427181252.webp",
-    "attachments/Recording 20260428113430.m4a",
-    "attachments/Pasted image 20260327145842.webp",
-    "content/mocs/moc os.md",
-    "content/gate-cs/os/semaphore-gate-corner-cases.md",
-    "content/mocs/Classic Problems.md",
-    "content/mocs/Semaphores.md",
-    "content/gate-cs/os/semaphore-synchronization-patterns.md",
-    "content/gate-cs/os/semaphore-implementation-paradigms.md",
-    "content/gate-cs/os/atomicity-of-semaphore-operations.md",
-    "index.md",
-    "content/gate-cs/os/Fork and exec.md",
-    "content/gate-cs/os/classification-of-semaphores.md",
-    "00_meta/agents.md",
-    "00_meta/Prompts.md",
-    "content/gate-cs/os/introduction-to-semaphores.md",
-    "content/gate-cs/os/semaphores.md",
-    "content/gate-cs/os/critical section problem.md",
-    "content/cds/cds_overview.md",
-    "content/gate-cs/os/atomic-hardware-instructions.md",
-    "public/gate-cs/os/semaphores-og-image.webp",
-    "content/gate-cs/os/hardware-supported-synchronization.md",
-    "content/gate-cs/os/test-and-set-lock-mechanism.md",
-    "content/gate-cs/os/Untitled.base",
-    "content/gate-cs/os/test-and-set-mutual-exclusion.md",
-    "content/gate-cs/os/disabling-interrupts-synchronization.md",
-    "content/mocs/moc algo.md",
-    "content/mocs/moc dsa.md",
-    "content/mocs/moc cs.md",
-    "content/mocs/moc cn.md",
-    "attachments/banners/economy.webp",
-    "attachments/banners/probability.webp",
-    "attachments/banners/os.webp",
-    "attachments/banners/maths.webp",
-    "attachments/banners/la.webp",
-    "attachments/banners/graphs.webp",
-    "attachments/banners/dsa.webp",
-    "attachments/banners",
-    "content/general/cpp",
-    "content/general",
-    "content/gate-cs/os",
-    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Standard Notes Backup and Import File.txt",
-    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Items/Tag/Tag-f982d9d4.txt",
-    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Items/Tag/Tag-e61b56c5.txt",
-    "00_meta/archive/_notes (roam, etc)/_notes (roam, etc)/Standard Notes Backup - Wed Aug 20 2025 09_06_06 GMT+0530/Items/Tag/Tag-cfdc9a05.txt",
+    "study/attachments/Pasted image 20260317170238.webp",
+    "study/attachments/Pasted image 20260316172120.webp",
+    "study/attachments/Pasted image 20260325094950.webp",
+    "study/attachments/Pasted image 20260327185915.webp",
+    "study/attachments/Pasted image 20260328080809.webp",
+    "study/attachments/Pasted image 20260331080315.webp",
+    "study/attachments/Pasted image 20260427110642.webp",
+    "study/attachments/Pasted image 20260427120057.webp",
+    "study/attachments/Pasted image 20260501074825.webp",
+    "study/attachments/Pasted image 20260501075008.webp",
+    "study/attachments/Pasted image 20260501075135.webp",
+    "study/volume formulas.md",
+    "study/unit digit.md",
+    "study/number of zeros.md",
+    "study/hcf lcm.md",
+    "study/factors.md",
+    "study/cone.md",
+    "study/Trigonometry.md",
+    "study/Time and Work.md",
+    "study/Speed.md",
+    "study/Remainder Theory.md",
+    "study/Ratio.md",
+    "study/Progressions.md",
+    "study/Profit & Loss.md",
+    "study/Problems - Time and Work.md",
+    "study/Problems - Speed.md",
+    "study/Problems - Ratio.md",
+    "study/Problems - Percentages.md",
+    "study/Problems - Number Theory.md",
+    "study/Problems - Averages.md",
+    "study/Problems - Alligation.md",
+    "study/Percentages.md",
+    "study/Number Theory.md",
+    "study/Mixture.md",
+    "study/Interest.md",
+    "study/Installment.md",
+    "study/Data model notes.org~",
+    "study/todo.txt~",
+    "study/#Logic notes.org#",
+    "study/example.log",
+    "study/Untitled.base",
+    "study/attachments/Recording 20260428113430.m4a",
+    "study/attachments/Recording 20260428113359.m4a",
+    "mocs",
+    "RXC0vK2EDF.pdf",
+    "study/mocs/attachments",
     "00_meta/archive/docs/Canvas.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",

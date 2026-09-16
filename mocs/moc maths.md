@@ -1,0 +1,20 @@
+---
+cssclasses:
+  - dashboard
+  - cols-4
+title: "Maths MOC Dashboard++"
+---
+
+![[attachments/banners/maths.webp|banner]]
+
+- [[maths/Algebra|Algebra]]
+- [[moc logic]]
+- [[mocs/moc calculus]]
+- [moc dm](padai/maths/moc%20dm.md)
+- [moc la](moc%20la.md)
+- [[mocs/moc probablity]]
+- [[../../archive/maths/Basic Mathematics|Basic Mathematics]]
+- [[cds/apti/notes/Number Theory|Number Theory]]
+- [[cds/apti/notes/moc set theory]]
+- [[mocs/moc graphs]]
+- [[../../archive/combinatorics/moc combinatorics]]

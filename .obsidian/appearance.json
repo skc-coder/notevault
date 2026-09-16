@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Typomagical",
+  "cssTheme": "ITS Theme",
   "enabledCssSnippets": [
     "dashboard"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 22,
+  "baseFontSize": 23,
   "accentColor": "#75f55c",
   "monospaceFontFamily": "Agave Nerd Font",
   "interfaceFontFamily": "",
