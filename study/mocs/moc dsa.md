@@ -7,17 +7,9 @@ title: "DSA MOC Dashboard++"
 
 ![[attachments/banners/dsa.webp|banner]]
 
-
-
-
-
-
-
-
 ## Foundations
 * [[gate-cs/data structures/dsa basic terms]]
 * [[gate-cs/data structures/list of adt and ds]]
-
 
 ## Linked List
 * [[Linked List Intro, Array vs LL, Insertions Deletions]]

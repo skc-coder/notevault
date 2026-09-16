@@ -12,11 +12,6 @@ tags:
 
 ![[attachments/banners/probability.webp|banner]]
 
-
-
-
-
-
 <div class="title" style="color:#a855f7; font-family: 'JetBrains Mono', monospace;">GATE MATH & PROBABILITY HUB</div>
 
 # 🎲 Probability Foundations & Axioms

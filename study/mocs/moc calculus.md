@@ -7,13 +7,6 @@ title: "Calculus & Analysis MOC Dashboard++"
 
 ![[attachments/banners/calculus.webp|banner]]
 
-
-
-
-
-
-
-
 ## Contents:
 1. #### [[gate-cs/math/AP-Calculus-BC/pages/Limits]]
 2. #### [[gate-cs/math/AP-Calculus-BC/pages/Continuity]]

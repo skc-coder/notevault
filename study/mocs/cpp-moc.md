@@ -11,13 +11,6 @@ date: 2026-09-14
 
 ![[attachments/banners/cpp.webp|banner]]
 
-
-
-
-
-
-
-
 <div class="title" style="color:#3b82f6; font-family: 'JetBrains Mono', monospace;">C++ ARCHITECTURE MODULE</div>
 
 # ⚡ C++ Polymorphism & OOP Map of Content

@@ -12,13 +12,6 @@ tags:
 
 ![[attachments/banners/dm.webp|banner]]
 
-
-
-
-
-
-
-
 <div class="title" style="color:#a855f7; font-family: 'JetBrains Mono', monospace;">DISCRETE MATHEMATICS MODULE</div>
 
 # 🧮 Discrete Mathematics & Probability Master Map

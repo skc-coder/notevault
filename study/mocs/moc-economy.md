@@ -11,11 +11,6 @@ tags:
 
 ![[attachments/banners/economy.webp|banner]]
 
-
-
-
-
-
 <div class="title" style="color:#eab308; font-family: 'JetBrains Mono', monospace;">CDS ECONOMICS MODULE</div>
 
 # 🏛️ Economics Topic Map & Chapter Coverage

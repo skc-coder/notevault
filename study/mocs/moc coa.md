@@ -7,13 +7,6 @@ title: "COA MOC Dashboard++"
 
 ![[attachments/banners/coa.webp|banner]]
 
-
-
-
-
-
-
-
 -   [[Introduction to Computer Organization and Architecture]]
 -   [[Data Representation and Computer Arithmetic]]
 -   [[Central Processing Unit (CPU) Structure and Function]]

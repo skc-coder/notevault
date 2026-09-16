@@ -21,16 +21,16 @@ Semaphore semaX = 0; // Initial value = 0
 Semaphore semaY = 0; // Initial value = 0
 
 void routine(threadType) {
-    if (threadType == typeA) {
-        P(semaX);
-        V(semaY);
-    }
-    if (threadType == typeB) {
-        V(semaX);
-        V(semaX);
-        P(semaY);
-    }
-    DoIt();
+if (threadType == typeA) {
+P(semaX);
+V(semaY);
+}
+if (threadType == typeB) {
+V(semaX);
+V(semaX);
+P(semaY);
+}
+DoIt();
 }
 ````
 
@@ -54,11 +54,11 @@ Let:
 
 1. **Partition of Invocation:**
 
-    $$\#P_{\text{invoked}} = \#P_{\text{completed}} + w$$
+$$\#P_{\text{invoked}} = \#P_{\text{completed}} + w$$
 
 2. **Internal Signed Counter (Dijkstra):**
 
-    $$\text{Value}(S) = S_{\text{init}} + \#V_{\text{completed}} - \#P_{\text{invoked}} = \#V_{\text{completed}} - \#P_{\text{invoked}}$$
+$$\text{Value}(S) = S_{\text{init}} + \#V_{\text{completed}} - \#P_{\text{invoked}} = \#V_{\text{completed}} - \#P_{\text{invoked}}$$
 
 ### 2.3 Proof Across All Reachable States
 - **Case 1: No blocked threads ($w = 0$):**
@@ -66,19 +66,19 @@ Let:
     - $\text{Value}(S) \ge 0 \implies \#V_{\text{completed}} - \#P_{\text{completed}} \ge 0$
     - Therefore:
 
-        $$\#P_{\text{completed}} \le \#V_{\text{completed}}$$
+$$\#P_{\text{completed}} \le \#V_{\text{completed}}$$
 - **Case 2: Blocked threads exist ($w > 0$):**
     - By definition of Dijkstra counting semaphore: $\text{Value}(S) = -w$
     - Substitute into counter formula:
 
-        $$-w = \#V_{\text{completed}} - \#P_{\text{invoked}}$$
+$$-w = \#V_{\text{completed}} - \#P_{\text{invoked}}$$
 
-        $$-w = \#V_{\text{completed}} - (\#P_{\text{completed}} + w)$$
+$$-w = \#V_{\text{completed}} - (\#P_{\text{completed}} + w)$$
 
-        $$-w = \#V_{\text{completed}} - \#P_{\text{completed}} - w$$
+$$-w = \#V_{\text{completed}} - \#P_{\text{completed}} - w$$
     - Add $w$ to both sides:
 
-        $$\#P_{\text{completed}} = \#V_{\text{completed}}$$
+$$\#P_{\text{completed}} = \#V_{\text{completed}}$$
 
 $$\therefore \text{Under all conditions: } \#P_{\text{completed}}(S) \le \#V_{\text{completed}}(S)$$
 
@@ -88,11 +88,11 @@ $$\therefore \text{Under all conditions: } \#P_{\text{completed}}(S) \le \#V_{\t
 - To reach `DoIt()`, every `typeB` thread must complete $P(semaY)$.
 - By the completion invariant:
 
-    $$\#P_{\text{completed}}(semaY) \le \#V_{\text{completed}}(semaY)$$
+$$\#P_{\text{completed}}(semaY) \le \#V_{\text{completed}}(semaY)$$
 - The only source of $V(semaY)$ is `typeA` threads that passed their $P(semaX)$.
 - Thus, total tokens ever added to $semaY \le a$:
 
-    $$b \le \#P_{\text{completed}}(semaY) \le \#V_{\text{completed}}(semaY) \le a \implies b \le a$$
+$$b \le \#P_{\text{completed}}(semaY) \le \#V_{\text{completed}}(semaY) \le a \implies b \le a$$
 
 ### 3.2 Upper Bound ($a \le 2b$)
 - Every `typeB` thread that executes injects $2$ tokens into `semaX` via `V(semaX); V(semaX);`.
@@ -101,7 +101,7 @@ $$\therefore \text{Under all conditions: } \#P_{\text{completed}}(S) \le \#V_{\t
 - Since each blocked `typeB` requires only $1$ token from `semaY` to complete and reach `DoIt()`, whenever $a$ increases, it immediately unblocks the corresponding `typeB` threads.
 - At maximum consumption:
 
-    $$a \le 2b$$
+$$a \le 2b$$
 
 Combining both inequalities yields:
 

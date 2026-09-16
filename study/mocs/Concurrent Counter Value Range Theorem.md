@@ -18,15 +18,15 @@ Two concurrent processes $P_1$ and $P_2$ execute non-atomic updates (`Load`, `Mo
 
 ### 1.1 Unit Step Increments ($+1, +1$)
 * **Symmetric / Multi-Iteration Case ($n \ge 2$ and $m \ge 2$):**
-  $$V_{\min} = 2, \quad V_{\max} = n + m$$
-  $$\text{Reachable Set} = \{v \in \mathbb{Z} \mid 2 \le v \le n + m\}$$
+$$V_{\min} = 2, \quad V_{\max} = n + m$$
+$$\text{Reachable Set} = \{v \in \mathbb{Z} \mid 2 \le v \le n + m\}$$
 
 * **Single-Iteration Boundary Case ($\min(n, m) = 1$):**
-  $$V_{\min} = 1, \quad V_{\max} = n + m$$
-  $$\text{Reachable Set} = \{v \in \mathbb{Z} \mid 1 \le v \le n + m\}$$
+$$V_{\min} = 1, \quad V_{\max} = n + m$$
+$$\text{Reachable Set} = \{v \in \mathbb{Z} \mid 1 \le v \le n + m\}$$
 
 * **$K$ Concurrent Processes ($K \ge 2$):**
-  $$V_{\min} = 2 \quad (\text{if all } n_i \ge 2), \quad V_{\max} = \sum_{i=1}^K n_i$$
+$$V_{\min} = 2 \quad (\text{if all } n_i \ge 2), \quad V_{\max} = \sum_{i=1}^K n_i$$
 
 ---
 

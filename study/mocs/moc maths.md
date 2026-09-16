@@ -7,11 +7,6 @@ title: "Maths MOC Dashboard++"
 
 ![[attachments/banners/maths.webp|banner]]
 
-
-
-
-
-
 - [[maths/Algebra|Algebra]]
 - [[moc logic]]
 - [[mocs/moc calculus]]

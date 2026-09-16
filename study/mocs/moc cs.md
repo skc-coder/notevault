@@ -7,13 +7,6 @@ title: CS Master MOC Dashboard++
 
 ![[attachments/banners/cs.webp|banner]]
 
-
-
-
-
-
-
-
 <div class="title" style="color:#6366f1; font-family: 'JetBrains Mono', monospace;">GATE COMPUTER SCIENCE HUB</div>
 
 # 💻 GATE CS Core Subject Maps

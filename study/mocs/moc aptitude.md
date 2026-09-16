@@ -10,11 +10,6 @@ tags:
 
 ![[attachments/banners/aptitude.webp|banner]]
 
-
-
-
-
-
 <div class="title" style="color:#eab308; font-family: 'JetBrains Mono', monospace;">GENERAL APTITUDE MODULE</div>
 
 # 📐 Quantitative Aptitude & Foundations

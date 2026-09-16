@@ -11,13 +11,6 @@ tags:
 
 ![[attachments/banners/dl.webp|banner]]
 
-
-
-
-
-
-
-
 <div class="title" style="color:#06b6d4; font-family: 'JetBrains Mono', monospace;">GATE DIGITAL LOGIC MODULE</div>
 
 # ⚡ Module 1 — Boolean Algebra & Minimization

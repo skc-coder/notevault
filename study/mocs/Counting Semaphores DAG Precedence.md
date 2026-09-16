@@ -17,44 +17,43 @@ review date: 2026-09-23
 ### 1.1 Dijkstra Implementation Semantics
 ```c
 wait(S) / P(S):
-    S->value--;              // Decrements FIRST (Invoked count increments)
-    if (S->value < 0) {
-        add thread to S->queue;
-        block();             // Halts execution; NOT yet completed
-    }
+S->value--;              // Decrements FIRST (Invoked count increments)
+if (S->value < 0) {
+add thread to S->queue;
+block();             // Halts execution; NOT yet completed
+}
 
 signal(S) / V(S):
-    S->value++;
-    if (S->value <= 0) {
-        remove thread from S->queue;
-        wakeup(thread);
-    }
+S->value++;
+if (S->value <= 0) {
+remove thread from S->queue;
+wakeup(thread);
+}
 ````
 
 ### 1.2 State Equations & Invariants
 - **Internal Signed Counter:**
 
-    $$\text{Value}(S) = S_{\text{init}} + \#V_{\text{completed}} - \#P_{\text{invoked}}$$
+$$\text{Value}(S) = S_{\text{init}} + \#V_{\text{completed}} - \#P_{\text{invoked}}$$
 - **Blocked Thread Representation:**
 
-    $$\text{If } \text{Value}(S) < 0 \implies \text{Blocked threads } (w) = -\text{Value}(S)$$
+$$\text{If } \text{Value}(S) < 0 \implies \text{Blocked threads } (w) = -\text{Value}(S)$$
 - **Partition of Invoked Waits:**
 
-    $$\#P_{\text{invoked}} = \#P_{\text{completed}} + \text{Blocked threads } (w)$$
+$$\#P_{\text{invoked}} = \#P_{\text{completed}} + \text{Blocked threads } (w)$$
 - **Tokens Completed (Production Invariant):**
 
-    $$\text{Completed } P(S) \le \text{Total Tokens Produced} = S_{\text{init}} + \#V_{\text{completed}}$$
+$$\text{Completed } P(S) \le \text{Total Tokens Produced} = S_{\text{init}} + \#V_{\text{completed}}$$
 
-    When $w > 0$ (threads blocked), all tokens are exhausted:
+When $w > 0$ (threads blocked), all tokens are exhausted:
 
-    $$\#P_{\text{completed}} = S_{\text{init}} + \#V_{\text{completed}} = m - w$$
+$$\#P_{\text{completed}} = S_{\text{init}} + \#V_{\text{completed}} = m - w$$
 
 > [!CAUTION] Common Trap
 >
-> Counter decrement occurs on **invocation/attempt**, not completion.
+ Counter decrement occurs on **invocation/attempt**, not completion.
 >
-> Therefore: $k + n + w = \#P_{\text{invoked}} \ (m)$, **not** $\#P_{\text{completed}}$.
->
+ Therefore: $k + n + w = \#P_{\text{invoked}} \ (m)$, **not** $\#P_{\text{completed}}$.
 >
 
 ## 2. Minimal Precedence Mapping (DAGs)

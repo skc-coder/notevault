@@ -23,16 +23,16 @@ The three foundational classic synchronization problems covered are:
 * Production of an item occurs locally before buffering; consumption of an item occurs locally after removal.
 
 ```
-       [ Producer ]                                 [ Consumer ]
-            |                                            ^
-            v (local generate)                           | (local consume)
+[ Producer ]                                 [ Consumer ]
+|                                            ^
+v (local generate)                           | (local consume)
    +-----------------+                          +-----------------+
    | Item in Register|                          | Item in Register|
    +-----------------+                          +-----------------+
-            |                                            ^
-            | (append)                          (remove) |
-            +----------> [ Bounded Buffer ] -------------+
-                              (Size N)
+|                                            ^
+| (append)                          (remove) |
++----------> [ Bounded Buffer ] -------------+
+(Size N)
 ```
 
 #### Semaphore Primitives & State Setup
@@ -58,35 +58,35 @@ semaphore empty = N;
 semaphore full  = 0;
 
 void producer(void) {
-    while (true) {
-        /* Produce an item locally */
-        item_t item = produce_item();
+while (true) {
+/* Produce an item locally */
+item_t item = produce_item();
 
-        P(empty);       // Line 1: Wait for a free slot (decrement empty)
-        P(mutex);       // Line 2: Acquire lock for Buffer Critical Section
+P(empty);       // Line 1: Wait for a free slot (decrement empty)
+P(mutex);       // Line 2: Acquire lock for Buffer Critical Section
 
-        /* CS: Add item to the shared buffer */
-        insert_into_buffer(item);
+/* CS: Add item to the shared buffer */
+insert_into_buffer(item);
 
-        V(mutex);       // Line 3: Release buffer lock
-        V(full);        // Line 4: Signal new item available (increment full)
-    }
+V(mutex);       // Line 3: Release buffer lock
+V(full);        // Line 4: Signal new item available (increment full)
+}
 }
 
 void consumer(void) {
-    while (true) {
-        P(full);        // Line 5: Wait for an available item (decrement full)
-        P(mutex);       // Line 6: Acquire lock for Buffer Critical Section
+while (true) {
+P(full);        // Line 5: Wait for an available item (decrement full)
+P(mutex);       // Line 6: Acquire lock for Buffer Critical Section
 
-        /* CS: Remove item from the shared buffer */
-        item_t item = remove_from_buffer();
+/* CS: Remove item from the shared buffer */
+item_t item = remove_from_buffer();
 
-        V(mutex);       // Line 7: Release buffer lock
-        V(empty);       // Line 8: Signal free slot available (increment empty)
+V(mutex);       // Line 7: Release buffer lock
+V(empty);       // Line 8: Signal free slot available (increment empty)
 
-        /* Consume the item locally */
-        consume_item(item);
-    }
+/* Consume the item locally */
+consume_item(item);
+}
 }
 ```
 
@@ -101,10 +101,10 @@ void consumer(void) {
 > Assume the buffer is completely full ($\text{empty} = 0$). A producer executes `P(mutex)`, successfully acquiring the lock. It then calls `P(empty)` and blocks because $\text{empty} = 0$. 
 > A consumer attempting to empty a slot calls `P(full)` followed by `P(mutex)`. However, the consumer blocks on `P(mutex)` because the producer holds it. 
 > Result: **Deadlock**. Both processes are blocked indefinitely. 
-> 
-> *Symmetric case*: Swapping lines 5 and 6 in the consumer leads to deadlock when the buffer is empty ($\text{full} = 0$).
-> 
-> **Rule**: Resource reservation semaphores (`empty`, `full`) must always be evaluated *before* the exclusion lock (`mutex`).
+>
+ *Symmetric case*: Swapping lines 5 and 6 in the consumer leads to deadlock when the buffer is empty ($\text{full} = 0$).
+>
+ **Rule**: Resource reservation semaphores (`empty`, `full`) must always be evaluated *before* the exclusion lock (`mutex`).
 
 > [!property] Swapping Order of Signal Operations ($V(\text{mutex}) \leftrightarrow V(\text{full})$ or $V(\text{mutex}) \leftrightarrow V(\text{empty})$)
 > Swapping line 3 with line 4, or line 7 with line 8, causes **no logical deadlock or correctness issues**. Releasing the mutex before signaling the resource merely affects scheduling efficiency; the mutex is held for an imperceptibly longer interval, slightly increasing contention.
@@ -120,9 +120,9 @@ void consumer(void) {
 
 #### Concurrency Rules
 1. Any number of Readers can read simultaneously:
-   $$\text{Readers} \ge 0 \implies \text{Writers} = 0$$
+$$\text{Readers} \ge 0 \implies \text{Writers} = 0$$
 2. At most one Writer can write at a time:
-   $$\text{Writers} = 1 \implies \text{Readers} = 0$$
+$$\text{Writers} = 1 \implies \text{Readers} = 0$$
 3. If a writer is in the CS, no reader or writer may enter.
 
 #### Architectural Mechanism
@@ -147,37 +147,37 @@ semaphore wrt   = 1;
 int readcount   = 0;
 
 void writer(void) {
-    while (true) {
-        P(wrt);             // Acquire exclusive write access
+while (true) {
+P(wrt);             // Acquire exclusive write access
 
-        /* Writing occurs */
-        write_database();
+/* Writing occurs */
+write_database();
 
-        V(wrt);             // Release exclusive write access
-    }
+V(wrt);             // Release exclusive write access
+}
 }
 
 void reader(void) {
-    while (true) {
-        // --- Reader Entry Section ---
-        P(mutex);           // Line 4: Protect readcount
-        readcount++;        // Line 5: Register new reader
-        if (readcount == 1) {
-            P(wrt);         // Line 7: First reader locks out writers
-        }
-        V(mutex);           // Line 8: Release readcount lock
+while (true) {
+// --- Reader Entry Section ---
+P(mutex);           // Line 4: Protect readcount
+readcount++;        // Line 5: Register new reader
+if (readcount == 1) {
+P(wrt);         // Line 7: First reader locks out writers
+}
+V(mutex);           // Line 8: Release readcount lock
 
-        /* Reading occurs concurrently */
-        read_database();    // Line 9: Reader CS
+/* Reading occurs concurrently */
+read_database();    // Line 9: Reader CS
 
-        // --- Reader Exit Section ---
-        P(mutex);           // Line 10: Protect readcount
-        readcount--;        // Line 11: Reader leaving
-        if (readcount == 0) {
-            V(wrt);         // Line 13: Last reader releases writer lock
-        }
-        V(mutex);           // Line 14: Release readcount lock
-    }
+// --- Reader Exit Section ---
+P(mutex);           // Line 10: Protect readcount
+readcount--;        // Line 11: Reader leaving
+if (readcount == 0) {
+V(wrt);         // Line 13: Last reader releases writer lock
+}
+V(mutex);           // Line 14: Release readcount lock
+}
 }
 ```
 
@@ -195,8 +195,8 @@ void reader(void) {
 > 2. Reader 2 arrives, enters the entry section, increments `readcount` from $0$ to $1$, and proceeds.
 > 3. Reader 1 resumes and checks its cached condition or runs the delayed check. If Reader 1 evaluates `readcount == 0` (now false), it fails to execute `V(wrt)`. 
 > 4. Conversely, if two readers both decrement to $0$ non-atomically, both might attempt to execute `V(wrt)`, corrupting semaphore state.
-> 
-> **Rule**: Any evaluation depending on `readcount` must remain inside the critical section managed by `mutex`.
+>
+ **Rule**: Any evaluation depending on `readcount` must remain inside the critical section managed by `mutex`.
 
 > [!property] Starvation Vulnerability
 > The implementation above favors readers: as long as at least one reader remains active ($readcount \ge 1$), incoming readers continue entering immediately while writers queue indefinitely on `P(wrt)`. This leads to **writer starvation**.
@@ -209,15 +209,15 @@ void reader(void) {
 > $N$ philosophers sit around a circular table with $N$ chopsticks (or forks) arranged such that each chopstick lies between two adjacent philosophers. A philosopher alternates between thinking and eating. To eat, a philosopher must acquire both the left and right chopsticks.
 
 ```
-                  P_0
-             (1) /   \ (0)
-               P_4   P_1
-             (4) \   / (1)
-               P_3---P_2
-                  (2)
-      Philosopher P_i shares:
-      Left Fork  = i
-      Right Fork = (i + 1) % N
+P_0
+(1) /   \ (0)
+P_4   P_1
+(4) \   / (1)
+P_3---P_2
+(2)
+Philosopher P_i shares:
+Left Fork  = i
+Right Fork = (i + 1) % N
 ```
 
 #### Attempt 1: The Naive Solution (Symmetric Deadlock)
@@ -227,16 +227,16 @@ Every philosopher $P_i$ grabs the left fork first, then grabs the right fork:
 semaphore fork[N] = {1, 1, ..., 1};
 
 void philosopher(int i) {
-    while (true) {
-        think();
-        P(fork[i]);                 // Pick up left fork
-        P(fork[(i + 1) % N]);       // Pick up right fork
-        
-        eat();
-        
-        V(fork[(i + 1) % N]);       // Put down right fork
-        V(fork[i]);                 // Put down left fork
-    }
+while (true) {
+think();
+P(fork[i]);                 // Pick up left fork
+P(fork[(i + 1) % N]);       // Pick up right fork
+
+eat();
+
+V(fork[(i + 1) % N]);       // Put down right fork
+V(fork[i]);                 // Put down left fork
+}
 }
 ```
 
@@ -257,21 +257,21 @@ Break the symmetry of resource allocation. Number philosophers from $0$ to $N-1$
 
 ```c
 void philosopher(int i) {
-    while (true) {
-        think();
-        if (i == N - 1) {
-            P(fork[(i + 1) % N]);   // Pick right first
-            P(fork[i]);             // Pick left second
-        } else {
-            P(fork[i]);             // Pick left first
-            P(fork[(i + 1) % N]);   // Pick right second
-        }
+while (true) {
+think();
+if (i == N - 1) {
+P(fork[(i + 1) % N]);   // Pick right first
+P(fork[i]);             // Pick left second
+} else {
+P(fork[i]);             // Pick left first
+P(fork[(i + 1) % N]);   // Pick right second
+}
 
-        eat();
+eat();
 
-        V(fork[i]);
-        V(fork[(i + 1) % N]);
-    }
+V(fork[i]);
+V(fork[(i + 1) % N]);
+}
 }
 ```
 *Result*: Eliminates the cycle in the Resource Allocation Graph (RAG). **Deadlock-free and starvation-free** under a fair scheduler.

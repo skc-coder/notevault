@@ -59,19 +59,19 @@ binary_semaphore s1 = 0; // Signals T2 that inner F3(y) is ready
 binary_semaphore s2 = 0; // Signals T1 that F2(y) is ready
 
 void T1() {
-    y = F3(y);       // 1. Compute inner F3(y)
-    V(s1);           // 2. Hand off control to T2
+y = F3(y);       // 1. Compute inner F3(y)
+V(s1);           // 2. Hand off control to T2
 
-    x = F1(x);       // Local computation (runs concurrently or sequentially)
+x = F1(x);       // Local computation (runs concurrently or sequentially)
 
-    P(s2);           // 3. Block until T2 finishes F2(y)
-    z = F3(x, y);    // 4. Compute final outer F3(F1(x), F2(F3(y)))
+P(s2);           // 3. Block until T2 finishes F2(y)
+z = F3(x, y);    // 4. Compute final outer F3(F1(x), F2(F3(y)))
 }
 
 void T2() {
-    P(s1);           // 1. Block until T1 finishes inner F3(y)
-    y = F2(y);       // 2. Compute F2(F3(y))
-    V(s2);           // 3. Hand control back to T1
+P(s1);           // 1. Block until T1 finishes inner F3(y)
+y = F2(y);       // 2. Compute F2(F3(y))
+V(s2);           // 3. Hand control back to T1
 }
 ````
 

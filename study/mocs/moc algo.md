@@ -7,11 +7,6 @@ title: "Algorithms & Complexity MOC Dashboard++"
 
 ![[attachments/banners/algo.webp|banner]]
 
-
-
-
-
-
 [[gate-cs/math/time complexity]]
 ## 🧠 Why Study Algorithms?
 - **1a** – Why Study Algorithms? (13:00)

@@ -7,13 +7,6 @@ title: "Database Management Systems MOC Dashboard++"
 
 ![[attachments/banners/dbms.webp|banner]]
 
-
-
-
-
-
-
-
 Link OS sync with DBMS sync transactional cocomurecny managements
 
 # Summary
@@ -52,7 +45,6 @@ Link OS sync with DBMS sync transactional cocomurecny managements
 - **SQL (Part 3)** – Complete Summary (165:00)
   - 📄 [Notes: SQL Part 3](#) (166 pages)
   - 📝 **GATE PYQs**: SQL
-
 
 # Main
 ## Module 1: The Relational Model & Normalization

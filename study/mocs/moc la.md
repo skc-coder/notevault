@@ -8,10 +8,6 @@ author: David Lay
 
 ![[attachments/banners/la.webp|banner]]
 
-
-
-
-
 - [[gate-cs/math/Matrix algebra]]
 - [[gate-cs/math/Determinants]]
 - [[gate-cs/math/Eigenvalues and Eigenvectors]]
