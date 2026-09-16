@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0be69a6644d0829",
+            "id": "9d189195085120a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mocs/moc la.md",
+                "file": "mocs/base and bound temp.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "base and bound temp"
+            }
+          },
+          {
+            "id": "6bf194293909393f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mocs/moc os.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moc la"
+              "title": "moc os"
+            }
+          },
+          {
+            "id": "b7b95712b3446edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mocs/base and bound temp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "base and bound temp"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,16 +244,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b0be69a6644d0829",
+  "active": "b7b95712b3446edd",
   "lastOpenFiles": [
-    "study/Determinants.md",
+    "mocs/moc os.md",
+    "mocs/base and bound temp.md",
+    "mocs/Base and Bound.md",
+    "Base/Bound.md",
+    "study/semaphore-gate-corner-cases.md",
+    "Base",
+    "study/Semaphores.md",
+    "study/atomicity-of-semaphore-operations.md",
+    "study/Classic Problems.md",
+    "study/practice synchronization.md",
+    "study/critical section problem.md",
     "mocs/moc la.md",
+    "study/Determinants.md",
     "mocs/moc clang.md",
     "study/Type Conversions & Arithmetic Hierarchy.md",
     "study/Sequence Points & Short-Circuit Evaluation.md",
     "study/Constant Expressions & Control Flow.md",
     "study/Operators, Precedence & Bitwise Idioms.md",
-    "mocs/moc os.md",
     "study/Bit-Width Conversions & Extensions.md",
     "study/Counting Semaphores DAG Precedence.md",
     "study/User vs Kernel Level Threads.md",
@@ -234,13 +273,6 @@
     "mocs/moc cds.md",
     "study/Integer Representation & Promotion.md",
     "mocs/moc cs.md",
-    "mocs/moc center.md",
-    "mocs/moc polity.md",
-    "mocs/moc physics.md",
-    "mocs/moc gk.md",
-    "mocs/moc geography.md",
-    "mocs/moc chemistry.md",
-    "mocs/moc biology.md",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
     "study/attachments/Pasted image 20260325094950.webp",
@@ -251,8 +283,6 @@
     "study/attachments/Pasted image 20260427120057.webp",
     "study/attachments/Pasted image 20260501074825.webp",
     "study/attachments/Pasted image 20260501075008.webp",
-    "study/volume formulas.md",
-    "study/unit digit.md",
     "study/Data model notes.org~",
     "study/todo.txt~",
     "study/#Logic notes.org#",
@@ -262,7 +292,6 @@
     "study/attachments/Recording 20260428113359.m4a",
     "mocs",
     "RXC0vK2EDF.pdf",
-    "study/mocs/attachments",
     "00_meta/archive/docs/Canvas.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",

@@ -1,5 +1,3 @@
-## 1. Introduction to Semaphores
-
 Semaphores were introduced by **Edsger W. Dijkstra** in 1965 as a robust synchronization tool to solve critical section problems without relying on complex, error-prone software flags or pure spinlocks.
 
 > [!definition] Semaphore
@@ -11,8 +9,8 @@ Semaphores were introduced by **Edsger W. Dijkstra** in 1965 as a robust synchro
 >
  A fundamental architectural constraint: **There is no direct way to inspect or read the internal numerical value of a semaphore variable directly in user space.**
 
-  1. [[../gate-cs/classification-of-semaphores]]
-  2. [[../gate-cs/semaphore-implementation-paradigms]]
-  3. [[../gate-cs/atomicity-of-semaphore-operations]]
-  4. [[../gate-cs/semaphore-synchronization-patterns]]
-  5. [[../gate-cs/semaphore-gate-corner-cases]]
+  1. [[classification-of-semaphores]]
+  2. [[semaphore-implementation-paradigms]]
+  3. [[atomicity-of-semaphore-operations]]
+  4. [[semaphore-synchronization-patterns]]
+  5. [[semaphore-gate-corner-cases]]

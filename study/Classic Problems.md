@@ -1,5 +1,3 @@
-# Classic Synchronization Problems
-
 ## Lecture & Conceptual Walkthrough
 
 Synchronization problems represent recurring concurrency archetypes in operating systems. Understanding standard template solutions allows engineers to design robust concurrency controls and identify critical flaws like race conditions, deadlocks, and starvation. 
@@ -50,6 +48,10 @@ A simple binary mutex over the buffer satisfies mutual exclusion but fails to co
 > where $0 \le \text{full} \le N$ and $0 \le \text{empty} \le N$.
 
 #### Implementation
+- This implementation allows multiple producers and consumers
+- Counting semaphore is used and hence
+	- producer and consumer can work anytime (but not update the buffer)
+- If we want alternation between producers and consumers `mutex` is not needed
 
 ```c
 // Shared variables and semaphores
@@ -102,7 +104,7 @@ consume_item(item);
 > A consumer attempting to empty a slot calls `P(full)` followed by `P(mutex)`. However, the consumer blocks on `P(mutex)` because the producer holds it. 
 > Result: **Deadlock**. Both processes are blocked indefinitely. 
 >
- *Symmetric case*: Swapping lines 5 and 6 in the consumer leads to deadlock when the buffer is empty ($\text{full} = 0$).
+ *Symmetric case*: Swapping the lines 5 and 6 in the consumer leads to deadlock when the buffer is empty ($\text{full} = 0$).
 >
  **Rule**: Resource reservation semaphores (`empty`, `full`) must always be evaluated *before* the exclusion lock (`mutex`).
 
@@ -133,11 +135,11 @@ The standard solution uses an integer counter `readcount` that tracks active rea
 * Subsequent readers skip locking and enter directly.
 * The **last reader** leaving unlocks the shared resource, allowing waiting writers to proceed.
 
-| Variable | Type | Initial Value | Function |
-| :--- | :--- | :--- | :--- |
-| `mutex` | Binary Semaphore | $1$ | Protects critical updates to the shared `readcount` variable. |
-| `wrt` | Binary Semaphore | $1$ | Provides mutual exclusion for writers; blocks readers when a writer writes. |
-| `readcount` | Integer | $0$ | Tracks the number of readers currently executing inside the read CS. |
+| Variable    | Type             | Initial Value | Function                                                                    |
+| :---------- | :--------------- | :------------ | :-------------------------------------------------------------------------- |
+| `mutex`     | Binary Semaphore | $1$           | Protects critical updates to the shared `readcount` variable.               |
+| `wrt`       | Binary Semaphore | $1$           | Provides mutual exclusion for writers; blocks readers when a writer writes. |
+| `readcount` | Integer          | $0$           | Tracks the number of readers currently executing inside the read CS.        |
 
 #### Implementation (First Readers-Writers Problem / Reader Preference)
 
@@ -195,6 +197,7 @@ V(mutex);           // Line 14: Release readcount lock
 > 2. Reader 2 arrives, enters the entry section, increments `readcount` from $0$ to $1$, and proceeds.
 > 3. Reader 1 resumes and checks its cached condition or runs the delayed check. If Reader 1 evaluates `readcount == 0` (now false), it fails to execute `V(wrt)`. 
 > 4. Conversely, if two readers both decrement to $0$ non-atomically, both might attempt to execute `V(wrt)`, corrupting semaphore state.
+> 	1. Similarly wrt to to the `P(wrt)` the first reader's `readcount == 1` may be overwritten thus allowing the value of `wrt` to touch the moon! full concurrecny.
 >
  **Rule**: Any evaluation depending on `readcount` must remain inside the critical section managed by `mutex`.
 
