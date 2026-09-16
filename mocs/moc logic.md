@@ -83,3 +83,6 @@
 - [ ] Sections 2–7 are scaffolded from the standard GO Classes / GATE syllabus lecture sequence, since only Lecture 1–2 (Section 1) have been converted so far — confirm actual upcoming lecture titles as PDFs come in, and rename/reorder notes to match rather than my assumed titles.
 - [ ] Confirm whether GO Classes covers Rules of Inference before or after Normal Forms in their actual sequence — order above is a best guess based on typical GATE syllabus flow, not confirmed from source slides yet.
 - [ ] Decide whether Predicate Logic / First Order Logic deserves its own separate MOC once it grows large enough, splitting off from this one.
+
+## Unlinked & Topic Notes
+- [[cover]]

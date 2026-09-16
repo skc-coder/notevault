@@ -10,3 +10,7 @@
 - k to one: every element in codomain has k preimages.
 
 https://www.youtube.com/watch?v=miYRoH2YtrI
+
+## Unlinked & Topic Notes
+- [[Function Arc Length]]
+- [[standard form]]

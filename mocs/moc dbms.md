@@ -110,3 +110,16 @@ Link OS sync with DBMS sync transactional cocomurecny managements
   - Transaction Management: 51 pages
   - File Organization: 84 pages
 - **Himanshu Dutta** (AIR 16) - 240 pages
+
+
+## Unlinked & Topic Notes
+- [[Aggregate Functions]]
+- [[ER Model]]
+- [[NULL]]
+- [[Query Languages]]
+- [[Relational Algebra]]
+- [[SQL]]
+- [[sql operators]]
+- [[heights]]
+- [[lcm_models]]
+- [[question_db]]

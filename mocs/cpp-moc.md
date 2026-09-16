@@ -25,3 +25,14 @@ date: 2026-09-14
 - 🔄 Evolution & Refactoring
   - [[content/general/cpp/c-style-polymorphism-evolution|4. Evolution of Polymorphism: C-Style Tagged Unions & Function Switches]]
   - [[content/general/cpp/cpp-polymorphism-refactoring|5. Refactoring to C++ Polymorphic Hierarchy & Architectural Evolution]]
+
+
+## Unlinked & Topic Notes
+- [[vtable-abstract-base-classes]]
+- [[c-style-polymorphism-evolution]]
+- [[cpp-polymorphism-refactoring]]
+- [[static-vs-dynamic-binding]]
+- [[type-casting-mechanics]]
+- [[Constant Expressions & Control Flow]]
+- [[Average Area Below a Function]]
+- [[types_of_sets]]

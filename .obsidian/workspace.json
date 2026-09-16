@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.328125,
-    "collapsed": true
+    "width": 324.78125
   },
   "right": {
     "id": "45372c980f11330e",
@@ -207,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -232,6 +231,8 @@
   },
   "active": "e5dea70113bc00d1",
   "lastOpenFiles": [
+    "mocs/moc la.md",
+    "study/Bit-Width Conversions & Extensions.md",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
     "study/attachments/Pasted image 20260325094950.webp",
@@ -242,7 +243,6 @@
     "study/attachments/Pasted image 20260427120057.webp",
     "study/attachments/Pasted image 20260501074825.webp",
     "study/attachments/Pasted image 20260501075008.webp",
-    "study/attachments/Pasted image 20260501075135.webp",
     "study/volume formulas.md",
     "study/unit digit.md",
     "study/number of zeros.md",
@@ -267,7 +267,6 @@
     "study/Number Theory.md",
     "study/Mixture.md",
     "study/Interest.md",
-    "study/Installment.md",
     "study/Data model notes.org~",
     "study/todo.txt~",
     "study/#Logic notes.org#",
