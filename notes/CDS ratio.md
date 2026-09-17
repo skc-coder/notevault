@@ -1,4 +1,4 @@
-![[../../../attachments/Pasted image 20260912083114.webp]]
+![[attachments/Pasted image 20260912083114.webp]]
 
 The fastest way to solve cyclic sum ratios like this is to find the total sum first.
 

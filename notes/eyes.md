@@ -1,4 +1,4 @@
-![[../../../attachments/Pasted image 20260907130906.webp]]
+![[attachments/Pasted image 20260907130906.webp]]
 
   
 

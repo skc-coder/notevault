@@ -1,11 +1,11 @@
-![[../../../attachments/Pasted image 20260906205728.webp]]
+![[attachments/Pasted image 20260906205728.webp]]
 
 **TL;DR Summary**
 
   **Concave Mirror Image Formation**
 
   
-![[../../../attachments/Pasted image 20260907120115.webp]]
+![[attachments/Pasted image 20260907120115.webp]]
 
 | **Position of Object**        | **Position of Image**  | **Size of Image** | **Nature of Image** |
 | ----------------------------- | ---------------------- | ----------------- | ------------------- |
@@ -482,7 +482,7 @@ _(Placing an object between $F$ and $P$ creates a **virtual, erect, and magnifie
 
 Which ray diagram is correct
 
-![[../../../attachments/Pasted image 20260907145653.webp]]
+![[attachments/Pasted image 20260907145653.webp]]
 
 
 The correct option is **c) 1 and 4 only**.
@@ -622,5 +622,5 @@ To find the power of the corrective lens, we analyze the lens parameters step-by
 The correct option is **b) -0.5 D**.
 
 
-![[../../../attachments/Pasted image 20260907152939.webp]]
+![[attachments/Pasted image 20260907152939.webp]]
 choose negative 

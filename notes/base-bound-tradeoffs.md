@@ -10,4 +10,4 @@
 * **Contiguous Allocation Requirement:** The entire process must be placed in a single contiguous block of physical RAM.
 * **External Fragmentation:** Over time, allocating and deallocating variable-sized contiguous chunks leaves small, unusable holes scattered across physical memory.
 * **Entire Process in Memory:** The complete process image must reside entirely in RAM before execution begins (a limitation later eliminated via Demand Paging).
-* Size of process is fixed hence limit on dynamic memory that can be allocated.
+* **Size of process is fixed** hence when size is increased by dynamic memory then costly reallocation needs to be done.

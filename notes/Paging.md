@@ -128,7 +128,7 @@ The logical address is split into multiple parts — one index per level, plus t
 
 ### 6.1 Two-Level Paging (32-bit)
 
-![](../../attachments/Pasted%20image%2020260430165800.webp)
+![](attachments/Pasted%20image%2020260430165800.webp)
 
 #### Translation
 
@@ -213,7 +213,7 @@ Each level = 9 bits. Non-offset bits = $64 - 12 = 52$. Need $\lceil 52/9 \rceil 
 
 Each entry in a page table contains more than just the frame number:
 
-![](../../attachments/Pasted%20image%2020260430170332.webp)
+![](attachments/Pasted%20image%2020260430170332.webp)
 
 | Bit | Name            | Meaning                                                             |
 | --- | --------------- | ------------------------------------------------------------------- |

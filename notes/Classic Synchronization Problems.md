@@ -1,5 +1,3 @@
-## Classic Synchronization Problems
-
 Synchronization problems represent recurring concurrency archetypes in operating systems.
 
 - [[producer-consumer-problem]]

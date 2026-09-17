@@ -18,5 +18,4 @@ review date: 2026-09-23
 - [[Coupled Thread Synchronization Invariants]]
 - [[Concurrent Counter Value Range Theorem]]
 
----
-- **Parent MOC**: [[moc os]]
+

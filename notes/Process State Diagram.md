@@ -1,4 +1,4 @@
-![](../../attachments/statedig.webp)
+![](attachments/statedig.webp)
 ### States
 
 | State                 | Description                                                                                                       |

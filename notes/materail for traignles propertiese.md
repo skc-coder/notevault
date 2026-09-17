@@ -188,11 +188,11 @@ Would you like to explore how these circumradius properties connect directly wit
 
 # Right traingles lenght and similarity proofs
 
-![[../../../attachments/Pasted image 20260905070425.webp]]
+![[attachments/Pasted image 20260905070425.webp]]
 
 
 # incenter
-angle formula ![[../../../attachments/Pasted image 20260905070635.webp]]## 1. Interior Angle Bisector Theorem (Angle at Incenter)
+angle formula ![[attachments/Pasted image 20260905070635.webp]]## 1. Interior Angle Bisector Theorem (Angle at Incenter)
 
 - Name: Interior Angle Bisector Theorem (Angle at Incenter)
 - Statement:
@@ -240,4 +240,4 @@ The ratio of their areas is equal to the square of the side ratio ($k^2$).
 $$\frac{\text{Area}(\Delta ABC)}{\text{Area}(\Delta DEF)} = k^2$$
 
 Want a 10-second mental trick to never confuse when to use $k$ vs $k^2$?
-![[../../../attachments/Pasted image 20260905071213.webp]]
+![[attachments/Pasted image 20260905071213.webp]]

@@ -29,10 +29,10 @@
           
         
     - **Secondary (Outer / Fainter):** Dispersion + **2 TIRs** + Refraction $\to$ **Red on bottom**.f
-- ![[../../../attachments/Pasted image 20260907132252.webp]]
+- ![[attachments/Pasted image 20260907132252.webp]]
 
 
-![[../../../attachments/Pasted image 20260907133601.webp]]
+![[attachments/Pasted image 20260907133601.webp]]
 **TL;DR — Atmospheric Optics & Scattering**
 
   
@@ -69,4 +69,4 @@
         
 - **Tyndall Effect vs. Scattering:** Scattering is the general light deflection; **Tyndall Effect** is the _visible path of light_ caused specifically by **colloidal/larger particles** (e.g., fog, dusty rooms).
 
-![[../../../attachments/Pasted image 20260907133947.webp]]
+![[attachments/Pasted image 20260907133947.webp]]

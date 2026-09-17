@@ -10,5 +10,6 @@
   "virt-folder",
   "file-cleaner-redux",
   "omnisearch",
-  "image-converter"
+  "image-converter",
+  "obsidian-view-mode-by-frontmatter"
 ]

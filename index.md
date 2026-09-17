@@ -1,7 +1,7 @@
 ---
 cssclasses:
   - dashboard
-  - cols-4
+  - cols-2
 ---
 
 - 🌐 [[moc cs|CS Master MOC]]

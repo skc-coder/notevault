@@ -13,6 +13,7 @@
   "promptDelete": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "defaultViewMode": "preview",
-  "readableLineLength": true
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "livePreview": true
 }

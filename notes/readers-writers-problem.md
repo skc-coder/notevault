@@ -26,6 +26,8 @@ The standard solution uses an integer counter `readcount` that tracks active rea
 
 ## Implementation (First Readers-Writers Problem / Reader Preference)
 
+> The implementation above favors readers: as long as at least one reader remains active ($readcount \ge 1$), incoming readers continue entering immediately while writers queue indefinitely on `P(wrt)`. This leads to **writer starvation**.
+
 ```c
 semaphore mutex = 1;
 semaphore wrt   = 1;
@@ -68,16 +70,18 @@ void reader(void) {
 
 ## Edge Cases, Race Conditions & Structural Variations
 
-> [!trap] Blunder A: Removing `mutex` Protection from `readcount` Updates
-> If `readcount++` (line 5) and `readcount--` (line 11) run without `P(mutex)` and `V(mutex)` protection:
-> * **Lost Updates / Race Condition**: Multiple reader threads modifying `readcount` simultaneously cause non-atomic read-modify-write operations, corrupting `readcount`.
-> * **Negative Readcount**: Unsynchronized decrements can drive `readcount < 0`.
-> * **Missed Signals**: If `readcount` fails to register $0$ due to a missed decrement, `V(wrt)` is never called, resulting in **permanent writer starvation / writer deadlock**.
+#### Blunder A: Removing `mutex` Protection from `readcount` Updates
 
-> [!danger] Blunder B: Moving Conditionals Outside the Mutex Perimeter
-> Placing the conditional checks for `readcount` outside the critical section governed by `mutex` breaks synchronization guarantees in two critical areas:
+ If `readcount++` (line 5) and `readcount--` (line 11) run without `P(mutex)` and `V(mutex)` protection:
+ * **Lost Updates / Race Condition**: Multiple reader threads modifying `readcount` simultaneously cause non-atomic read-modify-write operations, corrupting `readcount`.
+ * **Negative Readcount**: Unsynchronized decrements can drive `readcount < 0`.
+ * **Missed Signals**: If `readcount` fails to register $0$ due to a missed decrement, `V(wrt)` is never called, resulting in **permanent writer starvation / writer deadlock**.
 
-### 1. Exit Section: Moving `if (readcount == 0) V(wrt);` Outside
+#### **Blunder B:** Moving Conditionals Outside the Mutex Perimeter
+
+Placing the conditional checks for `readcount` outside the critical section governed by `mutex` breaks synchronization guarantees in two critical areas:
+
+##### 1. Exit Section: Moving `if (readcount == 0) V(wrt);` Outside
 * **Deadlock via Preemption:** 
   1. Reader 1 decrements `readcount` to `0` inside the mutex and exits the critical section.
   2. Reader 1 is preempted before evaluating `if (readcount == 0)`.
@@ -89,7 +93,7 @@ void reader(void) {
 
 ---
 
-### 2. Entry Section: Moving `if (readcount == 1) P(wrt);` Outside
+##### 2. Entry Section: Moving `if (readcount == 1) P(wrt);` Outside
 * **Bypassing the Writer Lock:**
   1. Reader 1 increments `readcount` to `1` inside the mutex and exits before executing `P(wrt)`.
   2. Reader 2 arrives, enters the mutex, increments `readcount` to `2`, and exits the mutex.
@@ -100,5 +104,3 @@ void reader(void) {
 > [!important] Core Invariant
 > Any read, write, or conditional evaluation depending on `readcount` must remain strictly inside the critical section protected by `mutex`.
 
-> [!property] Starvation Vulnerability
-> The implementation above favors readers: as long as at least one reader remains active ($readcount \ge 1$), incoming readers continue entering immediately while writers queue indefinitely on `P(wrt)`. This leads to **writer starvation**.

@@ -1,9 +1,7 @@
 ---
 tags:
   - clang
-  - c-language
   - moc
-  - study
 ---
 - [[Dangling Else]]
 - [[Integer Constant Expressions]]

@@ -53,4 +53,4 @@
 | **Viscosity**           | Pascal-second ($\text{Pa}\cdot\text{s}$) | $[ML^{-1}T^{-1}]$    |
 | **Impulse**             | Newton-second ($\text{N}\cdot\text{s}$)  | $[MLT^{-1}]$         |
 
-![[../../../attachments/Pasted image 20260908131948.webp]]
+![[attachments/Pasted image 20260908131948.webp]]

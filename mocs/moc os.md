@@ -1,7 +1,4 @@
 ---
-cssclasses:
-  - dashboard
-  - cols-4
 subject: GATE CSE
 tags:
   - GATE
@@ -65,7 +62,7 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 ## 💾 Memory Management
 
 - **Lecture 23** –  [[Base and Bound]]
-- **Lecture 24** – [Optional] Base/Bound Questions (LIVE)
+`- **TODO: Segmentation`**
 - **Lecture 25** – Intro to [[Paging]] (LIVE)
 - **Lecture 26** – Single Level Paging Questions (LIVE)
 - **Lecture 27** – Multi-Level Paging (LIVE)

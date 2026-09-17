@@ -4,7 +4,7 @@ Tags: #Topic
 
 A slope field is a graphical representation of the possible solutions to a first-order differential equation.
 
-![](../attachments/slope_fields.webp)
+![](attachments/slope_fields.webp)
 
 The differential equation used for a slope field follows the form:
 
@@ -32,7 +32,7 @@ If a differential equation is only dependent on a single variable, lets say $x$ 
 > 
 > This means that if you move along the $x$-axis, the shape of the function **varies** and if you move on along the $y$-axos, the shape remains the **same**.
 > 
-> ![](../attachments/sin_slope_field.webp)
+> ![](attachments/sin_slope_field.webp)
 
 > **Ex.**
 > Depicted below is
@@ -43,7 +43,7 @@ If a differential equation is only dependent on a single variable, lets say $x$ 
 > 
 > This means that if you move along the $y$-axis, the shape of the function **varies** and if you move on along the $x$-axis, the shape remains the **same**.
 > 
-> ![](../attachments/y_dependent_slope_field.webp)
+> ![](attachments/y_dependent_slope_field.webp)
 
 > **Ex.**
 > Depicted below is
@@ -54,4 +54,4 @@ If a differential equation is only dependent on a single variable, lets say $x$ 
 > 
 > This means that if you move along either the $y$-axis or the $x$-axis, the shape of the function **varies**.
 > 
-> ![](../attachments/y_and_x_dependent_slope_field.webp)
+> ![](attachments/y_and_x_dependent_slope_field.webp)

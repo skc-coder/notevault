@@ -13,7 +13,7 @@ $$\text{Middle value or weigthed Average} = \frac{\sum(\text{Value} \times \text
 
 $$\text{Alligation Ratio} = \text{The factor that was "weighted" in the average}$$
 
-![[../attachments/Pasted image 20260403155621.webp]]
+![[attachments/Pasted image 20260403155621.webp]]
 
 ## Profit/Loss Alligation
 [[cds/apti/notes/Profit & Loss]]

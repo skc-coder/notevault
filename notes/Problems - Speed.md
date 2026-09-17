@@ -1,9 +1,9 @@
-![[../../../../attachments/Pasted image 20260327144014.webp]]
+![[attachments/Pasted image 20260327144014.webp]]
 
 ---
 
 **Circle questions**
-![[../../../../attachments/Pasted image 20260327150804.webp]]
+![[attachments/Pasted image 20260327150804.webp]]
 
 **Lapping questions**
 
@@ -15,16 +15,16 @@ Just know what is same and what the words mean....and thats it....
 https://www.youtube.com/watch?v=ar832Uhbv2k
 Watch the video to learn a important quick trick....
 
-![[../../../../attachments/Pasted image 20260327145842.webp]]
+![[attachments/Pasted image 20260327145842.webp]]
 
-![[../../../../attachments/Pasted image 20260327150201.webp]]
+![[attachments/Pasted image 20260327150201.webp]]
 
 Just make the ratio same in both cases
 
-![[../../../../attachments/Pasted image 20260327151307.webp]]
+![[attachments/Pasted image 20260327151307.webp]]
 
 
-![[../../../../attachments/Pasted image 20260327161247.webp]]
+![[attachments/Pasted image 20260327161247.webp]]
 b
 This question is different in that because here 
 s1/s2 = 360/500-x.
@@ -54,19 +54,19 @@ Since 5.5 = 11/2, we get:
 
 This gives the smaller angle between the two hands (if > 180°, subtract from 360° for the acute angle).
 
-![[../../../../attachments/Pasted image 20260327153630.webp]]
+![[attachments/Pasted image 20260327153630.webp]]
 
-![[../../../../attachments/Pasted image 20260327153934.webp]]
+![[attachments/Pasted image 20260327153934.webp]]
 a
 
 
-![[../../../../attachments/Pasted image 20260327154050.webp]]
+![[attachments/Pasted image 20260327154050.webp]]
 a
 You can use the circular motion formula here! FInd lap time, time of meeting 12 and divide!
 Or consider 12 AM/PM. https://www.quora.com/How-many-times-a-day-do-a-clock%E2%80%99s-hands-overlap-1
 
 
-![[../../../../attachments/Pasted image 20260327160056.webp]]
+![[attachments/Pasted image 20260327160056.webp]]
 b
 	Let's think about this per hour of actual travel time.
 	**Without stoppage:** In 1 hour, the train covers 75 km.
@@ -83,14 +83,14 @@ b
 ---
 
 Boat questions
-![[../../../../attachments/Pasted image 20260327163816.webp]]
+![[attachments/Pasted image 20260327163816.webp]]
 
 Dont forget the mod
 
-![[../../../../attachments/Pasted image 20260327165139.webp]]
+![[attachments/Pasted image 20260327165139.webp]]
 
 
-![[../../../../attachments/Pasted image 20260327165626.webp]]
+![[attachments/Pasted image 20260327165626.webp]]
 
-![[../../../../attachments/Pasted image 20260327180920.webp]]
+![[attachments/Pasted image 20260327180920.webp]]
 https://www.quora.com/Ram-and-Shayam-run-a-race-of-2000m-First-Ram-gives-Shayam-a-start-of-200m-and-beats-him-by-30-seconds-Next-Ram-gives-Shayam-a-lead-of-3-minutes-and-gets-beaten-by-1000m-What-is-the-time-in-minutes-in-which-Ram-and-Shayam-can-run-the-race-separately

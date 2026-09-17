@@ -7,7 +7,7 @@ tags:
   - study
 ---
 
-## Case 1: Sign-Extension, Signed Interpretation (`signed` with $\text{MSB} = 0$) 🟢
+## Case 1: 0-Extension, Signed Interpretation
 
 ### Example 1.1: `signed char c = 65;`
 
@@ -75,7 +75,7 @@ printf("%u\n", c); // Outputs: 56
 
 ---
 
-## Case 2: Sign-Extension, Two's Complement Interpretation (`signed` with $\text{MSB} = 1$) 🔴
+## Case 2: 1-Extension, Signed Interpretation
 
 ### Example 2.1: `signed char c = 130;`
 
@@ -143,7 +143,7 @@ printf("%u\n", c); // Outputs: 4294967290
 
 ---
 
-## Case 3: Zero-Extension, Positive Direct Interpretation (`unsigned` with $\text{MSB} = 0$) 🟡
+## Case 3: Zero-Extension, Unsigned Interpretation
 
 ### Example 3.1: `unsigned char c = 65;`
 
@@ -208,7 +208,7 @@ printf("%u\n", c); // Outputs: 56
 
 ---
 
-## Case 4: Zero-Extension, Unsigned Magnitude Preservation (`unsigned` with $\text{MSB} = 1$) 🟣
+## Case 4: Zero-Extension, Unsigned Interpretation
 
 ### Example 4.1: `unsigned char c = 130;`
 

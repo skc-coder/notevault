@@ -4,7 +4,7 @@ Tags: #Topic
 
 Polar equations are functions graphed on the polar coordinate plane.
 
-![](../attachments/polar_coordinates.webp)
+![](attachments/polar_coordinates.webp)
 
 Polar equations often follow the format of 
 $$\Large r(\theta)=\ldots$$
@@ -27,7 +27,7 @@ This converted set of $x$ and $y$ equations are parametric equations since they 
 
 The area of a polar equation is normally the area from the orign ($r = 0$) to $r(\theta)$.
 
-![](../attachments/area_of_polar_equation.webp)
+![](attachments/area_of_polar_equation.webp)
 
 This area can be calculated using
 
@@ -53,15 +53,15 @@ $$
 
 find the area of the purple region.
 
-![](../attachments/area_of_multiple_polar_equations.webp)
+![](attachments/area_of_multiple_polar_equations.webp)
 
 1. Find where each of the polar equations intersect one another. 
 
-![](../attachments/multiple_polar_equations_intersection_points.webp)
+![](attachments/multiple_polar_equations_intersection_points.webp)
 
 1. Divide the polar equations into sectors based on the intersection points.
 
-![](../attachments/area_of_multiple_polar_equations_separated.webp)
+![](attachments/area_of_multiple_polar_equations_separated.webp)
 
 1. Integrate of each of the sectors separately to get the different sectors' areas, and sum up all these areas to get the total area.
 

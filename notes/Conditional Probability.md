@@ -82,7 +82,7 @@ $$ P(S_2 \mid {S_1,S_3,S_5}) = 0 \qquad \text{(} S_2 \text{ is not in the condit
 
 (think in terms of discrete elements)
 
-![[../../../attachments/2026-07-01_19-09.webp]]
+![[attachments/2026-07-01_19-09.webp]]
 $$ P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \qquad \text{valid when } P(B) > 0 $$
 
 Under equally likely outcomes, this reduces to a pure counting formula:
