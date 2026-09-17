@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: Graph Theory MOC Dashboard++
 tags:
   - gate
   - maths

@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: "Database Management Systems MOC Dashboard++"
 ---
 
 ![[attachments/banners/dbms.webp|banner]]

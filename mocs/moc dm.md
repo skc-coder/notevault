@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: DM MOC Dashboard++
 tags:
   - gate
   - maths

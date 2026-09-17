@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: CDS Economics MOC Dashboard++
 tags:
   - cds
   - economy

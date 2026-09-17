@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: "COA MOC Dashboard++"
 ---
 
 ![[attachments/banners/coa.webp|banner]]

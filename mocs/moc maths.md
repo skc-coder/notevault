@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: "Maths MOC Dashboard++"
 ---
 
 ![[attachments/banners/maths.webp|banner]]

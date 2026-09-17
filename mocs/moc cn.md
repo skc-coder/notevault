@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: "CN MOC Dashboard++"
 ---
 
 ![[attachments/banners/cn.webp|banner]]

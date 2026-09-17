@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: Probability & Random Variables MOC Dashboard++
 tags:
   - moc
   - probability

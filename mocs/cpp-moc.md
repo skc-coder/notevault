@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: C++ Polymorphism & Object-Oriented Architecture MOC++
 tags:
   - cpp
   - moc

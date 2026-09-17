@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: CS Master MOC Dashboard++
 ---
 
 ![[attachments/banners/cs.webp|banner]]

@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: "Algorithms & Complexity MOC Dashboard++"
 ---
 
 ![[attachments/banners/algo.webp|banner]]

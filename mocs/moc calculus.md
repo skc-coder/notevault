@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: "Calculus & Analysis MOC Dashboard++"
 ---
 
 ![[attachments/banners/calculus.webp|banner]]

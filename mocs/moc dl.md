@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: Digital Logic Design MOC Dashboard++
 tags:
   - digital-logic
   - gate

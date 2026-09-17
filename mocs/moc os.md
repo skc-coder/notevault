@@ -2,9 +2,10 @@
 cssclasses:
   - dashboard
   - cols-4
-title: Operating Systems
 subject: GATE CSE
-tags: [GATE, OS]
+tags:
+  - GATE
+  - OS
 ---
 https://gateoverflow.in/401429/go-classes-iiith-pgee-2026-mock-test-2-question-85?show=401429#q401429
 https://gateoverflow.in/402158/go-classes-iiith-pgee-2026-mock-test-3-question-75?show=402158#q402158
