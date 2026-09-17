@@ -6,5 +6,4 @@ tags:
   - study
 ---
 - [[Multidimensional Array Decay]]
-- [[Function Pointers]]
-- [[Complex Declarations]]
+- [[Linear offset calculation]]

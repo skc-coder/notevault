@@ -5,8 +5,6 @@ tags:
   - functions
   - study
 ---
-
-
 A function declaration introduces the function name and its signature (parameter types and return type).
 
 ---
@@ -23,7 +21,7 @@ A function declaration introduces the function name and its signature (parameter
 
 ## Empty Parameter List: `f()` vs `f(void)`
 
-> [!trap] Prototype Standards Discrepancy
+> [!trap] Prototype Standards Discrepancy 
 > - **Prior to C23:** An empty parameter list `int f();` means the function takes an **unspecified number of arguments** (not a zero-argument prototype). To enforce zero arguments, write `int f(void);`.
 > - **C23 Standard:** `int f()` is now strictly equivalent to `int f(void)`, taking zero arguments.
 

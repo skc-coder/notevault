@@ -6,10 +6,6 @@ tags:
   - memory
   - study
 ---
-
-
----
-
 ## Code Comparison: Array vs Pointer Initialization
 
 ```c

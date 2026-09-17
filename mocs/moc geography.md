@@ -13,7 +13,7 @@ Welcome to the **Physical Geography Vault Index**. This master course covers all
 
 ## Master Chapter Index
 
-1. [Ch 1. Universe and Solar System](/cds/geography/notes/universe)
+1. [Ch 1. Universe and Solar System](universe)
 2. [Ch 2. Latitudes, Longitudes and Time Systems](/cds/geography/notes/latitudes-longitudes)
 3. [Ch 3. Geomorphology and Earth Interior](/cds/geography/notes/geomorphology)
 4. [Ch 4. Plate Tectonics, Mountains and Volcanism](/cds/geography/notes/plate-tectonics)

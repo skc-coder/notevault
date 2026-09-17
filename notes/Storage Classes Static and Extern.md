@@ -6,10 +6,6 @@ tags:
   - linkage
   - study
 ---
-
-
----
-
 ## The `static` Storage Class
 
 - **Scope:** Block scope (inside a function) or file scope (outside all functions).
@@ -31,7 +27,10 @@ tags:
 
 ### Pure Declaration vs Definition
 - `extern int var;` is a **pure declaration** (allocates no memory).
-- `int var;` (at file scope) or `int var = 10;` is a **definition** allocating memory.
+- `int var;` (at file scope) or `int var = 10;` is a **definition** allocating memory. 
+- In C, when you write `int var;` at global (file) scope without `extern` or an initializer:
+	1. The compiler treats it as a **tentative definition**.
+	2. If no actual definition with an initializer (like `int var = 10;`) appears later in the same file, the compiler automatically turns the tentative definition into a full **definition** initialized to `0` at the end of compilation.
 
 > [!trap] Linker Failure with Unresolved `extern`
 > Declaring a variable `extern` suppresses compiler errors in the current module, but if no definition exists across any linked module when accessed, the **Linker fails**.

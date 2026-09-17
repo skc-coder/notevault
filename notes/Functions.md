@@ -6,5 +6,6 @@ tags:
   - study
 ---
 - [[Function Declarations Prototypes]]
+- [[Function Pointers]]
 - [[Function Scoping Rules]]
-- [[Variadic Printf Pipeline]]
+- [[Type conversion in parameters]]

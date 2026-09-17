@@ -5,8 +5,6 @@ tags:
   - pointers
   - study
 ---
-
-
 A pointer variable stores the memory address of an object. Address size is uniform across compilation targets ($4$ bytes on 32-bit systems, $8$ bytes on 64-bit systems).
 
 > [!property] Uniformity of Pointer Sizing

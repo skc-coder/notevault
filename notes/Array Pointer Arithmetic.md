@@ -6,12 +6,9 @@ tags:
   - pointers
   - study
 ---
-
-
 The array subscript operator `[]` in C is defined strictly by pointer arithmetic.
 
 > [!property] Commutative Equivalence of Array Subscripting
-> $$E_1[E_2] \equiv *(\,(E_1) + (E_2)\,)$$
 > $$\text{arr}[i] \equiv *( \text{arr} + i ) \equiv *( i + \text{arr} ) \equiv i[\text{arr}]$$
 
 ---

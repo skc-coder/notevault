@@ -5,6 +5,6 @@ tags:
   - moc
   - study
 ---
-- [[Storage Classes Register]]
-- [[Storage Classes Static Extern]]
+- [[Storage Classes]]
+- [[Storage Classes Static and Extern]]
 - [[Process Memory Layout]]

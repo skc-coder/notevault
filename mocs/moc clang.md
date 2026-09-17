@@ -7,24 +7,30 @@ cssclasses:
 - [[Integer Representation]]
 - [[Type and Bit Conversions]]
 - [[Constant Expressions]]
-- [[Operators Bitwise Idioms]]
-- [[Sequence Points Evaluation]]
+- [[../notes/Operators]]
+- [[../notes/Sequence Points]]
 
 ---
 
 ## ⚙️ Module 2: Functions, Storage Classes & Memory
-- [[Functions Prototypes Variadic]]
-- [[Storage Classes Memory Layout]]
+- [[Functions]]
+- [[../notes/Storage Classes and Memory Layout]]
 
 ---
 
 ## 🔁 Module 3: Recursion, Pointers, Arrays & Strings
-- [[Recursion Tracing]]
-- [[Pointers Array Decay]]
+- [[../notes/Recursion]]
+- [[../notes/Pointers and arrays]]
 - [[Multidimensional Arrays]]
-- [[Memory Segments Strings]]
 
 ---
+## Module 4: Some other topics
+- [[malloc]]
+- [[Complex Declarations]]
+- [[../notes/Memory Details]]
+- 
 
+---
 ## Hard Questions & Tricky Scenarios
 <!-- Reserved for personal manual additions -->
+[[pyq analyses clang]]

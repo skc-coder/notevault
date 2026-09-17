@@ -5,8 +5,6 @@ tags:
   - function-pointers
   - study
 ---
-
-
 In C, function names decay to function pointers, and dereferencing function pointers resolves back to the function itself.
 
 ---

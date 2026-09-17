@@ -6,8 +6,6 @@ tags:
   - pointers
   - study
 ---
-
-
 Multidimensional arrays are stored in contiguous flat linear memory in **row-major order** (rightmost index changes most rapidly).
 
 ---
@@ -19,12 +17,5 @@ When a multidimensional array decays, only the outermost dimension is stripped a
 - `int a[5][6]` decays to `int (*)[6]` (pointer to an array of 6 integers), **never** `int **`.
 - Function parameter headers require all dimensions except the first:
   ```c
-  void process(int arr[][6]); // Valid parameter decay prototype
+  void process(int arr[][6]); // Valid parameter decay prototype, the first one was not needed any way, it would have been slashed away in the pointer decay
   ```
-
----
-
-## Linear Offset Calculation
-
-$$\text{Address of } arr[i][j] = \text{Base} + (i \cdot N + j) \cdot \text{sizeof}(\text{element})$$
-

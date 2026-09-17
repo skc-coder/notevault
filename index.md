@@ -3,7 +3,7 @@ cssclasses:
   - dashboard
   - cols-2
 ---
-
+# CS
 - 🌐 [[moc cs|CS Master MOC]]
 - ⚙️ [[moc os|OS MOC]]
 - 🧮 [[moc dm|Discrete Maths MOC]]

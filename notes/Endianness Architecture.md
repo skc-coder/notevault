@@ -6,8 +6,6 @@ tags:
   - memory
   - study
 ---
-
-
 > [!definition] Endianness
 > Endianness dictates byte-level ordering of multi-byte scalar primitives in memory:
 > - **Little-Endian:** Least Significant Byte (LSB) stored at lowest memory address.

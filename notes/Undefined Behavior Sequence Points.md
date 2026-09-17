@@ -6,10 +6,6 @@ tags:
   - sequence-points
   - study
 ---
-
-
----
-
 ## Unsequenced Scalar Modification Rule
 
 > [!trap] Undefined Behavior Trap
