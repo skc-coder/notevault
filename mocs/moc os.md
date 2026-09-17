@@ -54,10 +54,10 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 
 ## 🔒 Synchronization
 
-- **[[critical section problem]]** 14 - 18
+- [[critical section problem]] 14 - 18
 - [[hardware-supported-synchronization]] 19
-- **[[Semaphores]]** 20
-- [[Classic Problems]] 21, 22
+- [[Semaphores]] 20
+- [[Classic Synchronization Problems]] 21, 22
 - [[practice synchronization]]
 
 ---
@@ -65,7 +65,6 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 ## 💾 Memory Management
 
 - **Lecture 23** –  [[Base and Bound]]
-- [[base and bound temp]]
 - **Lecture 24** – [Optional] Base/Bound Questions (LIVE)
 - **Lecture 25** – Intro to [[Paging]] (LIVE)
 - **Lecture 26** – Single Level Paging Questions (LIVE)
