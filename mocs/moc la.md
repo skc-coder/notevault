@@ -1,4 +1,5 @@
 ---
+obsidianUIMode: preview
 cssclasses:
   - dashboard
   - cols-4

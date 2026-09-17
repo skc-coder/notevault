@@ -1,4 +1,5 @@
 ---
+obsidianUIMode: preview
 cssclasses:
   - dashboard
   - cols-4
@@ -64,7 +65,8 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 
 ## 💾 Memory Management
 
-- **Lecture 23** –  [[Base and Bound]]
+- classe  [[Base and Bound]]
+- [Segmentation](Segmentation)
 - **Lecture 24** – [Optional] Base/Bound Questions (LIVE)
 - **Lecture 25** – Intro to [[Paging]] (LIVE)
 - **Lecture 26** – Single Level Paging Questions (LIVE)

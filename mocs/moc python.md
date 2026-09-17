@@ -1,4 +1,5 @@
 ---
+obsidianUIMode: preview
 Folders:
   - "[[../langs]]"
 ---
