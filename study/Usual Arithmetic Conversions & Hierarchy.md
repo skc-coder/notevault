@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Usual Arithmetic Conversions & Hierarchy
 
 In C, binary arithmetic operations require operands to be converted to a common type before evaluation.
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, time-distance, subtopic]
 ---
 
-# Average Speed & Equal Distance Harmonics
 
 ## 1. General Definition
 

@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Critical Section & Race Conditions (MOC)
 
 ## Index of Atomic Notes
 

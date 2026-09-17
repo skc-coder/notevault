@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Operator Precedence & Associativity Hierarchy
 
 In C, operator precedence and associativity resolve syntactic grouping of expressions, **not** runtime order of evaluation.
 

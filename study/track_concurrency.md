@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, lcm, circular-track, race, subtopic]
 ---
 
-# Circular Track Concurrency & Race Masterclass
 
 ## The Ultimate Memory Trick: "START vs ANYWHERE"
 

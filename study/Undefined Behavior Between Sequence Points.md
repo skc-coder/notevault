@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Undefined Behavior Between Sequence Points
 
 ---
 

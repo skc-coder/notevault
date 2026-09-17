@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, trigonometry, subtopic, compound-angles]
 ---
 
-# Compound & Multiple Angles
 
 ## Theory & Intuition
 

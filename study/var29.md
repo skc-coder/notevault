@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, percentage, variation]
 ---
 
-# Variation 29: Price Increase with Expenditure-Consumption Compensation
 
 ## Problem Statement
 When commodity price rises by $P\%$, prove that a consumer must reduce consumption by $\frac{P}{100+P} \times 100\%$ to keep budget outlay strictly constant.

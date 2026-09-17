@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, roots, variation]
 ---
 
-# Square Roots and Cube Roots Variations
 
 ## Variation 1: Infinite Nested Radical Convergence
 

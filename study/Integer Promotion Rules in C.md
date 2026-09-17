@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Integer Promotion Rules in C
 
 CPU registers and Arithmetic Logic Units (ALUs) operate most efficiently on natural hardware word boundaries (typically 32-bit or 64-bit).
 

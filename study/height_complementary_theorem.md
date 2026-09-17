@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, heights-and-distances, subtopic, proof]
 ---
 
-# Complementary Angles Height Theorem
 
 ## Theorem Statement
 

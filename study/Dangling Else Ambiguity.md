@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Dangling Else Ambiguity
 
 In C, nested branching structures without explicit compound block braces (`{}`) exhibit the **dangling else ambiguity**.
 

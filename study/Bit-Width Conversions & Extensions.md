@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Bit-Width Conversions & Extensions
 
 > [!abstract] Overview
 > Hub note for literal typing, bit extension invariants (zero vs sign extension), narrowing truncation, usual arithmetic conversions, and printf formatting behavior.

@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, heights-and-distances, subtopic]
 ---
 
-# Broken Pole & Tree Folding Property
 
 ## Concept & Mathematical Derivation
 

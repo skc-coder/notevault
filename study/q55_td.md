@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, time-distance, question]
 ---
 
-# CDS Practice Question 55
 
 ## Question
 Walking at $3\text{ km/h}$, Rajeev reaches his school $15\text{ min}$ late. If he travels at $4\text{ km/h}$, he reaches $15\text{ min}$ earlier. The distance he has to travel is:

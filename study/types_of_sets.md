@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, set-theory, subtopic]
 ---
 
-# Types of Sets
 
 ## 1. Core Definitions & Notation
 A **set** is a well-defined collection of distinct objects.

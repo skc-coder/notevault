@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, percentage, subtopic, basics]
 ---
 
-# Percentage Basics & Fractional Conversion
 
 ## Theory & Conceptual Proofs
 

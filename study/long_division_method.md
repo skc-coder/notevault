@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, roots, division-method, subtopic]
 ---
 
-# Long Division Method for Square Roots
 
 ## 1. Core Intuition & Algebraic Foundation
 

@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Integer Constant Expressions (ICE)
 
 An Integer Constant Expression (ICE) is an expression of integer type that must evaluate at compile time without invoking runtime side effects or library routines.
 

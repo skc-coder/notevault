@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, koeppen-climate, topic]
 ---
 
-# Koeppen Climate Classification and Indian Climate
 
 Comprehensive, exhaustive master concept notes on Wladimir Köppen's World Climate Classification Scheme, Biomes, and Indian Monsoon Dynamics synthesized from Pages 205-228 of the Physical Geography PDF.
 

@@ -6,7 +6,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, number-system, topic]
 ---
 
-# Number System
 
 ## Subtopics
 

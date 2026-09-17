@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, sequence-series, subtopic]
 ---
 
-# Arithmetic Progression (AP) Properties & Summations
 
 ## Theory, Intuition & Derivations
 

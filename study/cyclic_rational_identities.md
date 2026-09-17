@@ -6,7 +6,6 @@ subtopic: "Cyclic Rational Identities"
 tags: [cds, math, cyclic-identities, algebra]
 ---
 
-# Cyclic Rational Identities & Symmetric Systems
 
 ## 1. System of 3 Linear Symmetric Rational Equations
 

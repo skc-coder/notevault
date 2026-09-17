@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Sequence Points & Short-Circuit Evaluation
 
 > [!abstract] Overview
 > Logical grouping of sequence points, short-circuit execution, and unsequenced undefined behavior.

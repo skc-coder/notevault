@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Critical Section Synchronization Criteria
 
 A section of code that accesses shared resources (such as memory, files, or hardware registers) is called a **Critical Section (CS)**.
 

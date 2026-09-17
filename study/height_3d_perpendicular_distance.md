@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, heights-and-distances, subtopic, 3d]
 ---
 
-# 3D Orthogonal Road Distance & Bearings
 
 ## Problem Archetype & Theorem
 

@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, electricity, magnetism, circuit, ohms-law]
 ---
 
-# Electricity and Magnetism
 
 Electrostatics, Current Electricity, Ohm's Law, Circuit Combinations, Joule Heating, Electromagnetic Induction, and Magnetic Effects.
 

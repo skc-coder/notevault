@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, statistics, subtopic, mean]
 ---
 
-# Measures of Central Tendency
 
 ## Theory & Conceptual Foundations
 

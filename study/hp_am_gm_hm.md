@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, sequence-series, subtopic]
 ---
 
-# Harmonic Progression & AM-GM-HM Fundamental Inequalities
 
 ## Theory, Intuition & Derivations
 

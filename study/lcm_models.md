@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, lcm, remainders, subtopic]
 ---
 
-# LCM Models & Remainder Theorems
 
 ## Core Remainder Models for Divided Numbers
 

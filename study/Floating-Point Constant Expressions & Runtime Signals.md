@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Floating-Point Constant Expressions & Runtime Signals
 
 Floating-point operations evaluated inside static or global initializers are resolved at translation time by the compiler under IEEE 754 rules.
 

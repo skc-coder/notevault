@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 6: Repunit Remainder Modulo 13
 
 What is the remainder when $N = \underbrace{777\dots777}_{30 \text{ times}}$ is divided by 13?
 

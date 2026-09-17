@@ -12,7 +12,6 @@ date: 2026-09-14
 
 <div class="title" style="color:#3b82f6; font-family: 'JetBrains Mono', monospace;">C++ ARCHITECTURE MODULE</div>
 
-# ⚡ C++ Polymorphism & OOP Map of Content
 
 - 🔒 Type Systems & Casting
   - [[content/general/cpp/type-casting-mechanics|1. Type Casting Mechanics & Class Hierarchy Transitions]]

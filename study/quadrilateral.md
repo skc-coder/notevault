@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, quadrilateral, polygon, geometry, topic]
 ---
 
-# Quadrilateral and Polygon
 
 ## 1. Overview & Core Definitions
 

@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, math, statistics, topic]
 ---
 
-# Statistics
 
 ## Theory, Intuition & Formulas
 

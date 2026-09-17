@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, time-distance, variation]
 ---
 
-# Variation 32: Transitive Distance Deficit in Three-Runner Races
 
 ## 1. Mathematical Statement
 

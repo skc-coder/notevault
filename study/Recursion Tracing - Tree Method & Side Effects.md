@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Recursion Tracing - Tree Method & Side Effects
 
 When tracing recursive execution paths, especially those involving persistent side effects (like `static` variables or global state), adopt systematic tree-tracing rules.
 

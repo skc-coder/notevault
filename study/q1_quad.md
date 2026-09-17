@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, question, trapezium, geometry]
 ---
 
-# Q1: Trapezium Diagonal Length Identity
 
 ## Question
 In a trapezium $ABCD$ with $AB \parallel CD$, prove that the sum of the squares of the diagonals is given by:

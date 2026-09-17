@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Storage Classes - Static & Extern
 
 ---
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, quadrilateral, trapezium, subtopic]
 ---
 
-# Trapezium & Isosceles Trapezium
 
 ## 1. Core Definition & Median
 A quadrilateral with at least one pair of parallel sides ($AB \parallel CD$).

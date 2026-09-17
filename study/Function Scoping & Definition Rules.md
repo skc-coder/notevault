@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Function Scoping & Definition Rules
 
 ---
 

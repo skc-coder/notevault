@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, solids, mensuration-3d, topic]
 ---
 
-# Surface Area and Volume of Solids
 
 ## 1. Overview & Core Definitions
 

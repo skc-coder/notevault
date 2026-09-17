@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, chemistry, acids, bases, salts, ph-scale, indicators, lewis-acid, bronsted-lowry, pyq]
 ---
 
-# Acids, Bases, Salts & Indicators
 
 Exhaustive notes covering Acid-Base theories (Arrhenius, Brønsted-Lowry, Lewis), indicators, pH scale & applications, key chemical salts (Bleaching Powder, Baking Soda, Washing Soda, Plaster of Paris), strength of acids/bases, and real PYQs (NDA/CDS/CAPF).
 

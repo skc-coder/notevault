@@ -7,7 +7,6 @@ subtopic: "Congruence"
 tags: [cds, math, triangles, congruence, subtopic]
 ---
 
-# Congruence of Triangles
 
 ## 1. Concept of Congruence
 

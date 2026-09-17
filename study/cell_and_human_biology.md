@@ -4,7 +4,6 @@ subject: "Biology"
 topic: "Cell Biology & Genetics"
 ---
 
-# Cell Biology & Genetics
 
 ## 1. The Cell — Fundamental Unit of Life
 The cell is the basic structural, functional, and biological unit of all living organisms.

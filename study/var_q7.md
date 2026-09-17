@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 7: Fluvial vs Aeolian vs Glacial Landform Matching
 
 ## Novel Tricky Variation
 

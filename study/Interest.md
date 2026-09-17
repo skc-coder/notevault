@@ -3,7 +3,6 @@ source: https://www.youtube.com/watch?v=hOO4teNGkUA&list=PL3JmT-xgOMNxGdXaRXitX0
 tags:
 problems: "[[cds/apti/notes/Problems - Interest]]"
 ---
-# Interest
 Interest is the extra money you earn/give on top of principal amount.
 
 The man who lends money is the Creditor and the man

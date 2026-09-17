@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, time-distance, races, subtopic]
 ---
 
-# Linear & Circular Races, Head Starts & Distance Deficits
 
 ## 1. Linear Races & Terminology
 

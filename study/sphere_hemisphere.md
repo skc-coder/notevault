@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, solids, sphere, hemisphere, subtopic]
 ---
 
-# Sphere, Hemisphere & Spherical Shell
 
 ## 1. Sphere
 

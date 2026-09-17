@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, time-distance, variation]
 ---
 
-# Variation 33: Round-Trip River Navigation & Still Water Speed Invariant
 
 ## 1. Mathematical Statement
 

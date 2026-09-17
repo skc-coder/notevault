@@ -4,7 +4,6 @@ tags: [c, cpp, refactoring, architectural-evolution, design-patterns, sage]
 date: 2026-09-14
 ---
 
-# 📜 Evolution of Polymorphism: C-Style Tagged Unions & Function Switches
 
 ## 🧠 Intuition & Core Motivation
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, quadrilateral, parallelogram, subtopic]
 ---
 
-# Parallelogram Properties & Theorems
 
 ## 1. Definition & Core Properties
 A quadrilateral in which opposite sides are parallel is called a **parallelogram**.

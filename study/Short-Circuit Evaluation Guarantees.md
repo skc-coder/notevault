@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Short-Circuit Evaluation Guarantees
 
 Logical operators in C (`&&`, `||`) evaluate strictly left-to-right and introduce an explicit sequence point between operand evaluations.
 

@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, landforms, topic]
 ---
 
-# Geomorphic Processes and Landforms
 
 Comprehensive, exhaustive master concept notes on Fluvial, Aeolian, Glacial, Karst, and Coastal Erosional and Depositional Landforms synthesized from Pages 104-146 of the Physical Geography PDF.
 

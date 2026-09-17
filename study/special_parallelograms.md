@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, quadrilateral, rectangle, rhombus, square, subtopic]
 ---
 
-# Rectangle, Rhombus & Square
 
 ## 1. Rectangle
 A parallelogram with all interior angles equal to $90^\circ$.

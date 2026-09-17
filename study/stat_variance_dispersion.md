@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, statistics, subtopic, variance, standard-deviation]
 ---
 
-# Dispersion & Variance
 
 ## Theory & Formulas
 

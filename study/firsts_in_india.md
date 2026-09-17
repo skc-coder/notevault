@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, general-knowledge, firsts, subtopic]
 ---
 
-# Firsts in India & National Milestones
 
 ## Key Principles & Historical Milestones
 

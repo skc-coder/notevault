@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, math, triangles, centroid, medians, area-partition, variation]
 ---
 
-# Variation 17: Median Partition & Sub-triangle Area Ratios
 
 ## Problem Pattern
 Questions testing area ratios formed by centroid $G$, midpoints of sides $D, E, F$, and medial triangle $\Delta DEF$.

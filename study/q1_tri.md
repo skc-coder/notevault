@@ -12,7 +12,6 @@ status: "Correct"
 tags: [cds, math, triangles, similarity, bisector, question]
 ---
 
-# Practice Q13: Internal Angle Bisector & Sub-triangle Area Ratio
 
 ## Question Text
 

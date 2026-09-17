@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 8: HCF via Successive Quotients
 
 In finding the HCF of two numbers by division method, the successive quotients from top to bottom are 1, 8, and 2. If the last divisor is 105, find the two numbers.
 

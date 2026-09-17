@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Software Synchronization Primitives & Attempts
 
 Software and hardware solutions utilize three core coordination abstractions:
 

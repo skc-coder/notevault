@@ -12,7 +12,6 @@ importance: "Important"
 tags: [cds, elementary-mathematics, decimals, question]
 ---
 
-# CDS Pathfinder Ch 4 Q10
 
 ## Question
 The value of $0.\bar{6} + 0.\bar{8} + 0.\bar{7}$ is:

@@ -15,7 +15,6 @@ tags:
   - statistics
 ---
 
-# 🧮 Comprehensive Mathematics Master Formula Sheet
 
 Complete reference of fundamental definitions, algebraic identities, number theory rules, sequence & series, geometry, mensuration, trigonometry, and statistics formulas across all competitive examinations.
 

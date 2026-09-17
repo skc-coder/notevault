@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, heights, variations]
 ---
 
-# Heights and Distances Master Variations
 
 ## Tier 1 Topic & Subtopic Variations
 

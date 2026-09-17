@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, geography, physical-geography, clouds-rainfall, topic]
 ---
 
-# Condensation, Clouds and World Rainfall
 
 Comprehensive, exhaustive master concept notes on Atmospheric Humidity, Dew Point, Condensation Forms (Fog, Mist, Dew, Frost), Cloud Classification, Rainfall Types, and Precipitation Dynamics synthesized from Pages 185-204 of the Physical Geography PDF.
 

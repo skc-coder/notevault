@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, heights-and-distances, topic]
 ---
 
-# Heights and Distances
 
 ## Theory, Intuition & Formulas
 

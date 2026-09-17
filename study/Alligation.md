@@ -45,7 +45,6 @@ $$\boxed{\frac{CP_1 Q_1}{CP_2 Q_2} = \frac{P\%_{avg} - P\%_2}{P\%_1 - P\%_{avg}}
 
 
 
-# Mixture & Alligation — Complete Master Notes
 
 ## 1. Core Concept & The Alligation Cross Method
 

@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, circle, variation]
 ---
 
-# Variation 24: Direct and Transverse Common Tangent Length Ratios
 
 ## 1. Problem Formulation & Theoretical Setup
 

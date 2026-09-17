@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, time-distance, boats-streams, subtopic]
 ---
 
-# Boats, Streams & Upstream/Downstream Motion
 
 ## 1. Key Definitions
 

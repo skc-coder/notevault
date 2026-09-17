@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, hcf-lcm-polynomials, variation]
 ---
 
-# Tier 1 Variation 12: Dual Parameter Polynomial HCF
 
 ## Variation Problem Description
 

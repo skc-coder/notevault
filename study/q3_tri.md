@@ -12,7 +12,6 @@ status: "Correct"
 tags: [cds, math, triangles, similarity, area-ratio, pyq, question]
 ---
 
-# CDS PYQ 2019 I Q71: Area Ratio of Similar Triangles
 
 ## Question Text
 

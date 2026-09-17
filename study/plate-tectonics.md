@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, plate-tectonics, topic]
 ---
 
-# Plate Tectonics, Mountains and Volcanism
 
 Comprehensive, exhaustive master concept notes on Plate Tectonics Theory, Continental Drift, Mountain Building (Orogeny), Faulting, Earthquake Dynamics, and Volcanic Landforms synthesized from Pages 78-95 of the Physical Geography PDF.
 

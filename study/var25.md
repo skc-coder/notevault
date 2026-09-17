@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, algebraic-operations, variation]
 ---
 
-# Variation 25: Symmetric Reciprocal High Power Sums
 
 ## Conceptual Framework
 Given $x + \frac{1}{x} = c$, evaluating high power sums such as $x^5 + \frac{1}{x^5}$ or $x^7 + \frac{1}{x^7}$ relies on pairing lower-degree symmetric polynomials.

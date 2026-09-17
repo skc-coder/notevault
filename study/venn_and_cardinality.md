@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, set-theory, subtopic]
 ---
 
-# Systematic 8-Region Method for 3-Set Word Problems
 
 ## 1. The Atomic 8-Region Variable Assignment Strategy
 Every 3-set problem ($A, B, C$) within a Universal set $U$ breaks down into **8 disjoint elementary regions**:

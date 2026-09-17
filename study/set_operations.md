@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, set-theory, subtopic]
 ---
 
-# Set Operations & Algebraic Laws
 
 ## 1. Core Operations
 1. **Union ($A \cup B$)**:

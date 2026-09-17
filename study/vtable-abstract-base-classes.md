@@ -4,7 +4,6 @@ tags: [cpp, vtable, vptr, virtual-destructor, abstract-base-class, interface, sa
 date: 2026-09-14
 ---
 
-# 🏗️ VTable Architecture, Virtual Destructors & Abstract Base Classes
 
 ## 🧠 Intuition & Core Motivation
 

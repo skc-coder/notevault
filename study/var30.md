@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, percentage, variation]
 ---
 
-# Variation 30: Income Expenditure Savings Shift and Percentage Net Growth
 
 ## Problem Statement
 Given an individual saving $s\%$ of income $I$. If income grows by $i\%$ and expenditure grows by $e\%$, analyze the percentage growth in savings $S$.

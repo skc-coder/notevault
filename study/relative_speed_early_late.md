@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, time-distance, subtopic]
 ---
 
-# Relative Speed & Early/Late Arrival Theorems
 
 ## 1. Relative Speed Fundamentals
 

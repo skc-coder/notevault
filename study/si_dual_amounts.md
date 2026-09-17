@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, subtopic]
 ---
 
-# Dual Maturity Amounts & Linear Rate System
 
 When a constant principal $P$ grows to amount $A_1$ in time $t_1$ and to amount $A_2$ in time $t_2$ at simple interest rate $R\%$:
 

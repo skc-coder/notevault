@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, oceanography, topic]
 ---
 
-# Oceanography, Ocean Currents and Coral Reefs
 
 Comprehensive, exhaustive master concept notes on Ocean Floor Relief, Marine Salinity, Tides, World Ocean Currents Circulation, and Coral Reef Ecology synthesized from Pages 229-251 of the Physical Geography PDF.
 

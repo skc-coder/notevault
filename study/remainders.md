@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, subtopic]
 ---
 
-# Remainders
 
 ## Theory & Properties
 

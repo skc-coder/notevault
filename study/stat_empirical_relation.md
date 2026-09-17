@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, statistics, subtopic, empirical-relation]
 ---
 
-# Empirical Relation & Skewness
 
 ## Theory & Mathematical Properties
 

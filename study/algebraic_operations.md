@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, algebraic-operations, topic]
 ---
 
-# Algebraic Operations
 
 ## Theory, Intuition & Formulas
 

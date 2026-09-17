@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, modular, theorem, wilson]
 ---
 
-# Wilson's Theorem
 
 ## Statement
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, physics, mechanics, projectile, derivation]
 ---
 
-# Projectile Motion
 
 Two-dimensional motion under constant gravitational acceleration $g$ directed downwards, where horizontal velocity remains invariant in the absence of air resistance.
 

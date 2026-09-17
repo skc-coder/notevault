@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 3: Planetary Motion Laws & Astronomical Pioneers
 
 ## Novel Tricky Variation
 

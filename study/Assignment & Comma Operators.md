@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Assignment & Comma Operators
 
 ---
 

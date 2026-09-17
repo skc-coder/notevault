@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Sequence Points Definition & Canonical Locations
 
 A sequence point governs execution ordering guarantees and memory side effects in C.
 

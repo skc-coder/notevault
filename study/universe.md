@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, universe, topic]
 ---
 
-# Universe and Solar System
 
 Exhaustive, high-density explanatory master notes covering every single concept, theory, formula, astronomical unit, planetary stat, solar structure, and PYQ from the 251-page Physical Geography Master Class PDF.
 

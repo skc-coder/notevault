@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, time-distance, boats-streams, question]
 ---
 
-# CDS Practice Question 56
 
 ## Question
 The speed of a boat upstream and downstream are $7\text{ km/h}$ and $13\text{ km/h}$ respectively. Then, the speed of the stream and the speed of the boat in still water are:

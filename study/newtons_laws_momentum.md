@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, physics, mechanics, newton-laws, momentum, impulse]
 ---
 
-# Newton's Laws and Momentum
 
 Fundamental principles governing force interaction, linear momentum conservation, and impulsive forces.
 

@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, time-distance, question]
 ---
 
-# CDS Practice Question 53
 
 ## Question
 A car completes a journey in $6\text{ h}$ with a speed of $50\text{ km/h}$. At what speed must it travel to complete the same journey in $5\text{ h}$?

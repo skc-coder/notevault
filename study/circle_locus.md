@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, circle, locus, subtopic]
 ---
 
-# Locus & Concentric Circles
 
 ## 1. Core Concepts & Properties
 

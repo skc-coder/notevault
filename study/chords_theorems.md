@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, circle, chords, subtopic]
 ---
 
-# Chords, Angles & Perpendicular Theorems
 
 ## 1. Core Theorems & Intuition
 

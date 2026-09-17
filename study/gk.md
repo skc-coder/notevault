@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, general-knowledge, India, cheatsheet, topic]
 ---
 
-# Indian General Knowledge
 
 Welcome to the comprehensive, high-density study guide and cheatsheet for **Indian General Knowledge** (covering key historical/national firsts, national symbols, military & defense structures, missile & space technology, civilian/gallantry awards, sports, books & authors, and international organizations).
 

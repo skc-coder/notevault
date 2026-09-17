@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, profit-and-loss, topic]
 ---
 
-# Profit and Loss
 
 ## Theory, Intuition & Formulas
 

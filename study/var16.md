@@ -7,7 +7,6 @@ derived_from: "Pathfinder Ch 16 Q19"
 tags: [cds, math, variation, novel-problem]
 ---
 
-# Variation 16: Infinite Product-Sum Telescoping Series
 
 ## Problem Statement
 Simplify the finite telescoping product-sum rational expression:

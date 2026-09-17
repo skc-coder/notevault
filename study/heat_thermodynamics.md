@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, heat, thermodynamics, expansion, humidity]
 ---
 
-# Heat and Thermodynamics
 
 Thermal expansion, heat transfer mechanisms, thermometry, thermodynamic laws, and relative humidity.
 

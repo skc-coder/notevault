@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Switch Statement & Duff's Device
 
 A `switch` statement controls multi-way branching based on an integer-compatible selector expression.
 

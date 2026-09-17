@@ -9,7 +9,6 @@ importance: "Normal"
 tags: [cds, math, circle, question]
 ---
 
-# Q3: Alternate Segment Theorem & Angle Calculation
 
 ## Question
 In the given circle, $PQ$ is a tangent to the circle at point $A$. $AB$ is a chord such that $\angle BAQ = 55^\circ$. If $C$ is a point on the major arc $AB$, what is the measure of $\angle ACB$?

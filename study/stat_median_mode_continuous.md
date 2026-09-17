@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, statistics, subtopic, median, mode]
 ---
 
-# Continuous Median & Mode Formulas
 
 ## Theory & Derivations
 

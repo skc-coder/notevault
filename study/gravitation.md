@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, gravitation, rotation, Kepler, satellites]
 ---
 
-# Gravitation and Rotational Motion
 
 Theory of Universal Gravitation, Acceleration due to Gravity Variations, Kepler's Laws of Planetary Motion, Satellite Dynamics, and Rotational Mechanics.
 

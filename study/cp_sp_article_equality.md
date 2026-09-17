@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, profit-and-loss, subtopic]
 ---
 
-# Article Count CP-SP Equivalence
 
 ## Theory & Mathematical Formulation
 

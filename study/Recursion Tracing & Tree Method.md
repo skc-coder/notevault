@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Recursion Tracing & Tree Method
 
 > [!abstract] Overview
 > Logical grouping of recursion tree tracing methods, static side effects, and activation stack frames.

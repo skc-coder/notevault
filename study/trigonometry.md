@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, math, trigonometry, topic]
 ---
 
-# Trigonometry
 
 ## Theory, Intuition & Formulas
 

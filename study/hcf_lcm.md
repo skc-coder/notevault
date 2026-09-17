@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, hcf-lcm, topic]
 ---
 
-# HCF and LCM
 
 ## Theory, Intuition & Formulas
 

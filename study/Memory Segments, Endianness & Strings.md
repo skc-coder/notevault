@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Memory Segments, Endianness & Strings
 
 > [!abstract] Overview
 > Logical grouping of byte endianness, string literal memory sections, and character arrays.

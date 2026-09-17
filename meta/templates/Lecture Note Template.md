@@ -7,7 +7,6 @@ tags:
 date_created: {{date}}
 ---
 
-# {{title}}
 
 ## Conceptual Breakdown & Mechanics
 *(Detailed, step-by-step lecture walkthrough, proofs, full derivations, memory layouts, algorithms, and technical illustrations)*

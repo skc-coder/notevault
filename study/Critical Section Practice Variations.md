@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Critical Section Practice Variations & Invariant Analysis
 
 Apply the contradiction and invariant rules directly to these three classic variations. For each problem, evaluate **Mutual Exclusion**, **Progress**, and **Bounded Waiting** without forward-tracing all interleavings.
 

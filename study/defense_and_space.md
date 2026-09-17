@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, general-knowledge, defense, space, subtopic]
 ---
 
-# Defense, Armed Forces & Space Technology
 
 ## Operational Structures & Missile Programs
 

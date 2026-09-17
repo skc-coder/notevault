@@ -13,7 +13,6 @@ tags:
 
 <div class="title" style="color:#a855f7; font-family: 'JetBrains Mono', monospace;">GATE MATH & PROBABILITY HUB</div>
 
-# 🎲 Probability Foundations & Axioms
 
 - 📐 Core Axioms & Spaces
   - [[gate-cs/math/Probability foundations|Probability Foundations]]

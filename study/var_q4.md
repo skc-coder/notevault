@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 4: Longitude Time Difference Multi-City Derivation
 
 ## Novel Tricky Variation
 

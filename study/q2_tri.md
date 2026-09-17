@@ -12,7 +12,6 @@ status: "Correct"
 tags: [cds, math, triangles, apollonius, median, pythagoras, question]
 ---
 
-# Practice Q39: Median Length Calculation via Apollonius Theorem
 
 ## Question Text
 

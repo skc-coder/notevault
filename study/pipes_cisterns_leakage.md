@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, time-and-work, subtopic]
 ---
 
-# Pipes, Cisterns & Outlet Leakage Invariants
 
 ## Core Principles & Mathematical Model
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, subtopic, heights]
 ---
 
-# Two-Point Observer Shift & Shadow Length Problems
 
 ## Theory & Intuitive Foundations
 

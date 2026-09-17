@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, time-distance, train, subtopic]
 ---
 
-# Train Problems & Crossing Point/Platform Invariants
 
 ## 1. Core Principles of Train Motion
 

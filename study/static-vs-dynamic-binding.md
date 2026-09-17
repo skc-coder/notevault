@@ -4,7 +4,6 @@ tags: [cpp, binding, polymorphism, virtual-functions, method-hiding, sage]
 date: 2026-09-14
 ---
 
-# ⚡ Masterclass: C++ Virtual Dispatch, Binding & NVI Architecture
 
 ## 🧠 Intuition & Core Motivation
 

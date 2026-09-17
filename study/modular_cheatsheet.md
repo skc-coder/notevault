@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, modular, cheatsheet, theorems]
 ---
 
-# Modular Arithmetic — Core Theorems, Properties & Models
 
 ## 1. Definition of Congruence
 $$a \equiv b \pmod m \iff m \mid (a - b) \iff a = k \cdot m + b$$

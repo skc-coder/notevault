@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, subtopic]
 ---
 
-# Fundamental Simple Interest Formulas & Rate Dynamics
 
 Simple Interest ($SI$) is calculated strictly on the original Principal ($P$) throughout the entire loan duration ($T$) at a constant rate ($R\%$) per annum.
 

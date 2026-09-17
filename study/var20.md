@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, math, triangles, apollonius, obtuse, inequalities, variation]
 ---
 
-# Variation 20: Apollonius Bounds & Median Bounds in Obtuse Triangles
 
 ## Problem Pattern
 Questions testing upper/lower bounds of median lengths in obtuse triangles and sum of median squares vs sum of side squares.

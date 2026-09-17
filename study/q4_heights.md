@@ -12,7 +12,6 @@ importance: "Normal"
 tags: [cds, elementary-mathematics, heights, question]
 ---
 
-# CDS Pathfinder Heights & Distances Q4
 
 ## Question Statement
 

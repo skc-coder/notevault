@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, subtopic, heights]
 ---
 
-# Flagstaff & Antenna Subtended Angles
 
 ## Theory & Derivation
 

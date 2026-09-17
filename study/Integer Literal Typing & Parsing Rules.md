@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Integer Literal Typing & Parsing Rules
 
 When an integer constant is written in C code without explicit type suffixes, the compiler assigns it the first type from the standard hierarchy capable of representing its value:
 

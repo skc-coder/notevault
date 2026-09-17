@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, trigonometry, subtopic, angles, clocks]
 ---
 
-# Angle Measurements & Clocks
 
 ## Theory & Intuition
 

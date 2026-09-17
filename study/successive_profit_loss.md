@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, profit-and-loss, subtopic]
 ---
 
-# Successive Profit and Loss
 
 ## Theory & Mathematical Formulation
 

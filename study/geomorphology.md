@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, geomorphology, topic]
 ---
 
-# Geomorphology and Earth Interior
 
 Comprehensive, exhaustive master concept notes on the interior structure of the Earth, crustal composition, seismic wave dynamics, discontinuities, and direct/indirect sources of geological data synthesized from Pages 20-35 of the Physical Geography PDF.
 

@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Bitwise Operations & Standard Idioms
 
 Bitwise operators perform direct binary bit manipulation on integer operands.
 

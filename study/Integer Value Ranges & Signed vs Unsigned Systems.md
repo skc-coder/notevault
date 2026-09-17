@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Integer Value Ranges & Signed vs Unsigned Systems
 
 Different binary encoding systems define distinct numerical bounds for $k$-bit integers.
 

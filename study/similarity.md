@@ -7,7 +7,6 @@ subtopic: "Similarity"
 tags: [cds, math, triangles, similarity, thales, subtopic]
 ---
 
-# Similarity of Triangles
 
 ## 1. Concept of Similarity
 

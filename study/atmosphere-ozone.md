@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, geography, physical-geography, atmosphere-ozone, topic]
 ---
 
-# Atmosphere, Ozone Layer and Greenhouse Effect
 
 Comprehensive, exhaustive master concept notes on Atmospheric Composition, Vertical Layering, Ozone Hole Mechanics, International Environmental Protocols, and Insolation & Heat Budget synthesized from Pages 147-162 of the Physical Geography PDF.
 

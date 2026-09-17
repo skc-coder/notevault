@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, hcf-lcm-polynomials, subtopic]
 ---
 
-# Euclidean Division Algorithm for Polynomials
 
 ## Core Concept & Theory
 

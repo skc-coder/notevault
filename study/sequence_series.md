@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, sequence-series, topic]
 ---
 
-# Sequence and Series
 
 ## Theory, Intuition & Formulas
 

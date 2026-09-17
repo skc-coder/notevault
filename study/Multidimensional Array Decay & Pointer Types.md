@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Multidimensional Array Decay & Pointer Types
 
 Multidimensional arrays are stored in contiguous flat linear memory in **row-major order** (rightmost index changes most rapidly).
 

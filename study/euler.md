@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, modular, theorem, euler]
 ---
 
-# Euler's Totient Theorem
 
 ## Statement & Formulation
 

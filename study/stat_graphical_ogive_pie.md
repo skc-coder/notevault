@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, statistics, subtopic, ogive, pie-chart, histogram]
 ---
 
-# Graphical Representation & Ogive Median
 
 ## Theory & Visual Techniques
 

@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Storage Classes Matrix & Register Class
 
 C specifies four core storage classes: `auto`, `register`, `static`, and `extern`.
 

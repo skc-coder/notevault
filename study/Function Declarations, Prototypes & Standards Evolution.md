@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Function Declarations, Prototypes & Standards Evolution
 
 A function declaration introduces the function name and its signature (parameter types and return type).
 

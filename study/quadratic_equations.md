@@ -13,7 +13,6 @@ tags:
   - algebra
 ---
 
-# Chapter 18: Quadratic Equations & Inequalities
 
 ---
 

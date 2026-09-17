@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, ratio, proportion, topic]
 ---
 
-# Ratio and Proportion
 
 ## Theory, Intuition & Formulas
 

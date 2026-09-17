@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, physics, mechanics, work, energy, power, theorem]
 ---
 
-# Work, Energy and Power
 
 Quantitative definition of scalar mechanical concepts, conservation principles, and Work-Energy Theorem.
 

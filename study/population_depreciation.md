@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, percentage, subtopic, population]
 ---
 
-# Population Growth & Compound Depreciation
 
 ## Theory & Proofs
 

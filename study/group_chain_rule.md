@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, time-and-work, subtopic]
 ---
 
-# Group Work & Chain Rule Fundamental Formula
 
 ## General Equation & Proof
 

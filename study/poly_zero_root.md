@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, hcf-lcm-polynomials, subtopic]
 ---
 
-# Zero Root Evaluation Method
 
 ## Core Concept & Theorem
 

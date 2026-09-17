@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Array Decay Rule & Exceptions
 
 > [!definition] Array Decay Rule
 > In almost all value contexts and expressions, an expression of array type `T[N]` automatically converts (**decays**) into a pointer to its first element:

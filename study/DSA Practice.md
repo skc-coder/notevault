@@ -57,7 +57,6 @@
 
 ---
 
-# 🐛 MISTAKES
 
 ## 📌 Topic Index
 

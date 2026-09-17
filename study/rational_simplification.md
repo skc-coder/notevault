@@ -6,7 +6,6 @@ subtopic: "Simplification & Telescoping"
 tags: [cds, math, simplification, telescoping]
 ---
 
-# Rational Simplification & Telescoping
 
 ## 1. Structural Telescoping in Rational Series
 

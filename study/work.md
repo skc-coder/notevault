@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, time-and-work, topic]
 ---
 
-# Time and Work
 
 ## Theory, Intuition & Formulas
 

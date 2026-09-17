@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Narrowing & Truncation Mechanics
 
 Converting a wider integer type to a narrower integer type (narrowing conversion) causes excess bits to be discarded.
 

@@ -7,7 +7,6 @@ source: "Pathfinder Chapter 16 Q15"
 tags: [cds, math, rational-expressions, question]
 ---
 
-# Question 15 (Pathfinder Ch 16)
 
 ## Problem Statement
 If:

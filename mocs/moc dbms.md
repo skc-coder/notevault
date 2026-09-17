@@ -8,7 +8,6 @@ cssclasses:
 
 Link OS sync with DBMS sync transactional cocomurecny managements
 
-# Summary
 ## 📊 Module 1: Relational Model & Normalization
 
 - **Relational Model** – Complete Summary & GATE PYQs (239:00)

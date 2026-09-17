@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 4: Divisibility of 3-Digit Repeated Number (1001 Principle)
 
 A 6-digit number formed by repeating a 3-digit number (e.g. $abcabc$) is always divisible by:
 

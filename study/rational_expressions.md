@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, math, rational-expressions, algebra]
 ---
 
-# Rational Expressions
 
 ## 1. Foundational Definition & Properties
 

@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, circle, variation]
 ---
 
-# Variation 26: Ptolemy's Theorem in Cyclic Quadrilaterals
 
 ## 1. Mathematical Statement
 

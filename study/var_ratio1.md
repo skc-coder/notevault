@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, elementary-mathematics, ratio, variation, cd-theorem]
 ---
 
-# Variation 1: Nested Componendo-Dividendo Higher Algebraic Invariant
 
 ## Novel Problem Statement
 If $\frac{x^3 + 3x}{3x^2 + 1} = \frac{189}{61}$, find the real value of $x$.

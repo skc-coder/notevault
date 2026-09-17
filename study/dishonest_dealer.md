@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, profit-and-loss, subtopic]
 ---
 
-# Dishonest Dealer and False Weights
 
 ## Theory & Mathematical Formulation
 

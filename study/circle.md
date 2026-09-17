@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, circle, geometry, topic]
 ---
 
-# Circle
 
 ## 1. Overview & Core Definitions
 

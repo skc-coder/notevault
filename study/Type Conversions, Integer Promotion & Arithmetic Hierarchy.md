@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Type Conversions, Integer Promotion & Arithmetic Hierarchy
 
 > [!abstract] Overview
 > Unified hub note for type conversions, integer promotion rules, conversion rank hierarchy, and usual arithmetic conversions in C.

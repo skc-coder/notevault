@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 1: Multi-Statement Planetary Accretion & Nebular Hypotheses
 
 ## Tricky Novel Variation Statement
 

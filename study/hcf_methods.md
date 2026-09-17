@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, hcf, subtopic]
 ---
 
-# HCF Models & Co-Prime Pair Counting
 
 ## Theory & Calculation Methods
 

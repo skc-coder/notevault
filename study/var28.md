@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, percentage, variation]
 ---
 
-# Variation 28: Successive Price Increase and Decrease Net Effect
 
 ## Problem Statement
 An item's price is increased by $x\%$ and subsequently decreased by $x\%$. Prove that the final price is strictly less than the original price by $\frac{x^2}{100}\%$.

@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, heights-and-distances, variation]
 ---
 
-# Variation 21: Elliptic Cloud Reflection in Spherical Lake
 
 ## Generalised Formula
 

@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, geography, physical-geography, winds-cyclones, topic]
 ---
 
-# Pressure Belts, Local Winds and Cyclones
 
 Comprehensive, exhaustive master concept notes on Global Pressure Belts, Planetary Winds, Local Winds of the World, Jet Streams, and Tropical vs Temperate Cyclones synthesized from Pages 163-184 of the Physical Geography PDF.
 

@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, modular-arithmetic, topic]
 ---
 
-# Modular Arithmetic
 
 ## Theory, Intuition & Key Properties
 

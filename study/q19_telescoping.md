@@ -7,7 +7,6 @@ source: "Pathfinder Chapter 16 Q19 (CDS 2014 II)"
 tags: [cds, math, rational-expressions, question, pyq]
 ---
 
-# Question 19 (CDS 2014 II - Pathfinder Ch 16)
 
 ## Problem Statement
 Simplify the expression:

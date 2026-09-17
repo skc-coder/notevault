@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, percentage, variation]
 ---
 
-# Variation 31: Solution Evaporation and Solute Concentration Maintenance
 
 ## Problem Statement
 In a liquid solution of volume $V$ containing solute concentration $c_1\%$, water is evaporated until solute concentration rises to $c_2\%$. Prove that volume of evaporated water is $V \left(1 - \frac{c_1}{c_2}\right)$.

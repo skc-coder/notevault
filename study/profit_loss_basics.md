@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, profit-and-loss, subtopic]
 ---
 
-# Basic Profit and Loss Invariants
 
 ## Theory & Mathematical Formulation
 

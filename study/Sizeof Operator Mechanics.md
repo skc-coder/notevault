@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Sizeof Operator Mechanics
 
 The `sizeof` operator yields the size in bytes of its operand.
 

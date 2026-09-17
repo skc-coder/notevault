@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, modular, theorem, flt]
 ---
 
-# Fermat's Little Theorem (FLT)
 
 ## Statement & Formulation
 

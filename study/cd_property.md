@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, ratio, subtopic, proof, cd-theorem]
 ---
 
-# Componendo and Dividendo Theorem & Algebraic Invariants
 
 ## Theory & Proofs
 

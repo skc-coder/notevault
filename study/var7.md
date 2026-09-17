@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 7: AP Sum with Dual Remainders
 
 Find the sum of all 2-digit numbers leaving remainder 3 when divided by 5 and remainder 1 when divided by 4.
 

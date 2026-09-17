@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, modern-physics, photoelectric, semiconductors, radiation]
 ---
 
-# Modern Physics and Communication
 
 Cathode Rays, X-Rays, Photoelectric Effect, Mass-Energy Equivalence, Nuclear Physics, Semiconductors, and Communication Systems.
 

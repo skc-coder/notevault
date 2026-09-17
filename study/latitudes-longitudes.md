@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, geography, physical-geography, latitudes-longitudes, topic]
 ---
 
-# Latitudes, Longitudes and Time Systems
 
 Comprehensive, exhaustive master concept notes on Latitudes, Parallels, Longitudes, Meridians, Standard Time Systems, International Date Line, and Solstices/Equinoxes synthesized from Pages 35-55 of the Physical Geography PDF.
 

@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Static Initializers & Address Constants
 
 Objects declared with static storage duration (`static` variables and global variables) must be initialized with compile-time constants prior to program execution.
 

@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Relational Chaining Pitfall
 
 Continuous mathematical inequality chaining does **not** hold in C due to strict left-to-right relational evaluation.
 

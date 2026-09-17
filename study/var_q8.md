@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 8: Ocean Current Temperature & Desert Creation Link
 
 ## Novel Tricky Variation
 

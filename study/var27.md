@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, solids, variations, var27]
 ---
 
-# Advanced 3D Mensuration & Solid Geometry Variations
 
 ## Variation 1: Rate of Liquid Flow Through Pipe into Cylindrical/Rectangular Tank
 

@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, waves, SHM, sound, Doppler, SONAR]
 ---
 
-# Waves and Oscillations
 
 Simple Harmonic Motion (SHM), Wave Classification, Sound Propagation, Doppler Effect, and Applications (SONAR, Echo).
 

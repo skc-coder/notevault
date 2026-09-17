@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, subtopic, heights]
 ---
 
-# Elevated Observer & Opposite Building Models
 
 ## Theory & Derivation
 

@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Bit-Width Extensions & Sign vs Zero Extension
 
 When converting a narrower integer type to a wider integer type (widening conversion), numeric value preservation is guaranteed. However, the mechanism used to fill upper bits depends on the operand source type.
 

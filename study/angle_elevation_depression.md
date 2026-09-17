@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, subtopic, heights]
 ---
 
-# Angle of Elevation & Depression Fundamentals
 
 ## Theory & Intuitive Foundations
 

@@ -11,7 +11,6 @@ tags:
 
 <div class="title" style="color:#eab308; font-family: 'JetBrains Mono', monospace;">GENERAL APTITUDE MODULE</div>
 
-# 📐 Quantitative Aptitude & Foundations
 
 - 🔢 Calculation & Number Theory
   - [[cds/apti/notes/Number Theory|Number Theory & Modular Arithmetic]]

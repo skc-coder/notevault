@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, math, set-theory, topic]
 ---
 
-# Set Theory
 
 ## Theory, Intuition & Formulas
 

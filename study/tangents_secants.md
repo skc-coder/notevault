@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, circle, tangents, subtopic]
 ---
 
-# Tangents, Secants & Power of a Point
 
 ## 1. Tangent Properties & Power of a Point
 

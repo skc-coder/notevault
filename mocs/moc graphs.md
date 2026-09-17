@@ -13,7 +13,6 @@ tags:
 
 <div class="title" style="color:#10b981; font-family: 'JetBrains Mono', monospace;">GRAPH THEORY MODULE</div>
 
-# 🕸️ Graph Theory Topic & Chapter Map
 
 - 📌 Fundamentals & Traversal
   - Graph Basics & Types of Graphs

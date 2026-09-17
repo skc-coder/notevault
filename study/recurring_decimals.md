@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, decimals, subtopic]
 ---
 
-# Decimal Fractions & Recurring Decimals
 
 ## Theory, Intuition & Formulas
 

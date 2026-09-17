@@ -7,7 +7,6 @@ subtopic: "Centers"
 tags: [cds, math, triangles, centroid, incenter, circumcenter, orthocenter, subtopic]
 ---
 
-# Centers of Triangles
 
 ## 1. Summary of 4 Core Triangle Centers
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, remainder-theorem, factor-theorem, subtopic]
 ---
 
-# Remainder and Factor Theorem
 
 ## Theory & Proofs
 

@@ -4,7 +4,6 @@ tags: [cpp, refactoring, oop, open-closed-principle, factory-pattern, polymorphi
 date: 2026-09-14
 ---
 
-# 🚀 Refactoring to C++ Polymorphic Hierarchy & Architectural Evolution
 
 ## 🧠 Intuition & Core Motivation
 

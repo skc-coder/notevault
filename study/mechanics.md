@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, mechanics, kinematics, forces, momentum]
 ---
 
-# Mechanics
 
 Comprehensive theoretical framework and formula derivations for Kinematics, Dynamics, Newton's Laws, Momentum, Impulse, Work, Energy, Power, and Projectile Motion.
 

@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Variadic Printf Argument Pipeline
 
 Arguments passed to variadic functions like `printf` undergo default argument promotions.
 

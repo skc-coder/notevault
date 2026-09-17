@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, trigonometry, subtopic, identities]
 ---
 
-# Fundamental Identities & Ratios
 
 ## Theory & Intuition
 

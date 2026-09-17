@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, trigonometry, question, quotient-transformation]
 ---
 
-# CDS Practice Q20 (Trigonometry)
 
 ## Question
 The value of $\frac{\cos 11^\circ + \sin 11^\circ}{\cos 11^\circ - \sin 11^\circ}$ is:

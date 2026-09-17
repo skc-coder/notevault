@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Pointers, Array Decay & Indexing
 
 > [!abstract] Overview
 > Logical grouping of pointer sizing, addressability, array decay rules, and pointer arithmetic.

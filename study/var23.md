@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, variation, quadrilateral, polygon]
 ---
 
-# Quadrilateral & Polygon Novel Variations
 
 ## Variation 21: Trapezium Diagonal Intersection & Area Split Formula
 In trapezium $ABCD$ with $AB \parallel CD$, diagonals $AC$ and $BD$ intersect at $O$.

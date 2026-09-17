@@ -4,7 +4,6 @@ cssclasses:
   - cols-4
 title: index
 ---
-# 💻 GATE 
 
 - 🌐 [[moc cs|CS Master MOC]]
 - ⚙️ [[moc os|OS MOC]]

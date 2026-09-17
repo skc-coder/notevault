@@ -8,7 +8,6 @@ mastery: mid
 review date: 2026-09-23
 ---
 
-# Process Synchronization Practice MOC
 
 - **Weekly Quiz**: https://gateoverflow.in/exam/992
 

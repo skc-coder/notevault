@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, hcf-lcm-polynomials, variation]
 ---
 
-# Tier 3 Variation 14: Difference of Powers Divisibility Identity
 
 ## Variation Problem Description
 

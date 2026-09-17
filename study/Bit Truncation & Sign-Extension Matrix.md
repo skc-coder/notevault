@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Bit Truncation & Sign-Extension Matrix
 
 ## 1. Overview & Setup 🗺️
 

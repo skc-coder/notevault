@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Shared Counter & Race Condition Mechanics
 
 When multiple threads access shared mutable state without proper synchronization, non-atomic machine instructions allow interleavings that cause race conditions.
 

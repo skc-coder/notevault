@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Peterson's Algorithm & Order Invariant
 
 Peterson's Algorithm merges the intention flag array with an arbitration turn variable to satisfy all primary and secondary Critical Section requirements for two processes.
 

@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, chemistry, matter, states-of-matter, plasma, bec, separation-methods, colloids, gas-laws]
 ---
 
-# Classification of Matter & Physical States
 
 Exhaustive chapter notes covering the Pancha Tattva, 5 States of Matter (Solid, Liquid, Gas, Plasma, Bose-Einstein Condensate), Kinetic Molecular Theory, Gas Laws, Latent Heat, True Solutions, Colloids, Suspensions, Separation Techniques, Water Treatment, and Physical vs Chemical Changes.
 

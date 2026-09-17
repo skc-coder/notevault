@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, simple-interest, topic]
 ---
 
-# Simple Interest
 
 ## Theory, Intuition & Formulas
 

@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, time-distance, races, question]
 ---
 
-# CDS Practice Question 57
 
 ## Question
 In a $200\text{ m}$ race, $A$ can beat $B$ by $50\text{ m}$ and $B$ can beat $C$ by $8\text{ m}$. In the same race, $A$ can beat $C$ by what distance?

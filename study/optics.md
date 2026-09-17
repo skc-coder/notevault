@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, optics, refraction, reflection, lenses, human-eye]
 ---
 
-# Optics and Optical Instruments
 
 Geometrical optics, mirror/lens formulas, refraction, total internal reflection, dispersion, and vision correction.
 

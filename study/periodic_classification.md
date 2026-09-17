@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, chemistry, periodic-table, mendeleev, modern-periodic-law, atomic-radius, electronegativity, ionization-energy]
 ---
 
-# Periodic Classification of Elements
 
 Exhaustive chapter notes covering Early Triads & Octaves, Mendeleev's Periodic Table, Modern Periodic Law (Moseley), Block Classification ($s, p, d, f$), and Periodic Trends (Atomic Radius, Valency, Ionization Energy, Electronegativity, Metallic Character).
 

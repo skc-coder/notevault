@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 2: Lagrange Points Gravitational Equilibrium & Distance Variations
 
 ## Tricky Novel Variation Statement
 

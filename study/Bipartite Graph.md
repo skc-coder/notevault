@@ -3,7 +3,6 @@ tags: [graph-theory, discrete-mathematics, bipartite-graphs]
 source: https://en.wikipedia.org/wiki/Bipartite_graph
 created: 2026-03-13
 ---
-# Key Concepts
 
 | Concept                  | Meaning                                                    |
 | ------------------------ | ---------------------------------------------------------- |

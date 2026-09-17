@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, roots, subtopic]
 ---
 
-# Prime Factorization & Division Method
 
 ## Theory, Intuition & Properties
 

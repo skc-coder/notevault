@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, polygon, regular-polygon, hexagon, octagon, subtopic]
 ---
 
-# Polygons & Regular Polygons
 
 ## 1. General Polygon Properties ($n$ sides)
 - **Sum of Interior Angles**:

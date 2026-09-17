@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, subtopic, heights]
 ---
 
-# Complementary Angles Theorem for Height
 
 ## Theory & Algebraic Proof
 

@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, general-knowledge, variations]
 ---
 
-# General Knowledge Conceptual Variations
 
 ## Variations
 

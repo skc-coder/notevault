@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, percentage, subtopic, price-consumption]
 ---
 
-# Asymmetric Comparison & Price-Consumption Balance
 
 ## ⚡ The Single Base-Switch Rule
 

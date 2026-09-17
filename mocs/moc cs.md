@@ -8,7 +8,6 @@ cssclasses:
 
 <div class="title" style="color:#6366f1; font-family: 'JetBrains Mono', monospace;">GATE COMPUTER SCIENCE HUB</div>
 
-# 💻 GATE CS Core Subject Maps
 
 - ⚙️ Low-Level & Systems
   - [[mocs/moc os|OS MOC (OS)]]

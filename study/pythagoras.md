@@ -7,7 +7,6 @@ subtopic: "Pythagoras & Apollonius"
 tags: [cds, math, triangles, pythagoras, apollonius, median, subtopic]
 ---
 [Materail For Traignles Propertiese](/materail for traignles propertiese)
-# Pythagoras & Apollonius Theorems
 
 ## 1. Pythagoras Theorem & Converse
 

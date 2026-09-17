@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, circle, cyclic-quadrilateral, subtopic]
 ---
 
-# Cyclic Quadrilaterals & Ptolemy's Theorem
 
 ## 1. Core Properties & Theorems
 

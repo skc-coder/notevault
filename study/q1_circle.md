@@ -9,7 +9,6 @@ importance: "Normal"
 tags: [cds, math, circle, question]
 ---
 
-# Q1: Perpendicular Distance from Centre to Chord
 
 ## Question
 In a circle with centre $O$ and radius $r = 5\text{ cm}$, $AB$ is a chord of length $8\text{ cm}$. If $OM \perp AB$, what is the length of $OM$?

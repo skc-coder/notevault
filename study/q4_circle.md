@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, circle, question]
 ---
 
-# Q4: Cyclic Quadrilateral Exterior & Opposite Angles
 
 ## Question
 $ABCD$ is a cyclic quadrilateral. Side $AB$ is produced to point $E$. If $\angle CBE = 95^\circ$ and $\angle BAC = 40^\circ$, what is the measure of $\angle ACD$?

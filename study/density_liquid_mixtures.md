@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, physics, matter, density, relative-density, fluid-mechanics, subtopic]
 ---
 
-# Density & Liquid Mixtures
 
 Fundamentals of mass density, relative density with respect to water, and mixture density formulas for equal volume vs equal mass mixing.
 

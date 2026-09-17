@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Functions, Prototypes & Variadic printf
 
 > [!abstract] Overview
 > Logical grouping of function prototypes, decay parameters, function scoping, and variadic printf arguments.

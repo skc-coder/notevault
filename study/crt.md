@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, modular, theorem, crt]
 ---
 
-# Chinese Remainder Theorem (CRT)
 
 ## Statement & Construction
 

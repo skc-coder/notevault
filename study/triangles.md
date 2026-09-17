@@ -6,7 +6,6 @@ topic: "Triangles"
 tags: [cds, math, triangles, geometry, topic]
 ---
 
-# Triangles
 
 ## 1. Overview & Fundamental Properties
 

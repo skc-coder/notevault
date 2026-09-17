@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, elementary-mathematics, profit-and-loss, subtopic]
 ---
 
-# Equal Selling Price Dual Transactions
 
 ## Theory & Mathematical Formulation
 

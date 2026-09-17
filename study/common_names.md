@@ -6,7 +6,6 @@ difficulty: "Easy"
 tags: [cds, chemistry, common-names, chemical-formulas, industrial-processes, vitriols, ores]
 ---
 
-# Common Names, Chemical Formulas & Industrial Processes
 
 
 These processes are frequently tested to check your knowledge of industrial chemistry, specific products, and their required catalysts.

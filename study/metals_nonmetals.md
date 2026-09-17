@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, chemistry, metals, non-metals, reactivity-series, metallurgy, alloys, ionic-bonds, ores]
 ---
 
-# Metals and Non-Metals
 
 Exhaustive chapter notes covering Physical & Chemical Properties of Metals vs Non-Metals, Reactivity Series, Amphoteric Oxides, Ionic vs Covalent Bonding, Metallurgy & Ore Extraction, Corrosion & Alloy Formations.
 

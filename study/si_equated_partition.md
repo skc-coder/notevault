@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, subtopic]
 ---
 
-# Equated Simple Interest & Capital Partitioning Theorem
 
 When a total sum $P$ is divided into multiple parts $P_1, P_2, P_3, \dots, P_n$ lent at rates $R_1, R_2, \dots, R_n$ for times $T_1, T_2, \dots, T_n$:
 

@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, percentage, subtopic, mixture]
 ---
 
-# Mixture Evaporation & Solution Adulteration
 
 ## Theory & Proofs
 

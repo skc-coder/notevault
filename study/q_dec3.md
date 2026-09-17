@@ -12,7 +12,6 @@ importance: "Important"
 tags: [cds, elementary-mathematics, decimals, question]
 ---
 
-# CDS Pathfinder Ch 4 Ex 8
 
 ## Question
 The vulgar fraction of $0.12\overline{36}$ is:

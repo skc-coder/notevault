@@ -12,7 +12,6 @@ importance: "Important"
 tags: [cds, elementary-mathematics, decimals, question]
 ---
 
-# CDS Pathfinder Ch 4 Q8
 
 ## Question
 When $0.232323\dots$ is converted into a fraction, then the result is:

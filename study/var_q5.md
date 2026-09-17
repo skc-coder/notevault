@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 5: P-Wave vs S-Wave Shadow Zone Traps
 
 ## Novel Tricky Variation
 

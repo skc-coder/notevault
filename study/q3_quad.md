@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, question, hexagon, polygon]
 ---
 
-# Q3: Regular Hexagon Area and Sub-Triangle Ratio
 
 ## Question
 Let $ABCDEF$ be a regular hexagon with side length $a$.

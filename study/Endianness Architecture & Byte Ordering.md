@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Endianness Architecture & Byte Ordering
 
 > [!definition] Endianness
 > Endianness dictates byte-level ordering of multi-byte scalar primitives in memory:

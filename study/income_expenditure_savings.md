@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, percentage, subtopic, income-savings]
 ---
 
-# Income, Expenditure, and Savings Models
 
 ## Theory & Proofs
 

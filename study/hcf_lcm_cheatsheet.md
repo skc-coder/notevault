@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, hcf-lcm, cheatsheet, theorems]
 ---
 
-# HCF & LCM — Core Theorems, Properties & Models
 
 ## 1. Fundamental Definitions & Canonical Prime Factorization
 For canonical prime factorizations $A = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$ and $B = p_1^{b_1} p_2^{b_2} \cdots p_k^{b_k}$:

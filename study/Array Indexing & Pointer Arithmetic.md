@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Array Indexing & Pointer Arithmetic
 
 The array subscript operator `[]` in C is defined strictly by pointer arithmetic.
 

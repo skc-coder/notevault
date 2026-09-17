@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, general-knowledge, awards, subtopic]
 ---
 
-# Civilian, Gallantry & Literary Awards
 
 ## Honors & Hierarchy Matrix
 

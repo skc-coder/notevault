@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Function Pointers & Canonical Invocation
 
 In C, function names decay to function pointers, and dereferencing function pointers resolves back to the function itself.
 

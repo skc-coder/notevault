@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, set-theory, subtopic]
 ---
 
-# Cartesian Product & Ordered Pairs
 
 ## 1. Ordered Pairs
 An ordered pair $(a, b)$ consists of two elements $a \in A$ and $b \in B$ in a fixed order.

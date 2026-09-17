@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Process Memory Layout - Segments & Stack
 
 A compiled program binary is organized into runtime memory segments relative to hardware base pointers:
 

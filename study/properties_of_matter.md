@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, matter, elasticity, fluid-mechanics, surface-tension, viscosity]
 ---
 
-# Properties of Matter and Fluid Mechanics
 
 Hydrostatics, Hydrodynamics, Elasticity, Pascal's Principle, Archimedes' Buoyant Force, Surface Tension, and Viscosity.
 

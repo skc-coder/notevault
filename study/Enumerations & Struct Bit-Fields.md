@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Enumerations & Struct Bit-Fields
 
 Enumeration constants and struct bit-fields rely directly on Integer Constant Expressions (ICE) in C grammar.
 

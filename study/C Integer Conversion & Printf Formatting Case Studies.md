@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# C Integer Conversion & Printf Formatting Case Studies
 
 Understanding how truncation on assignment interacts with variadic integer promotion in `printf` requires tracing step-by-step bit transformations.
 

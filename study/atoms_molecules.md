@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, chemistry, atoms, molecules, atomic-structure, valency, dalton, berzelius, isotopes, rutherford, bohr]
 ---
 
-# Atoms, Molecules & Atomic Structure
 
 Exhaustive notes covering Maharishi Kanad's Pancha Parmanu, Laws of Chemical Combination, Dalton's Atomic Theory, Berzelius Alphabetic Symbol System, Atomic Mass ($u$), Valency Rules (Magic 8 Rule), Subatomic Particles ($e^-, p^+, n^0$), Atomic Models (Thomson, Rutherford, Bohr), Quantum Electron Configurations ($s, p, d, f$), and Isotopes/Isobars/Isotones.
 

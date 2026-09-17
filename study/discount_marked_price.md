@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, profit-and-loss, subtopic]
 ---
 
-# Marked Price, Discount and Markup
 
 ## Theory & Mathematical Formulation
 

@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, subtopic]
 ---
 
-# Ratios and Proportions
 
 ## Theory & Properties
 

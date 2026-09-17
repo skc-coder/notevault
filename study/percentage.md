@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, math, percentage, topic]
 ---
 
-# Percentage
 
 ## Theory, Intuition & Formulas
 

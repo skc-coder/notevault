@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, geography, physical-geography, rocks-minerals, topic]
 ---
 
-# Rocks, Minerals and Rock Cycle
 
 Comprehensive, exhaustive master concept notes on Rock Classification (Igneous, Sedimentary, Metamorphic), Mineralogy, and the Rock Cycle synthesized from Pages 95-103 of the Physical Geography PDF.
 

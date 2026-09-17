@@ -7,7 +7,6 @@ source: "Pathfinder Chapter 16 Q20 (CDS 2016 I)"
 tags: [cds, math, rational-expressions, question, pyq]
 ---
 
-# Question 20 (CDS 2016 I - Pathfinder Ch 16)
 
 ## Problem Statement
 If $a - by^2 - cz^2 = 0$, $ax^2 - b + cz^2 = 0$, and $ax^2 + by^2 - c = 0$, find the value of:

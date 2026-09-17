@@ -14,7 +14,6 @@ tags:
   - thermodynamics
 ---
 
-# ⚡ Comprehensive Physics Master Formula Sheet
 
 Exhaustive quantitative reference guide covering all principles, physical constants, SI units, scalar/vector rules, and formulas across Kinematics, Dynamics, Gravitation, Hydrostatics, Thermodynamics, Optics, Electricity, Magnetism, and Modern Physics.
 

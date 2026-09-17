@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, chemistry, chemical-reactions, redox, combination, decomposition, displacement, oxidation, catalysts]
 ---
 
-# Chemical Reactions & Equations
 
 Exhaustive chapter notes covering characteristics of chemical reactions, balancing equations, types of chemical reactions (Combination, Decomposition, Displacement, Double Displacement), Exothermic vs Endothermic processes, Redox theory (Oxidation states, Oxidizing/Reducing agents), Catalysts, Corrosion, and Rancidity.
 

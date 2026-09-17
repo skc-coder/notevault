@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, geography, physical-geography, cheatsheet]
 ---
 
-# Physical & World Geography: Universe, Solar System & Earth
 
 ## Theory, Intuition & Key Concepts
 

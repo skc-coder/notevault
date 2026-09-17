@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Operators, Precedence & Bitwise Idioms
 
 > [!abstract] Overview
 > Logical grouping of operator precedence hierarchies, relational pitfalls, bitwise idioms, and assignment operators.

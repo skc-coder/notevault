@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, geography, physical-geography, variation]
 ---
 
-# Variation 6: Rock Type Classification Trap
 
 ## Novel Tricky Variation
 

@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Complex Declarations & Clockwise Spiral Rule
 
 To parse complex C declarations, start from the identifier and spiral outward clockwise, adhering to operator precedence.
 

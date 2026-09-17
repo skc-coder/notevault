@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, percentage, subtopic, successive]
 ---
 
-# Successive Percentage & Net Change
 
 ## Theory & Proofs
 

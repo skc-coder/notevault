@@ -12,7 +12,6 @@ status: "Correct"
 tags: [cds, math, triangles, incenter, angle, pyq, question]
 ---
 
-# CDS PYQ 2018 II Q65: Incenter Angle Formula
 
 ## Question Text
 

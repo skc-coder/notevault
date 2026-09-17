@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 3: Homogeneous Quadratic Ratio
 
 If $\frac{p}{3} = \frac{q}{4} = \frac{r}{5}$, calculate the value of $\frac{p^2 + q^2 + r^2}{pq + qr}$.
 

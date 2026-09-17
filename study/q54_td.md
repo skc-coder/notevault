@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, time-distance, question]
 ---
 
-# CDS Practice Question 54
 
 ## Question
 Kiran covers a certain distance at $80\text{ km/h}$ and returns back to the same point at $20\text{ km/h}$. Then, the average speed during the whole journey is:

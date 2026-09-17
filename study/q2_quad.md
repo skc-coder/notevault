@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, question, rectangle, geometry]
 ---
 
-# Q2: British Flag Theorem in Rectangle
 
 ## Question
 Let $O$ be an interior point of a rectangle $ABCD$. Prove that:

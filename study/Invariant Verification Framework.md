@@ -5,7 +5,6 @@ tags:
   - synchronization
   - gate-cs
 ---
-# Invariant Verification Framework
 
 Forward tracing across thread interleavings leads to a combinatorial state-space explosion ($O(k^n)$ states for $n$ instructions across $k$ threads). For competitive examination verification, apply backward invariant analysis across the three requirements.
 

@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, chemistry, applied-chemistry, glass, cement, fertilizers, explosives, hard-water, gunpowder, paints]
 ---
 
-# Applied & Industrial Chemistry
 
 Exhaustive chapter notes covering Hardness of Water (Temporary vs Permanent Removal), Glass Manufacturing, Portland Cement, Industrial Fertilizers (N-P-K), Explosives (Gunpowder, TNT, RDX, Dynamite), Paints & Binders, and Airbag Chemistry.
 

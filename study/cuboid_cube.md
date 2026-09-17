@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, solids, cuboid, cube, subtopic]
 ---
 
-# Cuboid & Cube
 
 ## 1. Core Definition & Geometry
 

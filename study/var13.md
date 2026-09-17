@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, hcf-lcm-polynomials, variation]
 ---
 
-# Tier 2 Variation 13: Higher Power Sophie Germain Identity HCF
 
 ## Variation Problem Description
 

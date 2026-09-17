@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, base-representation, floating-point, computer-science, subtopic]
 ---
 
-# Base-b Positional Representation & Radix Expansion
 
 ## Theory, Intuition & Fundamental Proofs
 

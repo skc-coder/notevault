@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, roots, topic]
 ---
 
-# Square Roots and Cube Roots
 
 ## Theory, Intuition & Formulas
 

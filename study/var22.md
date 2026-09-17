@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, heights-and-distances, variation, kinematics]
 ---
 
-# Variation 22: Moving Aircraft Angular Acceleration & Speed
 
 ## Concept & Kinematics Formula
 

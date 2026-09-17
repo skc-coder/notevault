@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Two's Complement Fundamentals & Weight Method
 
 In C, signed integer types are standardly represented using **two's complement notation**.
 

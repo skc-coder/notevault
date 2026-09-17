@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, hcf-lcm-polynomials, subtopic]
 ---
 
-# Polynomial Factorization HCF & LCM
 
 ## Core Concept & Theory
 

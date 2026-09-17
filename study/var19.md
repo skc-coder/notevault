@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, trigonometry, variation]
 ---
 
-# Trigonometry Variation Notes
 
 ## Chapter 20 Exam Variations & Trap Patterns
 

@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, circle, question]
 ---
 
-# Q2: Tangent Length & Secant Power of a Point
 
 ## Question
 From an external point $P$, a tangent $PT$ and a secant $PAB$ are drawn to a circle. If $PT = 6\text{ cm}$ and $PA = 4\text{ cm}$, what is the length of chord $AB$?

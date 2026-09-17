@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, heights-and-distances, subtopic, spherical]
 ---
 
-# Subtended Angles & Spherical Geometry
 
 ## Spherical Subtended Angle Theorem
 

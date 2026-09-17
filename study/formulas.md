@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, physics, formulas, definitions, cheatsheet]
 ---
 
-# Physics Cheat Sheet & Formula Master
 
 Comprehensive reference guide containing all essential definitions, principles, SI units, and quantitative formulas across all major physics domains for competitive examinations.
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, time-and-work, subtopic]
 ---
 
-# Men-Women Equivalence & Or-And Conversion Rule
 
 ## Mathematical Formulation
 

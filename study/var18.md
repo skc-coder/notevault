@@ -8,7 +8,6 @@ importance: "Important"
 tags: [cds, math, triangles, similarity, thales, area-split, variation]
 ---
 
-# Variation 18: Thales Parallel Segment & Trapezium Area Split
 
 ## Problem Pattern
 Questions where a line parallel to one side divides a triangle into a smaller similar triangle and a quadrilateral (trapezium) of equal or proportional areas.

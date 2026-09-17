@@ -6,7 +6,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, decimals, topic]
 ---
 
-# Decimal Fractions
 
 ## Theory, Intuition & Formulas
 

@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, math, time-distance, subtopic]
 ---
 
-# Basic Speed, Distance, Time & Unit Conversions
 
 ## 1. Mathematical Definitions & Invariants
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, subtopic]
 ---
 
-# Divisibility Rules & Mathematical Proofs
 
 ## 1. Divisibility Rule of 7
 Let $N = 10A + B$. $N \equiv 0 \pmod 7 \iff A - 2B \equiv 0 \pmod 7$.

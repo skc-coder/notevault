@@ -7,7 +7,6 @@ derived_from: "Pathfinder Ch 16 Q15"
 tags: [cds, math, variation, novel-problem]
 ---
 
-# Variation 15: Double Shifted Rational Sum with Weighted Coefficients
 
 ## Problem Statement
 Given that $x, y, z > 0$ satisfy the relation:

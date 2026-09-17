@@ -12,7 +12,6 @@ tags:
 
 <div class="title" style="color:#eab308; font-family: 'JetBrains Mono', monospace;">CDS ECONOMICS MODULE</div>
 
-# 🏛️ Economics Topic Map & Chapter Coverage
 
 - 💵 Money & Monetary Systems
   - [[cds/humanities/money|Money — Evolution, Types & Supply]]

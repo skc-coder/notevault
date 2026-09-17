@@ -6,7 +6,6 @@ difficulty: "Hard"
 tags: [cds, chemistry, carbon, organic-chemistry, allotropes, diamond, graphite, fullerene, hydrocarbons, soaps, detergents]
 ---
 
-# Carbon and Its Compounds
 
 Exhaustive chapter notes covering Catenation, Tetravalency, Allotropes of Carbon (Diamond, Graphite, Fullerene, Graphene), Hydrocarbons (Saturated vs Unsaturated), Functional Groups, Chemical Properties of Ethanol & Ethanoic Acid, and Soaps & Synthetic Detergents.
 

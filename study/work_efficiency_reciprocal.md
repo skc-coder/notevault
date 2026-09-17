@@ -7,7 +7,6 @@ difficulty: "Easy"
 tags: [cds, elementary-mathematics, time-and-work, subtopic]
 ---
 
-# Work Rate & Combined Efficiency Theorem
 
 ## Theorem Statement & Derivation
 

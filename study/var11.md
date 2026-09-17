@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 11: Smallest 4-Digit Number with Constant Difference
 
 Find the smallest 4-digit number which when divided by 6, 7, 8, and 9 leaves remainders 4, 5, 6, and 7 respectively.
 

@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, math, solids, cylinder, cone, frustum, subtopic]
 ---
 
-# Cylinder, Cone & Frustum of Cone
 
 ## 1. Right Circular Cylinder
 

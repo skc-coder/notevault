@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Loop Control Flow - Break & Continue
 
 Both `break` and `continue` statements alter linear iteration execution.
 

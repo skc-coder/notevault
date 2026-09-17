@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, solids, prism, pyramid, tetrahedron, subtopic]
 ---
 
-# Prism, Pyramid & Regular Tetrahedron
 
 ## 1. Right Prism
 

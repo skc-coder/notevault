@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, hcf-lcm-polynomials, topic]
 ---
 
-# HCF and LCM of Polynomials
 
 ## Theory, Intuition & Formulas
 

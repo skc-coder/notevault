@@ -7,7 +7,6 @@ difficulty: "Hard"
 tags: [cds, math, trigonometry, subtopic, extrema, triangle-properties]
 ---
 
-# Extrema & Triangle Properties
 
 ## Theory & Intuition
 

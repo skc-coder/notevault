@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, time-and-distance, topic]
 ---
 
-# Time and Distance
 
 ## Theory, Intuition & Formulas
 

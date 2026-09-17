@@ -6,7 +6,6 @@ difficulty: "Medium"
 tags: [cds, polity, cheatsheet, constitution, fundamental-rights, governance]
 ---
 
-# Indian Polity Cheat Sheet
 
 ## Overview & Core Concepts
 

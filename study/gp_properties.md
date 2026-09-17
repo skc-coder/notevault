@@ -7,7 +7,6 @@ difficulty: "Medium"
 tags: [cds, elementary-mathematics, sequence-series, subtopic]
 ---
 
-# Geometric Progression (GP) Properties & Infinite Series
 
 ## Theory, Intuition & Derivations
 

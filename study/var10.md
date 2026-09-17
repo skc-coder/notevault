@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 10: Largest 4-Digit Number with Constant Remainder
 
 Find the greatest 4-digit number which when divided by 12, 18, 21, and 28 leaves a remainder of 3 in each case.
 

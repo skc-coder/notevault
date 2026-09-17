@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# Activation Stack Frames
 
 Each function call allocates a discrete activation frame on the **Stack Segment**.
 

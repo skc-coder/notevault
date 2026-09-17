@@ -205,7 +205,6 @@ cssclasses:
 
 ---
 ## Overview & Guidance
-# Elementary Mathematics
 
 ## Topics & Notes
 

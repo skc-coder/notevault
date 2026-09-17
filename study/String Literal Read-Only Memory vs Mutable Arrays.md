@@ -8,7 +8,6 @@ tags:
   - study
 ---
 
-# String Literal Read-Only Memory vs Mutable Arrays
 
 ---
 

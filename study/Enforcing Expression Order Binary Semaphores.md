@@ -8,7 +8,6 @@ mastery: new
 review date: 2026-09-23
 ---
 
-# Enforcing Expression Evaluation Order with Binary Semaphores
 
 ---
 

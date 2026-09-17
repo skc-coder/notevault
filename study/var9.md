@@ -9,7 +9,6 @@ importance: "Important"
 tags: [cds, math, variation]
 ---
 
-# Variation 9: Co-prime Pairs Given Product and HCF
 
 The product of two numbers is 4107. If the HCF of these numbers is 37, find the greater number.
 

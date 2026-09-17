@@ -7,7 +7,6 @@ tags:
   - study
 ---
 
-# Overflow Definition & Detection Rules
 
 Integer overflow occurs when an arithmetic calculation produces a numeric result that falls outside the representable range of the target type.
 
