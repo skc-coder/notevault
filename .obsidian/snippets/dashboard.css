@@ -48,20 +48,19 @@ Targets any image with |banner alt tag embedded in note body
     margin-top: 140px !important;
 }
 
-/* Clean & Robust Dashboard CSS Snippet (TfT Hacker & ITS Theme Compatible) */
+/* Centered & Clean Dashboard CSS Snippet */
 
 :root {
     --dashboard-columns: 4;
     --dashboard-gap: 16px;
-    --dashboard-min-width: 220px;
+    --dashboard-min-width: 180px;
 }
 
 .dashboard {
     font-family: inherit;
-}
-
-.dashboard .markdown-preview-section {
-    max-width: 100% !important;
+    max-width: var(--file-line-width, 900px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .dashboard h1,
@@ -91,16 +90,16 @@ Targets any image with |banner alt tag embedded in note body
     padding-left: 0 !important;
     margin: 0 0 1.5rem 0 !important;
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--dashboard-min-width, 220px)), 1fr)) !important;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--dashboard-min-width, 180px)), 1fr)) !important;
     gap: var(--dashboard-gap, 16px) !important;
 }
 
 /* Column Overrides from YAML frontmatter: cssclasses: [dashboard, cols-4] */
-.dashboard.cols-2 div > ul, .dashboard.cols-2 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)) !important; }
-.dashboard.cols-3 div > ul, .dashboard.cols-3 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)) !important; }
-.dashboard.cols-4 div > ul, .dashboard.cols-4 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)) !important; }
-.dashboard.cols-5 div > ul, .dashboard.cols-5 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)) !important; }
-.dashboard.cols-6 div > ul, .dashboard.cols-6 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)) !important; }
+.dashboard.cols-2 div > ul, .dashboard.cols-2 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)) !important; }
+.dashboard.cols-3 div > ul, .dashboard.cols-3 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)) !important; }
+.dashboard.cols-4 div > ul, .dashboard.cols-4 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)) !important; }
+.dashboard.cols-5 div > ul, .dashboard.cols-5 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)) !important; }
+.dashboard.cols-6 div > ul, .dashboard.cols-6 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)) !important; }
 
 /* Top-level list item card container */
 .dashboard div > ul > li,
