@@ -24,17 +24,3 @@ For an $n$-bit total representation ($1$ sign bit + $n-1$ magnitude bits):
 > 1. **Unique Zero:** Eliminates dual representation of zero ($+0$ vs $-0$).
 > 2. **Full Code Utilization:** Maximizes total $2^n$ distinct bit patterns (gaining $-2^{n-1}$).
 > 3. **Simplified Arithmetic Logic:** Addition and subtraction use identical adder circuitry.
-
----
-
-## Value Ranges for $k$-bit Integers
-
-> [!property] Range Formulations
-> For any $k$-bit integer container in C:
-> - **Unsigned Range:**
->   $$[0,\; 2^k - 1]$$
-> - **Signed (Two's Complement) Range:**
->   $$[-2^{k-1},\; 2^{k-1} - 1]$$
-> 
-> *The asymmetry in signed range arises because zero consumes one non-negative code pattern: `00...0`.*
-

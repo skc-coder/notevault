@@ -5,6 +5,7 @@ tags:
   - moc
   - study
 ---
+- [[Integer Literal Rules]]
 - [[Integer Promotion Rules]]
 - [[Usual Arithmetic Conversions]]
 - [[Sign and Zero Extension]]

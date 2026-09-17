@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Integer Representation.md",
+                "file": "mocs/moc clang.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Integer Representation"
+              "title": "moc clang"
+            }
+          },
+          {
+            "id": "07e23db6d47a3bdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/Type Conversions Hierarchy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Type Conversions Hierarchy"
+            }
+          },
+          {
+            "id": "b007685baaba8225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/Bit Width Conversions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bit Width Conversions"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,17 +244,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84d9fad8a9c6136e",
+  "active": "b007685baaba8225",
   "lastOpenFiles": [
-    "mocs/moc clang.md",
-    "study/Integer Representation.md",
-    "study/Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n).md",
-    "study/Variadic Printf Pipeline.md",
-    "study/Usual Arithmetic Conversions.md",
-    "study/Undefined Behavior Sequence Points.md",
+    "study/Sign and Zero Extension.md",
     "study/Type Conversions Hierarchy.md",
+    "study/Bit Width Conversions.md",
+    "mocs/moc clang.md",
+    "study/Integer Literal Rules.md",
+    "study/Integer Representation.md",
+    "study/Printf Integer Conversions.md",
+    "study/Usual Arithmetic Conversions.md",
+    "study/Integer Promotion Rules.md",
+    "study/Overflow Detection Rules.md",
+    "study/Integer Value Ranges.md",
     "study/Twos Complement Shift Identity.md",
     "study/Twos Complement Fundamentals.md",
+    "study/Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n).md",
+    "study/Variadic Printf Pipeline.md",
+    "study/Undefined Behavior Sequence Points.md",
     "study/Switch Duff Device.md",
     "study/String Literals Memory.md",
     "study/Storage Classes Memory Layout.md",
@@ -236,13 +272,6 @@
     "study/Sequence Points Definition.md",
     "study/Sequence Points Evaluation.md",
     "study/Recursion Tree Tracing.md",
-    "study/Recursion Tracing.md",
-    "study/Process Memory Layout.md",
-    "study/Pointers Array Decay.md",
-    "study/Pointer Basics Addressability.md",
-    "study/Overflow Detection Rules.md",
-    "study/Operators Bitwise Idioms.md",
-    "study/Operator Precedence Hierarchy.md",
     "Base",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
