@@ -41,5 +41,5 @@ tags:
 ---
 
 ## Related Sequence
-- [[Integer Representation & Promotion]]
+- [[Integer Representation & Encoding]]
 - [[Type Conversions & Arithmetic Hierarchy]]

@@ -36,5 +36,5 @@ tags:
 ---
 
 ## Related Sequence
-- [[Integer Representation & Promotion]]
+- [[Integer Representation & Encoding]]
 - [[Bit-Width Conversions & Extensions]]

@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d189195085120a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mocs/base and bound temp.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "base and bound temp"
-            }
-          },
-          {
-            "id": "6bf194293909393f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mocs/moc os.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "moc os"
-            }
-          },
-          {
-            "id": "b7b95712b3446edd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mocs/base and bound temp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "base and bound temp"
-            }
-          },
-          {
             "id": "84d9fad8a9c6136e",
             "type": "leaf",
             "state": {
@@ -64,35 +22,35 @@
             }
           },
           {
-            "id": "2fe534d8c26b3640",
+            "id": "deb62f86baa6de43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Usual Arithmetic Conversions & Hierarchy.md",
-                "mode": "preview",
+                "file": "study/Bit-Width Conversions & Extensions.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Usual Arithmetic Conversions & Hierarchy"
+              "title": "Bit-Width Conversions & Extensions"
             }
           },
           {
-            "id": "2dddc90412272a9d",
+            "id": "c4b1197bab2c420f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Overflow Definition & Detection Rules.md",
+                "file": "study/Bit-Width Conversions & Extensions.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overflow Definition & Detection Rules"
+              "title": "Bit-Width Conversions & Extensions"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -286,14 +244,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84d9fad8a9c6136e",
+  "active": "deb62f86baa6de43",
   "lastOpenFiles": [
-    "study/Type Conversions, Integer Promotion & Arithmetic Hierarchy.md",
-    "study/Usual Arithmetic Conversions & Hierarchy.md",
     "mocs/moc clang.md",
+    "study/Bit-Width Conversions & Extensions.md",
+    "mocs/base and bound temp.md",
+    "mocs/moc os.md",
     "study/Overflow Definition & Detection Rules.md",
-    "study/Integer Representation & Promotion.md",
+    "study/Usual Arithmetic Conversions & Hierarchy.md",
+    "study/Integer Representation & Encoding.md",
     "study/Integer Promotion Rules in C.md",
+    "study/Type Conversions, Integer Promotion & Arithmetic Hierarchy.md",
     "study/Integer Value Ranges & Signed vs Unsigned Systems.md",
     "study/Two's Complement Fundamentals & Weight Method.md",
     "study/Bit Truncation & Sign-Extension Matrix.md",
@@ -311,9 +272,6 @@
     "study/Process Memory Layout - Segments & Stack.md",
     "study/Storage Classes - Static & Extern.md",
     "study/Storage Classes Matrix & Register Class.md",
-    "study/Variadic Printf Argument Pipeline.md",
-    "study/Function Scoping & Definition Rules.md",
-    "study/Function Declarations, Prototypes & Standards Evolution.md",
     "Base",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
