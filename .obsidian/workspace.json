@@ -13,58 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mocs/moc clang.md",
+                "file": "study/Integer Representation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moc clang"
-            }
-          },
-          {
-            "id": "462ff93a0d2662cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Integer Representation & Encoding.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Integer Representation & Encoding"
-            }
-          },
-          {
-            "id": "5855e40cb83653ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n)"
-            }
-          },
-          {
-            "id": "e420c752fc78b772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Integer Value Ranges & Signed vs Unsigned Systems.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Integer Value Ranges & Signed vs Unsigned Systems"
+              "title": "Integer Representation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,34 +215,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5855e40cb83653ff",
+  "active": "84d9fad8a9c6136e",
   "lastOpenFiles": [
-    "study/Integer Representation & Encoding.md",
-    "study/Integer Value Ranges & Signed vs Unsigned Systems.md",
-    "study/Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n).md",
     "mocs/moc clang.md",
-    "study/Bit-Width Conversions & Extensions.md",
-    "study/Bit Truncation & Sign-Extension Matrix.md",
-    "study/Type Conversions, Integer Promotion & Arithmetic Hierarchy.md",
-    "study/Narrowing & Truncation Mechanics.md",
-    "study/Bit-Width Extensions & Sign vs Zero Extension.md",
-    "study/Integer Literal Typing & Parsing Rules.md",
-    "mocs/base and bound temp.md",
-    "mocs/moc os.md",
-    "study/Overflow Definition & Detection Rules.md",
-    "study/Usual Arithmetic Conversions & Hierarchy.md",
-    "study/Integer Promotion Rules in C.md",
-    "study/Two's Complement Fundamentals & Weight Method.md",
-    "study/String Literal Read-Only Memory vs Mutable Arrays.md",
-    "study/Endianness Architecture & Byte Ordering.md",
-    "study/Complex Declarations & Clockwise Spiral Rule.md",
-    "study/Function Pointers & Canonical Invocation.md",
-    "study/Multidimensional Array Decay & Pointer Types.md",
-    "study/Sizeof Operator Mechanics.md",
-    "study/Array Indexing & Pointer Arithmetic.md",
-    "study/Array Decay Rule & Exceptions.md",
-    "study/Pointer Basics & Addressability.md",
-    "study/Activation Stack Frames.md",
+    "study/Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n).md",
+    "study/Variadic Printf Pipeline.md",
+    "study/Usual Arithmetic Conversions.md",
+    "study/Undefined Behavior Sequence Points.md",
+    "study/Type Conversions Hierarchy.md",
+    "study/Twos Complement Shift Identity.md",
+    "study/Twos Complement Fundamentals.md",
+    "study/Switch Duff Device.md",
+    "study/String Literals Memory.md",
+    "study/Storage Classes Memory Layout.md",
+    "study/Storage Classes Register.md",
+    "study/Storage Classes Static Extern.md",
+    "study/Static Initializers.md",
+    "study/Short Circuit Guarantees.md",
+    "study/Sequence Points Definition.md",
+    "study/Sequence Points Evaluation.md",
+    "study/Recursion Tree Tracing.md",
+    "study/Recursion Tracing.md",
+    "study/Process Memory Layout.md",
+    "study/Pointers Array Decay.md",
+    "study/Pointer Basics Addressability.md",
+    "study/Overflow Detection Rules.md",
+    "study/Operators Bitwise Idioms.md",
+    "study/Operator Precedence Hierarchy.md",
+    "study/Multidimensional Arrays.md",
     "Base",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",

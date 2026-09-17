@@ -31,6 +31,6 @@ date: 2026-09-14
 - [[cpp-polymorphism-refactoring]]
 - [[static-vs-dynamic-binding]]
 - [[type-casting-mechanics]]
-- [[Constant Expressions & Control Flow]]
+- [[Constant Expressions]]
 - [[Average Area Below a Function]]
 - [[types_of_sets]]

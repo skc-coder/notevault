@@ -11,5 +11,5 @@ tags:
 
 ## Atomic Notes
 
-- [[Recursion Tracing - Tree Method & Side Effects]]
+- [[Recursion Tree Tracing]]
 - [[Activation Stack Frames]]

@@ -4,26 +4,26 @@ cssclasses:
   - cols-4
 ---
 ## 🧠 Module 1: Basics, Integers & Control Structures
-- [[Integer Representation & Encoding]]
-- [[Type Conversions, Integer Promotion & Arithmetic Hierarchy]]
-- [[Bit-Width Conversions & Extensions]]
-- [[Constant Expressions & Control Flow]]
-- [[Operators, Precedence & Bitwise Idioms]]
-- [[Sequence Points & Short-Circuit Evaluation]]
+- [[Integer Representation]]
+- [[Type Conversions Hierarchy]]
+- [[Bit Width Conversions]]
+- [[Constant Expressions]]
+- [[Operators Bitwise Idioms]]
+- [[Sequence Points Evaluation]]
 
 ---
 
 ## ⚙️ Module 2: Functions, Storage Classes & Memory
-- [[Functions, Prototypes & Variadic printf]]
-- [[Storage Classes, Linkage & Memory Layout]]
+- [[Functions Prototypes Variadic]]
+- [[Storage Classes Memory Layout]]
 
 ---
 
 ## 🔁 Module 3: Recursion, Pointers, Arrays & Strings
-- [[Recursion Tracing & Tree Method]]
-- [[Pointers, Array Decay & Indexing]]
-- [[Multidimensional Arrays & Complex Declarations]]
-- [[Memory Segments, Endianness & Strings]]
+- [[Recursion Tracing]]
+- [[Pointers Array Decay]]
+- [[Multidimensional Arrays]]
+- [[Memory Segments Strings]]
 
 ---
 
