@@ -38,7 +38,7 @@ Where:
   $$\text{Value} = U = \text{val} \pmod{2^n}$$
 
 * **When $\text{MSB} = 1$:**
-  In two's complement, bit $n-1$ has a weight of $-2^{n-1}$, whereas in unsigned it had $+2^{n-1}$. The difference is $-2^n$:
+  In two's complement, bit $n-1$ has a weight of $-2^{n-1}$, whereas in unsigned it had $+2^{n-1}$. The difference is $-2^n$ (see [[Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n)]]):
   $$S = U - 2^n \implies U - S = 2^n$$
   $$S = -2^n + \left(\text{val} \pmod{2^n}\right)$$
 
