@@ -5,8 +5,7 @@ cssclasses:
 ---
 ## 🧠 Module 1: Basics, Integers & Control Structures
 - [[Integer Representation]]
-- [[Type Conversions Hierarchy]]
-- [[Bit Width Conversions]]
+- [[Type and Bit Conversions]]
 - [[Constant Expressions]]
 - [[Operators Bitwise Idioms]]
 - [[Sequence Points Evaluation]]

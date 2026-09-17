@@ -20,10 +20,10 @@ CPU registers and Arithmetic Logic Units (ALUs) operate most efficiently on natu
 ## Promotion vs. Assignment Truncation
 
 ```c
-char a = 30, b = 40;
 char d = 30 * 40;
-
 printf("%d\n", d);      // Output: -80
+
+char a = 30, b = 40;
 printf("%d\n", a * b);  // Output: 1200
 ```
 

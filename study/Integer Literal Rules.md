@@ -30,8 +30,6 @@ To enforce specific bit-widths and signedness directly on literal constants:
 
 ## Lexical Parsing Trap: Unary Negation on Literals
 
-> [!trap] Unary Minus Parsing
-> In C, a negative literal like `-42` is **not** a single standalone token. 
-> 
-> The compiler parses `42` as a positive integer constant first, and subsequently applies the unary negation operator (`-`) via two's complement.
+ In C, a negative literal like `-42` is **not** a single standalone token. 
+ The compiler parses `42` as a positive integer constant first, and subsequently applies the unary negation operator (`-`) via two's complement.
 

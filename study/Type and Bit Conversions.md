@@ -8,5 +8,6 @@ tags:
 - [[Integer Literal Rules]]
 - [[Sign and Zero Extension]]
 - [[Bit Truncation Matrix]]
+- [[Integer Promotion Rules]]
 - [[Usual Arithmetic Conversions]]
-- [[Printf Integer Conversions]]
+- [[Integer Conversions Practice]]
