@@ -48,19 +48,21 @@ Targets any image with |banner alt tag embedded in note body
     margin-top: 140px !important;
 }
 
-/* Centered & Clean Dashboard CSS Snippet */
-
-:root {
-    --dashboard-columns: 4;
-    --dashboard-gap: 16px;
-    --dashboard-min-width: 180px;
-}
+/* Precise Dashboard CSS Snippet (Strict Column & Layout Alignment) */
 
 .dashboard {
     font-family: inherit;
-    max-width: var(--file-line-width, 900px) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dashboard .markdown-preview-section {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .dashboard h1,
@@ -83,23 +85,23 @@ Targets any image with |banner alt tag embedded in note body
     display: none !important;
 }
 
-/* Only top-level unordered list forms the card grid */
+/* Default Unordered List Grid (if no cols-X class specified) */
 .dashboard div > ul,
 .dashboard .markdown-rendered > div > ul {
     list-style: none !important;
     padding-left: 0 !important;
     margin: 0 0 1.5rem 0 !important;
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--dashboard-min-width, 180px)), 1fr)) !important;
-    gap: var(--dashboard-gap, 16px) !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 14px !important;
 }
 
-/* Column Overrides from YAML frontmatter: cssclasses: [dashboard, cols-4] */
-.dashboard.cols-2 div > ul, .dashboard.cols-2 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)) !important; }
-.dashboard.cols-3 div > ul, .dashboard.cols-3 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)) !important; }
-.dashboard.cols-4 div > ul, .dashboard.cols-4 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)) !important; }
-.dashboard.cols-5 div > ul, .dashboard.cols-5 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)) !important; }
-.dashboard.cols-6 div > ul, .dashboard.cols-6 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)) !important; }
+/* Strict Column Overrides from YAML frontmatter: cssclasses: [dashboard, cols-4] */
+.dashboard.cols-2 div > ul, .dashboard.cols-2 .markdown-rendered > div > ul { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.dashboard.cols-3 div > ul, .dashboard.cols-3 .markdown-rendered > div > ul { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.dashboard.cols-4 div > ul, .dashboard.cols-4 .markdown-rendered > div > ul { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.dashboard.cols-5 div > ul, .dashboard.cols-5 .markdown-rendered > div > ul { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+.dashboard.cols-6 div > ul, .dashboard.cols-6 .markdown-rendered > div > ul { grid-template-columns: repeat(6, minmax(0, 1fr)) !important; }
 
 /* Top-level list item card container */
 .dashboard div > ul > li,
@@ -107,7 +109,7 @@ Targets any image with |banner alt tag embedded in note body
     min-width: 0 !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 12px 14px !important;
+    padding: 10px 12px !important;
     border-radius: 8px !important;
     background: var(--background-secondary, rgba(255, 255, 255, 0.04)) !important;
     border: 1px solid var(--border-color, rgba(255, 255, 255, 0.12)) !important;
@@ -139,8 +141,8 @@ Targets any image with |banner alt tag embedded in note body
 .dashboard .markdown-rendered > div > ul > li ul {
     display: block !important;
     grid-template-columns: none !important;
-    padding-left: 1.2rem !important;
-    margin-top: 0.5rem !important;
+    padding-left: 1rem !important;
+    margin-top: 0.4rem !important;
     margin-bottom: 0 !important;
     list-style-type: disc !important;
 }
@@ -160,7 +162,12 @@ Targets any image with |banner alt tag embedded in note body
 
 @media (max-width: 768px) {
     .dashboard div > ul,
-    .dashboard .markdown-rendered > div > ul {
+    .dashboard .markdown-rendered > div > ul,
+    .dashboard.cols-2 div > ul, .dashboard.cols-2 .markdown-rendered > div > ul,
+    .dashboard.cols-3 div > ul, .dashboard.cols-3 .markdown-rendered > div > ul,
+    .dashboard.cols-4 div > ul, .dashboard.cols-4 .markdown-rendered > div > ul,
+    .dashboard.cols-5 div > ul, .dashboard.cols-5 .markdown-rendered > div > ul,
+    .dashboard.cols-6 div > ul, .dashboard.cols-6 .markdown-rendered > div > ul {
         grid-template-columns: 1fr !important;
     }
 }
