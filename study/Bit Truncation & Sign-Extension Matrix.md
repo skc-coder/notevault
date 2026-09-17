@@ -17,18 +17,16 @@ $$U = \text{val} \pmod{2^n}$$
 Where:
 * $n$ = bit-width of the narrow/source variable (e.g., $8$ for `char`, $16$ for `short`)
 * $N$ = bit-width of the promoted/destination container (e.g., $32$ for `int` / `printf`)
-* The **MSB** (Most Significant Bit, bit $n-1$) indicates the sign:
-  * $\text{MSB} = 0 \implies U < 2^{n-1}$ (Positive)
-  * $\text{MSB} = 1 \implies U \ge 2^{n-1}$ (Negative)
+* The **MSB** (Most Significant Bit, bit $n-1$) and the type of variable containg `U` determines the extension bit.
 
 ---
 
 ## 2. The Master Conversion Table 📊
 
-| Specifier / Interpretation | $\text{MSB} = 0$ (Positive) | $\text{MSB} = 1$ (Negative) |
-| :--- | :--- | :--- |
-| **`signed` / `%d`** | $\text{val} \pmod{2^n}$ | $-2^n + \left(\text{val} \pmod{2^n}\right)$ |
-| **`unsigned` / `%u`** (after sign-extension) | $\text{val} \pmod{2^n}$ | $2^N - 2^n + \left(\text{val} \pmod{2^n}\right) = 2^N + S$ |
+| Specifier / Interpretation | $\text{MSB} = 0$ (Positive) | $\text{MSB} = 1$ (Negative)                                |
+| :------------------------- | :-------------------------- | :--------------------------------------------------------- |
+| **`signed` / `%d`**        | $\text{val} \pmod{2^n}$     | $-2^n + \left(\text{val} \pmod{2^n}\right)$                |
+| **`unsigned` / `%u`**      | $\text{val} \pmod{2^n}$     | $2^N - 2^n + \left(\text{val} \pmod{2^n}\right) = 2^N + S$ |
 
 ---
 
@@ -41,7 +39,8 @@ Where:
 
 * **When $\text{MSB} = 1$:**
   In two's complement, bit $n-1$ has a weight of $-2^{n-1}$, whereas in unsigned it had $+2^{n-1}$. The difference is $-2^n$:
-  $$S = U - 2^n = -2^n + \left(\text{val} \pmod{2^n}\right)$$
+  $$S = U - 2^n \implies U - S = 2^n$$
+  $$S = -2^n + \left(\text{val} \pmod{2^n}\right)$$
 
 ---
 
