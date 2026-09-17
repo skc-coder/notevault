@@ -5,31 +5,9 @@ tags:
   - moc
   - study
 ---
-
-
----
-
-## Logical Sequence & Atomic Notes
-
-1. **[[Integer Literal Rules]]**
-   - Suffixes (`u`, `l`, `ll`, `ull`) and literal typing defaults.
-   - Lexical parsing trap of unary minus on literals.
-
-2. **[[Sign and Zero Extension]]**
-   - Extension invariant: source operand (RHS) signedness dictates extension, never destination (LHS).
-   - Zero-extension (`unsigned`) vs sign-extension (`signed`).
-
-3. **[[Narrowing & Truncation Mechanics]]**
-   - Discarding upper bits during bit slicing.
-   - Sign flipping and magnitude alteration on narrowing.
-
-4. **[[Bit Truncation Matrix]]**
-   - Modulo arithmetic setup ($U = \text{val} \pmod{2^n}$), Master conversion matrix, mathematical derivations, and worked numerical examples.
-
-5. **[[Usual Arithmetic Conversions]]**
-   - Integer conversion rank hierarchy.
-   - Phase 1 (Promotion) and Phase 2 (Unification) rules.
-
-6. **[[Printf Integer Conversions]]**
-   - Detailed trace of `signed char c = 130` and `unsigned char c = 130` passed to `%d` and `%u`.
-
+- [[Integer Literal Rules]]
+- [[Sign and Zero Extension]]
+- [[Narrowing & Truncation Mechanics]]
+- [[Bit Truncation Matrix]]
+- [[Usual Arithmetic Conversions]]
+- [[Printf Integer Conversions]]
