@@ -48,74 +48,125 @@ Targets any image with |banner alt tag embedded in note body
     margin-top: 140px !important;
 }
 
-/* Dashboard CSS Snippet (TfT Hacker & SAGE Extended) */
+/* Dynamic & Premium Dashboard CSS Snippet (Modern Card Grid System) */
 
 :root {
     --dashboard-columns: 4;
-    --dashboard-gap: 20px;
+    --dashboard-gap: 14px;
     --dashboard-min-width: 220px;
 }
 
 .dashboard {
     font-family: inherit;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    padding-top: 20px !important;
+    padding: 15px 10px !important;
 }
 
 .dashboard .markdown-preview-section {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
-.dashboard h1 {
-    border-bottom-style: dotted !important;
-    border-width: 1px !important;
-    padding-bottom: 3px !important;
+/* Dashboard Section Headers */
+.dashboard h1,
+.dashboard h2,
+.dashboard h3 {
+    letter-spacing: 0.02em;
+    margin-top: 1.6rem !important;
+    margin-bottom: 0.8rem !important;
+    padding-bottom: 0.4rem !important;
+    border-bottom: 1px dashed var(--hr-color, rgba(255, 255, 255, 0.15)) !important;
 }
 
-/* Get rid of the parent bullet */
-.dashboard div.markdown-preview-section>div>ul>li>.list-bullet {
+/* Remove default bullet indicators and indentation guides */
+.dashboard div.markdown-preview-section > div > ul > li > .list-bullet,
+.dashboard .list-bullet {
     display: none !important;
 }
 
-/* Remove the indentation guide lines */
-.dashboard.markdown-rendered.show-indentation-guide li>ul::before,
-.dashboard.markdown-rendered.show-indentation-guide li>ol::before {
-    display: none;
+.dashboard.markdown-rendered.show-indentation-guide li > ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li > ol::before {
+    display: none !important;
 }
 
-div.markdown-preview-section>div>ul.has-list-bullet>li {
-    padding-left: 0px !important;
-}
-
-.dashboard div>ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(var(--dashboard-columns, 4), minmax(0, 1fr));
-    gap: var(--dashboard-gap, 20px);
-}
-
-@media (max-width: 1100px) {
-    .dashboard div>ul {
-        grid-template-columns: repeat(auto-fit, minmax(var(--dashboard-min-width, 220px), 1fr));
-    }
-}
-
-.dashboard div>ul>li {
-    min-width: 0;
-    width: 100%;
+.dashboard div > ul,
+.dashboard .markdown-rendered ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0 0 1.5rem 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--dashboard-min-width, 220px)), 1fr)) !important;
+    gap: var(--dashboard-gap, 14px) !important;
 }
 
 /* Column Override Utility Classes for YAML Frontmatter */
-/* Usage in frontmatter: cssclasses: [dashboard, cols-3] or [dashboard, cols-4] */
-.dashboard.cols-2 div>ul { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-.dashboard.cols-3 div>ul { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
-.dashboard.cols-4 div>ul { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
-.dashboard.cols-5 div>ul { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
-.dashboard.cols-6 div>ul { grid-template-columns: repeat(6, minmax(0, 1fr)) !important; }
+.dashboard.cols-2 div > ul, .dashboard.cols-2 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)) !important; }
+.dashboard.cols-3 div > ul, .dashboard.cols-3 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)) !important; }
+.dashboard.cols-4 div > ul, .dashboard.cols-4 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)) !important; }
+.dashboard.cols-5 div > ul, .dashboard.cols-5 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr)) !important; }
+.dashboard.cols-6 div > ul, .dashboard.cols-6 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)) !important; }
 
-/* Dataview support */
+/* Styling Dashboard List Items as Premium Interactive Cards */
+.dashboard div > ul > li,
+.dashboard .markdown-rendered ul > li {
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+/* Card Container & Link Alignment */
+.dashboard div > ul > li > a,
+.dashboard .markdown-rendered ul > li > a,
+.dashboard div > ul > li,
+.dashboard .markdown-rendered ul > li {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 10px 14px !important;
+    border-radius: 8px !important;
+    background: var(--background-secondary, rgba(255, 255, 255, 0.03)) !important;
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1)) !important;
+    text-decoration: none !important;
+    font-size: 0.92rem !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    color: var(--text-normal, inherit) !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+    transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Hover & Focus State Micro-animations */
+.dashboard div > ul > li:hover,
+.dashboard .markdown-rendered ul > li:hover,
+.dashboard div > ul > li > a:hover,
+.dashboard .markdown-rendered ul > li > a:hover {
+    background: var(--background-secondary-alt, rgba(255, 255, 255, 0.07)) !important;
+    border-color: var(--interactive-accent, #61afef) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Icon / Bullet Badge styling for links inside dashboard cards */
+.dashboard div > ul > li::before,
+.dashboard .markdown-rendered ul > li::before {
+    content: "📄";
+    font-size: 0.85rem;
+    opacity: 0.75;
+    flex-shrink: 0;
+}
+
+/* Dataview Support */
 .dashboard ul.dataview {
-    row-gap: 0px !important;
-    list-style-type: disc !important;
+    row-gap: 12px !important;
+}
+
+/* Responsive Viewports */
+@media (max-width: 768px) {
+    .dashboard div > ul,
+    .dashboard .markdown-rendered ul {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+    }
 }
