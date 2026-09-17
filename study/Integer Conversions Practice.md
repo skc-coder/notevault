@@ -7,7 +7,7 @@ tags:
   - study
 ---
 
-## Case Study 1: `signed char c = 130;`
+## Example 1: `signed char c = 130;`
 
 ```c
 signed char c = 130;
@@ -28,7 +28,7 @@ printf("%u\n", c); // Outputs: 4294967170
 
 ---
 
-## Case Study 2: `unsigned char c = 130;`
+## Example 2: `unsigned char c = 130;`
 
 ```c
 unsigned char c = 130;
@@ -48,7 +48,7 @@ printf("%u\n", c); // Outputs: 130
 
 ---
 
-## Case Study 3: `signed char c = -5;`
+## Example 3: `signed char c = -5;`
 
 ```c
 signed char c = -5;
@@ -69,7 +69,7 @@ printf("%u\n", c); // Outputs: 4294967291
 
 ---
 
-## Practice Challenge: `unsigned char c = -5;`
+## Example 4: `unsigned char c = -5;`
 
 ```c
 unsigned char c = -5;
