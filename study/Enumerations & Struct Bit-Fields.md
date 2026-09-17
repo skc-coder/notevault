@@ -1,5 +1,4 @@
 ---
-title: Enumerations & Struct Bit-Fields
 tags:
   - clang
   - c-language

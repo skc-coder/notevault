@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: linear algebra
 author: David Lay
 ---
 

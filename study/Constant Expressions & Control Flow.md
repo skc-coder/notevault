@@ -1,5 +1,4 @@
 ---
-title: Constant Expressions & Control Flow
 tags:
   - clang
   - c-language

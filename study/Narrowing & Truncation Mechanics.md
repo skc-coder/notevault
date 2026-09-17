@@ -1,5 +1,4 @@
 ---
-title: Narrowing & Truncation Mechanics
 tags:
   - clang
   - c-language

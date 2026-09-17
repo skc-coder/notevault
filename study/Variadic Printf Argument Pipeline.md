@@ -1,5 +1,4 @@
 ---
-title: Variadic Printf Argument Pipeline
 tags:
   - clang
   - c-language

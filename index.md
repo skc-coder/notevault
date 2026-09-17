@@ -2,7 +2,6 @@
 cssclasses:
   - dashboard
   - cols-4
-title: index
 ---
 
 - 🌐 [[moc cs|CS Master MOC]]

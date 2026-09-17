@@ -1,5 +1,4 @@
 ---
-title: Recursion Tracing - Tree Method & Side Effects
 tags:
   - clang
   - c-language

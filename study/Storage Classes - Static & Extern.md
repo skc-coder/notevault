@@ -1,5 +1,4 @@
 ---
-title: Storage Classes - Static & Extern
 tags:
   - clang
   - c-language

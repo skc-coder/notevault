@@ -1,5 +1,4 @@
 ---
-title: Pointer Basics & Addressability
 tags:
   - clang
   - c-language

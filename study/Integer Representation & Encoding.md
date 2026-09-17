@@ -1,5 +1,4 @@
 ---
-title: Integer Representation & Encoding
 tags:
   - clang
   - c-language

@@ -1,5 +1,4 @@
 ---
-title: Undefined Behavior Between Sequence Points
 tags:
   - clang
   - c-language

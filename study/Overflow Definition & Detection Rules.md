@@ -1,5 +1,4 @@
 ---
-title: Overflow Definition & Detection Rules
 tags:
   - clang
   - c-language

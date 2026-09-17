@@ -1,5 +1,4 @@
 ---
-title: Bit-Width Extensions & Sign vs Zero Extension
 tags:
   - clang
   - c-language

@@ -1,5 +1,4 @@
 ---
-title: Static vs Dynamic Binding & Virtual Dispatch
 tags: [cpp, binding, polymorphism, virtual-functions, method-hiding, sage]
 date: 2026-09-14
 ---

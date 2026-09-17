@@ -1,5 +1,4 @@
 ---
-title: Multidimensional Array Decay & Pointer Types
 tags:
   - clang
   - c-language

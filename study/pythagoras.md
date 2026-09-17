@@ -1,5 +1,4 @@
 ---
-title: "Pythagoras & Apollonius Theorems"
 exam: "CDS"
 subject: "Math"
 topic: "Triangles"

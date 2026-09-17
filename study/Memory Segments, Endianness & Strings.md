@@ -1,5 +1,4 @@
 ---
-title: Memory Segments, Endianness & Strings
 tags:
   - clang
   - c-language

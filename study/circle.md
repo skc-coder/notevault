@@ -1,5 +1,4 @@
 ---
-title: "Circle"
 exam: "CDS"
 subject: "Math"
 topic: "Circle"

@@ -1,5 +1,4 @@
 ---
-title: Array Decay Rule & Exceptions
 tags:
   - clang
   - c-language

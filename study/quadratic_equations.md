@@ -1,5 +1,4 @@
 ---
-title: "Chapter 18: Quadratic Equations & Inequalities"
 topic: "Algebra"
 subject: "Mathematics"
 chapter: 18

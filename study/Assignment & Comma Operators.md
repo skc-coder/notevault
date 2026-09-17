@@ -1,5 +1,4 @@
 ---
-title: Assignment & Comma Operators
 tags:
   - clang
   - c-language

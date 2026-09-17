@@ -1,5 +1,4 @@
 ---
-title: Pointers, Array Decay & Indexing
 tags:
   - clang
   - c-language

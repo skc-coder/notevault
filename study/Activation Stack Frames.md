@@ -1,5 +1,4 @@
 ---
-title: Activation Stack Frames
 tags:
   - clang
   - c-language

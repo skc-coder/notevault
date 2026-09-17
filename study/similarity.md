@@ -1,5 +1,4 @@
 ---
-title: "Similarity of Triangles"
 exam: "CDS"
 subject: "Math"
 topic: "Triangles"

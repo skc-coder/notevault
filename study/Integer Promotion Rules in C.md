@@ -1,5 +1,4 @@
 ---
-title: Integer Promotion Rules in C
 tags:
   - clang
   - c-language

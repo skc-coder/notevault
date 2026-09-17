@@ -1,5 +1,4 @@
 ---
-title: "Centers of Triangles"
 exam: "CDS"
 subject: "Math"
 topic: "Triangles"

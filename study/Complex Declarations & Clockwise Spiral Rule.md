@@ -1,5 +1,4 @@
 ---
-title: Complex Declarations & Clockwise Spiral Rule
 tags:
   - clang
   - c-language

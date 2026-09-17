@@ -1,5 +1,4 @@
 ---
-title: Recursion Tracing & Tree Method
 tags:
   - clang
   - c-language

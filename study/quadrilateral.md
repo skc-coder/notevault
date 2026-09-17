@@ -1,5 +1,4 @@
 ---
-title: "Quadrilateral and Polygon"
 exam: "CDS"
 subject: "Math"
 topic: "Quadrilateral and Polygon"

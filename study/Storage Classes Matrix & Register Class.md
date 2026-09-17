@@ -1,5 +1,4 @@
 ---
-title: Storage Classes Matrix & Register Class
 tags:
   - clang
   - c-language

@@ -1,5 +1,4 @@
 ---
-title: Relational Chaining Pitfall
 tags:
   - clang
   - c-language

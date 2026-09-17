@@ -1,5 +1,4 @@
 ---
-title: "Congruence of Triangles"
 exam: "CDS"
 subject: "Math"
 topic: "Triangles"

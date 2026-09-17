@@ -1,5 +1,4 @@
 ---
-title: Sequence Points & Short-Circuit Evaluation
 tags:
   - clang
   - c-language

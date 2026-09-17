@@ -1,5 +1,4 @@
 ---
-title: Bit Truncation & Sign-Extension Matrix
 tags:
   - clang
   - c-language

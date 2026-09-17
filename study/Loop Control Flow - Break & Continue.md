@@ -1,5 +1,4 @@
 ---
-title: Loop Control Flow - Break & Continue
 tags:
   - clang
   - c-language

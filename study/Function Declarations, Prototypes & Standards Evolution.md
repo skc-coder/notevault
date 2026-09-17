@@ -1,5 +1,4 @@
 ---
-title: Function Declarations, Prototypes & Standards Evolution
 tags:
   - clang
   - c-language

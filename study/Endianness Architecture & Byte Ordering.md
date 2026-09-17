@@ -1,5 +1,4 @@
 ---
-title: Endianness Architecture & Byte Ordering
 tags:
   - clang
   - c-language

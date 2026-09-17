@@ -1,5 +1,4 @@
 ---
-title: Functions, Prototypes & Variadic printf
 tags:
   - clang
   - c-language

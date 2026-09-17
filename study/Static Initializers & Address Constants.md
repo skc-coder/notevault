@@ -1,5 +1,4 @@
 ---
-title: Static Initializers & Address Constants
 tags:
   - clang
   - c-language

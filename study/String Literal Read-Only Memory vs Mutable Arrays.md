@@ -1,5 +1,4 @@
 ---
-title: String Literal Read-Only Memory vs Mutable Arrays
 tags:
   - clang
   - c-language

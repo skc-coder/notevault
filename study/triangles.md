@@ -1,5 +1,4 @@
 ---
-title: "Triangles"
 exam: "CDS"
 subject: "Math"
 topic: "Triangles"

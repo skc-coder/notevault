@@ -1,5 +1,4 @@
 ---
-title: Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n)
 tags:
   - clang
   - c-language

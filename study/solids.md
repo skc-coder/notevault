@@ -1,5 +1,4 @@
 ---
-title: "Surface Area and Volume of Solids"
 exam: "CDS"
 subject: "Math"
 topic: "Surface Area and Volume of Solids"

@@ -1,5 +1,4 @@
 ---
-title: Function Scoping & Definition Rules
 tags:
   - clang
   - c-language

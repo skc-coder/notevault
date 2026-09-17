@@ -1,5 +1,4 @@
 ---
-title: VTable Architecture, Virtual Destructors & Abstract Base Classes
 tags: [cpp, vtable, vptr, virtual-destructor, abstract-base-class, interface, sage]
 date: 2026-09-14
 ---

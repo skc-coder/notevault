@@ -1,5 +1,4 @@
 ---
-title: Operators, Precedence & Bitwise Idioms
 tags:
   - clang
   - c-language

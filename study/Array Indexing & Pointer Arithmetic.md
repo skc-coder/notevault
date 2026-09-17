@@ -1,5 +1,4 @@
 ---
-title: Array Indexing & Pointer Arithmetic
 tags:
   - clang
   - c-language

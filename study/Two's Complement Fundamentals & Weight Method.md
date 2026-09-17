@@ -1,5 +1,4 @@
 ---
-title: Two's Complement Fundamentals & Weight Method
 tags:
   - clang
   - c-language

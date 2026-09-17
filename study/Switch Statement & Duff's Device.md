@@ -1,5 +1,4 @@
 ---
-title: Switch Statement & Duff's Device
 tags:
   - clang
   - c-language

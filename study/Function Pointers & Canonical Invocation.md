@@ -1,5 +1,4 @@
 ---
-title: Function Pointers & Canonical Invocation
 tags:
   - clang
   - c-language

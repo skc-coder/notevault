@@ -1,5 +1,4 @@
 ---
-title: Storage Classes, Linkage & Memory Layout
 tags:
   - clang
   - c-language

@@ -1,5 +1,4 @@
 ---
-title: Floating-Point Constant Expressions & Runtime Signals
 tags:
   - clang
   - c-language

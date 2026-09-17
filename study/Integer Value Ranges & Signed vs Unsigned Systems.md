@@ -1,5 +1,4 @@
 ---
-title: Integer Value Ranges & Signed vs Unsigned Systems
 tags:
   - clang
   - c-language

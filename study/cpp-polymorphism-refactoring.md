@@ -1,5 +1,4 @@
 ---
-title: Refactoring to C++ Polymorphic Hierarchy & Architectural Evolution
 tags: [cpp, refactoring, oop, open-closed-principle, factory-pattern, polymorphic-design, sage]
 date: 2026-09-14
 ---

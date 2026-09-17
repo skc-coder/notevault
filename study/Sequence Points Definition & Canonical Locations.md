@@ -1,5 +1,4 @@
 ---
-title: Sequence Points Definition & Canonical Locations
 tags:
   - clang
   - c-language

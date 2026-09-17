@@ -1,5 +1,4 @@
 ---
-title: Multidimensional Arrays & Complex Declarations
 tags:
   - clang
   - c-language

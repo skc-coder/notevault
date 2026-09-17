@@ -1,5 +1,4 @@
 ---
-title: Bit-Width Conversions & Extensions
 tags:
   - clang
   - c-language

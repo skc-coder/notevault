@@ -1,5 +1,4 @@
 ---
-title: C Integer Conversion & Printf Formatting Case Studies
 tags:
   - clang
   - c-language

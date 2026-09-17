@@ -1,5 +1,4 @@
 ---
-title: Bitwise Operations & Standard Idioms
 tags:
   - clang
   - c-language

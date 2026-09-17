@@ -1,5 +1,4 @@
 ---
-title: Usual Arithmetic Conversions & Hierarchy
 tags:
   - clang
   - c-language

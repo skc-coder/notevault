@@ -1,5 +1,4 @@
 ---
-title: Dangling Else Ambiguity
 tags:
   - clang
   - c-language

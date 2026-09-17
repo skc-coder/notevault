@@ -1,5 +1,4 @@
 ---
-title: Short-Circuit Evaluation Guarantees
 tags:
   - clang
   - c-language

@@ -1,5 +1,4 @@
 ---
-title: Process Memory Layout - Segments & Stack
 tags:
   - clang
   - c-language

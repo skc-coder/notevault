@@ -1,5 +1,4 @@
 ---
-title: Operator Precedence & Associativity Hierarchy
 tags:
   - clang
   - c-language

@@ -1,5 +1,4 @@
 ---
-title: Type Conversions, Integer Promotion & Arithmetic Hierarchy
 tags:
   - clang
   - c-language

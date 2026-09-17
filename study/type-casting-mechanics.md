@@ -1,5 +1,4 @@
 ---
-title: Type Casting Mechanics & Class Hierarchy Transitions
 tags: [cpp, casting, type-safety, object-layout, inheritance, sage]
 date: 2026-09-14
 ---

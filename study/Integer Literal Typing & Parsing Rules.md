@@ -1,5 +1,4 @@
 ---
-title: Integer Literal Typing & Parsing Rules
 tags:
   - clang
   - c-language

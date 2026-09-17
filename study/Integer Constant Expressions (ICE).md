@@ -1,5 +1,4 @@
 ---
-title: Integer Constant Expressions (ICE)
 tags:
   - clang
   - c-language

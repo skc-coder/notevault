@@ -1,5 +1,4 @@
 ---
-title: Sizeof Operator Mechanics
 tags:
   - clang
   - c-language
