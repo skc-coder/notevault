@@ -221,8 +221,6 @@ By Master Theorem (Case 2): $T(n) = \Theta(n \log n)$
 
 ### Counting Inversions
 
-> [!abstract] Application Merge Sort can count **inversions** (pairs where `i < j` but `A[i] > A[j]`) in `O(n log n)` time. When merging, every time we pick from the right half over the left half, we count `mid − left_pointer` inversions.
-
 ---
 
 ## 5 — Quick Sort
@@ -283,8 +281,6 @@ quickSort(A, l, r):
 > - Excellent cache performance (accesses contiguous memory)
 > - Average case constant factor is small
 > - `O(n log n)` average despite `O(n²)` worst case with randomized pivot
-
-> [!abstract] Average Case Analysis With randomized pivot, expected number of comparisons = `2n ln n ≈ 1.39 n log₂ n`. This is only ~39% more than the theoretical minimum — remarkably efficient.
 
 ---
 
@@ -378,8 +374,6 @@ Result: [1, 3, 4, 5, 10] ✓
 ---
 
 ## 7 — Decision Tree Lower Bound
-
-> [!abstract] Theorem Any comparison-based sorting algorithm requires at least `Ω(n log n)` comparisons in the worst case.
 
 ### Proof Idea
 

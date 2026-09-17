@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of recursion tree tracing methods, static side effects, and activation stack frames.
-
 ---
 
 ## Atomic Notes

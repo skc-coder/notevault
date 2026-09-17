@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of storage classes, register constraints, linkage rules, and process memory segments.
-
 ---
 
 ## Atomic Notes

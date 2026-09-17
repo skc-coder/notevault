@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of byte endianness, string literal memory sections, and character arrays.
-
 ---
 
 ## Atomic Notes

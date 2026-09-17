@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Unified hub note for type conversions, integer promotion rules, conversion rank hierarchy, and usual arithmetic conversions in C.
-
 ---
 
 ## Logical Sequence & Atomic Notes

@@ -1,20 +1,5 @@
 # ⚡ Dynamic Programming
 
-> [!abstract] Properties
-> 
-> - **Source:** GoClasses.in — Lectures 36a → 42e
->     
-> - **Topic:** #algorithms #dp #GATE
->     
-> - **Prerequisites:** Recursion, Greedy, Divide & Conquer
->     
-> - **Links:** [[LCS]], [[Matrix Chain Multiplication]], [[Floyd Warshall]]
->     
-> - **Note Meta:** Chapter 5 | Pages 45–51 | Quantum City (AIR 107)
->     
-
----
-
 ## 📑 Table of Contents
 
 1. [[#Introduction — Fibonacci]]

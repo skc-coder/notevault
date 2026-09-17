@@ -7,10 +7,6 @@ tags:
   - study
 ---
 
-> [!abstract] Overview
-> The **Two's Complement Unsigned-Signed Shift Identity** defines the exact mathematical translation between an $n$-bit unsigned value $U$ and its corresponding two's complement signed value $S$ when the Most Significant Bit (MSB) is $1$.
-
----
 
 ## 1. The Identity Formula 📐
 
@@ -26,7 +22,6 @@ Where:
 * $n$ = bit-width of the integer container ($8$ for `char`, $16$ for `short`, $32$ for `int`)
 * $U$ = Unsigned interpretation of the $n$-bit pattern ($\text{val} \pmod{2^n}$)
 * $S$ = Signed two's complement interpretation ($S < 0$)
-* $2^n$ = The total modular capacity / period of the $n$-bit container
 
 ---
 

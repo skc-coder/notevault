@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of constant expressions (ICE), static initializers, control branching, and switch statements.
-
 ---
 
 ## Atomic Notes

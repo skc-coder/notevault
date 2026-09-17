@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of 2D/3D array decay, function pointers, and declaration parsing.
-
 ---
 
 ## Atomic Notes

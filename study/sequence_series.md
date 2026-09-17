@@ -146,7 +146,6 @@ For any two positive real numbers $a$ and $b$:
 
 ---
 
----
 
 ## Subtopics & Core Models
 

@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of operator precedence hierarchies, relational pitfalls, bitwise idioms, and assignment operators.
-
 ---
 
 ## Atomic Notes

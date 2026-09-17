@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical hub note for binary integer encoding formats, two's complement arithmetic, positional weighting, and value range bounds in C.
-
 ---
 
 ## Logical Sequence & Atomic Notes

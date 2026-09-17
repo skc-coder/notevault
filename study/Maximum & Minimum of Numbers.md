@@ -129,8 +129,6 @@ Set both `max = min = A[0]`, then process remaining `n−1` elements in pairs. �
 
 ## 4 — Tournament Method: Full Binary Tree View
 
-> [!abstract] Intuition Think of the array elements as leaves of a **complete binary tree**. Each internal node stores the winner (max) of its two children. The root is the overall maximum.
-
 ```
          [max]
         /     \

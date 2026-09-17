@@ -192,7 +192,6 @@ An alloy is a homogeneous mixture of two or more metals, or a metal and a non-me
 
 ---
 
----
 
 ## 8. Hard Exam PYQs & Advanced Practice Questions
 ---

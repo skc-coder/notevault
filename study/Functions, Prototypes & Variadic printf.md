@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of function prototypes, decay parameters, function scoping, and variadic printf arguments.
-
 ---
 
 ## Atomic Notes

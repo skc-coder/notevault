@@ -7,9 +7,6 @@ tags:
 ---
 
 
-> [!abstract] Overview
-> Logical grouping of pointer sizing, addressability, array decay rules, and pointer arithmetic.
-
 ---
 
 ## Atomic Notes
