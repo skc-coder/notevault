@@ -48,37 +48,34 @@ Targets any image with |banner alt tag embedded in note body
     margin-top: 140px !important;
 }
 
-/* Dynamic & Premium Dashboard CSS Snippet (Modern Card Grid System) */
+/* Clean & Robust Dashboard CSS Snippet (TfT Hacker & ITS Theme Compatible) */
 
 :root {
     --dashboard-columns: 4;
-    --dashboard-gap: 14px;
+    --dashboard-gap: 16px;
     --dashboard-min-width: 220px;
 }
 
 .dashboard {
     font-family: inherit;
-    padding: 15px 10px !important;
 }
 
 .dashboard .markdown-preview-section {
     max-width: 100% !important;
 }
 
-/* Dashboard Section Headers */
 .dashboard h1,
 .dashboard h2,
 .dashboard h3 {
-    letter-spacing: 0.02em;
-    margin-top: 1.6rem !important;
+    border-bottom: 1px dashed var(--hr-color, rgba(255, 255, 255, 0.2)) !important;
+    padding-bottom: 4px !important;
+    margin-top: 1.5rem !important;
     margin-bottom: 0.8rem !important;
-    padding-bottom: 0.4rem !important;
-    border-bottom: 1px dashed var(--hr-color, rgba(255, 255, 255, 0.15)) !important;
 }
 
-/* Remove default bullet indicators and indentation guides */
+/* Hide top-level bullets and indentation lines */
 .dashboard div.markdown-preview-section > div > ul > li > .list-bullet,
-.dashboard .list-bullet {
+.dashboard > .markdown-rendered > div > ul > li > .list-bullet {
     display: none !important;
 }
 
@@ -87,86 +84,84 @@ Targets any image with |banner alt tag embedded in note body
     display: none !important;
 }
 
+/* Only top-level unordered list forms the card grid */
 .dashboard div > ul,
-.dashboard .markdown-rendered ul {
+.dashboard .markdown-rendered > div > ul {
     list-style: none !important;
     padding-left: 0 !important;
     margin: 0 0 1.5rem 0 !important;
     display: grid !important;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--dashboard-min-width, 220px)), 1fr)) !important;
-    gap: var(--dashboard-gap, 14px) !important;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--dashboard-min-width, 220px)), 1fr)) !important;
+    gap: var(--dashboard-gap, 16px) !important;
 }
 
-/* Column Override Utility Classes for YAML Frontmatter */
-.dashboard.cols-2 div > ul, .dashboard.cols-2 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)) !important; }
-.dashboard.cols-3 div > ul, .dashboard.cols-3 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)) !important; }
-.dashboard.cols-4 div > ul, .dashboard.cols-4 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)) !important; }
-.dashboard.cols-5 div > ul, .dashboard.cols-5 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr)) !important; }
-.dashboard.cols-6 div > ul, .dashboard.cols-6 ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)) !important; }
+/* Column Overrides from YAML frontmatter: cssclasses: [dashboard, cols-4] */
+.dashboard.cols-2 div > ul, .dashboard.cols-2 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)) !important; }
+.dashboard.cols-3 div > ul, .dashboard.cols-3 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)) !important; }
+.dashboard.cols-4 div > ul, .dashboard.cols-4 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)) !important; }
+.dashboard.cols-5 div > ul, .dashboard.cols-5 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)) !important; }
+.dashboard.cols-6 div > ul, .dashboard.cols-6 .markdown-rendered > div > ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)) !important; }
 
-/* Styling Dashboard List Items as Premium Interactive Cards */
+/* Top-level list item card container */
 .dashboard div > ul > li,
-.dashboard .markdown-rendered ul > li {
+.dashboard .markdown-rendered > div > ul > li {
     min-width: 0 !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 !important;
-    list-style-type: none !important;
-    box-sizing: border-box !important;
-}
-
-/* Card Container & Link Alignment */
-.dashboard div > ul > li > a,
-.dashboard .markdown-rendered ul > li > a,
-.dashboard div > ul > li,
-.dashboard .markdown-rendered ul > li {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    padding: 10px 14px !important;
+    padding: 12px 14px !important;
     border-radius: 8px !important;
-    background: var(--background-secondary, rgba(255, 255, 255, 0.03)) !important;
-    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1)) !important;
-    text-decoration: none !important;
-    font-size: 0.92rem !important;
-    font-weight: 500 !important;
-    line-height: 1.35 !important;
-    color: var(--text-normal, inherit) !important;
-    word-break: break-word !important;
-    overflow-wrap: anywhere !important;
-    transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    background: var(--background-secondary, rgba(255, 255, 255, 0.04)) !important;
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.12)) !important;
+    box-sizing: border-box !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    transition: transform 0.15s ease, border-color 0.15s ease !important;
 }
 
-/* Hover & Focus State Micro-animations */
 .dashboard div > ul > li:hover,
-.dashboard .markdown-rendered ul > li:hover,
-.dashboard div > ul > li > a:hover,
-.dashboard .markdown-rendered ul > li > a:hover {
-    background: var(--background-secondary-alt, rgba(255, 255, 255, 0.07)) !important;
+.dashboard .markdown-rendered > div > ul > li:hover {
     border-color: var(--interactive-accent, #61afef) !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
 }
 
-/* Icon / Bullet Badge styling for links inside dashboard cards */
-.dashboard div > ul > li::before,
-.dashboard .markdown-rendered ul > li::before {
-    content: "📄";
-    font-size: 0.85rem;
-    opacity: 0.75;
-    flex-shrink: 0;
+/* Links inside dashboard cards */
+.dashboard div > ul > li a,
+.dashboard .markdown-rendered > div > ul > li a {
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
 }
 
-/* Dataview Support */
-.dashboard ul.dataview {
-    row-gap: 12px !important;
+/* Ensure nested lists inside cards stay vertical, NOT grid! */
+.dashboard div > ul > li ul,
+.dashboard .markdown-rendered > div > ul > li ul {
+    display: block !important;
+    grid-template-columns: none !important;
+    padding-left: 1.2rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
+    list-style-type: disc !important;
 }
 
-/* Responsive Viewports */
+.dashboard div > ul > li ul li,
+.dashboard .markdown-rendered > div > ul > li ul li {
+    background: transparent !important;
+    border: none !important;
+    padding: 2px 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+    box-shadow: none !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+
 @media (max-width: 768px) {
     .dashboard div > ul,
-    .dashboard .markdown-rendered ul {
+    .dashboard .markdown-rendered > div > ul {
         grid-template-columns: 1fr !important;
-        gap: 10px !important;
     }
 }
