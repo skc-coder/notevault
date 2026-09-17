@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "moc clang"
             }
+          },
+          {
+            "id": "2dddc90412272a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/Integer Representation & Promotion.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Integer Representation & Promotion"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,11 +272,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84d9fad8a9c6136e",
+  "active": "2dddc90412272a9d",
   "lastOpenFiles": [
+    "mocs/moc clang.md",
+    "study/Integer Representation & Promotion.md",
+    "study/Bit Truncation & Sign-Extension Matrix.md",
     "study/String Literal Read-Only Memory vs Mutable Arrays.md",
     "study/Endianness Architecture & Byte Ordering.md",
-    "study/Integer Representation & Promotion.md",
     "study/Complex Declarations & Clockwise Spiral Rule.md",
     "study/Function Pointers & Canonical Invocation.md",
     "study/Multidimensional Array Decay & Pointer Types.md",
@@ -272,7 +288,6 @@
     "study/Pointer Basics & Addressability.md",
     "study/Activation Stack Frames.md",
     "study/Recursion Tracing - Tree Method & Side Effects.md",
-    "mocs/moc clang.md",
     "study/Process Memory Layout - Segments & Stack.md",
     "study/Storage Classes - Static & Extern.md",
     "study/Storage Classes Matrix & Register Class.md",
@@ -285,7 +300,6 @@
     "study/Assignment & Comma Operators.md",
     "study/Bitwise Operations & Standard Idioms.md",
     "study/Relational Chaining Pitfall.md",
-    "study/Operator Precedence & Associativity Hierarchy.md",
     "Base",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",

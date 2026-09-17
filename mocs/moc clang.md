@@ -17,6 +17,7 @@ cssclasses:
   - [[Integer Literal Typing & Parsing Rules]]
   - [[Bit-Width Extensions & Sign vs Zero Extension]]
   - [[Narrowing & Truncation Mechanics]]
+  - [[Bit Truncation & Sign-Extension Matrix]]
   - [[C Integer Conversion & Printf Formatting Case Studies]]
 
 ### 1.3 Type Conversions & Arithmetic Hierarchy

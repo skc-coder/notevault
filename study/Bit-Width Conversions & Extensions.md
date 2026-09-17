@@ -28,11 +28,14 @@ tags:
    - Discarding upper bits during bit slicing.
    - Sign flipping and magnitude alteration on narrowing.
 
-4. **[[Usual Arithmetic Conversions & Hierarchy]]**
+4. **[[Bit Truncation & Sign-Extension Matrix]]**
+   - Modulo arithmetic setup ($U = \text{val} \pmod{2^n}$), Master conversion matrix, mathematical derivations, and worked numerical examples.
+
+5. **[[Usual Arithmetic Conversions & Hierarchy]]**
    - Integer conversion rank hierarchy.
    - Phase 1 (Promotion) and Phase 2 (Unification) rules.
 
-5. **[[C Integer Conversion & Printf Formatting Case Studies]]**
+6. **[[C Integer Conversion & Printf Formatting Case Studies]]**
    - Detailed trace of `signed char c = 130` and `unsigned char c = 130` passed to `%d` and `%u`.
 
 ---
