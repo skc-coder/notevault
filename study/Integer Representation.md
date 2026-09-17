@@ -9,5 +9,3 @@ tags:
 - [[Twos Complement Shift Identity]]
 - [[Integer Value Ranges]]
 - [[Overflow Detection Rules]]
-- [[Type Conversions Hierarchy]]
-- [[Bit Width Conversions]]

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "study/Integer Representation.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -218,6 +218,7 @@
   "active": "84d9fad8a9c6136e",
   "lastOpenFiles": [
     "mocs/moc clang.md",
+    "study/Integer Representation.md",
     "study/Two's Complement Unsigned-Signed Shift Identity (U - S = 2^n).md",
     "study/Variadic Printf Pipeline.md",
     "study/Usual Arithmetic Conversions.md",
@@ -242,7 +243,6 @@
     "study/Overflow Detection Rules.md",
     "study/Operators Bitwise Idioms.md",
     "study/Operator Precedence Hierarchy.md",
-    "study/Multidimensional Arrays.md",
     "Base",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
