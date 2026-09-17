@@ -57,10 +57,7 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - **[[critical section problem]]** 14 - 18
 - [[hardware-supported-synchronization]] 19
 - **[[Semaphores]]** 20
-- [[producer-consumer-problem]] 21
-- [[readers-writers-problem]] 21
-- [[dining-philosophers-problem]] 22
-- [[synchronization-criteria-invariants]]
+- [[Classic Problems]] 21, 22
 - [[practice synchronization]]
 
 ---
@@ -126,10 +123,6 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - [[User vs Kernel Level Threads]]
 - [[atomicity-of-semaphore-operations]]
 - [[classification-of-semaphores]]
-- [[producer-consumer-problem]]
-- [[readers-writers-problem]]
-- [[dining-philosophers-problem]]
-- [[synchronization-criteria-invariants]]
 - [[Critical Section Practice Variations]]
 - [[critical section problem]]
 - [[Critical Section Synchronization Criteria]]
