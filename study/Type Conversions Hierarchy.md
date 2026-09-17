@@ -8,5 +8,4 @@ tags:
 - [[Integer Literal Rules]]
 - [[Integer Promotion Rules]]
 - [[Usual Arithmetic Conversions]]
-- [[Sign and Zero Extension]]
 - [[Printf Integer Conversions]]

@@ -49,8 +49,7 @@
               "title": "Bit Width Conversions"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -244,16 +243,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b007685baaba8225",
+  "active": "84d9fad8a9c6136e",
   "lastOpenFiles": [
-    "study/Sign and Zero Extension.md",
     "study/Type Conversions Hierarchy.md",
-    "study/Bit Width Conversions.md",
     "mocs/moc clang.md",
-    "study/Integer Literal Rules.md",
     "study/Integer Representation.md",
-    "study/Printf Integer Conversions.md",
+    "study/Bit Width Conversions.md",
     "study/Usual Arithmetic Conversions.md",
+    "study/Sign and Zero Extension.md",
+    "study/Narrowing & Truncation Mechanics.md",
+    "study/Integer Literal Rules.md",
+    "study/Printf Integer Conversions.md",
     "study/Integer Promotion Rules.md",
     "study/Overflow Detection Rules.md",
     "study/Integer Value Ranges.md",
@@ -271,7 +271,6 @@
     "study/Short Circuit Guarantees.md",
     "study/Sequence Points Definition.md",
     "study/Sequence Points Evaluation.md",
-    "study/Recursion Tree Tracing.md",
     "Base",
     "study/attachments/Pasted image 20260317170238.webp",
     "study/attachments/Pasted image 20260316172120.webp",
