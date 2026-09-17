@@ -5,24 +5,24 @@ cssclasses:
 ---
 ## 🧠 Module 1: Basics, Integers & Control Structures
 
-### 1.1 Integer Representation & Promotion
+### 1.1 Integer Representation & Encoding
 - [[Integer Representation & Promotion]]
   - [[Two's Complement Fundamentals & Weight Method]]
   - [[Integer Value Ranges & Signed vs Unsigned Systems]]
-  - [[Integer Promotion Rules in C]]
   - [[Overflow Definition & Detection Rules]]
 
-### 1.2 Bit-Width Conversions & Extensions
+### 1.2 Type Conversions, Integer Promotion & Arithmetic Hierarchy
+- [[Type Conversions, Integer Promotion & Arithmetic Hierarchy]]
+  - [[Integer Promotion Rules in C]]
+  - [[Usual Arithmetic Conversions & Hierarchy]]
+
+### 1.3 Bit-Width Conversions & Extensions
 - [[Bit-Width Conversions & Extensions]]
   - [[Integer Literal Typing & Parsing Rules]]
   - [[Bit-Width Extensions & Sign vs Zero Extension]]
   - [[Narrowing & Truncation Mechanics]]
   - [[Bit Truncation & Sign-Extension Matrix]]
   - [[C Integer Conversion & Printf Formatting Case Studies]]
-
-### 1.3 Type Conversions & Arithmetic Hierarchy
-- [[Type Conversions & Arithmetic Hierarchy]]
-  - [[Usual Arithmetic Conversions & Hierarchy]]
 
 ### 1.4 Constant Expressions & Control Flow
 - [[Constant Expressions & Control Flow]]
