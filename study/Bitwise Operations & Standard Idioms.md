@@ -46,8 +46,3 @@ if (x & 1) { /* Odd number */ } else { /* Even number */ }
 a ^= b; b ^= a; a ^= b;
 ```
 
----
-
-## Related Notes
-- [[Operator Precedence & Associativity Hierarchy]]
-- [[Assignment & Comma Operators]]

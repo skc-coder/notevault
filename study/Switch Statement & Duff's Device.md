@@ -42,9 +42,3 @@ void send(register char *to, register char *from, register int count) {
 }
 ```
 
----
-
-## Related Notes
-- [[Dangling Else Ambiguity]]
-- [[Integer Constant Expressions (ICE)]]
-- [[Loop Control Flow - Break & Continue]]

@@ -28,9 +28,3 @@ When a multidimensional array decays, only the outermost dimension is stripped a
 
 $$\text{Address of } arr[i][j] = \text{Base} + (i \cdot N + j) \cdot \text{sizeof}(\text{element})$$
 
----
-
-## Related Notes
-- [[Array Decay Rule & Exceptions]]
-- [[Function Pointers & Canonical Invocation]]
-- [[Complex Declarations & Clockwise Spiral Rule]]

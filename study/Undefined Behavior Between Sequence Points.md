@@ -25,8 +25,3 @@ f(i++, i++);       // Undefined Behavior: unsequenced modifications of i
 i = ++i + 1;       // Undefined Behavior: multiple unsequenced writes to i
 ```
 
----
-
-## Related Notes
-- [[Sequence Points Definition & Canonical Locations]]
-- [[Short-Circuit Evaluation Guarantees]]

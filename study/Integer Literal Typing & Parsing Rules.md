@@ -35,9 +35,3 @@ To enforce specific bit-widths and signedness directly on literal constants:
 > 
 > The compiler parses `42` as a positive integer constant first, and subsequently applies the unary negation operator (`-`) via two's complement.
 
----
-
-## Related Notes
-- [[Integer Promotion Rules in C]]
-- [[Bit-Width Extensions & Sign vs Zero Extension]]
-- [[Narrowing & Truncation Mechanics]]

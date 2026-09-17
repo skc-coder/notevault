@@ -21,9 +21,3 @@ static int global_arr[100];
 static int *ptr = &global_arr[5]; // Valid: Address constant + integer offset
 ```
 
----
-
-## Related Notes
-- [[Integer Constant Expressions (ICE)]]
-- [[Storage Classes - Static & Extern]]
-- [[Process Memory Layout - Segments & Stack]]

@@ -48,10 +48,3 @@ printf("%u\n", c); // Outputs: 130
    $$00000000\;00000000\;00000000\;10000010_2$$
 3. **Format Specifier Evaluation:** Both `%d` and `%u` output `130`.
 
----
-
-## Related Notes
-- [[Integer Promotion Rules in C]]
-- [[Bit-Width Extensions & Sign vs Zero Extension]]
-- [[Narrowing & Truncation Mechanics]]
-- [[Usual Arithmetic Conversions & Hierarchy]]

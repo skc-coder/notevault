@@ -27,8 +27,3 @@ For $32$-bit value `0x12345678` stored at base address `0x00`:
 > [!trap] Endianness Applies Only to Scalar Primitives
 > Endianness applies solely to bytes within primitive scalars (`int`, `float`, `short`). Array element order is unaffected (`arr[0]` always sits at the lowest physical memory address).
 
----
-
-## Related Notes
-- [[String Literal Read-Only Memory vs Mutable Arrays]]
-- [[Process Memory Layout - Segments & Stack]]

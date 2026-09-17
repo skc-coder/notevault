@@ -56,10 +56,3 @@ Given $S = -6_{10}$ in an $8$-bit container ($n = 8$):
 - Applying the Shift Identity:
   $$U = S + 2^8 = -6 + 256 = 250_{10} \quad (\text{0xFA})$$
 
----
-
-## Related Notes
-- [[Bit Truncation & Sign-Extension Matrix]]
-- [[Two's Complement Fundamentals & Weight Method]]
-- [[Integer Value Ranges & Signed vs Unsigned Systems]]
-- [[Overflow Definition & Detection Rules]]

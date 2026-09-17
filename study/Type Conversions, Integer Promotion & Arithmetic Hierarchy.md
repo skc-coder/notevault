@@ -28,8 +28,3 @@ tags:
 4. **[[C Integer Conversion & Printf Formatting Case Studies]]**
    - Trace of promotion and format specifier decoding for `signed char` and `unsigned char`.
 
----
-
-## Related Sequence
-- [[Integer Representation & Encoding]]
-- [[Bit-Width Conversions & Extensions]]

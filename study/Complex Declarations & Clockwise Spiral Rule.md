@@ -33,8 +33,3 @@ int (*apa[5])[10];
 // apa is an array [5] of pointers (*) to an array [10] of int
 ```
 
----
-
-## Related Notes
-- [[Function Pointers & Canonical Invocation]]
-- [[Multidimensional Array Decay & Pointer Types]]

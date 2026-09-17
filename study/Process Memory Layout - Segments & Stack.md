@@ -21,9 +21,3 @@ A compiled program binary is organized into runtime memory segments relative to 
 | **Heap Segment** | Grows Upward ($\uparrow$) | Dynamic memory allocated at runtime via `malloc` / `calloc`. |
 | **Stack Segment** | Grows Downward ($\downarrow$) | Activation records (stack frames), local `auto` variables, and return addresses. |
 
----
-
-## Related Notes
-- [[Storage Classes Matrix & Register Class]]
-- [[Storage Classes - Static & Extern]]
-- [[Recursion Tracing & Tree Method]]

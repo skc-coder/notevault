@@ -19,9 +19,3 @@ A pointer variable stores the memory address of an object. Address size is unifo
 > [!trap] Unary Address-Of Restrictions
 > The unary address-of operator `&` requires an addressable lvalue. It is a compile-time error to apply `&` to literal constants (`&125`), expressions (`&(x + y)`), or `register` variables.
 
----
-
-## Related Notes
-- [[Array Decay Rule & Exceptions]]
-- [[Array Indexing & Pointer Arithmetic]]
-- [[Sizeof Operator Mechanics]]

@@ -516,12 +516,6 @@ $$
 >
 > **Answer:** $\boxed{\text{C — All three}}$
 
----
-
-## Related Notes
-- [[Money — Evolution, Types & Supply]]
-- [[National Income]]
-- [[Fiscal Policy]]
 
 ## Open Questions
 - [ ] DPP 03 Q10's official answer key marks all three statements correct, but statement 3 ("do not store any sensitive information") seems factually questionable for most payment aggregators — worth flagging with the instructor.

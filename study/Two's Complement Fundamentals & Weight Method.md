@@ -42,10 +42,3 @@ An $n$-bit signed binary number $b_{n-1}b_{n-2}\dots b_1b_0$ can be directly con
 1. **If $\text{MSB} = 0$:** The number is positive; perform standard binary-to-decimal conversion.
 2. **If $\text{MSB} = 1$:** The number is negative; compute two's complement ($\sim A + 1$), convert to decimal, and prepend a minus sign ($-$).
 
----
-
-## Related Notes
-- [[Integer Value Ranges & Signed vs Unsigned Systems]]
-- [[Integer Promotion Rules in C]]
-- [[Bit-Width Conversions & Extensions]]
-- [[Overflow Definition & Detection Rules]]

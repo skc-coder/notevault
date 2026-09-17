@@ -41,10 +41,3 @@ int y = x;                // Source is UNSIGNED -> Padded with zeros:
                           // 00000000 00000000 11111111 11110111 = 65527
 ```
 
----
-
-## Related Notes
-- [[Two's Complement Fundamentals & Weight Method]]
-- [[Integer Promotion Rules in C]]
-- [[Narrowing & Truncation Mechanics]]
-- [[C Integer Conversion & Printf Formatting Case Studies]]

@@ -23,9 +23,3 @@ tags:
    - Stride difference: `arr + 1` advances by $\text{sizeof}(T)$; `&arr + 1` advances by $N \times \text{sizeof}(T)$.
 3. **String Literal Initialization:** `char str[] = "hello";` initializes array memory directly.
 
----
-
-## Related Notes
-- [[Pointer Basics & Addressability]]
-- [[Array Indexing & Pointer Arithmetic]]
-- [[Multidimensional Array Decay & Pointer Types]]

@@ -36,8 +36,3 @@ A function declaration introduces the function name and its signature (parameter
   - In hosted C, `main` must return `int`.
   - **C99+:** Reaching `}` in `main` implicitly performs `return 0;`.
 
----
-
-## Related Notes
-- [[Function Scoping & Definition Rules]]
-- [[Variadic Printf Argument Pipeline]]

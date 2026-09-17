@@ -36,8 +36,3 @@ struct Packet {
 };
 ```
 
----
-
-## Related Notes
-- [[Integer Constant Expressions (ICE)]]
-- [[Switch Statement & Duff's Device]]

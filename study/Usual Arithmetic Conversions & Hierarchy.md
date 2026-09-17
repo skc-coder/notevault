@@ -43,9 +43,3 @@ The operand with lower rank is converted to the higher rank type (e.g. `int + lo
    - If signed type can represent all values of unsigned type $\longrightarrow$ unsigned converted to higher-rank signed type.
    - Otherwise $\longrightarrow$ both converted to **unsigned variant of higher-rank type**.
 
----
-
-## Related Notes
-- [[Integer Promotion Rules in C]]
-- [[Bit-Width Extensions & Sign vs Zero Extension]]
-- [[C Integer Conversion & Printf Formatting Case Studies]]

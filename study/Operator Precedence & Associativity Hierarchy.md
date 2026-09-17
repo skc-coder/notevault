@@ -59,9 +59,3 @@ Only three operator classes walk backwards (right-to-left):
 - **Assignment Operators:** `a = b = c` $\to$ `a = (b = c)`
 - **Ternary Operator:** `a ? b : c ? d : e` $\to$ `a ? b : (c ? d : e)`
 
----
-
-## Related Notes
-- [[Relational Chaining Pitfall]]
-- [[Bitwise Operations & Standard Idioms]]
-- [[Assignment & Comma Operators]]

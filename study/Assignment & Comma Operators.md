@@ -27,8 +27,3 @@ tags:
 int x = (a = 3, b = 4, a + b); // a=3, b=4, x=7
 ```
 
----
-
-## Related Notes
-- [[Operator Precedence & Associativity Hierarchy]]
-- [[Sequence Points & Short-Circuit Evaluation]]

@@ -22,8 +22,3 @@ A sequence point governs execution ordering guarantees and memory side effects i
 4. The condition expression in a ternary operation (`? :`) before evaluating either branch.
 5. Right before a function call executes (after all arguments have been evaluated).
 
----
-
-## Related Notes
-- [[Short-Circuit Evaluation Guarantees]]
-- [[Undefined Behavior Between Sequence Points]]

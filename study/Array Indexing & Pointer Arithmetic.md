@@ -23,8 +23,3 @@ The array subscript operator `[]` in C is defined strictly by pointer arithmetic
 
 $$\text{end} - \text{start} = N \quad (\text{for pointers to index } N \text{ and } 0)$$
 
----
-
-## Related Notes
-- [[Array Decay Rule & Exceptions]]
-- [[Pointer Basics & Addressability]]

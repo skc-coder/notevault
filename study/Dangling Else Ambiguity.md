@@ -37,8 +37,3 @@ if (condition1) {
 }
 ```
 
----
-
-## Related Notes
-- [[Switch Statement & Duff's Device]]
-- [[Loop Control Flow - Break & Continue]]

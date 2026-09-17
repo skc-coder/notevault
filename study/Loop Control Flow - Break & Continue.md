@@ -14,8 +14,3 @@ Both `break` and `continue` statements alter linear iteration execution.
 >
 > *(Note: `break` exits an enclosing `switch` block, but `continue` does not; a `continue` inside a `switch` located within a loop skips to the next iteration of the enclosing loop).*
 
----
-
-## Related Notes
-- [[Switch Statement & Duff's Device]]
-- [[Dangling Else Ambiguity]]

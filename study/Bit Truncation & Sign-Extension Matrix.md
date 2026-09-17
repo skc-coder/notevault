@@ -82,10 +82,3 @@ When an $n$-bit signed variable with $\text{MSB} = 1$ is widened to an $N$-bit c
 * Row 1 formula:
   $$S = 43981 - 2^{16} = 43981 - 65536 = -21555$$
 
----
-
-## Related Notes
-- [[Bit-Width Conversions & Extensions]]
-- [[Bit-Width Extensions & Sign vs Zero Extension]]
-- [[Narrowing & Truncation Mechanics]]
-- [[C Integer Conversion & Printf Formatting Case Studies]]

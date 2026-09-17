@@ -28,8 +28,3 @@ C specifies four core storage classes: `auto`, `register`, `static`, and `extern
 > [!trap] Unary Address-Of Restriction
 > Using the unary address-of operator `&` on a `register` variable triggers a **compile-time error**, regardless of whether the compiler honored the register placement.
 
----
-
-## Related Notes
-- [[Storage Classes - Static & Extern]]
-- [[Process Memory Layout - Segments & Stack]]

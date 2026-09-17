@@ -43,8 +43,3 @@ int result = i++ || j++ || k++;
 // Final state: i=1, j=2, k=2, result=1.
 ```
 
----
-
-## Related Notes
-- [[Sequence Points Definition & Canonical Locations]]
-- [[Undefined Behavior Between Sequence Points]]

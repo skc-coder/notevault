@@ -29,8 +29,3 @@ void test(void) {
 }
 ```
 
----
-
-## Related Notes
-- [[Integer Constant Expressions (ICE)]]
-- [[Static Initializers & Address Constants]]

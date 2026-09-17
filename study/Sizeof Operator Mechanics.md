@@ -21,8 +21,3 @@ The `sizeof` operator yields the size in bytes of its operand.
 - **Floating Literals Default:** Floating-point literals default to `double`:
   $$\text{sizeof}(1.3) == 8$$
 
----
-
-## Related Notes
-- [[Pointer Basics & Addressability]]
-- [[Array Decay Rule & Exceptions]]

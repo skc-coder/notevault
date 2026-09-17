@@ -39,9 +39,3 @@ C allows casts of arithmetic types to integer types inside an ICE, but syntax ru
 >   - `int arr[n];` at local scope defines a C99 Variable Length Array (VLA), not a fixed-size static array.
 > - In **C++**, a `const` variable initialized with a compile-time constant is treated natively as an ICE.
 
----
-
-## Related Notes
-- [[Static Initializers & Address Constants]]
-- [[Floating-Point Constant Expressions & Runtime Signals]]
-- [[Enumerations & Struct Bit-Fields]]

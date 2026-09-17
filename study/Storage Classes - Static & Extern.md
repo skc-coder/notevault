@@ -36,8 +36,3 @@ tags:
 > [!trap] Linker Failure with Unresolved `extern`
 > Declaring a variable `extern` suppresses compiler errors in the current module, but if no definition exists across any linked module when accessed, the **Linker fails**.
 
----
-
-## Related Notes
-- [[Storage Classes Matrix & Register Class]]
-- [[Process Memory Layout - Segments & Stack]]

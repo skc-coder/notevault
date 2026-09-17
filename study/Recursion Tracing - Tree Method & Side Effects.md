@@ -23,8 +23,3 @@ When tracing recursive execution paths, especially those involving persistent si
    - **Pre-order Traversal:** Print/evaluation statements executed before recursive calls (top-down execution).
    - **Post-order Traversal:** Unwinding phases and return value combinations (bottom-up back-tracking).
 
----
-
-## Related Notes
-- [[Activation Stack Frames]]
-- [[Process Memory Layout - Segments & Stack]]

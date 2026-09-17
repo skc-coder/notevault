@@ -33,8 +33,3 @@ tags:
 6. **[[C Integer Conversion & Printf Formatting Case Studies]]**
    - Detailed trace of `signed char c = 130` and `unsigned char c = 130` passed to `%d` and `%u`.
 
----
-
-## Related Sequence
-- [[Integer Representation & Encoding]]
-- [[Type Conversions & Arithmetic Hierarchy]]

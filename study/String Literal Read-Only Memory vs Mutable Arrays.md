@@ -38,8 +38,3 @@ char buf1[] = "cat", buf2[] = "dog", buf3[] = "fox";
 char *p3[3] = {buf1, buf2, buf3};
 ```
 
----
-
-## Related Notes
-- [[Endianness Architecture & Byte Ordering]]
-- [[Process Memory Layout - Segments & Stack]]

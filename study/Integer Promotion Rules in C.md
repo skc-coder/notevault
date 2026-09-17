@@ -48,10 +48,3 @@ char c = 'a'; // 'a' is a 4-byte int (0x00000061); 3 upper bytes are truncated t
 
 *(Note: In C++, character literals like `'a'` are natively typed as `char` of 1 byte).*
 
----
-
-## Related Notes
-- [[Two's Complement Fundamentals & Weight Method]]
-- [[Integer Literal Typing & Parsing Rules]]
-- [[Usual Arithmetic Conversions & Hierarchy]]
-- [[Bit-Width Extensions & Sign vs Zero Extension]]

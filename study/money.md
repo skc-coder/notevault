@@ -317,12 +317,6 @@ $$
 >
 > **Answer:** $\boxed{\text{C — } M_3}$
 
----
-
-## Related Notes
-- [[cds/humanities/Banking — History, Structure & Regulation]]
-- [[National Income]]
-- [[Price Indices]]
 
 ## Open Questions
 - [ ] Confirm exact wording/year the RBI officially classifies $M_3$ as the "primary" money supply measure for policy — worth a one-line citation for the exam.

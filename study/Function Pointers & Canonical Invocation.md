@@ -22,8 +22,3 @@ fp();       // Direct invocation
 (**fp)();   // Redundant dereference (fp == *fp == **fp)
 ```
 
----
-
-## Related Notes
-- [[Complex Declarations & Clockwise Spiral Rule]]
-- [[Function Declarations, Prototypes & Standards Evolution]]

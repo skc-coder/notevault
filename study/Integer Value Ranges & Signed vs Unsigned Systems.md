@@ -38,9 +38,3 @@ For an $n$-bit total representation ($1$ sign bit + $n-1$ magnitude bits):
 > 
 > *The asymmetry in signed range arises because zero consumes one non-negative code pattern: `00...0`.*
 
----
-
-## Related Notes
-- [[Two's Complement Fundamentals & Weight Method]]
-- [[Integer Promotion Rules in C]]
-- [[Overflow Definition & Detection Rules]]

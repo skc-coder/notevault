@@ -23,9 +23,3 @@ Overflow occurs if there is a carry out from the magnitude's Most Significant Bi
   - If both inputs have $\text{MSB} = 0$ and result has $\text{MSB} = 1$ $\longrightarrow$ **Overflow**.
   - Adding numbers with different sign MSBs $\longrightarrow$ **Overflow is mathematically impossible**.
 
----
-
-## Related Notes
-- [[Two's Complement Fundamentals & Weight Method]]
-- [[Integer Value Ranges & Signed vs Unsigned Systems]]
-- [[Narrowing & Truncation Mechanics]]

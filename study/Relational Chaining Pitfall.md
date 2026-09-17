@@ -35,8 +35,3 @@ if (a < b && b < c) {
 }
 ```
 
----
-
-## Related Notes
-- [[Operator Precedence & Associativity Hierarchy]]
-- [[Sequence Points & Short-Circuit Evaluation]]

@@ -28,10 +28,3 @@ signed char x = 258;
    $$00000010_2 = 2_{10}$$
 3. Resulting value in `x` is `2`.
 
----
-
-## Related Notes
-- [[Integer Literal Typing & Parsing Rules]]
-- [[Bit-Width Extensions & Sign vs Zero Extension]]
-- [[C Integer Conversion & Printf Formatting Case Studies]]
-- [[Overflow Definition & Detection Rules]]
