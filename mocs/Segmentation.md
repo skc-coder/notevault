@@ -34,13 +34,9 @@ If the logical address space allows up to $2^n$ segments, then:
 * The most significant $n$ bits represent the **Segment Number** ($s$).
 * The remaining $(\text{Total Bits} - n)$ bits represent the internal **Offset** ($d$).
 
-```
-Logical Address (LA):
-+-----------------------------+-------------------------------+
-|     Segment Number (s)      |          Offset (d)           |
-+-----------------------------+-------------------------------+
-  n bits (identifies segment)   Remaining bits (offset inside)
-```
+| Segment Number ($s$) | Offset ($d$) |
+| :---: | :---: |
+| $n$ bits (identifies segment) | Remaining bits (offset inside) |
 
 For instance, given binary $LA = 01\,00011011_2$:
 * The prefix $01_2$ selects segment index $1$.
@@ -63,36 +59,26 @@ When the CPU issues a logical address $\langle s, d \rangle$:
 > [!formula] Segmentation Translation Mapping
 > $$\text{Physical Address } (PA) = \text{Base}[s] + d \quad \iff \quad 0 \le d < \text{Bound}[s]$$
 
-```
-          Logical Address (LA)
-             +-------+--------+
-             |   s   |   d    |
-             +---+---+----+---+
-                 |        |
-        +--------+        |
-        |                 |
-     +--v---+             |
-STBR |  +   |             |
-     +--+---+             |
-        |                 |
-        v                 |
-  Segment Table           |
-+----+------+-------+     |
-|Seg | Base | Bound |     |
-+----+------+-------+     |
-| 0  |  ..  |  ..   |     |
-| s  | Base | Bound |-----+--------+
-+----+------+-------+     |        |
-       |                  v        v
-       |                +------------+
-       |                |  d < Bound |
-       |                +-----+------+
-       |                 yes  |   | no
-       |        +-------------+   +----> [ Trap: Segment Fault ]
-       v        v
-     +------------+
-     | Base + d   | = Physical Address (PA)
-     +------------+
+```mermaid
+flowchart TD
+    subgraph LA["Logical Address (LA)"]
+        s["Segment Number (s)"]
+        d["Offset (d)"]
+    end
+
+    subgraph ST["Segment Table"]
+        STBR["STBR"] --> STE["Segment Table Entry [s]<br/>Base | Bound"]
+    end
+
+    s -->|Indexes ST| STE
+    STE -->|Bound| CHECK{"d < Bound ?"}
+    d --> CHECK
+
+    CHECK -- Yes --> CALC["Base + d"]
+    STE -->|Base| CALC
+    CALC --> PA["Physical Address (PA)"]
+
+    CHECK -- No --> TRAP["Trap: Segment Fault / Addressing Violation"]
 ```
 
 ---
@@ -101,19 +87,28 @@ STBR |  +   |             |
 
 A process with logical divisions (Stack, Heap, Static Data, Code) does not need to be arranged sequentially in physical memory:
 
-```
-Logical Address Space (Process P1)          Physical Memory (MM)
-+-----------------------+                    +--------------------+
-| Stack                 | ---------\         | ...                |
-+-----------------------+           \        +--------------------+
-| Heap                  | ----\      \-----> | Stack              |
-+-----------------------+      \             +--------------------+
-| Static Data           | --\   \----------> | Code               |
-+-----------------------+    \               +--------------------+
-| Code                  | -\  \------------> | Heap               |
-+-----------------------+   \                +--------------------+
-                             \-------------> | Static Data        |
-                                             +--------------------+
+```mermaid
+flowchart LR
+    subgraph LAS["Logical Address Space (Process P1)"]
+        direction TB
+        Code["Code"]
+        Data["Static Data"]
+        Heap["Heap"]
+        Stack["Stack"]
+    end
+
+    subgraph PAS["Physical Memory (Main Memory)"]
+        direction TB
+        M_Stack["Stack"]
+        M_Code["Code"]
+        M_Heap["Heap"]
+        M_Data["Static Data"]
+    end
+
+    Stack --> M_Stack
+    Heap --> M_Heap
+    Data --> M_Data
+    Code --> M_Code
 ```
 
 Because segments are independent chunks, each can be mapped anywhere in $MM$. This eliminates internal fragmentation for statically sized segments (e.g., code, static variables) because we only allocate what is required.

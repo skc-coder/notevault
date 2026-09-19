@@ -1,12 +1,8 @@
 A Page Table is indexed by the Page Number ($p$). Each entry is called a **Page Table Entry (PTE)**.
 
-```
-Typical Page Table Entry (PTE):
-+-------------+---------------+---------------+---------------+-----------+
-| Frame No.   | Valid/Invalid | Protection    | Reference     | Dirty     |
-| (f bits)    | (Present Bit) | (R / W / X)   | (Accessed Bit)| (Mod Bit) |
-+-------------+---------------+---------------+---------------+-----------+
-```
+| Frame Number ($f$) | Valid / Invalid Bit | Protection Bits | Reference Bit | Dirty Bit |
+| :---: | :---: | :---: | :---: | :---: |
+| $(m - k)$ bits | Present Bit ($1/0$) | Access ($R/W/X$) | Accessed Bit | Modified Bit |
 
 * **Frame Number ($f$):** The base address bits of physical memory where the page resides. The minimum size of this field is $\lceil \log_2(\text{Number of Frames}) \rceil = (m - k)\text{ bits}$.
 * **Valid / Invalid Bit (Present Bit):** Indicates whether the page is currently loaded in Main Memory ($1$) or still on secondary storage / unallocated ($0$).

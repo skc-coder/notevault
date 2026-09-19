@@ -1,13 +1,13 @@
 In variable-partition allocation and pure segmentation, allocating a segment requires free-space management techniques such as First Fit, Best Fit, or Worst Fit. Because processes allocate and deallocate dynamically sized blocks over time, memory develops non-contiguous holes, resulting in **External Fragmentation**.
 
+```mermaid
+flowchart LR
+    subgraph Memory["External Fragmentation in Contiguous / Segmented Memory"]
+        direction LR
+        S0["Seg 0"] --- F1["Free Hole"] --- S1["Seg 1"] --- F2["Free Hole"] --- S2["Seg 2"] --- F3["Free Hole"]
+    end
 ```
-External Fragmentation in Contiguous/Segmented Memory:
-+-------+------+-------+------+-------+------+
-| Seg 0 | Free | Seg 1 | Free | Seg 2 | Free |
-+-------+------+-------+------+-------+------+
-Total free memory might be sufficient for an incoming segment,
-but no single contiguous hole is large enough!
-```
+*Total free memory might be sufficient for an incoming segment, but no single contiguous hole is large enough!*
 
 To eliminate external fragmentation without paging, the operating system must employ **Compaction** (relocating active memory chunks into a contiguous block to coalesce free space).
 

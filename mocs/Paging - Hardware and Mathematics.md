@@ -1,18 +1,24 @@
 Every active process maintains its own independent **Page Table** in physical memory. The operating system tracks the base of this table using the **PTBR (Page Table Base Register)**.
 
-```
-Logical Address (LA):                Physical Address (PA):
-+---------------------+--------+     +----------------------+--------+
-|   Page Number (p)   | Offset |     |   Frame Number (f)   | Offset |
-|      (n - k) bits   | k bits |     |     (m - k) bits     | k bits |
-+----------+----------+---+----+     +----------+-----------+----+---+
-           |              |                     ^                |
-           v              |                     |                |
-     Page Table           |                     |                |
-   +----+-------+         |                     |                |
-   | p  |   f   |---------+---------------------+                |
-   +----+-------+         |                                      |
-   | .. |  ...  |         +--------------------------------------+
+```mermaid
+flowchart TD
+    subgraph LA["Logical Address (LA)"]
+        p["Page Number (p)<br/>(n - k) bits"]
+        d1["Offset (d)<br/>k bits"]
+    end
+
+    subgraph PT["Page Table (Physical Memory)"]
+        PTE["Page Table Entry [p]<br/>Frame Number (f)"]
+    end
+
+    subgraph PA["Physical Address (PA)"]
+        f["Frame Number (f)<br/>(m - k) bits"]
+        d2["Offset (d)<br/>k bits"]
+    end
+
+    p -->|Indexes Page Table| PTE
+    PTE -->|Yields Frame f| f
+    d1 -.->|Offset Invariant (Direct Copy)| d2
 ```
 
 > [!formula] Fundamental Structural Identities
