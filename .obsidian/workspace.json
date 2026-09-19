@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -286,7 +286,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4bbd142a242cdb80",
+  "active": "fb6bb8c518f82a42",
   "lastOpenFiles": [
     "mocs/Paging.md",
     "mocs/Paging - Page Table Entry Structure.md",

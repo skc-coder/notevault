@@ -18,7 +18,7 @@ flowchart TD
 
     p -->|Indexes Page Table| PTE
     PTE -->|Yields Frame f| f
-    d1 -.->|Offset Invariant (Direct Copy)| d2
+    d1 -.->|"Offset Invariant (Direct Copy)"| d2
 ```
 
 > [!formula] Fundamental Structural Identities

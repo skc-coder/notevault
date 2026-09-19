@@ -17,7 +17,7 @@ flowchart TD
     VA -.->|Index s| ST
     ST -->|Yields Base of PT| PT["Page Table of Segment s"]
     VA -.->|Index p| PT
-    PT -->|Yields Frame Number (f)| PA["Physical Address: [ Frame (f) | Offset (d) ]"]
+    PT -->|"Yields Frame Number (f)"| PA["Physical Address: [ Frame (f) | Offset (d) ]"]
     VA -.->|Offset d| PA
     PA --> RAM["Physical Memory (RAM)"]
 ```
