@@ -1,6 +1,7 @@
 **ARP (Address Resolution Protocol)** is the mechanism that maps a known **IP address** to an unknown **MAC address** on a local network.
 
 It is communicated within the boundaries of a single [subnetwork](https://en.wikipedia.org/wiki/Subnetwork "Subnetwork") and is never [routed](https://en.wikipedia.org/wiki/Routed "Routed").
+
 ### How it Works (The Process)
 
 1.  **Check Cache:**

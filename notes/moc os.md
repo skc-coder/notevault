@@ -61,21 +61,13 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 
 ## 💾 Memory Management
 
-- **Lecture 23** –  [[Base and Bound]]
-[[Segmentation]], 
-base and bound question**
-- **Lecture 25** – Intro to [[Paging 1]] (LIVE)
-- **Lecture 26** – Single Level Paging Questions (LIVE)
-- **Lecture 27** – Multi-Level Paging (LIVE)
-- **Lecture 28** – Multi-Level Paging -2 (110:00)
-- **Lecture 29** – Multi-Level Paging -3 (Reducing Size) (156:00)
-  - 📝 **Multilevel Paging One Shot**
-- **Lecture 30** – Memory Mgmt Summary | Hashed/Inverted Tables (LIVE)
-- **Lecture 31** – [[Segmentation]] with Paging (LIVE)
-- **Lecture 32** – [[Demand Paging]] | Page Replacement (LIVE)
-- **Lecture 33** – TLB | Dynamic Allocation (LIVE)
-  - 📄 [GATE 2020 TLB Question](#) (6 pages)
-  - 📺 GATE 2020 TLB Question Discussion (28:00)
+- [[Base and Bound]]
+- [[Segmentation]]
+`TODO` base and bound questions
+- [Paging](Paging.md)
+- [[Segmentation with paging]] 
+- [[Demand Paging]] 
+- [[TLB]]
 
 ---
 
