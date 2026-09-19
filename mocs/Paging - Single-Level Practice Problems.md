@@ -1,5 +1,3 @@
-## Single-Level Paging Classroom Practice Problems & Derivations
-
 ### Problem Set 1: Basic Address Computation & Verification
 
 #### Question 1.1: Small Memory System Mapping

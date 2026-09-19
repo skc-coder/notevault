@@ -1,5 +1,3 @@
-## Paging Hardware Architecture & Mathematical Formulation
-
 Every active process maintains its own independent **Page Table** in physical memory. The operating system tracks the base of this table using the **PTBR (Page Table Base Register)**.
 
 ```

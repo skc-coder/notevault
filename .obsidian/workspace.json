@@ -48,9 +48,37 @@
               "icon": "lucide-file",
               "title": "moc os"
             }
+          },
+          {
+            "id": "089ca6984a287e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mocs/Paging.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paging"
+            }
+          },
+          {
+            "id": "ba0097cad7e63cf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mocs/Paging - Single-Level Architecture.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paging - Single-Level Architecture"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -244,16 +272,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "28b27fc3cd60694a",
+  "active": "ba0097cad7e63cf8",
   "lastOpenFiles": [
-    "mocs/Memory Management - Paging.md",
     "mocs/Paging.md",
+    "mocs/Memory Units Conversion Reference.md",
+    "mocs/Paging - Single-Level Architecture.md",
+    "mocs/moc os.md",
+    "mocs/Memory Management - Paging.md",
     "mocs/Memory Management - Overhead Comparison.md",
     "mocs/Memory Management - Paged Segmentation.md",
     "mocs/Paging - Inverted Page Tables.md",
     "mocs/Paging - Trade-Offs and Hashed Page Tables.md",
     "mocs/Paging - Multilevel Overhead for Process Segments.md",
-    "mocs/moc os.md",
     "mocs/Paging - Memory Savings in Multilevel Paging.md",
     "mocs/Paging - Reducing Levels via Page Sizing.md",
     "mocs/Segmentation.md",
@@ -264,11 +294,9 @@
     "mocs/Paging - Hierarchical Virtual Address Split.md",
     "mocs/Paging - Multilevel Paging Mechanics.md",
     "mocs/Paging - Single-Level Practice Problems.md",
-    "mocs/Memory Units Conversion Reference.md",
     "mocs/Paging - Scale Problem of Single-Level.md",
     "mocs/Paging - Page Table Entry Structure.md",
     "mocs/Paging - Hardware and Mathematics.md",
-    "mocs/Paging - Single-Level Architecture.md",
     "meta/notemaker.md",
     "meta/Prompts.md",
     "mocs/moc aptitude.md",

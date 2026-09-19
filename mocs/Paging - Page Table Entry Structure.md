@@ -1,5 +1,3 @@
-## Page Table Structure & Entry Anatomy
-
 A Page Table is indexed by the Page Number ($p$). Each entry is called a **Page Table Entry (PTE)**.
 
 ```

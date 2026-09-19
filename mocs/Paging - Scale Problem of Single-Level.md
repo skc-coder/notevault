@@ -1,5 +1,3 @@
-## The Scale Problem of Single-Level Paging
-
 In modern 32-bit and 64-bit architectures, single-level paging tables become prohibitively large to store in contiguous physical memory:
 
 Consider a 32-bit logical address space ($LA = 32\text{ bits}$), with standard $4\text{ KB}$ pages ($2^{12}\text{ B}$):

@@ -1,5 +1,3 @@
-## Motivation: The Evolution from Segmentation to Paging
-
 In variable-partition allocation and pure segmentation, allocating a segment requires free-space management techniques such as First Fit, Best Fit, or Worst Fit. Because processes allocate and deallocate dynamically sized blocks over time, memory develops non-contiguous holes, resulting in **External Fragmentation**.
 
 ```
