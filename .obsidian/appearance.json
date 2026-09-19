@@ -4,9 +4,9 @@
     "dashboard"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 23,
+  "baseFontSize": 26,
   "accentColor": "#75f55c",
   "monospaceFontFamily": "Agave Nerd Font",
-  "interfaceFontFamily": "",
-  "textFontFamily": "Noto Serif"
+  "interfaceFontFamily": "Lora",
+  "textFontFamily": "Lora,Piston Black,DejaVu Serif,Merriweather,EB Garamond,The Godfather"
 }
