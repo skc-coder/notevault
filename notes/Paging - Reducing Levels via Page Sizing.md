@@ -1,12 +1,12 @@
-> [!question] Reducing Page Table Levels by Increasing Page Size
-> Given a system with:
-> * Virtual Address Space ($\text{VAS}$) = $48\text{ bits}$
-> * Physical Address Space ($\text{PAS}$) = $52\text{ bits}$
-> * Page Table Entry ($\text{PTE}$) size = $2^3\text{ B} = 8\text{ B}$
-> * Chunk Size at every level = Page Size (i.e., at every level, a page table chunk must fit exactly into a single page)
-> * Currently, a $4$-level page table scheme is used.
-> 
-> If the page size is increased, the number of levels can be reduced. Determine the page size required if we want to reduce the translation hierarchy to exactly **$2$ levels**.
+### Reducing Page Table Levels by Increasing Page Size
+Given a system with:
+* Virtual Address Space ($\text{VAS}$) = $48\text{ bits}$
+* Physical Address Space ($\text{PAS}$) = $52\text{ bits}$
+* Page Table Entry ($\text{PTE}$) size = $2^3\text{ B} = 8\text{ B}$
+* Chunk Size at every level = Page Size (i.e., at every level, a page table chunk must fit exactly into a single page)
+* Currently, a $4$-level page table scheme is used.
+
+If the page size is increased, the number of levels can be reduced. Determine the page size required if we want to reduce the translation hierarchy to exactly **$2$ levels**.
 
 > [!formula] Level Constraints for $k$-Level Paging
 > Let the page size be $2^p\text{ B}$ (where offset $d = p\text{ bits}$).

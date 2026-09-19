@@ -1,6 +1,6 @@
 # Total Probability Theorem & Bayes' Theorem
 
-Topic: GATE CS > Probability > Conditional Probability Source: GO Classes — Probability Lec (Axioms of Conditional Probability, Marginalization, Bayes) Tags: #probability #total-probability #bayes-theorem #GATE2027 Links: [[mocs/moc probablity]] | [[gate-cs/math/Conditional Probability]] | [[Multiplication Rule, Tree Diagrams & Sequential Models]]
+Topic: GATE CS > Probability > Conditional Probability Source: GO Classes — Probability Lec (Axioms of Conditional Probability, Marginalization, Bayes) Tags: #probability #total-probability #bayes-theorem #GATE2027 Links: [[moc probablity]] | [[gate-cs/math/Conditional Probability]] | [[Multiplication Rule, Tree Diagrams & Sequential Models]]
 
 ---
 

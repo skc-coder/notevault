@@ -22,14 +22,14 @@ flowchart TD
     PA --> RAM["Physical Memory (RAM)"]
 ```
 
-> [!question] Sizing Calculations: Paged Segmentation
-> System Details:
-> * A task is divided into $4$ equal-sized segments.
-> * The system maintains an $8$-entry page table for each individual segment.
-> * Page Size $= 2\text{ KB} = 2^{11}\text{ B}$.
-> 
-> Calculations:
-> 1. **Maximum size of each segment**:
->    $$\text{Max Seg Size} = \text{Entries per PT} \times \text{Page Size} = 8 \times 2\text{ KB} = \mathbf{16\text{ KB}}$$
-> 2. **Maximum Logical Address Space for the task**:
->    $$\text{Max LAS} = \text{Total Segments} \times \text{Max Seg Size} = 4 \times 16\text{ KB} = \mathbf{64\text{ KB}}$$
+### Sizing Calculations: Paged Segmentation
+System Details:
+* A task is divided into $4$ equal-sized segments.
+* The system maintains an $8$-entry page table for each individual segment.
+* Page Size $= 2\text{ KB} = 2^{11}\text{ B}$.
+
+Calculations:
+1. **Maximum size of each segment**:
+   $$\text{Max Seg Size} = \text{Entries per PT} \times \text{Page Size} = 8 \times 2\text{ KB} = \mathbf{16\text{ KB}}$$
+2. **Maximum Logical Address Space for the task**:
+   $$\text{Max LAS} = \text{Total Segments} \times \text{Max Seg Size} = 4 \times 16\text{ KB} = \mathbf{64\text{ KB}}$$

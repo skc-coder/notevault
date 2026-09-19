@@ -8,14 +8,14 @@ cssclasses:
 
 - [[maths/Algebra|Algebra]]
 - [[moc logic]]
-- [[mocs/moc calculus]]
+- [[moc calculus]]
 - [moc dm](padai/maths/moc%20dm.md)
 - [moc la](moc%20la.md)
-- [[mocs/moc probablity]]
+- [[moc probablity]]
 - [[../../archive/maths/Basic Mathematics|Basic Mathematics]]
 - [[cds/apti/notes/Number Theory|Number Theory]]
 - [[cds/apti/notes/moc set theory]]
-- [[mocs/moc graphs]]
+- [[moc graphs]]
 - [[../../archive/combinatorics/moc combinatorics]]
 
 

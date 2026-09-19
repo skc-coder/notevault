@@ -20,17 +20,17 @@ tags:
   - [[mocs/moc-logic|Mathematical Logic MOC]]
 
 - 🎲 Probability & Statistics
-  - [[mocs/moc probablity|Probability & Random Variables MOC]]
+  - [[moc probablity|Probability & Random Variables MOC]]
 
 - 📐 Sets, Relations & Functions
   - [[cds/apti/notes/moc set theory|Set Theory & Relations MOC]]
   - Functions & Composition
 
 - 📊 Algebra & Linear Algebra
-  - [[mocs/moc la|LA MOC]]
-  - [[mocs/moc maths|Maths MOC]]
+  - [[moc la|LA MOC]]
+  - [[moc maths|Maths MOC]]
   - Group Theory & Monoids
 
 - 🌐 Graph Theory & Combinatorics
-  - [[mocs/moc graphs|Graph Theory MOC]]
+  - [[moc graphs|Graph Theory MOC]]
   - [[mocs/moc-combinatorics|Combinatorics & Counting MOC]]

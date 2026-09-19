@@ -1,21 +1,21 @@
-> [!question] GATE IT 2006: Memory Overhead Comparison
-> System Specifications:
-> * Process workload profiles:
->   * $P_1$: Size $= 195\text{ KB}$, Number of segments $= 4$
->   * $P_2$: Size $= 254\text{ KB}$, Number of segments $= 5$
->   * $P_3$: Size $= 45\text{ KB}$, Number of segments $= 3$
->   * $P_4$: Size $= 364\text{ KB}$, Number of segments $= 8$
-> * $\text{Page Size} = 1\text{ KB} = 2^{10}\text{ B}$
-> * $\text{PTE Size} = 4\text{ B} = 2^2\text{ B}$
-> * $\text{STE Size (Segment Table Entry)} = 8\text{ B} = 2^3\text{ B}$
-> * $\text{Maximum Segment Size} = 256\text{ KB} = 2^{18}\text{ B}$
-> 
-> Let:
-> * $P$ = Total storage overhead for **2-Level Paging**
-> * $S$ = Total storage overhead for **Pure Segmentation**
-> * $T$ = Total storage overhead for **Paged Segmentation** (Segmentation with Paging)
-> 
-> Find the relation between $P$, $S$, and $T$.
+### GATE IT 2006: Memory Overhead Comparison
+System Specifications:
+* Process workload profiles:
+  * $P_1$: Size $= 195\text{ KB}$, Number of segments $= 4$
+  * $P_2$: Size $= 254\text{ KB}$, Number of segments $= 5$
+  * $P_3$: Size $= 45\text{ KB}$, Number of segments $= 3$
+  * $P_4$: Size $= 364\text{ KB}$, Number of segments $= 8$
+* $\text{Page Size} = 1\text{ KB} = 2^{10}\text{ B}$
+* $\text{PTE Size} = 4\text{ B} = 2^2\text{ B}$
+* $\text{STE Size (Segment Table Entry)} = 8\text{ B} = 2^3\text{ B}$
+* $\text{Maximum Segment Size} = 256\text{ KB} = 2^{18}\text{ B}$
+
+Let:
+* $P$ = Total storage overhead for **2-Level Paging**
+* $S$ = Total storage overhead for **Pure Segmentation**
+* $T$ = Total storage overhead for **Paged Segmentation** (Segmentation with Paging)
+
+Find the relation between $P$, $S$, and $T$.
 
 > [!theorem] Mathematical Derivation of Overheads
 > **1. Calculation of $S$ (Pure Segmentation)**:

@@ -19,7 +19,7 @@ cssclasses:
 
 - 📐 Geometry, Algebra & Counting
   - [[trigonometry|Trigonometry]]
-  - [[mocs/moc probablity|Probability & Combinatorics MOC]]
+  - [[moc probablity|Probability & Combinatorics MOC]]
   - [[moc set theory|Set Theory MOC]]
 
 ---

@@ -1,14 +1,14 @@
-> [!question] Process with Dispersed Segments Across Memory
-> System Specifications:
-> * $\text{PTE} = 2\text{ B} = 2^1\text{ B}$
-> * Address Split: $[p_3: 10\text{ bits} \mid p_2: 8\text{ bits} \mid p_1: 6\text{ bits} \mid d: 8\text{ bits}]$
-> * $\text{Page Size} = 2^8\text{ B} = 256\text{ B}$
-> 
-> Calculate the page table memory overhead for a process comprising three distinct, non-contiguous segments:
-> 1. **Code Segment**: Size $= 48\text{ KB}$, starting at address $\mathtt{0x10000000}$.
-> 2. **Data Segment**: Size $= 600\text{ KB}$, starting at address $\mathtt{0x80000000}$.
-> 3. **Stack Segment**: Size $= 64\text{ KB}$, growing upward starting at address $\mathtt{0xF0000000}$.
-> *(Assume all segments are sufficiently far apart that they do not share any lower or intermediate level chunks)*.
+### Process with Dispersed Segments Across Memory
+System Specifications:
+* $\text{PTE} = 2\text{ B} = 2^1\text{ B}$
+* Address Split: $[p_3: 10\text{ bits} \mid p_2: 8\text{ bits} \mid p_1: 6\text{ bits} \mid d: 8\text{ bits}]$
+* $\text{Page Size} = 2^8\text{ B} = 256\text{ B}$
+
+Calculate the page table memory overhead for a process comprising three distinct, non-contiguous segments:
+1. **Code Segment**: Size $= 48\text{ KB}$, starting at address $\mathtt{0x10000000}$.
+2. **Data Segment**: Size $= 600\text{ KB}$, starting at address $\mathtt{0x80000000}$.
+3. **Stack Segment**: Size $= 64\text{ KB}$, growing upward starting at address $\mathtt{0xF0000000}$.
+*(Assume all segments are sufficiently far apart that they do not share any lower or intermediate level chunks)*.
 
 > [!formula] Chunk Capacities Across Levels
 > * **Innermost Level (Level 1)**: Index has $6\text{ bits} \implies 2^6 = 64\text{ entries/chunk}$.

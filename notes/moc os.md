@@ -64,7 +64,7 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - **Lecture 23** –  [[Base and Bound]]
 [[Segmentation]], 
 base and bound question**
-- **Lecture 25** – Intro to [[Paging]] (LIVE)
+- **Lecture 25** – Intro to [[Paging 1]] (LIVE)
 - **Lecture 26** – Single Level Paging Questions (LIVE)
 - **Lecture 27** – Multi-Level Paging (LIVE)
 - **Lecture 28** – Multi-Level Paging -2 (110:00)
@@ -126,7 +126,7 @@ base and bound question**
 - [[Fork and exec]]
 - [[hardware-supported-synchronization]]
 - [[Invariant Verification Framework]]
-- [[Paging]]
+- [[Paging 1]]
 - [[Peterson's Algorithm & Order Invariant]]
 - [[Process Creation]]
 - [[Process State Diagram]]
