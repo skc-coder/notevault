@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "moc aptitude"
             }
+          },
+          {
+            "id": "f39a730b13c03c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "meta/notemaker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "notemaker"
+            }
+          },
+          {
+            "id": "28b27fc3cd60694a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mocs/moc os.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "moc os"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,37 +244,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "391d750fcd908ee1",
+  "active": "28b27fc3cd60694a",
   "lastOpenFiles": [
-    "notes/Progressions.md",
+    "mocs/Memory Management - Paging.md",
+    "mocs/Paging.md",
+    "mocs/Memory Management - Overhead Comparison.md",
+    "mocs/Memory Management - Paged Segmentation.md",
+    "mocs/Paging - Inverted Page Tables.md",
+    "mocs/Paging - Trade-Offs and Hashed Page Tables.md",
+    "mocs/Paging - Multilevel Overhead for Process Segments.md",
+    "mocs/moc os.md",
+    "mocs/Paging - Memory Savings in Multilevel Paging.md",
+    "mocs/Paging - Reducing Levels via Page Sizing.md",
+    "mocs/Segmentation.md",
+    "mocs/Paging - Variable Chunk Sizing and PTE Bits.md",
+    "mocs/Paging - Address Translation Range Matching.md",
+    "mocs/Paging - Chunk Size vs Physical Page Size.md",
+    "mocs/Paging - Multilevel Address Translation.md",
+    "mocs/Paging - Hierarchical Virtual Address Split.md",
+    "mocs/Paging - Multilevel Paging Mechanics.md",
+    "mocs/Paging - Single-Level Practice Problems.md",
+    "mocs/Memory Units Conversion Reference.md",
+    "mocs/Paging - Scale Problem of Single-Level.md",
+    "mocs/Paging - Page Table Entry Structure.md",
+    "mocs/Paging - Hardware and Mathematics.md",
+    "mocs/Paging - Single-Level Architecture.md",
+    "meta/notemaker.md",
+    "meta/Prompts.md",
     "mocs/moc aptitude.md",
-    "mocs/ratio.md",
-    "notes/Ratio.md",
-    "notes/CDS ratio.md",
-    "notes/Financial Ratio - Income Expenditure and Savings.md",
-    "notes/Ratio - Age Transitions and External Shifts.md",
-    "notes/Partnership - Capital Time and Dynamic Capital.md",
-    "notes/Ratio - Core Foundation and Multiplier Invariant.md",
-    "notes/Ratio - Multi-Ratio Bridging and Extension.md",
-    "notes/Ratio - Inversion and Continuous LCM Balancing.md",
-    "notes/Ratio - Algebraic Invariants and Power Laws.md",
-    "notes/Partnership - Active Partner and Profit Splitting.md",
     "mocs/moc ratio",
-    "mocs/moc percentage.md",
-    "notes/Percentage - Examination and Scoring Problems.md",
-    "notes/Percentage - Population and Demographic Splits.md",
-    "mocs/Percentage - Fractional multiplication transform.md",
-    "notes/Percentage - Successive Percentage Changes.md",
-    "attachments/banners/aptitude.webp.md",
     "attachments/banners",
     "attachments",
-    "notes/Percentage - Advanced Multistep Applications.md",
-    "cds/math/notes/subtopics/income_expenditure_savings.md",
-    "notes/percentage.md",
-    "cds/math/notes/subtopics/percentage_basics.md",
-    "notes/Percentages.md",
-    "notes/Percentage - Fresh vs Dry Pulp Invariant.md",
-    "notes/Percentage - Income Expenditure and Commission.md",
     "mocs/percentage new",
     "meta/scripts/atom_splitter.py",
     "meta/scripts",

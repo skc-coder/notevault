@@ -64,7 +64,6 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - **Lecture 23** –  [[Base and Bound]]
 [[Segmentation]], 
 base and bound question**
-[Memory Management - Paging](Memory%20Management%20-%20Paging)
 - **Lecture 25** – Intro to [[Paging]] (LIVE)
 - **Lecture 26** – Single Level Paging Questions (LIVE)
 - **Lecture 27** – Multi-Level Paging (LIVE)
