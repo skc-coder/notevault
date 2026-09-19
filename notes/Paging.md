@@ -1,6 +1,8 @@
 ## 1. Why Paging?
 
-Contiguous memory allocation causes **external fragmentation** — free memory exists but in scattered non-contiguous chunks too small to use. Paging solves this by allowing a process's physical memory to be non-contiguous.
+Contiguous memory allocation causes **external fragmentation** — free memory exists but in scattered non-contiguous chunks too small to use. 
+
+Paging solves this by allowing a process's physical memory to be non-contiguous.
 
 **Internal fragmentation** can still occur in paging — the last page of a process may not be completely full.
 

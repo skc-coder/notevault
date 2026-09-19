@@ -1,7 +1,6 @@
 [
   "obsidian-git",
   "terminal",
-  "calendar",
   "obsidian-style-settings",
   "automatic-table-of-contents",
   "obsidian-tasks-plugin",
@@ -11,5 +10,6 @@
   "file-cleaner-redux",
   "omnisearch",
   "image-converter",
-  "obsidian-view-mode-by-frontmatter"
+  "obsidian-view-mode-by-frontmatter",
+  "calendar"
 ]

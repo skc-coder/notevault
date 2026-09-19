@@ -63,7 +63,7 @@ cssclasses:
 
 * [[../gate-cs/sets]]
 * 
-**Parent:** [[mocs/moc cs]]
+**Parent:** [[unliked]]
 
 
 ## Unlinked & Topic Notes

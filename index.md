@@ -4,7 +4,7 @@ cssclasses:
   - cols-2
 ---
 # CS
-- 🌐 [[moc cs|CS Master MOC]]
+- 🌐 [[unliked]]
 - ⚙️ [[moc os|OS MOC]]
 - 🧮 [[moc dm|Discrete Maths MOC]]
 - 🏗️ [[moc dsa|DSA MOC]]

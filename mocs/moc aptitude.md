@@ -1,46 +1,39 @@
 ---
 cssclasses:
-  - dashboard
-  - cols-4
-tags:
-  - aptitude
-  - syllabus
 ---
-
-![[attachments/banners/aptitude.webp|banner]]
-
-<div class="title" style="color:#eab308; font-family: 'JetBrains Mono', monospace;">GENERAL APTITUDE MODULE</div>
-
-
 - 🔢 Calculation & Number Theory
-  - [[cds/apti/notes/Number Theory|Number Theory & Modular Arithmetic]]
-  - [[cds/apti/notes/Progressions|Progressions (AP/GP/HP)]]
+  - [[Number Theory|Number Theory & Modular Arithmetic]]
+  - [[Progressions|Progressions (AP/GP/HP)]]
 
 - 📊 Averages, Percentages & Arithmetic
-  - [[cds/apti/notes/Averages|Averages & Weighted Means]]
-  - [[cds/apti/notes/Mixture|Mixture & Solutions]]
-  - [[cds/apti/notes/Alligation|Alligation Rules]]
-  - [[cds/apti/notes/Percentages|Percentages]]
-  - [[cds/apti/notes/Profit & Loss|Profit & Loss]]
-  - [[cds/apti/notes/Interest|Simple & Compound Interest]]
-  - [[cds/apti/notes/Ratio|Ratio & Proportion]]
-  - [[cds/apti/notes/Time and Work|Time & Work]]
-  - [[cds/apti/notes/Speed|Speed, Distance & Time]]
+	- [[ratio]]
+  - [moc percentage](moc%20percentage.md)
+  - [[Averages|Averages & Weighted Means]]
+  - [[Mixture|Mixture & Solutions]]
+  - [[Alligation|Alligation Rules]]
+
+  - [[Profit & Loss|Profit & Loss]]
+  - [[Interest|Simple & Compound Interest]]
+  - [[Time and Work|Time & Work]]
+  - [[Speed|Speed, Distance & Time]]
 
 - 📐 Geometry, Algebra & Counting
-  - [[cds/math/notes/trigonometry|Trigonometry]]
+  - [[trigonometry|Trigonometry]]
   - [[mocs/moc probablity|Probability & Combinatorics MOC]]
-  - [[cds/apti/notes/moc set theory|Set Theory MOC]]
+  - [[moc set theory|Set Theory MOC]]
 
 ---
 
 # 🧠 Verbal & Analytical Reasoning
 
 - 📝 Verbal & Logical Reasoning
-  - [[cds/apti/notes/Blood Relations|Blood Relations]]
-  - [[cds/apti/notes/Coding Decoding|Coding & Decoding]]
+  - [[Blood Relations|Blood Relations]]
+  - [[Coding Decoding|Coding & Decoding]]
 
-
+# Graphs
+- Use the spliting method of addition
+- Use approximation in percentage calculation
+- 
 ## Unlinked & Topic Notes
 - [[Type Conversions & Arithmetic Hierarchy]]
 - [[Binary Search Tree]]
@@ -67,7 +60,7 @@ tags:
 - [[sequence_series]]
 - [[work]]
 - [[circle]]
-- [[percentage]]
+- [[../notes/percentage]]
 - [[simple_interest]]
 - [[profit_loss]]
 - [[time_distance]]
@@ -214,7 +207,7 @@ tags:
 - [[Problems - Speed]]
 - [[Problems - Time and Work]]
 - [[Profit & Loss]]
-- [[Ratio]]
+- [[../notes/Ratio]]
 - [[Remainder Theory]]
 - [[Speed]]
 - [[Time and Work]]
