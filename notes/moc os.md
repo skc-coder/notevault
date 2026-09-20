@@ -65,46 +65,22 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - [[Segmentation]]
 `TODO` base and bound questions
 - [Paging](Paging.md)
-- [[Segmentation with paging]] 
-- [[Demand Paging]] 
+- [[Demand Paging]]
+- [Virtual Memory](Virtual%20Memory.md)
 - [[TLB]]
 
 ---
 
 ## 🚫 Deadlocks
-
-- **Lecture 34** – [[Deadlock]] Intro (LIVE)
-  - 📄 [Lecture 34 Notes](#) (96 pages)
-- **Lecture 35** – Deadlock Avoidance (Banker's) | Detection & Recovery (LIVE)
-  - 📄 [Lecture 35 Notes](#) (78 pages)
+- [[Deadlock old]]
+- [Deadlock](Deadlock.md)
 
 ---
 
 ## 📂 File Systems
-
-- **File System Implementation** (153:00)
-- **File System Practice & PYQs** (108:00)
-  - 📄 [File System Notes](#) (165 pages)
-  - 📝 **File System Implementation One Shot**
+[file system](file%20system/file%20system.md)
 
 ---
-
-## 🔄 OS PYQs Series
-
-- 📺 YouTube Lectures on PYQs
-
----
-
-## 📚 Student Notes & Topper Resources
-
-- 📄 [Karan Agrawal (AIR 102) Handwritten Notes](#) – Operating Systems
-- 📄 [Shreyas Rathod (AIR 107) Notes](#) – Operating Systems (54 pages)
-- 📄 [Intro to OS Comprehensive](#) (162 pages)
-- 📄 [File System Notes](#) (160 pages)
-- 📄 [Himanshu Dutta (AIR 16) Notes](#) – Operating Systems (118 pages)
-
----
-
 
 ## Unlinked & Topic Notes
 - [[Coupled Thread Synchronization Invariants]]
@@ -112,7 +88,7 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - [[User vs Kernel Level Threads]]
 - [[atomicity-of-semaphore-operations]]
 - [[classification-of-semaphores]]
-- [[Deadlock]]
+- [[Deadlock old]]
 - [[Demand Paging]]
 - [[disabling-interrupts-synchronization]]
 - [[Fork and exec]]

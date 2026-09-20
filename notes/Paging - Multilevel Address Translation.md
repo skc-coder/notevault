@@ -49,3 +49,5 @@ What is the Physical Address?
 * Since page size $= 2^{10}\text{ B}$, the lower $10$ bits (or lower $2.5$ hex digits) represent the offset.
 * Because page offset remains untouched during translation, the lower bits are directly appended to the physical frame number:
   $$\text{PA} = \mathtt{0x134} \mathbin{\Vert} \text{offset} = \mathtt{0x13478} \text{ (or } \text{Frame } \mathtt{0x134} \text{ with offset } \mathtt{0x678}\text{)}$$
+
+

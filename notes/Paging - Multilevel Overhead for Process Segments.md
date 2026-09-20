@@ -15,6 +15,7 @@ Calculate the page table memory overhead for a process comprising three distinct
 > * **Intermediate Level (Level 2)**: Index has $8\text{ bits} \implies 2^8 = 256\text{ entries/chunk}$.
 > * **Outermost Level (Level 3)**: Index has $10\text{ bits} \implies 2^{10} = 1024\text{ entries}$ ($1$ chunk).
 
+
 > [!theorem] Step-by-Step Chunk Allocation Derivation
 > **1. Code Segment ($48\text{ KB}$)**:
 > * $\text{Useful pages} = \frac{48 \times 2^{10}\text{ B}}{2^8\text{ B}} = 48 \times 4 = 192\text{ pages}$ ($192\text{ entries needed}$).
