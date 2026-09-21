@@ -10,6 +10,69 @@ flowchart BT
     LL1["LL(1) (Top-Down)"] -.->|Weaker than CLR(1)| CLR1
 ```
 
+```mermaid
+graph TD
+
+subgraph Type0 ["Type-0: Unrestricted Grammars (Turing Machines)"]
+
+subgraph Type1 ["Type-1: Context-Sensitive Grammars (LBA)"]
+
+subgraph AllCFG ["Type-2: Context-Free Grammars (PDA)"]
+
+subgraph Ambiguous ["Ambiguous Grammars"]
+
+Inherent["Inherently Ambiguous Languages<br>(e.g., aⁿbⁿcᵐdᵐ ∪ aⁿbᵐcᵐdⁿ)"]
+
+Fixable["Grammars with Fixable Ambiguity<br>(e.g., E → E + E | id)"]
+
+end
+
+  
+
+subgraph Unambiguous ["Unambiguous Grammars"]
+
+NonDet["Non-Deterministic CFLs<br>(e.g., S → aSa | bSb | ε)"]
+
+subgraph DCFL ["Deterministic CFLs (DPDA)"]
+
+LR1["LR(1) Grammars<br>(Canonical LR)"]
+
+LL1["LL(1) Grammars<br>(Top-Down Predictive)"]
+
+LALR1["LALR(1) Grammars<br>(Bison / Yacc)"]
+
+SLR1["SLR(1) Grammars"]
+
+LR0["LR(0) Grammars"]
+
+Type3["Type-3: Regular Grammars \n (DFA / NFA)<br>(e.g., Tokens, Identifiers)"]
+
+end
+
+end
+
+  
+
+end
+
+end
+
+end
+
+  
+
+%% Hierarchy connections
+
+LR1 --> LALR1
+
+LR1 -.-> LL1
+
+LALR1 --> SLR1
+
+SLR1 --> LR0
+
+LR0 --> Type3
+```
 > [!theorem]
 > **The Expressive Power Hierarchy**:
 > $$\mathcal{L}(LR(0)) \subset \mathcal{L}(SLR(1)) \subset \mathcal{L}(LALR(1)) \subset \mathcal{L}(CLR(1))$$

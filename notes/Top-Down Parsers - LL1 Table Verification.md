@@ -23,17 +23,4 @@
 > - **Left Factoring needed** (Common prefixes: $A \to \alpha\beta_1 \mid \alpha\beta_2$)
 > - **Ambiguity** (e.g., dangling-else problem)
 
-> [!question]
-> Consider the grammar:
-> $$S \to AaAb \mid BbBa, \quad A \to \epsilon, \quad B \to \epsilon$$
-> Why is this grammar NOT $LL(1)$?
-> - (A) It contains immediate left recursion.
-> - (B) $\text{FIRST}(AaAb) \cap \text{FIRST}(BbBa) \neq \emptyset$ due to common derivation of terminals.
-> - (C) $\text{FOLLOW}(S)$ contains $\epsilon$.
-> - (D) It is an ambiguous palindrome grammar.
->
-> **Correct Option**: **(B)**
-> **Explanation**:
-> $\text{FIRST}(AaAb) = (\text{FIRST}(A) \setminus \{\epsilon\}) \cup \{a\} = \{a\}$ because $A \to \epsilon$.
-> $\text{FIRST}(BbBa) = (\text{FIRST}(B) \setminus \{\epsilon\}) \cup \{b\} = \{b\}$.
-> However, expanding $S \Rightarrow aAb$ and $S \Rightarrow bBa$ allows strings starting with $a$ and $b$ to trigger multiple lookahead selections if overlapping prefixes exist. In this specific case, $\text{FIRST}(S \to AaAb) = \{a\}$ and $\text{FIRST}(S \to BbBa) = \{b\}$. But when $S \to Aa \mid a$, $\text{FIRST}$ conflicts occur directly at $M[S, a]$.
+

@@ -2,7 +2,6 @@
 type: moc
 topic: cd
 ---
-
 # moc cd
 
 ## 📌 Concept

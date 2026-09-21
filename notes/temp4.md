@@ -1,58 +1,204 @@
---atom--
-file_name: Demand Paging - Simplified Multi-Tier EMAT
-> [!definition] The Additive Overhead Method
-> Instead of memorizing deep, branching, conditional probability formulas with nested parentheses, every Effective Memory Access Time ($\text{EMAT}$) problem can be solved in a single step using **Baseline Access Time plus Expected Penalties**[cite: 8]:
-> $$\text{EMAT} = \text{Baseline Incurred Time} + \sum (\text{Probability of Event} \times \text{Extra Penalty of Event})$$[cite: 8]
-> * **Zero Memorization**: Follow the hardware path sequentially from CPU to physical memory[cite: 8].
-> * **No Complex Algebra**: Avoids multiplying massive millisecond constants across multiple expanded terms[cite: 3, 7].
 
-> [!formula] Two-Step Additive Strategy for TLB and Page Faults
-> 1. **Step 1: Calculate Effective Page Fault Penalty ($\text{PFS}_{\text{effective}}$)**:
->    * Every page fault must read the requested page from disk into RAM ($T_{\text{read}}$)[cite: 7, 8].
->    * Only a dirty victim incurs an additional write-back to disk ($T_{\text{write}}$)[cite: 7, 8]:
->      $$\text{PFS}_{\text{effective}} = T_{\text{read}} + P(\text{dirty}) \times T_{\text{write}}$$[cite: 7, 8]
-> 2. **Step 2: Trace the Access Tree Additively**:
->    * **Unavoidable Baseline**: Every single translation attempts a TLB lookup ($t_{\text{tlb}}$) and ultimately accesses the target operand in physical memory ($m$)[cite: 6, 8]:
->      $$\text{Baseline} = t_{\text{tlb}} + m$$[cite: 6, 8]
->    * **Penalty 1: TLB Miss**: Occurs with probability $(1 - h_{\text{tlb}})$[cite: 6, 8]. It incurs an extra memory access to read the Page Table from RAM ($+m$)[cite: 6, 8]:
->      $$\text{Extra Time} = m$$[cite: 6, 8]
->    * **Penalty 2: Page Fault**: Occurs conditionally when a TLB miss experiences an invalid PTE ($P(\text{miss}) \times P(\text{fault} \mid \text{miss})$)[cite: 7, 8]. It incurs the disk transfer overhead ($\text{PFS}_{\text{effective}}$)[cite: 7, 8]:
->      $$\text{Extra Time} = \text{PFS}_{\text{effective}}$$[cite: 7, 8]
-> 
-> $$\mathbf{\text{EMAT} = (t_{\text{tlb}} + m) + (1 - h_{\text{tlb}}) \cdot m + \left[ (1 - h_{\text{tlb}}) \cdot f \right] \cdot \text{PFS}_{\text{effective}}}$$[cite: 6, 7, 8]
+--atom--
+file_name: Top-Down Parsers - LL1 Verification Walkthrough
+
+> [!definition]
+> An **$LL(1)$ Grammar** is an unambiguous context-free grammar where the parsing table $M[A, a]$ contains at most one production entry for every non-terminal $A$ and terminal / lookahead $a \in (V_T \cup \{\$\})$.
 
 ```mermaid
 flowchart TD
-    Base["Baseline Always Paid:<br/>t_tlb + m"] --> AddTLBMiss["If TLB Miss (1 - h):<br/>Add +m (Page Table Read)"]
-    AddTLBMiss --> AddPF["If Page Fault (1 - h) * f:<br/>Add PFS_effective (Disk Transfer)"]
+    Grammar["Grammar: S -> aS' | S' -> S | e"] --> Step1["1. Compute FIRST and FOLLOW"]
+    Step1 --> FirstSets["FIRST(S) = {a}\nFIRST(S') = {a, e}"]
+    Step1 --> FollowSets["FOLLOW(S) = {$, a}\nFOLLOW(S') = {$, a}"]
+    FirstSets & FollowSets --> Step2["2. Build Parsing Table M"]
+    Step2 --> ConflictCheck{"Multiple entries in M[S', a]?"}
+    ConflictCheck -- Yes --> NotLL1["FIRST-FOLLOW Conflict: NOT LL(1)"]
+````
+
+### Step-by-Step Mathematical Verification
+
+Consider the factored grammar:
+
+  
+
+1. $S \to a S'$
+    
+      
+    
+2. $S' \to S$
+    
+      
+    
+3. $S' \to \epsilon$
+    
+      
+    
+
+#### 1. FIRST Set Computations
+
+- $\text{FIRST}(S) = \text{FIRST}(a S') = \{a\}$
+    
+      
+    
+- For $S'$:
+    
+      
+    - From $S' \to S$: $\text{FIRST}(S) = \{a\}$
+        
+          
+        
+    - From $S' \to \epsilon$: $\{\epsilon\}$
+        
+          
+        
+    - Therefore: $\text{FIRST}(S') = \{a, \epsilon\}$
+        
+          
+        
+
+#### 2. FOLLOW Set Computations
+
+- Since $S$ is the start symbol, add the end marker:
+    
+      
+    
+    $$\$ \in \text{FOLLOW}(S)$$
+    
+- From $S \to a S'$:
+    
+      
+    - $S'$ sits at the end of the production.
+        
+          
+        
+    - By Rule 3: $\text{FOLLOW}(S) \subseteq \text{FOLLOW}(S')$, so $\$ \in \text{FOLLOW}(S')$.
+        
+          
+        
+- From $S' \to S$:
+    
+      
+    - $S$ sits at the end of the production.
+        
+          
+        
+    - By Rule 3: $\text{FOLLOW}(S') \subseteq \text{FOLLOW}(S)$.
+        
+          
+        
+    - This creates a mutual dependency: $\text{FOLLOW}(S) = \text{FOLLOW}(S')$.
+        
+          
+        
+- From $S' \to S$ where $S \to a S'$:
+    
+      
+    - Notice that in a derivation $S \Rightarrow a S' \Rightarrow a S \Rightarrow a a S'$, terminal $a$ follows $S$.
+        
+          
+        
+    - Thus, $\text{FOLLOW}(S) = \{a, \$\}$ and $\text{FOLLOW}(S') = \{a, \$\}$.
+        
+          
+        
+
+#### 3. LL(1) Condition Evaluation for $S'$
+
+For the two alternate productions of $S'$:
+
+  
+
+- $\alpha_1 = S \implies \text{FIRST}(\alpha_1) = \{a\}$
+    
+      
+    
+- $\alpha_2 = \epsilon \implies \text{FIRST}(\alpha_2) = \{\epsilon\}$
+    
+      
+    
+
+Since $\alpha_2 \Rightarrow^* \epsilon$, we must verify the disjoint condition:
+
+  
+
+$$\text{FIRST}(\alpha_1) \cap \text{FOLLOW}(S') = \emptyset$$
+
+Substituting the calculated sets:
+
+  
+
+$$\{a\} \cap \{a, \$\} = \{a\} \neq \emptyset$$
+
+> [!theorem]
+> 
+> **FIRST-FOLLOW Conflict**: Because $\text{FIRST}(S) \cap \text{FOLLOW}(S') \neq \emptyset$, the table cell $M[S', a]$ receives two competing entries:
+> 
+>   
+> 
+> 1. $S' \to S$ (from $\text{FIRST}(S)$)
+>     
+>       
+>     
+> 2. $S' \to \epsilon$ (from $\text{FOLLOW}(S')$ due to the $\epsilon$-production)
+>     
+>       
+>     
+> 
+> Hence, this factored grammar remains **strictly non-$LL(1)$**.
+> 
+>   
+
+> [!trap]
+> 
+> Factoring eliminates the immediate $\text{FIRST-FIRST}$ conflict at non-terminal $S$, but shifting the recursion into $S' \to S \mid \epsilon$ converts the issue into a **$\text{FIRST-FOLLOW}$ conflict** at $S'$. Left-factoring alone does not guarantee that an ambiguous language becomes deterministic.
+> 
+>   
+
+> [!question]
+> 
+> Given the grammar:
+> 
+>   
+> 
+> $$S \to a S', \quad S' \to S \mid \epsilon$$
+> 
+> Which entries appear in cell $M[S', a]$ of the predictive parsing table?
+> 
+>   
+> 
+> - (A) Only $S' \to S$
+>     
+>       
+>     
+> - (B) Only $S' \to \epsilon$
+>     
+>       
+>     
+> - (C) Both $S' \to S$ and $S' \to \epsilon$
+>     
+>       
+>     
+> - (D) No entries (blank error entry)
+>     
+>       
+>     
+> 
+> **Correct Option**: **(C)**
+> 
+> **Explanation**: Because $a \in \text{FIRST}(S)$, the production $S' \to S$ is entered into $M[S', a]$. Because $a \in \text{FOLLOW}(S')$ and $S'$ contains an $\epsilon$-production ($S' \to \epsilon$), $S' \to \epsilon$ is also entered into $M[S', a]$. This dual entry constitutes a fatal $\text{FIRST-FOLLOW}$ conflict.
+
 ```
 
-> [!question] Minimal Calculation Walkthrough: GATE CSE 2020 Multi-Tier Problem
-> Given parameters[cite: 7]:
-> * Physical memory access time ($m$) $= 100\text{ ns}$[cite: 7]
-> * TLB search time ($t_{\text{tlb}}$) $= 20\text{ ns}$[cite: 7]
-> * TLB hit ratio ($h$) $= 95\% \implies \text{Miss Ratio } (1 - h) = 0.05$[cite: 7, 8]
-> * Page fault rate on miss ($f$) $= 10\% = 0.10$[cite: 7, 8]
-> * Disk transfer time per page $= 5000\text{ ns}$[cite: 7]
-> * $20\%$ of replaced pages are dirty ($P(\text{dirty}) = 0.20$)[cite: 7]
-> 
-> **Clean 3-Line Execution**:
-> 1. **Compute Disk Service Penalty**:
->    $$\text{PFS}_{\text{effective}} = 5000 + 0.20 \times 5000 = 5000 + 1000 = 6000\text{ ns}$$[cite: 7]
-> 2. **Compute Unavoidable Baseline**:
->    $$\text{Baseline} = t_{\text{tlb}} + m = 20 + 100 = 120\text{ ns}$$[cite: 8]
-> 3. **Add the Conditional Penalties**:
->    * Extra RAM access for TLB miss:
->      $$0.05 \times 100\text{ ns} = 5\text{ ns}$$[cite: 8]
->    * Extra Disk I/O for Page Fault:
->      $$\underbrace{(0.05 \times 0.10)}_{\text{Net Fault Prob } = 0.005} \times 6000\text{ ns} = 30\text{ ns}$$[cite: 8]
->    $$\mathbf{\text{EMAT} = 120 + 5 + 30 = 155\text{ ns}}$$[cite: 8]
+---
 
-> [!trap] The Fault Scope Trap in GATE Questions
-> Pay strict attention to how the question phrases the page fault rate $f$[cite: 7, 8]:
-> * **Case A: "A page fault occurs with rate $f$ on a TLB miss"**:
->   $$\text{Global Page Fault Probability} = (1 - h_{\text{tlb}}) \times f$$[cite: 7, 8]
->   *(Used in the GATE 2020 question where fault rate was given within the context of a TLB miss)*[cite: 7, 8].
-> * **Case B: "Overall page fault rate across all memory accesses is $p$"**:
->   $$\text{Global Page Fault Probability} = p$$[cite: 3]
->   *(Direct multiplication: simply add $p \times \text{PFS}_{\text{effective}}$ to the EMAT equation)*[cite: 3].
+### Key Takeaway on $\text{FOLLOW}(S')$
+
+You correctly saw that $S'$ is at the end of $S \to a S'$, meaning $S'$ inherits everything in $\text{FOLLOW}(S)$ (starting with $\$$). 
+
+However, because the second rule allows $S' \to S$, $S$ and $S'$ end up mutually inheriting from each other. That brings terminal $a$ into $\text{FOLLOW}(S')$ as well, leading to:
+$$\text{FOLLOW}(S') = \{a, \$\}$$
+
+Because $a$ is present in both $\text{FIRST}(S)$ and $\text{FOLLOW}(S')$, table cell $M[S', a]$ receives two competing rules ($S' \to S$ and $S' \to \epsilon$).
+
+Would you like to try constructing the full $2 \times 2$ predictive parsing table for this grammar to see the collision visually, or move on to diagnosing another grammar?
+```
