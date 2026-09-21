@@ -65,20 +65,16 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - [[Segmentation]]
 `TODO` base and bound questions
 - [Paging](Paging.md)
-- [[Demand Paging]]
 - [Virtual Memory](Virtual%20Memory.md)
-- [[TLB]]
-
 ---
-
 ## 🚫 Deadlocks
 - [[Deadlock old]]
-- [Deadlock](Deadlock.md)
+- [deadlock](deadlock.md)
 
 ---
 
 ## 📂 File Systems
-[file system](file%20system/file%20system.md)
+[file system](file%20system.md)
 
 ---
 

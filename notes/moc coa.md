@@ -21,3 +21,4 @@ cssclasses:
 - [[test-and-set-lock-mechanism]]
 - [[Extreme Value Theorem]]
 - [[Gray Code]]
+[[bus architecture]]

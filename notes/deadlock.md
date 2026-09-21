@@ -2,9 +2,6 @@
 type: moc
 topic: Deadlock
 ---
-
-# Deadlock — Map of Content
-
 ## 📌 Concept
 - [[Deadlock - Definition and Characterization|Deadlock - Definition and Characterization]]
 - [[Deadlock - Resource Allocation Graph Analysis|Deadlock - Resource Allocation Graph Analysis]]

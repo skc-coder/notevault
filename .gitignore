@@ -1,5 +1,6 @@
 # Ignore the entire archive folder completely
 meta/archive/
+ignore/
 
 # Ignore all PDFs across the repository
 *.pdf
