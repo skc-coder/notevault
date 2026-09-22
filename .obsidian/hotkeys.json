@@ -23,5 +23,13 @@
       ],
       "key": "V"
     }
+  ],
+  "callout-toggles:wrap-lines-in-callout-via-fuzzy-picker": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

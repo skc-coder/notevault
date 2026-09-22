@@ -3,14 +3,6 @@
 > - **Handle**: A substring matching the RHS of a production whose reduction represents one step along the reverse of an RMD.
 
 ```mermaid
-flowchart BT
-    LR0["LR(0)\n(No Lookahead)"] --> SLR1["SLR(1)\n(Follow-Based Lookahead)"]
-    SLR1 --> LALR1["LALR(1)\n(Merged Core Lookahead)"]
-    LALR1 --> CLR1["CLR(1) / LR(1)\n(Full Context Lookahead)"]
-    LL1["LL(1) (Top-Down)"] -.->|Weaker than CLR(1)| CLR1
-```
-
-```mermaid
 graph TD
 
 subgraph Type0 ["Type-0: Unrestricted Grammars (Turing Machines)"]
@@ -33,9 +25,9 @@ subgraph Unambiguous ["Unambiguous Grammars"]
 
 NonDet["Non-Deterministic CFLs<br>(e.g., S → aSa | bSb | ε)"]
 
-subgraph DCFL ["Deterministic CFLs (DPDA)"]
+subgraph DCFL ["Deterministic CFLs / LR(1) (DPDA)"]
 
-LR1["LR(1) Grammars<br>(Canonical LR)"]
+LR1["LR(1) / CLR(1) Grammars<br>(Canonical LR)"]
 
 LL1["LL(1) Grammars<br>(Top-Down Predictive)"]
 
@@ -45,7 +37,7 @@ SLR1["SLR(1) Grammars"]
 
 LR0["LR(0) Grammars"]
 
-Type3["Type-3: Regular Grammars \n (DFA / NFA)<br>(e.g., Tokens, Identifiers)"]
+Type3["Type-3: Regular Grammars<br>(DFA / NFA)<br>(e.g., Tokens, Identifiers)"]
 
 end
 
@@ -100,3 +92,15 @@ LR0 --> Type3
 >
 > **Correct Option**: **(C)**
 > **Explanation**: Core merging in $LALR(1)$ cannot create SR conflicts because shifts depend solely on the next input terminal regardless of lookaheads. It can only combine distinct lookaheads of two different reduction items, potentially triggering an RR conflict.
+
+
+> Top 3 Direct Questions Asked in PSU Exams 
+
+1. **Power Order:**
+$$\text{LR}(0) \subset \text{SLR}(1) \subset \text{LALR}(1) \subset \text{CLR}(1)$$
+2. **State Count Equality:**
+$$\text{States}(\text{LR}(0)) = \text{States}(\text{SLR}(1)) = \text{States}(\text{LALR}(1)) < \text{States}(\text{CLR}(1))$$
+    
+3. **Merging Effect in LALR(1):**
+    - Merging identical-core states in CLR(1) **never** produces a Shift-Reduce (S/R) conflict.
+    - Merging **may** produce a Reduce-Reduce (R/R) conflict.

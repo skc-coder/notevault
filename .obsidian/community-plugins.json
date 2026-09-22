@@ -10,5 +10,8 @@
   "file-cleaner-redux",
   "omnisearch",
   "image-converter",
-  "calendar"
+  "calendar",
+  "callout-manager",
+  "callout-toggles",
+  "quickadd"
 ]
