@@ -20,7 +20,7 @@ flowchart TD
 > 3. **Odd Number of Bit Errors:** Detected if $G(x)$ contains $(x + 1)$ as a factor[cite: 2].
 > 4. **Burst Errors:** All burst errors of length $L \le (k - 1)$ are guaranteed to be detected (where $k$ is the divisor bit-length)[cite: 2].
 
-> [!formula]
+> [!revision]
 > Let dataword length $= n$, generator divisor length $= k$ bits (degree $k-1$)[cite: 2]:
 > $$\text{Zeroes appended} = k - 1\text{ bits}$$
 > $$\text{CRC Remainder bit-width} = k - 1\text{ bits}$$
