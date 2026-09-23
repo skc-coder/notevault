@@ -3,6 +3,63 @@
 > * **Primary Index:** Defined on an **ordered** file on a **key** attribute[cite: 2]. Typically sparse[cite: 2].
 > * **Clustering Index:** Defined on an **ordered** file on a **non-key** attribute[cite: 2].
 > * **Secondary Index:** Defined on an **unordered** file over a key or non-key attribute[cite: 2]. Must be dense when created over candidate keys[cite: 2].
+### Part 1: Physical Disk Storage & Index Sizing
+
+#### 1. Blocking Factor ($Bfr$)
+
+- **What it is:** The maximum number of records or index entries you can pack into a single disk block without spanning across blocks.
+    
+- **Variables:**
+    
+    - $B$ = Block size (in bytes)
+        
+    - $R$ = Record size (in bytes)
+        
+- **The Formula:**
+    
+    $$Bfr = \left\lfloor \frac{B}{R} \right\rfloor$$
+    
+- **Intuition:** You divide the block size by the record size. You **floor** ($\lfloor \dots \rfloor$) because you cannot fit half a record into a block; partial records get pushed to the next block.
+    
+
+#### 2. Number of Blocks Required for a Data File ($b$)
+
+- **What it is:** How many physical disk blocks are needed to hold all rows in a table.
+    
+- **Variables:**
+    
+    - $N$ = Total number of records (rows) in the table
+        
+    - $Bfr$ = Blocking factor of the table
+        
+- **The Formula:**
+    
+    $$b = \left\lceil \frac{N}{Bfr} \right\rceil$$
+    
+- **Intuition:** You **ceiling** ($\lceil \dots \rceil$) because if you have even one leftover record that doesn't fill a block, it still consumes an entire new block on disk.
+    
+
+#### 3. Sizing Indexes: Primary vs. Clustering vs. Secondary
+
+An index entry is just a small pair: $(\text{Search Key } K + \text{Pointer } P)$.
+
+- Let the size of one index entry be:
+    
+    $$R_i = K + P$$
+    
+- The **Index Blocking Factor** ($Bfr_i$) is:
+    
+    $$Bfr_i = \left\lfloor \frac{B}{R_i} \right\rfloor = \left\lfloor \frac{B}{K + P} \right\rfloor$$
+    
+
+Now, how many index entries ($N_i$) and index blocks ($b_i$) exist?
+
+|**Index Type**|**Number of Index Entries (Ni​)**|**Number of Index Blocks (bi​)**|**Why?**|
+|---|---|---|---|
+|**Primary Index** (Sparse)|$N_i = b$ (one per data block)|$b_i = \left\lceil \frac{b}{Bfr_i} \right\rceil$|Since data is sorted by primary key, you only store an entry for the **first record of each data block** (anchor record).|
+|**Clustering Index** (Sparse)|$N_i = D$ (where $D$ = number of distinct values of the non-key attribute)|$b_i = \left\lceil \frac{D}{Bfr_i} \right\rceil$|All rows with the same value are clustered together on disk, so you only need **one entry per distinct cluster value**.|
+|**Secondary Index on Key** (Dense)|$N_i = N$ (one per every single record)|$b_i = \left\lceil \frac{N}{Bfr_i} \right\rceil$|The data file is unordered, so there is no predictable sorting; every row must have an explicit pointer.|
+
 
 > [!formula]
 > **Node Capacity and Order Equations:**

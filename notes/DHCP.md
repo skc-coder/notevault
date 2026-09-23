@@ -26,3 +26,20 @@ DHCP relies heavily on limited broadcast because a new client has **no IP addres
     *   **Result:** Client configures its network interface.
 
 **Key Takeaway:** Without [[gate-cs/cn/limited broadcast]], a device with no IP address could never talk to a server to get one.
+
+### The Four-Step "Wine and Dine" Exchange: D-O-R-A
+WIne and dine and 69! 6 8 7.
+DHCP works through a four-message courtship known by the acronym **DORA**:
+
+```
+[Guest / Client :68]                                 [Host / Server :67]
+         |                                                    |
+         | -------- 1. DISCOVER ("Is anyone free tonight?") ->|
+         |                                                    |
+         |<-------- 2. OFFER ("I can offer you this table") --|
+         |                                                    |
+         | -------- 3. REQUEST ("Yes, lock that table in!") ->|
+         |                                                    |
+         |<-------- 4. ACKNOWLEDGE ("Table is yours, enjoy") -|
+         v                                                    v
+```

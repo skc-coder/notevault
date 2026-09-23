@@ -12,13 +12,13 @@ flowchart LR
     end
 ```
 
-| Class | Leading Bits | 1st Octet Range | NID Bits | HID Bits | Number of Networks | Usable Hosts per Network | Default Mask |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **A** | `0` | $1 - 126$[cite: 2] | 8 | 24 | $2^7 - 2 = 126$[cite: 2] | $2^{24} - 2 = 16,777,214$[cite: 2] | `255.0.0.0`[cite: 2] |
-| **B** | `10` | $128 - 191$[cite: 2] | 16 | 16 | $2^{14} = 16,384$[cite: 2] | $2^{16} - 2 = 65,534$[cite: 2] | `255.255.0.0`[cite: 2] |
-| **C** | `110` | $192 - 223$[cite: 2] | 24 | 8 | $2^{21} = 2,097,152$[cite: 1, 2] | $2^8 - 2 = 254$[cite: 1, 2] | `255.255.255.0`[cite: 2] |
-| **D** | `1110` | $224 - 239$[cite: 2] | — | — | Multicast Groups ($2^{28}$ addresses)[cite: 2] | — | None[cite: 2] |
-| **E** | `1111` | $240 - 255$[cite: 2] | — | — | Reserved for Research / Future use[cite: 2] | — | None[cite: 2] |
+| Class | Leading Bits | 1st Octet Range      | NID Bits | HID Bits | Number of Networks                             | Usable Hosts per Network           | Default Mask             |
+| :---- | :----------- | :------------------- | :------- | :------- | :--------------------------------------------- | :--------------------------------- | :----------------------- |
+| **A** | `0`          | $1 - 126$[cite: 2]   | 8        | 24       | $2^7 - 2 = 126$[cite: 2]                       | $2^{24} - 2 = 16,777,214$[cite: 2] | `255.0.0.0`[cite: 2]     |
+| **B** | `10`         | $128 - 191$[cite: 2] | 16       | 16       | $2^{14} = 16,384$[cite: 2]                     | $2^{16} - 2 = 65,534$[cite: 2]     | `255.255.0.0`[cite: 2]   |
+| **C** | `110`        | $192 - 223$[cite: 2] | 24       | 8        | $2^{21} = 2,097,152$[cite: 1, 2]               | $2^8 - 2 = 254$[cite: 1, 2]        | `255.255.255.0`[cite: 2] |
+| **D** | `1110`       | $224 - 239$[cite: 2] | —        | —        | Multicast Groups ($2^{28}$ addresses)[cite: 2] | —                                  | None[cite: 2]            |
+| **E** | `1111`       | $240 - 255$[cite: 2] | —        | —        | Reserved for Research / Future use[cite: 2]    | —                                  | None[cite: 2]            |
 
 > [!formula]
 > **Subnet Calculations & Host Counts:**
@@ -29,6 +29,7 @@ flowchart LR
 > 3. **The Subtract-2 Invariant:** 2 addresses are permanently reserved in any subnet[cite: 1, 2]:
 >    - **Network ID (NID):** All host bits set to `0`[cite: 1, 2].
 >    - **Direct Broadcast Address (DBA):** All host bits set to `1`[cite: 1, 2].
+
 
 > [!trap]
 > In Class C networks, the first 3 bits (`110`) are strictly fixed by RFC standards[cite: 1, 2]. Consequently, the total number of allocatable Class C networks is $2^{24 - 3} = 2^{21}$, **not** $2^{24}$[cite: 1, 2].

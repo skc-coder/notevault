@@ -1,4 +1,6 @@
 [!definition] Multi-dimensional arrays map continuous linear memory indices to multidimensional coordinates using either Row-Major Order (RMO) (row by row) or Column-Major Order (CMO) (column by column).
+[[trainalguar ]]
+
 [!formula] 1. 1D Array Address Formula: For array $A[L \dots U]$ with element size $c$:
 
 $$\text{Address}(A[i]) = BA + (i - L) \times c$$

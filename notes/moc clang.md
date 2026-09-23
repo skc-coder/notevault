@@ -3,6 +3,8 @@ cssclasses:
   - dashboard
   - cols-4
 ---
+[[static and dynamic]]
+[[Memory Mapping - Multidimensional Arrays]]
 ## 🧠 Module 1: Basics, Integers & Control Structures
 - [[Integer Representation]]
 - [[Type and Bit Conversions]]

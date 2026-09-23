@@ -8,6 +8,19 @@
 > 6. `DISTINCT` (Eliminates duplicate projections)[cite: 2]
 > 7. `ORDER BY` (Sorts final result set)[cite: 2]
 
+Filthy Women Get Horny, Stripping Down Online
+
+| **Letter** | **Pedagogy: Plain-English Meaning & Definition Link**                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------------ |
+| **F**      | **Where is the data?** Loads tables and resolves joins to build the raw candidate data.                      |
+| **W**      | **Which rows qualify?** Filters individual rows (_tuples_) _before_ any summary math happens.                |
+| **G**      | **How to bucket them?** Collapses qualifying rows into partitioned summary groups.                           |
+| **H**      | **Which buckets qualify?** Filters the summarized buckets using aggregate conditions (`COUNT`, `SUM`, etc.). |
+| **S**      | **What columns to keep?** Projects and calculates the requested columns/expressions.                         |
+| **D**      | **Any duplicates?** De-duplicates identical output rows.                                                     |
+| **O**      | **How to present them?** Sorts the final result set for viewing.                                             |
+
+
 > [!theorem]
 > **Subquery Comparison Equivalences:**
 > * `X IN (Subquery)` $\equiv$ `X = ANY (Subquery)`[cite: 2]
@@ -19,6 +32,33 @@
 > * If a query uses `GROUP BY`, the `SELECT` clause can only contain attributes that appear in the `GROUP BY` clause or expressions with aggregate functions (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`)[cite: 2]. Selecting un-grouped attributes results in a syntax error[cite: 2].
 > * `WHERE` filters rows before grouping; `HAVING` filters aggregated groups after grouping[cite: 2]. `HAVING` cannot reference unaggregated non-grouping attributes[cite: 2].
 
+### The Professional "Box Packing" Mental Model
+
+Think of packaging items into sealed delivery boxes in a warehouse:
+
+- **[WHERE](https://www.google.com/search?q=https://en.wikipedia.org/wiki/Where_\(SQL\)&utm_source=gemini&authuser=2)**: Inspects **individual items** on the conveyor belt before packing.
+    
+    - _Example:_ "Is this item broken?" If yes, discard it before boxing.
+        
+- **[GROUP BY](https://en.wikipedia.org/wiki/Group_by_\(SQL\)?utm_source=gemini)**: Packs individual items into **sealed category boxes**.
+    
+    - _Example:_ Pack all items by `department` into separate, sealed boxes.
+        
+- **[HAVING](https://en.wikipedia.org/wiki/Having_\(SQL\)?utm_source=gemini)** & **[SELECT](https://en.wikipedia.org/wiki/Select_\(SQL\)?utm_source=gemini)**: Can only inspect the **box label** or **measure the whole box**.
+    
+    - The individual items are sealed inside and cannot be seen one-by-one.
+        
+    - You can only check the label (`department`) or calculate [aggregate functions](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini) across the box contents, such as [COUNT](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [SUM](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [AVG](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [MAX](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), or [MIN](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini).
+        
+
+### The 5-Second Safe Cheat Code
+
+- **[WHERE](https://www.google.com/search?q=https://en.wikipedia.org/wiki/Where_\(SQL\)&utm_source=gemini&authuser=2):** Filters individual rows _before_ grouping happens.
+    
+- **[GROUP BY](https://en.wikipedia.org/wiki/Group_by_\(SQL\)?utm_source=gemini):** Collapses rows into categorized groups.
+    
+- **[HAVING](https://en.wikipedia.org/wiki/Having_\(SQL\)?utm_source=gemini) & [SELECT](https://en.wikipedia.org/wiki/Select_\(SQL\)?utm_source=gemini):** Must reference the group key or an [aggregate function](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini) ([COUNT](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [SUM](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [AVG](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [MAX](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini), [MIN](https://en.wikipedia.org/wiki/Aggregate_function?utm_source=gemini)). Selecting un-grouped, individual attributes results in a syntax error.
+- 
 > [!question]
 > **PSU CBT Practice Drill:**
 > Consider the schema `book(title, price)` with distinct book prices[cite: 1]. What does the following SQL query evaluate to[cite: 1]?

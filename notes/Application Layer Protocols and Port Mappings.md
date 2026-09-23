@@ -1,18 +1,32 @@
 > [!definition]
 > **Application Layer Protocols** define the formatting, operational commands, and transport-port mappings for distributed client-server communication[cite: 2].
 
-| Protocol | Purpose | Underlying Transport | Default Port(s) | Operational State / Connection |
-| :--- | :--- | :--- | :--- | :--- |
-| **HTTP 1.0** | Web browsing | TCP | Port 80[cite: 1, 2] | Stateless; Non-persistent (1 TCP conn per item)[cite: 2] |
-| **HTTP 1.1** | Web browsing | TCP | Port 80[cite: 1, 2] | Stateless; Persistent with pipelining[cite: 2] |
-| **FTP** | File Transfer | TCP | **Port 21 (Control)**[cite: 1, 2] <br>**Port 20 (Data)**[cite: 1, 2] | Stateful; **Out-of-band** architecture[cite: 2] |
-| **SMTP** | Mail relay / pushing | TCP | Port 25[cite: 1, 2] | Stateful; Push-only (7-bit ASCII standard)[cite: 2] |
-| **POP3** | Mail download / retrieve | TCP | Port 110[cite: 2] | Pull protocol; Deletes from server on pull[cite: 1, 2] |
-| **IMAP4** | Mail access / synchronization | TCP | Port 143[cite: 2] | Pull protocol; Supports server-side folders/sync[cite: 1, 2] |
-| **DNS** | Domain name resolution | UDP / TCP | Port 53[cite: 2] | UDP for queries; TCP for zone transfers[cite: 2] |
-| **DHCP** | Dynamic IP assignment | UDP | **Port 67 (Server)**[cite: 2] <br>**Port 68 (Client)**[cite: 2] | BootP broadcast exchange |
-| **Telnet** | Unencrypted remote terminal | TCP | Port 23[cite: 1, 2] | Insecure remote CLI session[cite: 1] |
-| **SSH** | Secure remote shell | TCP | Port 22[cite: 1] | Encrypted tunnel terminal session[cite: 1] |
+| **Port**    | **Protocol**    | **Purpose / Keyword Link**                 | **Quick Visual / Memory Anchor**                      |
+| ----------- | --------------- | ------------------------------------------ | ----------------------------------------------------- |
+| **20**      | **FTP Data**    | Delivering the actual payload payload      | 20 minutes to download files                          |
+| **21**      | **FTP Control** | Directing and commanding the connection    | Must be **21** to be in control                       |
+| **22**      | **SSH**         | **S**ecure **S**hell terminal              | **SS** $\rightarrow$ **22** (twin keys)               |
+| **23**      | **Telnet**      | Old unencrypted remote terminal            | 1 step past SSH ($22 + 1 = 23$)                       |
+| **25**      | **SMTP**        | **S*anta **M**ail **T**o **P**eople (Push) | Christmas Day mail (**Dec 25**)                       |
+| **53**      | **DNS**         | Resolves hostnames to IP addresses         | **5** (Domain) + **3** (DNS) = **53**                 |
+| **67 / 68** | **DHCP**        | Dynamic address assignment                 | Consecutive numbers **67** (Server) & **68** (Client) |
+| **80**      | **HTTP**        | Standard unencrypted Web browsing          | Around the world in **80** clicks                     |
+| **110**     | **POP3**        | Pulls and deletes mail from server         | **P-O-P** visually flips into **1-1-0**               |
+| **143**     | **IMAP4**       | Synchronized server-side mail access       | **1-4-3** (_I Love Mail Synchronization_)             |
+
+
+| Protocol     | Purpose                       | Underlying Transport | Default Port(s)                                                      | Operational State / Connection                               |
+| :----------- | :---------------------------- | :------------------- | :------------------------------------------------------------------- | :----------------------------------------------------------- |
+| **HTTP 1.0** | Web browsing                  | TCP                  | Port 80[cite: 1, 2]                                                  | Stateless; Non-persistent (1 TCP conn per item)[cite: 2]     |
+| **HTTP 1.1** | Web browsing                  | TCP                  | Port 80[cite: 1, 2]                                                  | Stateless; Persistent with pipelining[cite: 2]               |
+| **FTP**      | File Transfer                 | TCP                  | **Port 21 (Control)**[cite: 1, 2] <br>**Port 20 (Data)**[cite: 1, 2] | Stateful; **Out-of-band** architecture[cite: 2]              |
+| **SMTP**     | Mail relay / pushing          | TCP                  | Port 25[cite: 1, 2]                                                  | Stateful; Push-only (7-bit ASCII standard)[cite: 2]          |
+| **POP3**     | Mail download / retrieve      | TCP                  | Port 110[cite: 2]                                                    | Pull protocol; Deletes from server on pull[cite: 1, 2]       |
+| **IMAP4**    | Mail access / synchronization | TCP                  | Port 143[cite: 2]                                                    | Pull protocol; Supports server-side folders/sync[cite: 1, 2] |
+| **DNS**      | Domain name resolution        | UDP / TCP            | Port 53[cite: 2]                                                     | UDP for queries; TCP for zone transfers[cite: 2]             |
+| **DHCP**     | Dynamic IP assignment         | UDP                  | **Port 67 (Server)**[cite: 2] <br>**Port 68 (Client)**[cite: 2]      | BootP broadcast exchange                                     |
+| **Telnet**   | Unencrypted remote terminal   | TCP                  | Port 23[cite: 1, 2]                                                  | Insecure remote CLI session[cite: 1]                         |
+| **SSH**      | Secure remote shell           | TCP                  | Port 22[cite: 1]                                                     | Encrypted tunnel terminal session[cite: 1]                   |
 
 ```mermaid
 flowchart LR

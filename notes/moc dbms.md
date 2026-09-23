@@ -2,10 +2,6 @@
 type: moc
 topic: dbms
 ---
-
-# moc dbms
-
-## 📌 Concept
 - [[ER Model - Relational Schema Reduction|ER Model - Relational Schema Reduction]]
 - [[Functional Dependencies and Keys|Functional Dependencies and Keys]]
 - [[Normalization - 1NF 2NF 3NF and BCNF|Normalization - 1NF 2NF 3NF and BCNF]]
