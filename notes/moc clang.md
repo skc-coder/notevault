@@ -2,37 +2,43 @@
 cssclasses:
   - dashboard
   - cols-4
+tags:
+  - c-programming
+  - moc
 ---
-[[static and dynamic]]
-[[Memory Mapping - Multidimensional Arrays]]
+
+# 💻 C Programming MOC
+
+> 📌 **Dashboard Redirect**: The complete C Programming Dashboard (including Chapter Progress Matrix, PYQs, Quizzes, and Test Series) has been merged into **[[subject-dashboards/c-programming|C Programming Master Dashboard]]**.
+
+---
+
 ## 🧠 Module 1: Basics, Integers & Control Structures
-- [[Integer Representation]]
-- [[Type and Bit Conversions]]
-- [[Constant Expressions]]
-- [[../notes/Operators]]
-- [[../notes/Sequence Points]]
+- [[notes/static and dynamic|Static and Dynamic Mechanics]]
+- [[notes/Integer Representation|Integer Representation]]
+- [[notes/Type and Bit Conversions|Type and Bit Conversions]]
+- [[notes/Constant Expressions|Constant Expressions]]
+- [[notes/Operators|Operators & Precedence]]
+- [[notes/Sequence Points|Sequence Points]]
 
 ---
 
 ## ⚙️ Module 2: Functions, Storage Classes & Memory
-- [[Functions]]
-- [[../notes/Storage Classes and Memory Layout]]
+- [[notes/Functions|Functions]]
+- [[notes/Storage Classes and Memory Layout|Storage Classes and Memory Layout]]
+- [[notes/Memory Details|Memory Details]]
 
 ---
 
 ## 🔁 Module 3: Recursion, Pointers, Arrays & Strings
-- [[../notes/Recursion]]
-- [[../notes/Pointers and arrays]]
-- [[Multidimensional Arrays]]
+- [[notes/Recursion|Recursion]]
+- [[notes/Pointers and arrays|Pointers and Arrays]]
+- [[notes/Multidimensional Arrays|Multidimensional Arrays]]
+- [[notes/Memory Mapping - Multidimensional Arrays|Memory Mapping - Multidimensional Arrays]]
 
 ---
-## Module 4: Some other topics
-- [[malloc]]
-- [[Complex Declarations]]
-- [[../notes/Memory Details]]
-- 
 
----
-## Hard Questions & Tricky Scenarios
-<!-- Reserved for personal manual additions -->
-[[pyq analyses clang]]
+## 🧱 Module 4: Memory Management & Advanced Declarations
+- [[notes/malloc|Dynamic Allocation (malloc, calloc, free)]]
+- [[notes/Complex Declarations|Complex Declarations]]
+- [[notes/pyq analyses clang|PYQ Analyses & Tricky Scenarios]]
