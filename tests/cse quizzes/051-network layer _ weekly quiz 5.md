@@ -1,0 +1,33 @@
+---
+test_id: "CSE-0051"
+category: "CSE quiz"
+subject: "Computer Networks"
+test_name: "Network layer | Weekly Quiz 5"
+questions: "15 Qs"
+marks: "20 marks"
+duration: "36 min"
+taken_count: 296
+done: false
+status: "pending"
+date_completed: ""
+score_obtained: 
+weak_areas: []
+url: "https://gateoverflow.in/exam/1064/go-classes-gate-cs-computer-networks-network-layer-weekly-quiz-5"
+---
+
+# Network layer | Weekly Quiz 5
+
+## 📌 Test Details
+- **Category**: CSE quiz
+- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Questions**: 15 Qs | **Marks**: 20 marks | **Duration**: 36 min
+- **Status**: `pending`
+- 🔗 **Online Test Link**: [Network layer | Weekly Quiz 5](https://gateoverflow.in/exam/1064/go-classes-gate-cs-computer-networks-network-layer-weekly-quiz-5)
+
+---
+
+## 📝 Analysis & Mistakes
+- [ ] Review key concepts and wrong attempts from this test.
+
+## 💡 Variation Questions & Practice Notes
+- Add custom variation questions or detailed revision notes here.

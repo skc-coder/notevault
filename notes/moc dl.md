@@ -23,13 +23,13 @@ tags:
 
 - 🗺️ K-Map Minimization
   - [[gate-cs/digital logic/kmap|K-Map Minimization]] (L6A, L6B, L6C)
-  - [[gate-cs/digital logic/cover|Covering & Implicants]] (L6D)
+  - [[cover 1|Covering & Implicants]] (L6D)
   - [[gate-cs/digital logic/implicants|Implicants & Essential Prime Implicants]] (L6E)
   - [[gate-cs/digital logic/xor and xnor|XOR & XNOR Operations]] (L8)
 
 ---
 
-# 🔢 Module 2 — Number Systems & Arithmetic
+# 🔢 [[Module 2 — Number Systems & Arithmetic]]
 
 - 💡 Base Conversions & Signed Systems
   - [[Octal and Hexadecimal Systems]] (L1A, L1B)
@@ -47,7 +47,7 @@ tags:
 
 ---
 
-# 🔌 Module 3 — Combinational Circuits
+# 🔌 [[Module 3 — Combinational Circuits]]
 
 - 🔀 Multiplexers & Decoders
   - [[gate-cs/digital logic/compact truth table|Compact Truth Tables]] (L1)
@@ -63,7 +63,8 @@ tags:
 
 ---
 
-# 🔄 Module 5 — Sequential Circuits & Counters
+# 🔄 [[Module 5 — Sequential Circuits & Counters]]
+
 
 - ⏱️ Latches, Flip-Flops & Registers
   - [[Combinational vs Sequential Circuits]] (L1)

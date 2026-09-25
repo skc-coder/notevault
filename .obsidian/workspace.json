@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0e8ec771431fc4af",
+        "id": "73744af502360336",
         "type": "tabs",
         "children": [
           {
-            "id": "774daa8422599828",
+            "id": "9e66de5eae94b52a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ignore/todo.md",
+                "file": "history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "history"
             }
           },
           {
-            "id": "15c26b1af02414be",
+            "id": "0167305a738adc8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/moc dsap.md",
+                "file": "quiz-dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moc dsap"
-            }
-          },
-          {
-            "id": "ce126c43e4fb5215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Heap Data Structures - Construction and Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Heap Data Structures - Construction and Sort"
+              "title": "quiz-dashboard"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,6 +49,16 @@
         "id": "f344771606cf82d0",
         "type": "tabs",
         "children": [
+          {
+            "id": "c8e95bef7daa159e",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          },
           {
             "id": "4cb13ea123f1ad57",
             "type": "leaf",
@@ -84,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:synchronization",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,11 +104,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 292.73828125
+    "width": 405.14453125
   },
   "right": {
     "id": "45372c980f11330e",
@@ -200,16 +197,6 @@
             }
           },
           {
-            "id": "e8170920f792445a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
             "id": "fdf2dd715e18460d",
             "type": "leaf",
             "state": {
@@ -237,61 +224,61 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
       "file-cleaner-redux:Clean files": false,
       "omnisearch:Omnisearch": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "ce126c43e4fb5215",
+  "active": "0167305a738adc8f",
   "lastOpenFiles": [
-    "notes/Tree Structures - Properties and Traversals.md",
-    "notes/moc dsap.md",
-    "notes/Heap Data Structures - Construction and Sort.md",
-    "ignore/todo.md",
-    "notes/AVL trees.md",
-    "notes/Linked Lists - Linear and Circular Mechanics.md",
-    "notes/trainalguar.md",
-    "notes/Memory Mapping - Multidimensional Arrays.md",
-    "notes/moc clang.md",
-    "notes/C Memory - Storage Classes and Pointers.md",
-    "notes/C Scoping - Static and Dynamic Scoping.md",
-    "notes/moc dl.md",
-    "meta/notemaker.md",
-    "notes/Static and Dynamic - Type Systems.md",
-    "notes/static and dynamic.md",
-    "notes/DHCP.md",
-    "notes/Static and Dynamic - Linking and Dispatch.md",
-    "notes/Static and Dynamic - Memory Allocation.md",
-    "notes/Static and Dynamic - Scoping Mechanisms.md",
-    "notes/Static vs Dynamic - Core Principles.md",
-    "notes/Static Polymorphism - Early Binding.md",
-    "notes/Dynamic Polymorphism - Runtime Dispatch.md",
-    "notes/Static vs Dynamic Polymorphism Tradeoffs.md",
-    "notes/C Basics - Operators and Evaluation.md",
-    "notes/moc algo.md",
-    "notes/Application Layer Protocols and Port Mappings.md",
+    "gate-progress-tracker.md",
+    "tests/gate overflow 2027/029-test 1.md",
+    "tests/gate overflow 2027/028-test 1.md",
+    "tests/gate overflow 2027/027-test 1.md",
+    "tests/gate overflow 2027/026-shallow test 1.md",
+    "tests/gate overflow 2027/025-test 1.md",
+    "tests/gate overflow 2027/024-shallow test 1.md",
+    "tests/gate overflow 2027/023-test 1.md",
+    "tests/gate overflow 2027/022-shallow test 1.md",
+    "tests/gate overflow 2027/021-test 1.md",
+    "tests/gate overflow 2027/020-shallow test 1.md",
+    "tests/gate overflow 2027/019-test 1.md",
+    "tests/gate overflow 2027/018-shallow test 1.md",
+    "tests/gate overflow 2027/017-test 1.md",
+    "tests/gate overflow 2027/016-shallow test 1.md",
+    "tests/gate overflow 2027/015-test 1.md",
+    "tests/gate overflow 2027/014-shallow test 1.md",
+    "tests/gate overflow 2027/013-shallow test 1.md",
+    "tests/gate overflow 2027/012-test 1.md",
+    "tests/gate overflow 2027/011-test 1.md",
+    "tests/gate overflow 2027/010-shallow test 1.md",
+    "tests/gate overflow 2027/009-test 2.md",
+    "tests/gate overflow 2027/008-test 1.md",
+    "tests/gate overflow 2027/007-test 1.md",
+    "tests/gate overflow 2027/006-shallow test 1.md",
+    "tests/gate overflow 2027/005-test 1.md",
+    "scripts/import_tests_v2.py",
+    "scripts/update_dataview_paths.py",
+    "RXC0vK2EDF.pdf",
+    "tests/go test series da",
+    "tests/go test series",
+    "tests/gate overflow 2027",
+    "tests/gate cse pyqs",
+    "tests/da quizzes",
+    "tests/cse quizzes",
+    "tests",
+    "notes/attachments/Demand Paging - Effective Memory Access Time-1790321896349.webp",
+    "notes/attachments/Demand Paging - Effective Memory Access Time-1790321892052.webp",
+    "notes/attachments 1/moc algodalgo-1790160314992.webp",
+    "notes/attachments 1/moc algodalgo-1790160313113.webp",
+    "notes/attachments 1/moc algodalgo-1790158380087.webp",
+    "notes/attachments 1/moc algodalgo-1790158160830.webp",
     "notes/attachments/Bottom-Up Parsers - Classification and Power-1789971863271.webp",
     "notes/attachments/Bottom-Up Parsers - Classification and Power-1789971861868.webp",
-    "ignore/topics",
-    "ignore",
-    "Deadlock",
-    "notes/file system",
-    "notes/Deadlock",
-    "gate-cs/cn",
-    "gate-cs",
-    "notes/Untitled.base",
-    "mocs/moc ratio",
-    "attachments/banners",
     "notes/attachments/Pasted image 20260317170238.webp",
     "notes/attachments/Pasted image 20260316172120.webp",
-    "notes/attachments/Pasted image 20260325094950.webp",
-    "notes/attachments/Pasted image 20260327185915.webp",
-    "notes/attachments/Pasted image 20260328080809.webp",
-    "notes/attachments/Pasted image 20260331080315.webp",
-    "notes/attachments/Pasted image 20260427110642.webp",
-    "notes/attachments/Pasted image 20260427120057.webp",
     "00_meta/archive/docs/Canvas.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",

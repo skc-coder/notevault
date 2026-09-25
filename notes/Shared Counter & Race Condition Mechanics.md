@@ -1,10 +1,14 @@
 ---
 tags:
-  - operating-systems
-  - concurrency
-  - synchronization
-  - gate-cs
+importance: none
+hardness: none
+revision: "1"
 ---
+> [!formula] Shared Counter Extreme Value Bounds
+> For $k$ concurrent threads each incrementing a shared counter $N$ times (where $N \ge 2$):
+> $$\text{Max Value} = k \cdot N$$
+> $$\text{Min Value} = 2$$
+> The minimum bound is independent of the number of iterations $N$, provided $N \ge 2$, because an unsynchronized store can overwrite an arbitrary number of prior committed updates.
 
 When multiple threads access shared mutable state without proper synchronization, non-atomic machine instructions allow interleavings that cause race conditions.
 
@@ -52,8 +56,4 @@ Achieved via strategic interleaving across iterations where one thread overwrite
 - **Step 5 ($T_1$, Iterations 2 to 10):** $T_1$ runs its remaining $9$ iterations entirely to completion. It reads $\text{count} = 1$, increments it $9$ times, and writes $\text{count} = 1 + 9 = 10$.
 - **Step 6 ($T_2$, Resumes Iteration 10):** $T_2$ resumes with its saved register value $R_2 = 1$. It performs `INCR R_2` ($R_2 = 2$) and finally executes `STORE count, R_2`. The shared variable $\text{count}$ is set to $2$.
 
-> [!formula] Shared Counter Extreme Value Bounds
-> For $k$ concurrent threads each incrementing a shared counter $N$ times (where $N \ge 2$):
-> $$\text{Max Value} = k \cdot N$$
-> $$\text{Min Value} = 2$$
-> The minimum bound is independent of the number of iterations $N$, provided $N \ge 2$, because an unsynchronized store can overwrite an arbitrary number of prior committed updates.
+

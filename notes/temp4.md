@@ -1,204 +1,168 @@
+---
+tags:
+  - os
+  - memory-management
+  - emat
+  - gate-cse
+aliases:
+  - Effective Memory Access Time
+  - Unified EMAT
+date_created: 2026-09-25
+---
+**Effective Memory Access Time (EMAT)** measures the weighted average access latency accounting for TLB search latency, cache hits/misses, page table walks, and page fault handling.
+## Quick Summary Table
 
---atom--
-file_name: Top-Down Parsers - LL1 Verification Walkthrough
+| Access Architecture           | Translation Latency Formula ($T_{\text{translation}}$)                                                                     |
+| :---------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Hierarchical (Sequential)** | $T_{\text{tlb}} + m_{\text{tlb}} \cdot \big[ T_{\text{pt}} + p_{\text{fault}} \cdot \text{PFS} \big]$                      |
+| **Simultaneous (Parallel)**   | $h_{\text{tlb}} \cdot T_{\text{tlb}} + m_{\text{tlb}} \cdot \big[ T_{\text{pt}} + p_{\text{fault}} \cdot \text{PFS} \big]$ |
 
-> [!definition]
-> An **$LL(1)$ Grammar** is an unambiguous context-free grammar where the parsing table $M[A, a]$ contains at most one production entry for every non-terminal $A$ and terminal / lookahead $a \in (V_T \cup \{\$\})$.
+*Note: For an $n$-level page table, $T_{\text{pt}} = n \times T_{\text{mem}}$ (or $n \times T_{\text{data}}$ if page table entries reside in cache).*
 
-```mermaid
-flowchart TD
-    Grammar["Grammar: S -> aS' | S' -> S | e"] --> Step1["1. Compute FIRST and FOLLOW"]
-    Step1 --> FirstSets["FIRST(S) = {a}\nFIRST(S') = {a, e}"]
-    Step1 --> FollowSets["FOLLOW(S) = {$, a}\nFOLLOW(S') = {$, a}"]
-    FirstSets & FollowSets --> Step2["2. Build Parsing Table M"]
-    Step2 --> ConflictCheck{"Multiple entries in M[S', a]?"}
-    ConflictCheck -- Yes --> NotLL1["FIRST-FOLLOW Conflict: NOT LL(1)"]
-````
+| Access Architecture           | Data Access Latency Formula ($T_{\text{data}}$)                                   |
+| :---------------------------- | :-------------------------------------------------------------------------------- |
+| **Hierarchical (Sequential)** | $T_{\text{cache}} + m_{\text{cache}} \cdot T_{\text{mem}}$                        |
+| **Simultaneous (Parallel)**   | $h_{\text{cache}} \cdot T_{\text{cache}} + m_{\text{cache}} \cdot T_{\text{mem}}$ |
 
-### Step-by-Step Mathematical Verification
+## 1. Generalized Multi-Level Recursive Rule
 
-Consider the factored grammar:
+For an arbitrary $k$-level hierarchy $L_1, L_2, \dots, L_k$ at any level (multi-level TLBs, multi-tier page tables, or $L_1/L_2/L_3$ cache blocks):
 
-  
-
-1. $S \to a S'$
-    
-      
-    
-2. $S' \to S$
-    
-      
-    
-3. $S' \to \epsilon$
-    
-      
-    
-
-#### 1. FIRST Set Computations
-
-- $\text{FIRST}(S) = \text{FIRST}(a S') = \{a\}$
-    
-      
-    
-- For $S'$:
-    
-      
-    - From $S' \to S$: $\text{FIRST}(S) = \{a\}$
-        
-          
-        
-    - From $S' \to \epsilon$: $\{\epsilon\}$
-        
-          
-        
-    - Therefore: $\text{FIRST}(S') = \{a, \epsilon\}$
-        
-          
-        
-
-#### 2. FOLLOW Set Computations
-
-- Since $S$ is the start symbol, add the end marker:
-    
-      
-    
-    $$\$ \in \text{FOLLOW}(S)$$
-    
-- From $S \to a S'$:
-    
-      
-    - $S'$ sits at the end of the production.
-        
-          
-        
-    - By Rule 3: $\text{FOLLOW}(S) \subseteq \text{FOLLOW}(S')$, so $\$ \in \text{FOLLOW}(S')$.
-        
-          
-        
-- From $S' \to S$:
-    
-      
-    - $S$ sits at the end of the production.
-        
-          
-        
-    - By Rule 3: $\text{FOLLOW}(S') \subseteq \text{FOLLOW}(S)$.
-        
-          
-        
-    - This creates a mutual dependency: $\text{FOLLOW}(S) = \text{FOLLOW}(S')$.
-        
-          
-        
-- From $S' \to S$ where $S \to a S'$:
-    
-      
-    - Notice that in a derivation $S \Rightarrow a S' \Rightarrow a S \Rightarrow a a S'$, terminal $a$ follows $S$.
-        
-          
-        
-    - Thus, $\text{FOLLOW}(S) = \{a, \$\}$ and $\text{FOLLOW}(S') = \{a, \$\}$.
-        
-          
-        
-
-#### 3. LL(1) Condition Evaluation for $S'$
-
-For the two alternate productions of $S'$:
-
-  
-
-- $\alpha_1 = S \implies \text{FIRST}(\alpha_1) = \{a\}$
-    
-      
-    
-- $\alpha_2 = \epsilon \implies \text{FIRST}(\alpha_2) = \{\epsilon\}$
-    
-      
-    
-
-Since $\alpha_2 \Rightarrow^* \epsilon$, we must verify the disjoint condition:
-
-  
-
-$$\text{FIRST}(\alpha_1) \cap \text{FOLLOW}(S') = \emptyset$$
-
-Substituting the calculated sets:
-
-  
-
-$$\{a\} \cap \{a, \$\} = \{a\} \neq \emptyset$$
-
-> [!theorem]
-> 
-> **FIRST-FOLLOW Conflict**: Because $\text{FIRST}(S) \cap \text{FOLLOW}(S') \neq \emptyset$, the table cell $M[S', a]$ receives two competing entries:
-> 
->   
-> 
-> 1. $S' \to S$ (from $\text{FIRST}(S)$)
->     
->       
->     
-> 2. $S' \to \epsilon$ (from $\text{FOLLOW}(S')$ due to the $\epsilon$-production)
->     
->       
->     
-> 
-> Hence, this factored grammar remains **strictly non-$LL(1)$**.
-> 
->   
-
-> [!trap]
-> 
-> Factoring eliminates the immediate $\text{FIRST-FIRST}$ conflict at non-terminal $S$, but shifting the recursion into $S' \to S \mid \epsilon$ converts the issue into a **$\text{FIRST-FOLLOW}$ conflict** at $S'$. Left-factoring alone does not guarantee that an ambiguous language becomes deterministic.
-> 
->   
-
-> [!question]
-> 
-> Given the grammar:
-> 
->   
-> 
-> $$S \to a S', \quad S' \to S \mid \epsilon$$
-> 
-> Which entries appear in cell $M[S', a]$ of the predictive parsing table?
-> 
->   
-> 
-> - (A) Only $S' \to S$
->     
->       
->     
-> - (B) Only $S' \to \epsilon$
->     
->       
->     
-> - (C) Both $S' \to S$ and $S' \to \epsilon$
->     
->       
->     
-> - (D) No entries (blank error entry)
->     
->       
->     
-> 
-> **Correct Option**: **(C)**
-> 
-> **Explanation**: Because $a \in \text{FIRST}(S)$, the production $S' \to S$ is entered into $M[S', a]$. Because $a \in \text{FOLLOW}(S')$ and $S'$ contains an $\epsilon$-production ($S' \to \epsilon$), $S' \to \epsilon$ is also entered into $M[S', a]$. This dual entry constitutes a fatal $\text{FIRST-FOLLOW}$ conflict.
-
-```
+$$\text{Latency}(L_i) = \begin{cases} 
+T_i + m_i \cdot \text{Latency}(L_{i+1}) & \text{Hierarchical (Serial)} \\
+h_i \cdot T_i + m_i \cdot \text{Latency}(L_{i+1}) & \text{Simultaneous (Parallel)} 
+\end{cases}$$
 
 ---
 
-### Key Takeaway on $\text{FOLLOW}(S')$
+## 2. The Unified Decomposition Principle
 
-You correctly saw that $S'$ is at the end of $S \to a S'$, meaning $S'$ inherits everything in $\text{FOLLOW}(S)$ (starting with $\$$). 
+$$\mathbf{\text{EMAT} = T_{\text{translation}} + T_{\text{data}}}$$
 
-However, because the second rule allows $S' \to S$, $S$ and $S'$ end up mutually inheriting from each other. That brings terminal $a$ into $\text{FOLLOW}(S')$ as well, leading to:
-$$\text{FOLLOW}(S') = \{a, \$\}$$
+> [!important] The Decoupling Invariant
+> - **$T_{\text{translation}}$** accounts strictly for: TLB lookup $+$ (on TLB miss: Page Table Walk $+$ Page Fault penalty).
+> - **$T_{\text{data}}$** accounts strictly for: Accessing the resolved physical address across the cache and main memory hierarchy.
+> - Regardless of whether address translation hits or misses, the CPU must **always** perform $T_{\text{data}}$ to fetch the actual operand.
 
-Because $a$ is present in both $\text{FIRST}(S)$ and $\text{FOLLOW}(S')$, table cell $M[S', a]$ receives two competing rules ($S' \to S$ and $S' \to \epsilon$).
+---
 
-Would you like to try constructing the full $2 \times 2$ predictive parsing table for this grammar to see the collision visually, or move on to diagnosing another grammar?
-```
+## 3. Phase 1: Address Translation Latency ($T_{\text{translation}}$)
+
+### Parameters
+- $h_{\text{tlb}}$: TLB hit ratio ($m_{\text{tlb}} = 1 - h_{\text{tlb}}$: TLB miss ratio)
+- $T_{\text{tlb}}$: TLB search latency
+- $p_{\text{fault}}$: Page fault rate (defined strictly over TLB misses)
+- $T_{\text{pt}}$: Latency of a page table walk ($n \times T_{\text{mem}}$ for an $n$-level page table)
+- $\text{PFS}$ / $T_{\text{fault}}$: Page Fault Service time (disk I/O, OS trap, updating PTE/TLB)
+
+#### Case A: Hierarchical (Serial) Translation
+The TLB is queried first. On a miss, translation incurs the TLB search time plus the memory lookup penalty:
+
+$$T_{\text{translation}} = T_{\text{tlb}} + m_{\text{tlb}} \cdot \Big[ (1 - p_{\text{fault}}) \cdot T_{\text{pt}} + p_{\text{fault}} \cdot (T_{\text{pt}} + \text{PFS}) \Big]$$
+
+Factoring out $T_{\text{pt}}$:
+
+$$T_{\text{translation}} = T_{\text{tlb}} + m_{\text{tlb}} \cdot \Big[ T_{\text{pt}} + p_{\text{fault}} \cdot \text{PFS} \Big]$$
+
+#### Case B: Simultaneous (Parallel) Translation
+TLB and Page Table lookup are evaluated as mutually exclusive paths:
+
+$$T_{\text{translation}} = h_{\text{tlb}} \cdot T_{\text{tlb}} + m_{\text{tlb}} \cdot \Big[ T_{\text{pt}} + p_{\text{fault}} \cdot \text{PFS} \Big]$$
+
+> [!trap] Critical Invariants for Gate & Systems Design
+> 1. **TLB Hit Implies No Page Fault**: A TLB entry only exists if the corresponding page is present in physical memory. A page fault **cannot** occur on a TLB hit.
+> 2. **Page Fault Occurrence**: A page fault can only trigger after a TLB miss during the page table traversal in RAM.
+> 3. Page fault and memory acces are not done parallely! 
+
+---
+
+## 4. Phase 2: Physical Data Access Latency ($T_{\text{data}}$)
+
+### Parameters
+- $h_{\text{cache}}$: Cache hit ratio ($m_{\text{cache}} = 1 - h_{\text{cache}}$: Cache miss ratio)
+- $T_{\text{cache}}$: Cache access latency
+- $T_{\text{mem}}$: Main memory access latency
+
+### Mathematical Formulations
+
+#### Case A: Hierarchical (Serial) Cache Access
+L1 Cache is probed first. On a miss, the request cascades down to physical memory:
+
+$$T_{\text{data}} = T_{\text{cache}} + m_{\text{cache}} \cdot T_{\text{mem}}$$
+
+#### Case B: Simultaneous (Parallel) Cache Access
+Cache and Main Memory access initiate concurrently:
+
+$$T_{\text{data}} = h_{\text{cache}} \cdot T_{\text{cache}} + m_{\text{cache}} \cdot T_{\text{mem}}$$
+
+---
+
+
+---
+
+## 6. Worked Exam Problems & Derivations
+
+> [!question] Comprehensive Multi-Tier EMAT (GATE CSE 2020 Variant)
+> **Specifications:**
+> - Single-level page table resident in physical memory
+> - Memory access time ($m$) $= 100\text{ ns}$
+> - TLB access time ($T_{\text{tlb}}$) $= 20\text{ ns}$
+> - TLB hit ratio ($h_{\text{tlb}}$) $= 0.95 \implies m_{\text{tlb}} = 0.05$
+> - Page fault rate ($f$) $= 0.10$ (defined strictly on a TLB miss)
+> - Page transfer time to/from disk $= 5000\text{ ns}$
+> - Proportion of dirty pages replaced $= 20\%$ ($p_{\text{dirty}} = 0.20$)
+> - No separate cache ($T_{\text{data}} = m = 100\text{ ns}$)
+> 
+> **Step 1: Page Fault Service Time ($\text{PFS}$)**
+> $$\begin{aligned}
+> \text{PFS} &= \text{Read Disk} + p_{\text{dirty}} \cdot (\text{Write Disk}) \\
+> &= 5000 + 0.20 \times 5000 = 5000 + 1000 = \mathbf{6000\text{ ns}}
+> \end{aligned}$$
+> 
+> **Step 2: Translation Phase ($T_{\text{translation}}$)**
+> $$\begin{aligned}
+> T_{\text{translation}} &= T_{\text{tlb}} + m_{\text{tlb}} \cdot \Big[ T_{\text{pt}} + f \cdot \text{PFS} \Big] \\
+> &= 20 + 0.05 \cdot \Big[ 100 + 0.10 \times 6000 \Big] \\
+> &= 20 + 0.05 \cdot \Big[ 100 + 600 \Big] \\
+> &= 20 + 0.05 \times 700 = 20 + 35 = \mathbf{55\text{ ns}}
+> \end{aligned}$$
+> 
+> **Step 3: Data Access Phase ($T_{\text{data}}$)**
+> $$T_{\text{data}} = 100\text{ ns}$$
+> 
+> **Step 4: Final EMAT**
+> $$\text{EMAT} = T_{\text{translation}} + T_{\text{data}} = 55\text{ ns} + 100\text{ ns} = \mathbf{155\text{ ns}}$$
+
+---
+
+> [!question] Performance Slowdown Under Demand Paging
+> **Specifications:**
+> - Normal physical memory access time ($m$) $= 200\text{ ns}$
+> - Page Fault Service Time ($\text{PFS}$) $= 8\text{ ms} = 8{,}000{,}000\text{ ns}$
+> - Fault rate $p = \frac{1}{1000} = 10^{-3}$
+> 
+> **Derivation:**
+> Here are given two mutually exclusive cases. Hence we use the simaultaneous formula.
+> $$\begin{aligned}
+> \text{EMAT} &= (1 - p) \cdot m + p \cdot \text{PFS} \\
+> &= (1 - 10^{-3}) \cdot 200 + 10^{-3} \cdot 8{,}000{,}000 \\
+> &= 199.8 + 8000 \approx \mathbf{8199.8\text{ ns}} \approx \mathbf{8.2\text{ }\mu\text{s}}
+> \end{aligned}$$
+> 
+> $$\text{Slowdown Factor} = \frac{8199.8\text{ ns}}{200\text{ ns}} \approx \mathbf{41\times\text{ slowdown}}$$
+> 
+> *Takeaway:* A microscopic page fault rate of $0.1\%$ degrades memory throughput by over $40\times$ due to the millisecond-scale latency of secondary storage I/O.
+
+---
+
+> [!question] GATE IT 2004: Instruction Cycle Execution Time
+> An instruction takes $i\text{ ms}$ to execute. A page fault takes an additional $j\text{ ms}$. On average, a page fault occurs once every $k$ instructions.
+> 
+> **Derivation:**
+> - Page fault probability per instruction $= \frac{1}{k}$
+> - Added penalty per instruction $= \frac{1}{k} \cdot j = \frac{j}{k}$
+> 
+> $$\mathbf{\text{Effective Execution Time} = i + \frac{j}{k}}$$
+
+---
+

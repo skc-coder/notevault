@@ -5,6 +5,7 @@ cssclasses:
 ---
 # CS
 - 🌐 [[notes/unliked]]
+- 🧮 [[notes/moc maths|Maths Master MOC]]
 - ⚙️ [[notes/moc os|OS MOC]]
 - 🧮 [[notes/moc dm|Discrete Maths MOC]]
 - 🏗️ [[notes/moc dsa|DSA MOC]]
@@ -19,7 +20,6 @@ cssclasses:
 - 📐 [[notes/moc calculus|Calculus MOC]]
 - 📊 [[notes/moc graphs|Graphs MOC]]
 - 🔢 [[notes/moc la|Linear Algebra MOC]]
-- 🧮 [[notes/moc maths|Maths Master MOC]]
 - 🎲 [[notes/moc probablity|Probability MOC]]
 - 🧩 [[notes/moc logic|Logic MOC]]
 - 🔍 [[notes/moc set theory|Set Theory MOC]]

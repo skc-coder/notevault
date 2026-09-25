@@ -1,10 +1,10 @@
 {
-  "cssTheme": "ITS Theme",
+  "cssTheme": "Silver",
   "enabledCssSnippets": [
     "dashboard"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 25,
+  "baseFontSize": 17,
   "accentColor": "#75f55c",
   "monospaceFontFamily": "Agave Nerd Font",
   "interfaceFontFamily": "Lora",

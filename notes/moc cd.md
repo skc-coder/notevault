@@ -2,9 +2,6 @@
 type: moc
 topic: cd
 ---
-# moc cd
-
-## 📌 Concept
 - [[Compiler Phases - Structure and Functions|Compiler Phases - Structure and Functions]]
 - [[Lexical Analysis - Tokenization and Munch|Lexical Analysis - Tokenization and Munch]]
 - [[Grammars - Parse Trees and Ambiguity|Grammars - Parse Trees and Ambiguity]]

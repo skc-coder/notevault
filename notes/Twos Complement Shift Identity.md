@@ -9,7 +9,7 @@ tags:
 
 
 ## 1. The Identity Formula 📐
-
+[[ identity exapansion ]]
 When an $n$-bit binary integer has its Most Significant Bit set to $1$ ($\text{MSB} = 1 \implies U \ge 2^{n-1}$):
 
 $$U - S = 2^n$$

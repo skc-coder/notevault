@@ -12,7 +12,8 @@ cssclasses:
 - **1b** – Historical Algorithm & Child's Algorithm (9:00)
 
 ---
-
+[[loop analysis]]
+[[growth rate]]
 ## 📈 Asymptotic Analysis & Loop Complexities
 *(Cross-referenced with DS Course)*
 - **5a** – Intro to Asymptotic Analysis (17:00)

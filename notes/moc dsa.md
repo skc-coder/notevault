@@ -7,8 +7,8 @@ cssclasses:
 ![[attachments/banners/dsa.webp|banner]]
 
 ## Foundations
-* [[../gate-cs/dsa basic terms]]
-* [[../gate-cs/list of adt and ds]]
+* [[dsa basic terms]]
+* [[list of adt and ds]]
 
 ## Linked List
 * [[Linked List Intro, Array vs LL, Insertions Deletions]]
@@ -32,23 +32,23 @@ cssclasses:
 * ⚠️ note not created yet
 
 ## Binary Trees
-* [[../gate-cs/Binary Trees]]
+* [[Binary Trees]]
   * Intro, representation, traversals, tree construction (pre/in/post)
-  * Sub-note: [[../gate-cs/Catalan Number]]
-* [[../gate-cs/Binary Search Tree]]
+  * Sub-note: [[Catalan Number]]
+* [[Binary Search Tree]]
   * Range search (GATE 2014, 2020), deletion, probe sequences (GATE 1996), PYQs 1997–2016, time complexities
   * Sub-note: [[gate-cs/data structures/Combinatorics]]
-  * → [[../gate-cs/AVL trees]]
-* [[../gate-cs/AVL trees]]
+  * → [[AVL trees]]
+* [[AVL trees]]
 
 ## Heap
-* [[../gate-cs/Heap]]
+* [[Heap]]
   * Intro, kth min (GATE 2020), heapify, build heap (top-down/bottom-up), delete min
   * Number of min heaps (GATE 2018, TIFR 2014), number of binary trees
   * Heap sort, heap vs BST, priority queues
 
 ## Hashing
-* [[../gate-cs/Hashing 1]]
+* [[Hashing 1]]
   * Direct address table, collision resolution, chaining
   * Linear/quadratic probing, double hashing, number of probes
   * Probability background (Bernoulli, Binomial), expectation in hashing
@@ -58,10 +58,10 @@ cssclasses:
 * ⚠️ note not created yet
 
 ## Practice & Resources
-* [[../gate-cs/DSA Practice]]
+* [[DSA Practice]]
 * Topper notes to mine: Karan Agrawal (AIR 102), Shreyas Rathod (AIR 107), Himanshu Dutta (AIR 16)
 
-* [[../gate-cs/sets]]
+* [[sets]]
 * 
 **Parent:** [[unliked]]
 

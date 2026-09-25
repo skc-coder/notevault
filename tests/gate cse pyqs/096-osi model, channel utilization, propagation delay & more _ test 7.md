@@ -1,0 +1,33 @@
+---
+test_id: "GAT-0096"
+category: "GATE CSE PYQs"
+subject: "Computer Networks"
+test_name: "Osi Model, Channel Utilization, Propagation Delay & more | Test 7"
+questions: "5 Qs"
+marks: "6 marks"
+duration: "11 min"
+taken_count: 9.0
+done: false
+status: "pending"
+date_completed: ""
+score_obtained: 
+weak_areas: []
+url: "https://gateoverflow.in/exam/2317/gate-cse-pyqs-computer-networks-osi-model-channel-utilization-propagation-delay-%26-more-test-7"
+---
+
+# Osi Model, Channel Utilization, Propagation Delay & more | Test 7
+
+## 📌 Test Details
+- **Category**: GATE CSE PYQs
+- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
+- **Status**: `pending`
+- 🔗 **Online Test Link**: [Osi Model, Channel Utilization, Propagation Delay & more | Test 7](https://gateoverflow.in/exam/2317/gate-cse-pyqs-computer-networks-osi-model-channel-utilization-propagation-delay-%26-more-test-7)
+
+---
+
+## 📝 Analysis & Mistakes
+- [ ] Review key concepts and wrong attempts from this test.
+
+## 💡 Variation Questions & Practice Notes
+- Add custom variation questions or detailed revision notes here.

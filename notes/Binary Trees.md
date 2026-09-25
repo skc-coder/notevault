@@ -47,6 +47,7 @@
 | --------- | ------------- |
 | Min nodes | $2^h$         |
 | Max nodes | $2^{h+1} - 1$ |
+|           |               |
 
 ---
 
@@ -97,6 +98,7 @@
 | One traversal + fixed structure (e.g. CBT) | ✅ Yes                                         |
 | Only Preorder or only Postorder            | ❌ No (root fixed, left/right split ambiguous) |
 | Only Inorder                               | ❌ No (root not even clear)                    |
+|                                            |                                               |
 
 ### Why Pre+Post alone fails
 

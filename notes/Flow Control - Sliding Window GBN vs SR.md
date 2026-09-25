@@ -1,15 +1,15 @@
 > [!definition]
 > **Sliding Window Protocols** enable pipelined transmission of multiple frames before waiting for an ACK, maximizing link utilization over high Bandwidth-Delay Product ($\text{BDP}$) channels.
 
-| Attribute                   | Stop-and-Wait               | Go-Back-N (GBN)                                   | Selective Repeat (SR)                                |
-| :-------------------------- | :-------------------------- | :------------------------------------------------ | :--------------------------------------------------- |
-| **Sender Window ($W_S$)**   | $1$             | $N$ ($W_S = 2^k - 1$)                 | $N$ ($W_S = 2^{k-1}$)                    |
-| **Receiver Window ($W_R$)** | $1$             | $1$                                   | $W_R = W_S = 2^{k-1}$                    |
-| **Acknowledgement Type**    | Cumulative/Independent      | **Cumulative** (Next expected frame)     | **Independent / Selective ACK**             |
-| **Out-of-Order Acceptance** | Rejected           | Discarded entirely                       | Accepted & buffered in window               |
-| **Retransmission on Loss**  | Single frame       | Entire window of $N$ unacked frames               | Only the corrupted/timed-out frame          |
-| **Sender Timers**           | 1 timer            | 1 timer (for oldest unacked frame)       | Individual timer per unacked frame          |
-| **Total Sequence Numbers**  | $2$ ($k=1$ bit)    | $N + 1 \le 2^k \implies W_S + 1$         | $2N \le 2^k \implies W_S + W_R$             |
+| Attribute                   | Stop-and-Wait               | Go-Back-N (GBN)                          | Selective Repeat (SR)                    |
+| :-------------------------- | :-------------------------- | :--------------------------------------- | :--------------------------------------- |
+| **Sender Window ($W_S$)**   | $1$                         | $N$ ($W_S = 2^k - 1$)                    | $N$ ($W_S = 2^{k-1}$)                    |
+| **Receiver Window ($W_R$)** | $1$                         | $1$                                      | $W_R = W_S = 2^{k-1}$                    |
+| **Acknowledgement Type**    | Cumulative/Independent      | **Cumulative** (Next expected frame)     | **Independent / Selective ACK**          |
+| **Out-of-Order Acceptance** | Rejected                    | Discarded entirely                       | Accepted & buffered in window            |
+| **Retransmission on Loss**  | Single frame                | Entire window of $N$ unacked frames      | Only the corrupted/timed-out frame       |
+| **Sender Timers**           | 1 timer                     | 1 timer (for oldest unacked frame)       | Individual timer per unacked frame       |
+| **Total Sequence Numbers**  | $2$ ($k=1$ bit)             | $N + 1 \le 2^k \implies W_S + 1$         | $2N \le 2^k \implies W_S + W_R$          |
 | **Efficiency ($\eta$)**     | $\frac{1}{1 + 2a}$[cite: 1] | $\min\left(1, \frac{W_S}{1 + 2a}\right)$ | $\min\left(1, \frac{W_S}{1 + 2a}\right)$ |
 
 > [!formula]
