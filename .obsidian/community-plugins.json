@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "terminal",
   "obsidian-style-settings",
   "automatic-table-of-contents",
@@ -13,5 +12,7 @@
   "calendar",
   "callout-manager",
   "callout-toggles",
-  "quickadd"
+  "quickadd",
+  "notebook-navigator",
+  "dataview"
 ]
