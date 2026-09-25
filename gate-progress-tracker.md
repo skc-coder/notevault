@@ -58,8 +58,7 @@ TABLE
   subject AS Subject,
   questions AS Questions,
   marks AS Marks,
-  duration AS Duration,
-  "[Online Test](" + url + ")" AS "Take Test"
+  duration AS Duration
 FROM "tests/gate cse pyqs"
 SORT subject ASC, file.name ASC
 ```

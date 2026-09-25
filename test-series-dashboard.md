@@ -24,8 +24,7 @@ TABLE
   subject AS Subject,
   questions AS Questions,
   marks AS Marks,
-  duration AS Duration,
-  "[Online Test](" + url + ")" AS "Take Test"
+  duration AS Duration
 FROM "tests/go test series"
 SORT file.name ASC
 ```
@@ -41,8 +40,7 @@ TABLE
   subject AS Subject,
   questions AS Questions,
   marks AS Marks,
-  duration AS Duration,
-  "[Online Test](" + url + ")" AS "Take Test"
+  duration AS Duration
 FROM "tests/go test series da"
 SORT file.name ASC
 ```
@@ -58,8 +56,7 @@ TABLE
   subject AS Subject,
   questions AS Questions,
   marks AS Marks,
-  duration AS Duration,
-  "[Online Test](" + url + ")" AS "Take Test"
+  duration AS Duration
 FROM "tests/gate overflow 2027"
 SORT file.name ASC
 ```

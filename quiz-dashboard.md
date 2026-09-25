@@ -23,8 +23,7 @@ TABLE
   subject AS Subject,
   questions AS Questions,
   marks AS Marks,
-  duration AS Duration,
-  "[Online Quiz](" + url + ")" AS "Take Quiz"
+  duration AS Duration
 FROM "tests/cse quizzes"
 SORT file.name ASC
 ```
@@ -34,15 +33,13 @@ SORT file.name ASC
 ## 📊 DA Weekly Quizzes (62 Quizzes)
 
 ```dataview
-
 TABLE 
   choice(done, "✅", "❌") AS Done,
   file.link AS "Test Note",
   subject AS Subject,
   questions AS Questions,
   marks AS Marks,
-  duration AS Duration,
-  "[Online Quiz](" + url + ")" AS "Take Quiz"
+  duration AS Duration
 FROM "tests/da quizzes"
 SORT file.name ASC
 ```
