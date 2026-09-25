@@ -15,13 +15,13 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Counting, Permutations & Combinations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Axioms of Probability & Bayes Theorem | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Random Variables (Discrete & Continuous) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Distributions (Binomial, Poisson, Normal, Exponential) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Mean, Median, Mode & Standard Deviation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Counting, Permutations & Combinations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Axioms of Probability & Bayes Theorem | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Random Variables (Discrete & Continuous) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Distributions (Binomial, Poisson, Normal, Exponential) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Mean, Median, Mode & Standard Deviation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

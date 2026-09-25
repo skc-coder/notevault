@@ -15,14 +15,14 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Concept of Layering & OSI/TCP-IP | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Data Link Control (Framing, Error Control, Sliding Window) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| MAC Protocols (ALOHA, CSMA/CD, Ethernet) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Network Layer (IPv4, CIDR Subnetting, Routing Algorithms) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Transport Layer (TCP Mechanics, Flow Control, Congestion) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Application Layer Protocols (DNS, HTTP, SMTP, FTP) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Concept of Layering & OSI/TCP-IP | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Data Link Control (Framing, Error Control, Sliding Window) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| MAC Protocols (ALOHA, CSMA/CD, Ethernet) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Network Layer (IPv4, CIDR Subnetting, Routing Algorithms) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Transport Layer (TCP Mechanics, Flow Control, Congestion) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Application Layer Protocols (DNS, HTTP, SMTP, FTP) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

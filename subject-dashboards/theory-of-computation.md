@@ -15,11 +15,11 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Regular Languages & Finite Automata (DFA, NFA, Minimization) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Context-Free Languages & Pushdown Automata (PDA) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Turing Machines & Undecidability | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Regular Languages & Finite Automata (DFA, NFA, Minimization) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Context-Free Languages & Pushdown Automata (PDA) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Turing Machines & Undecidability | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

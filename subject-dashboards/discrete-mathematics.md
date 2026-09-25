@@ -15,13 +15,13 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Propositional & First Order Logic | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Set Theory, Relations & Functions | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Partial Orders, Lattices & Boolean Algebra | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Groups & Combinatorics | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Graph Connectivity, Coloring & Trees | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Propositional & First Order Logic | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Set Theory, Relations & Functions | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Partial Orders, Lattices & Boolean Algebra | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Groups & Combinatorics | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Graph Connectivity, Coloring & Trees | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

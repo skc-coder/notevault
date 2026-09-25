@@ -15,16 +15,16 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Boolean Algebra Basics & Laws | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Standard Forms (SOM / POM) & Minterms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| K-Map Minimization & Prime Implicants | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Number Systems, Base Conversions & Complements | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Combinational Circuits (MUX, DEMUX, Decoders, Encoders) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Adders, Subtractors & Carry Look-Ahead | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Sequential Circuits (Latches, Flip-Flops, FSM) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Counters (Ripple, Synchronous, Ring, Johnson) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Boolean Algebra Basics & Laws | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Standard Forms (SOM / POM) & Minterms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| K-Map Minimization & Prime Implicants | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Number Systems, Base Conversions & Complements | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Combinational Circuits (MUX, DEMUX, Decoders, Encoders) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Adders, Subtractors & Carry Look-Ahead | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Sequential Circuits (Latches, Flip-Flops, FSM) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Counters (Ripple, Synchronous, Ring, Johnson) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

@@ -15,13 +15,13 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Python Syntax & Data Structures | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Search Algorithms (Informed & Uninformed) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Supervised Learning (Regression & Classification) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Unsupervised Learning (Clustering & Dimensionality Reduction) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Neural Networks & Model Evaluation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Python Syntax & Data Structures | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Search Algorithms (Informed & Uninformed) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Supervised Learning (Regression & Classification) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Unsupervised Learning (Clustering & Dimensionality Reduction) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Neural Networks & Model Evaluation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

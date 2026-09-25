@@ -15,14 +15,14 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| System Calls, Processes & Threads | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| CPU Scheduling Algorithms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Process Synchronization & Semaphores | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Deadlocks (Prevention, Avoidance, Banker's) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Memory Management & Paging (TLB, Virtual Memory) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| File Systems & Disk Scheduling | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| System Calls, Processes & Threads | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| CPU Scheduling Algorithms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Process Synchronization & Semaphores | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Deadlocks (Prevention, Avoidance, Banker's) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Memory Management & Paging (TLB, Virtual Memory) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| File Systems & Disk Scheduling | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

@@ -15,13 +15,13 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ER-Model & Relational Algebra | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| SQL Queries & Aggregations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Functional Dependencies & Normalization (1NF to BCNF) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Transactions & Concurrency Control (Serializability, 2PL) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| File Structures, B-Trees & B+ Trees Indexing | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ER-Model & Relational Algebra | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| SQL Queries & Aggregations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Functional Dependencies & Normalization (1NF to BCNF) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Transactions & Concurrency Control (Serializability, 2PL) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| File Structures, B-Trees & B+ Trees Indexing | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

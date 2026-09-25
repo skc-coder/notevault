@@ -15,14 +15,14 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Arrays, Stacks, Queues & Linked Lists | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Trees, Binary Search Trees & Heaps | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Graph Traversals (BFS, DFS, Minimum Spanning Trees) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Asymptotic Analysis & Recurrences | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Sorting & Searching Algorithms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Divide & Conquer, Greedy & Dynamic Programming | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Arrays, Stacks, Queues & Linked Lists | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Trees, Binary Search Trees & Heaps | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Graph Traversals (BFS, DFS, Minimum Spanning Trees) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Asymptotic Analysis & Recurrences | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Sorting & Searching Algorithms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Divide & Conquer, Greedy & Dynamic Programming | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

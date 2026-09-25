@@ -15,13 +15,13 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Limits, Continuity & Differentiability | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Mean Value Theorems | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Evaluation of Definite & Improper Integrals | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Partial Derivatives, Maxima & Minima | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Optimization Techniques | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Limits, Continuity & Differentiability | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Mean Value Theorems | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Evaluation of Definite & Improper Integrals | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Partial Derivatives, Maxima & Minima | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Optimization Techniques | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

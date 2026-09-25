@@ -15,12 +15,12 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Matrices & Determinants | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Systems of Linear Equations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Eigenvalues, Eigenvectors & LU Decomposition | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Vector Spaces & Projections (SVD) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Matrices & Determinants | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Systems of Linear Equations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Eigenvalues, Eigenvectors & LU Decomposition | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Vector Spaces & Projections (SVD) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

@@ -15,12 +15,12 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Lexical Analysis & Tokenization | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Parsing (LL(1), LR(0), SLR, LALR, CLR) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Syntax-Directed Translation & Intermediate Code (3AC) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Code Optimization & Runtime Environments | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Lexical Analysis & Tokenization | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Parsing (LL(1), LR(0), SLR, LALR, CLR) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Syntax-Directed Translation & Intermediate Code (3AC) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Code Optimization & Runtime Environments | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---

@@ -15,13 +15,13 @@ tags:
 
 ## 📊 Chapter-Wise Progress Matrix
 
-| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 | GO Overflow | GO Classes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Machine Instructions & Addressing Modes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| ALU, Data Path & Control Unit (Hardwired & Microprogrammed) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Instruction Pipelining & Hazard Mitigation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Memory Hierarchy, Cache Mapping & AMAT | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| I/O Interface (Interrupts & DMA) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Machine Instructions & Addressing Modes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| ALU, Data Path & Control Unit (Hardwired & Microprogrammed) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Instruction Pipelining & Hazard Mitigation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Memory Hierarchy, Cache Mapping & AMAT | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| I/O Interface (Interrupts & DMA) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
