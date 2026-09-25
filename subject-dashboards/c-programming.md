@@ -32,22 +32,6 @@ tags:
 
 ---
 
-## 📑 1. Subject GATE PYQs
-
-```dataview
-TABLE WITHOUT ID
-  choice(done, "✅", "❌") AS Status,
-  file.link AS "Test Note",
-  questions AS Questions,
-  marks AS Marks,
-  duration AS Duration
-FROM "tests/gate cse pyqs"
-WHERE lower(subject) = "c programming" OR lower(subject) = "c-programming" OR lower(subject) = "programming" OR lower(subject) = "clang"
-SORT file.name ASC
-```
-
----
-
 ## 🧠 2. Weekly Quizzes
 
 ```dataview
