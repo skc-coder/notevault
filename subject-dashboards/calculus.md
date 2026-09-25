@@ -3,13 +3,13 @@ cssclasses:
   - dashboard
 tags:
   - subject-dashboard
-  - linear-algebra
+  - calculus
 ---
 
-# 📚 Linear Algebra — Syllabus Tracker & Materials
+# 📚 Calculus — Syllabus Tracker & Materials
 > **GATE 2027 Syllabus**: `Section 1: Engineering Mathematics`
 
-- **Core Concept Note Hub**: [[notes/moc la|Linear Algebra MOC]]
+- **Core Concept Note Hub**: [[notes/moc calculus|Calculus MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
@@ -18,10 +18,10 @@ tags:
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Matrices & Determinants | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| System of Linear Equations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Eigenvalues and Eigenvectors | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| LU Decomposition | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Limits, Continuity and Differentiability | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Maxima and Minima | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Mean Value Theorem | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Integration | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
@@ -36,7 +36,7 @@ TABLE WITHOUT ID
   marks AS Marks,
   duration AS Duration
 FROM "tests/gate cse pyqs"
-WHERE lower(subject) = "linear algebra" OR lower(subject) = "orthogonal projections and projection matrix" OR lower(subject) = "singular value decomposition (svd)"
+WHERE lower(subject) = "calculus" OR lower(subject) = "calculus and optimisation" OR lower(subject) = "calculus and optimization"
 SORT file.name ASC
 ```
 
@@ -52,7 +52,7 @@ TABLE WITHOUT ID
   marks AS Marks,
   duration AS Duration
 FROM "tests"
-WHERE (lower(subject) = "linear algebra" OR lower(subject) = "orthogonal projections and projection matrix" OR lower(subject) = "singular value decomposition (svd)") AND (contains(category, "quiz") OR contains(category, "Quiz"))
+WHERE (lower(subject) = "calculus" OR lower(subject) = "calculus and optimisation" OR lower(subject) = "calculus and optimization") AND (contains(category, "quiz") OR contains(category, "Quiz"))
 SORT file.name ASC
 ```
 
@@ -68,6 +68,6 @@ TABLE WITHOUT ID
   marks AS Marks,
   duration AS Duration
 FROM "tests"
-WHERE (lower(subject) = "linear algebra" OR lower(subject) = "orthogonal projections and projection matrix" OR lower(subject) = "singular value decomposition (svd)") AND (contains(category, "Series") OR contains(category, "2027"))
+WHERE (lower(subject) = "calculus" OR lower(subject) = "calculus and optimisation" OR lower(subject) = "calculus and optimization") AND (contains(category, "Series") OR contains(category, "2027"))
 SORT file.name ASC
 ```

@@ -3,13 +3,13 @@ cssclasses:
   - dashboard
 tags:
   - subject-dashboard
-  - theory-of-computation
+  - operating-system
 ---
 
-# 📚 Theory of Computation — Syllabus Tracker & Materials
-> **GATE 2027 Syllabus**: `Section 6: Theory of Computation`
+# 📚 Operating System — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `Section 8: Operating System`
 
-- **Core Concept Note Hub**: [[notes/moc toc|Theory of Computation MOC]]
+- **Core Concept Note Hub**: [[notes/moc os|Operating System MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
@@ -18,10 +18,11 @@ tags:
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Regular Expressions and Finite Automata | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Context-Free Grammars and Push-Down Automata | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Regular and Context-Free Languages & Pumping Lemma | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Turing Machines and Undecidability | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| System Calls, Processes, Threads & IPC | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Concurrency and Synchronization & Deadlock | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| CPU and I/O Scheduling | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Memory Management and Virtual Memory | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| File Systems | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
@@ -36,7 +37,7 @@ TABLE WITHOUT ID
   marks AS Marks,
   duration AS Duration
 FROM "tests/gate cse pyqs"
-WHERE lower(subject) = "theory of computation" OR lower(subject) = "toc"
+WHERE lower(subject) = "operating system" OR lower(subject) = "operating systems"
 SORT file.name ASC
 ```
 
@@ -52,7 +53,7 @@ TABLE WITHOUT ID
   marks AS Marks,
   duration AS Duration
 FROM "tests"
-WHERE (lower(subject) = "theory of computation" OR lower(subject) = "toc") AND (contains(category, "quiz") OR contains(category, "Quiz"))
+WHERE (lower(subject) = "operating system" OR lower(subject) = "operating systems") AND (contains(category, "quiz") OR contains(category, "Quiz"))
 SORT file.name ASC
 ```
 
@@ -68,6 +69,6 @@ TABLE WITHOUT ID
   marks AS Marks,
   duration AS Duration
 FROM "tests"
-WHERE (lower(subject) = "theory of computation" OR lower(subject) = "toc") AND (contains(category, "Series") OR contains(category, "2027"))
+WHERE (lower(subject) = "operating system" OR lower(subject) = "operating systems") AND (contains(category, "Series") OR contains(category, "2027"))
 SORT file.name ASC
 ```

@@ -6,30 +6,27 @@ tags:
   - digital-logic
 ---
 
-# 📚 Digital Logic — Tracker & Materials
+# 📚 Digital Logic — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `Section 2: Digital Logic`
 
-- **Core Note Hub**: [[notes/moc dl|Digital Logic MOC]]
+- **Core Concept Note Hub**: [[notes/moc dl|Digital Logic MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
 
-## 📊 Chapter-Wise Progress Matrix
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Boolean Algebra Basics & Laws | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Standard Forms (SOM / POM) & Minterms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| K-Map Minimization & Prime Implicants | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Number Systems, Base Conversions & Complements | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Combinational Circuits (MUX, DEMUX, Decoders, Encoders) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Adders, Subtractors & Carry Look-Ahead | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Sequential Circuits (Latches, Flip-Flops, FSM) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Counters (Ripple, Synchronous, Ring, Johnson) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Boolean Algebra and Minimization (Algebraic Technique, K-Map, Tabular Method) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Design of Combinational Circuits | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Design of Sequential Circuits | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Number Representation and Arithmetic (Fixed and Floating Point) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
 
-## 📑 1. GATE PYQs
+## 📑 1. Subject GATE PYQs
 
 ```dataview
 TABLE WITHOUT ID
@@ -45,7 +42,7 @@ SORT file.name ASC
 
 ---
 
-## 🧠 2. Weekly Quizzes (CSE & DA)
+## 🧠 2. Weekly Quizzes
 
 ```dataview
 TABLE WITHOUT ID

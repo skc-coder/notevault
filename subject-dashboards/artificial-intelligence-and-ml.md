@@ -6,14 +6,15 @@ tags:
   - artificial-intelligence-and-ml
 ---
 
-# 📚 Artificial Intelligence & Machine Learning (DA) — Tracker & Materials
+# 📚 Artificial Intelligence & Machine Learning (DA) — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `DA Section: AI & ML`
 
-- **Core Note Hub**: [[notes/moc python|Artificial Intelligence & Machine Learning (DA) MOC]]
+- **Core Concept Note Hub**: [[notes/moc python|Artificial Intelligence & Machine Learning (DA) MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
 
-## 📊 Chapter-Wise Progress Matrix
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -26,7 +27,7 @@ tags:
 
 ---
 
-## 📑 1. GATE PYQs
+## 📑 1. Subject GATE PYQs
 
 ```dataview
 TABLE WITHOUT ID
@@ -42,7 +43,7 @@ SORT file.name ASC
 
 ---
 
-## 🧠 2. Weekly Quizzes (CSE & DA)
+## 🧠 2. Weekly Quizzes
 
 ```dataview
 TABLE WITHOUT ID

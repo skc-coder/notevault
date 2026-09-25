@@ -6,26 +6,29 @@ tags:
   - compiler-design
 ---
 
-# 📚 Compiler Design — Tracker & Materials
+# 📚 Compiler Design — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `Section 7: Compiler Design`
 
-- **Core Note Hub**: [[notes/moc cd|Compiler Design MOC]]
+- **Core Concept Note Hub**: [[notes/moc cd|Compiler Design MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
 
-## 📊 Chapter-Wise Progress Matrix
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Lexical Analysis & Tokenization | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Parsing (LL(1), LR(0), SLR, LALR, CLR) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Syntax-Directed Translation & Intermediate Code (3AC) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Code Optimization & Runtime Environments | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Lexical Analysis | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Parsing (Top-Down & Bottom-Up Parsing) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Syntax-Directed Translation & Intermediate Code Generation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Runtime Environments | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Local Optimisation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Data Flow Analyses: Constant Propagation, Liveness Analysis, Common Sub-expression Elimination | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
 
-## 📑 1. GATE PYQs
+## 📑 1. Subject GATE PYQs
 
 ```dataview
 TABLE WITHOUT ID
@@ -41,7 +44,7 @@ SORT file.name ASC
 
 ---
 
-## 🧠 2. Weekly Quizzes (CSE & DA)
+## 🧠 2. Weekly Quizzes
 
 ```dataview
 TABLE WITHOUT ID

@@ -6,27 +6,28 @@ tags:
   - databases
 ---
 
-# 📚 Databases (DBMS) — Tracker & Materials
+# 📚 Databases — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `Section 9: Databases`
 
-- **Core Note Hub**: [[notes/moc dbms|Databases (DBMS) MOC]]
+- **Core Concept Note Hub**: [[notes/moc dbms|Databases MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
 
-## 📊 Chapter-Wise Progress Matrix
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ER-Model & Relational Algebra | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| SQL Queries & Aggregations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Functional Dependencies & Normalization (1NF to BCNF) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Transactions & Concurrency Control (Serializability, 2PL) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| File Structures, B-Trees & B+ Trees Indexing | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| ER-Model | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Relational Model: Relational Algebra, Tuple Calculus, SQL | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Integrity Constraints & Normal Forms | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| File Organization & Indexing (e.g. B and B+ trees) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Transactions and Concurrency Control | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
 
-## 📑 1. GATE PYQs
+## 📑 1. Subject GATE PYQs
 
 ```dataview
 TABLE WITHOUT ID
@@ -42,7 +43,7 @@ SORT file.name ASC
 
 ---
 
-## 🧠 2. Weekly Quizzes (CSE & DA)
+## 🧠 2. Weekly Quizzes
 
 ```dataview
 TABLE WITHOUT ID

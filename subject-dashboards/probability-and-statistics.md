@@ -6,27 +6,27 @@ tags:
   - probability-and-statistics
 ---
 
-# 📚 Probability & Statistics — Tracker & Materials
+# 📚 Probability and Statistics — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `Section 1: Engineering Mathematics`
 
-- **Core Note Hub**: [[notes/moc probablity|Probability & Statistics MOC]]
+- **Core Concept Note Hub**: [[notes/moc probablity|Probability and Statistics MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
 
-## 📊 Chapter-Wise Progress Matrix
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Counting, Permutations & Combinations | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Axioms of Probability & Bayes Theorem | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Random Variables (Discrete & Continuous) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Distributions (Binomial, Poisson, Normal, Exponential) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Mean, Median, Mode & Standard Deviation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Random Variables | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Uniform, Normal, Exponential, Poisson and Binomial Distributions | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Mean, Median, Mode and Standard Deviation | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Conditional Probability and Bayes Theorem | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
 
-## 📑 1. GATE PYQs
+## 📑 1. Subject GATE PYQs
 
 ```dataview
 TABLE WITHOUT ID
@@ -42,7 +42,7 @@ SORT file.name ASC
 
 ---
 
-## 🧠 2. Weekly Quizzes (CSE & DA)
+## 🧠 2. Weekly Quizzes
 
 ```dataview
 TABLE WITHOUT ID

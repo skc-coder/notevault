@@ -6,28 +6,30 @@ tags:
   - computer-networks
 ---
 
-# 📚 Computer Networks — Tracker & Materials
+# 📚 Computer Networks — Syllabus Tracker & Materials
+> **GATE 2027 Syllabus**: `Section 10: Computer Networks`
 
-- **Core Note Hub**: [[notes/moc cn|Computer Networks MOC]]
+- **Core Concept Note Hub**: [[notes/moc cn|Computer Networks MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---
 
-## 📊 Chapter-Wise Progress Matrix
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
 | Chapter / Topic | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Concept of Layering & OSI/TCP-IP | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Data Link Control (Framing, Error Control, Sliding Window) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| MAC Protocols (ALOHA, CSMA/CD, Ethernet) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Network Layer (IPv4, CIDR Subnetting, Routing Algorithms) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Transport Layer (TCP Mechanics, Flow Control, Congestion) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Application Layer Protocols (DNS, HTTP, SMTP, FTP) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Principles of Layering | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Basics of Switching (Circuit, Packet, Virtual Circuit) & Performance Metrics | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Data Link Layer: Error Detection, Medium Access Control, Ethernet | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Distance Vector and Link State Routing | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| IPv4: Fragmentation, CIDR Notation, Network Address Translation (NAT) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| TCP: Flow Control, Congestion Control, Socket API | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Application Protocols: DNS and HTTP | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ---
 
-## 📑 1. GATE PYQs
+## 📑 1. Subject GATE PYQs
 
 ```dataview
 TABLE WITHOUT ID
@@ -43,7 +45,7 @@ SORT file.name ASC
 
 ---
 
-## 🧠 2. Weekly Quizzes (CSE & DA)
+## 🧠 2. Weekly Quizzes
 
 ```dataview
 TABLE WITHOUT ID
