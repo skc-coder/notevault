@@ -6,7 +6,7 @@
 > [!theorem] Deadlock Detection vs Avoidance Matrices
 > The detection algorithm utilizes an identical structure to the Banker's safety algorithm, with one fundamental structural difference[cite: 1]:
 > * Avoidance uses the **$\text{Need}$ matrix** ($\text{Max} - \text{Allocated}$), representing potential *future* claims[cite: 1].
-> * Detection uses the **$\text{Request}$ matrix**, representing *actual outstanding requests* currently blocking processes[cite: 1].
+> * Detection uses the **$\text{Request}$ matrix**, representing *actual outstanding requests* currently blocking processes[cite: 1]. And detection doesnt need the max table as well. only 3 data allocation, request and avaliable
 
 > [!theorem] Recovery Mechanisms
 > Once deadlock is detected, the OS can recover via[cite: 1]:

@@ -1,22 +1,14 @@
 ---
 type: moc
-topic: file system
+topic: gemini-code-1790388083494
 ---
-
-# file system — Map of Content
-
 ## 📌 Concept
-- [[Deadlock - Definition and Core Principles|Deadlock - Definition and Core Principles]]
-- [[Deadlock - Coffman Necessary Conditions|Deadlock - Coffman Necessary Conditions]]
-- [[Deadlock - Resource Allocation Graphs|Deadlock - Resource Allocation Graphs]]
-- [[Deadlock - Minimum Resources Derivation|Deadlock - Minimum Resources Derivation]]
-- [[Deadlock - Instantaneous Deadlock vs Future|Deadlock - Instantaneous Deadlock vs Future]]
-- [[Deadlock - Four Handling Strategies|Deadlock - Four Handling Strategies]]
-- [[Deadlock - Prevention via Coffman Negation|Deadlock - Prevention via Coffman Negation]]
-- [[Deadlock - Safe States and Safe Sequences|Deadlock - Safe States and Safe Sequences]]
-- [[Deadlock - Safety Algorithm Formulation|Deadlock - Safety Algorithm Formulation]]
-- [[Deadlock - Bankers Algorithm Mechanics|Deadlock - Bankers Algorithm Mechanics]]
-- [[Deadlock - Safe Sequence Properties and Fallacies|Deadlock - Safe Sequence Properties and Fallacies]]
-- [[Deadlock - Detection and Recovery|Deadlock - Detection and Recovery]]
-- [[Deadlock - Strategy Trade-Offs Matrix|Deadlock - Strategy Trade-Offs Matrix]]
+- [[File Systems - Fundamentals and Inodes|File Systems - Fundamentals and Inodes]]
+- [[File Allocation - Contiguous and Extents|File Allocation - Contiguous and Extents]]
+- [[File Allocation - Linked and FAT|File Allocation - Linked and FAT]]
+- [[File Allocation - FAT Sizing Calculations|File Allocation - FAT Sizing Calculations]]
+- [[File Allocation - Indexed and Multilevel|File Allocation - Indexed and Multilevel]]
+- [[File Allocation - Multilevel File Sizing|File Allocation - Multilevel File Sizing]]
+- [[File Systems - Disk Access and I-O Complexity|File Systems - Disk Access and I-O Complexity]]
+- [[File Systems - Free Space Management|File Systems - Free Space Management]]
 

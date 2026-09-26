@@ -11,6 +11,20 @@
 >      * If **Safe**: Formally grant the request[cite: 1].
 >      * If **Unsafe**: Roll back the speculative changes; $P_i$ must wait[cite: 1].
 
+Banker’s Algorithm
+@ So...
+=» A process pre-declares its worst-case needs
+=» Then it asks for what it “really” needs, a little at a time
+=» The algorithm decides when to grant requests
+® It delays a request unless:
+= It can find a sequence of processes...
+a .... such that it could grant their outstanding need...
+a ... SO they would terminate...
+a ... letting it collect their resources...
+= ... and in this way it can execute everything to completion! 
+
+IN other words a request is allocated only when after allocating it if shit hits the fan and every process wants the max resource they want then in that case still a way should be there to staify them...alebiet by delaying there requests.
+
 ```mermaid
 flowchart TD
     Req["Process Pi makes Request"] --> C1{"Request <= Need?"}

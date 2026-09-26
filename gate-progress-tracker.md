@@ -16,18 +16,18 @@ Select any subject below to open its dedicated dashboard containing **GATE 2027 
 
 ## 💻 GATE Computer Science & Information Technology (CS)
 
-| Subject Name | Subject Dashboard Link | Concept MOC Link |
-| :--- | :--- | :--- |
-| 🔌 **Digital Logic** | [[subject-dashboards/digital-logic\|Digital Logic Dashboard]] | [[notes/moc dl\|Digital Logic MOC]] |
-| 🏛️ **Computer Organization & Architecture** | [[subject-dashboards/computer-organization-and-architecture\|COA Dashboard]] | [[notes/moc coa\|COA MOC]] |
-| 💻 **C Programming** | [[subject-dashboards/c-programming\|C Programming Dashboard]] | [[notes/moc clang\|C Programming MOC]] |
-| 🏗️ **Data Structures** | [[subject-dashboards/programming-and-data-structures\|Data Structures Dashboard]] | [[notes/moc dsa\|DSA MOC]] |
-| ⚡ **Algorithms** | [[subject-dashboards/algorithms\|Algorithms Dashboard]] | [[notes/moc algo\|Algorithms MOC]] |
-| ⚙️ **Operating System** | [[subject-dashboards/operating-system\|Operating System Dashboard]] | [[notes/moc os\|OS MOC]] |
-| 🔣 **Theory of Computation** | [[subject-dashboards/theory-of-computation\|TOC Dashboard]] | [[notes/moc toc\|TOC MOC]] |
-| 🛠️ **Compiler Design** | [[subject-dashboards/compiler-design\|Compiler Design Dashboard]] | [[notes/moc cd\|Compiler Design MOC]] |
-| 🗄️ **Databases (DBMS)** | [[subject-dashboards/databases\|DBMS Dashboard]] | [[notes/moc dbms\|DBMS MOC]] |
-| 📡 **Computer Networks** | [[subject-dashboards/computer-networks\|Computer Networks Dashboard]] | [[notes/moc cn\|CN MOC]] |
+| Subject Name                                 | Subject Dashboard Link                                                            | Concept MOC Link                       |
+| :------------------------------------------- | :-------------------------------------------------------------------------------- | :------------------------------------- |
+| 🔌 **Digital Logic**                         | [[subject-dashboards/digital-logic\|Digital Logic Dashboard]]                     | [[notes/moc dl\|Digital Logic MOC]]    |
+| 🏛️ **Computer Organization & Architecture** | [[subject-dashboards/computer-organization-and-architecture\|COA Dashboard]]      | [[notes/moc coa\|COA MOC]]             |
+| 💻 **C Programming**                         | [[moc clang]]                                                                     | [[notes/moc clang\|C Programming MOC]] |
+| 🏗️ **Data Structures**                      | [[subject-dashboards/programming-and-data-structures\|Data Structures Dashboard]] | [[notes/moc dsa\|DSA MOC]]             |
+| ⚡ **Algorithms**                             | [[subject-dashboards/algorithms\|Algorithms Dashboard]]                           | [[notes/moc algo\|Algorithms MOC]]     |
+| ⚙️ **Operating System**                      | [[subject-dashboards/operating-system\|Operating System Dashboard]]               | [[notes/moc os\|OS MOC]]               |
+| 🔣 **Theory of Computation**                 | [[subject-dashboards/theory-of-computation\|TOC Dashboard]]                       | [[notes/moc toc\|TOC MOC]]             |
+| 🛠️ **Compiler Design**                      | [[subject-dashboards/compiler-design\|Compiler Design Dashboard]]                 | [[notes/moc cd\|Compiler Design MOC]]  |
+| 🗄️ **Databases (DBMS)**                     | [[subject-dashboards/databases\|DBMS Dashboard]]                                  | [[notes/moc dbms\|DBMS MOC]]           |
+| 📡 **Computer Networks**                     | [[subject-dashboards/computer-networks\|Computer Networks Dashboard]]             | [[notes/moc cn\|CN MOC]]               |
 
 ---
 

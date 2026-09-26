@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e66de5eae94b52a",
+            "id": "665117f60425d467",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gate-progress-tracker.md",
+                "file": "notes/file system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gate-progress-tracker"
-            }
-          },
-          {
-            "id": "579a030658aed6a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "subject-dashboards/c-programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "c-programming"
+              "title": "file system"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,12 +89,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 405.14453125
+    "width": 624.21484375,
+    "collapsed": true
   },
   "right": {
     "id": "45372c980f11330e",
@@ -231,36 +216,36 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "579a030658aed6a9",
+  "active": "665117f60425d467",
   "lastOpenFiles": [
+    "notes/File Allocation - Linked and FAT.md",
+    "notes/file system.md",
+    "notes/File Allocation - FAT Sizing Calculations.md",
+    "notes/moc os.md",
+    "notes/deadlock 2.md",
+    "notes/File Allocation - Contiguous and Extents.md",
+    "notes/temp2.md",
+    "notes/File Systems - Fundamentals and Inodes.md",
+    "notes/attachments/File Systems - Fundamentals and Inodes-1790394643912.webp",
+    "notes/File Systems - Free Space Management.md",
+    "meta/notemaker.md",
+    "notes/Deadlock - Safe Sequence Properties and Fallacies.md",
+    "notes/Deadlock - Bankers Algorithm.md",
+    "notes/Deadlock - Prevention via Coffman Negation.md",
+    "notes/Deadlock - Detection and Recovery.md",
+    "notes/File Systems - Disk Access and I-O Complexity.md",
+    "notes/File Allocation - Multilevel File Sizing.md",
+    "notes/File Allocation - Indexed and Multilevel.md",
+    "notes/Deadlock - Bankers Algorithm Mechanics.md",
+    "notes/Deadlock - Safe States and Safe Sequences.md",
+    "notes/Deadlock - Minimum Resources Derivation.md",
+    "notes/Deadlock - Resource Allocation Graph Analysis.md",
+    "notes/Deadlock - Definition and Characterization.md",
+    "notes/Deadlock - Coffman Necessary Conditions.md",
+    "journal/daily/2026-09-25.md",
     "gate-progress-tracker.md",
-    "notes/moc calculus.md",
-    "subject-dashboards/c-programming.md",
-    "notes/moc clang.md",
     "scripts/build_c_prog_dashboard.py",
-    "subject-dashboards/data-structures-and-algorithms.md",
-    "subject-dashboards/operating-systems.md",
-    "subject-dashboards/operating-system.md",
-    "subject-dashboards/algorithms.md",
-    "subject-dashboards/programming-and-data-structures.md",
-    "subject-dashboards/computer-organization-and-architecture.md",
-    "subject-dashboards/calculus.md",
     "scripts/build_gate_2027_dashboards.py",
-    "subject-dashboards/digital-logic.md",
-    "tests/gate cse pyqs/001-min products of sum form, shift registers _ test 4.md",
-    "notes/moc dl.md",
-    "history.md",
-    "subject-dashboards/theory-of-computation.md",
-    "subject-dashboards/probability-and-statistics.md",
-    "subject-dashboards/linear-algebra.md",
-    "subject-dashboards/general-aptitude.md",
-    "subject-dashboards/discrete-mathematics.md",
-    "subject-dashboards/databases.md",
-    "subject-dashboards/computer-organization.md",
-    "subject-dashboards/computer-networks.md",
-    "subject-dashboards/compiler-design.md",
-    "subject-dashboards/calculus-and-optimization.md",
-    "subject-dashboards/artificial-intelligence-and-ml.md",
     "subject-dashboards",
     "scripts/build_subject_dashboards.py",
     "scripts/test_dv.py",
@@ -278,7 +263,6 @@
     "notes/attachments/Bottom-Up Parsers - Classification and Power-1789971863271.webp",
     "notes/attachments/Bottom-Up Parsers - Classification and Power-1789971861868.webp",
     "notes/attachments/Pasted image 20260317170238.webp",
-    "notes/attachments/Pasted image 20260316172120.webp",
     "00_meta/archive/docs/Canvas.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",

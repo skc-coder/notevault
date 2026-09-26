@@ -7,13 +7,26 @@ tags:
   - moc
 ---
 
-# 💻 C Programming MOC
+## 📊 GATE 2027 Chapter-Wise Progress Matrix
 
-> 📌 **Dashboard Redirect**: The complete C Programming Dashboard (including Chapter Progress Matrix, PYQs, Quizzes, and Test Series) has been merged into **[[subject-dashboards/c-programming|C Programming Master Dashboard]]**.
+| Chapter / Topic                                             | PYQ 1 | PYQ 2 | Rev 1 | Rev 2 | Rev 3 | Var 1 | Var 2 |
+| :---------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Data Types, Variables & Constants                           |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Operators, Expressions & Precedence                         |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Control Flow (if-else, switch, loops)                       |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Functions, Parameter Passing & Scope                        |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Recursion & Call Stack Mechanics                            |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Pointers, Pointer Arithmetic & Memory Addresses             |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Arrays, Multi-dimensional Arrays & String Handling          |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Structures, Unions & Bit-fields                             |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| Dynamic Memory Allocation (malloc, calloc, realloc, free)   |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
+| File Handling & Preprocessor Directives (#define, #include) |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |  [ ]  |
 
 ---
 
-## 🧠 Module 1: Basics, Integers & Control Structures
+## 📚 Core Concept Notes (MOC)
+
+### 🧠 Module 1: Basics, Integers & Control Structures
 - [[notes/static and dynamic|Static and Dynamic Mechanics]]
 - [[notes/Integer Representation|Integer Representation]]
 - [[notes/Type and Bit Conversions|Type and Bit Conversions]]
@@ -23,14 +36,14 @@ tags:
 
 ---
 
-## ⚙️ Module 2: Functions, Storage Classes & Memory
+### ⚙️ Module 2: Functions, Storage Classes & Memory
 - [[notes/Functions|Functions]]
 - [[notes/Storage Classes and Memory Layout|Storage Classes and Memory Layout]]
 - [[notes/Memory Details|Memory Details]]
 
 ---
 
-## 🔁 Module 3: Recursion, Pointers, Arrays & Strings
+### 🔁 Module 3: Recursion, Pointers, Arrays & Strings
 - [[notes/Recursion|Recursion]]
 - [[notes/Pointers and arrays|Pointers and Arrays]]
 - [[notes/Multidimensional Arrays|Multidimensional Arrays]]
@@ -38,7 +51,57 @@ tags:
 
 ---
 
-## 🧱 Module 4: Memory Management & Advanced Declarations
+### 🧱 Module 4: Memory Management & Advanced Declarations
 - [[notes/malloc|Dynamic Allocation (malloc, calloc, free)]]
 - [[notes/Complex Declarations|Complex Declarations]]
 - [[notes/pyq analyses clang|PYQ Analyses & Tricky Scenarios]]
+
+### Module 5: 
+
+---
+
+## 📑 1. Subject GATE PYQs
+
+```dataview
+TABLE WITHOUT ID
+  choice(done, "✅", "❌") AS Status,
+  file.link AS "Test Note",
+  questions AS Questions,
+  marks AS Marks,
+  duration AS Duration
+FROM "tests/gate cse pyqs"
+WHERE lower(subject) = "c programming" OR lower(subject) = "c-programming" OR lower(subject) = "programming" OR lower(subject) = "clang"
+SORT file.name ASC
+```
+
+---
+
+## 🧠 2. Weekly Quizzes
+
+```dataview
+TABLE WITHOUT ID
+  choice(done, "✅", "❌") AS Status,
+  file.link AS "Test Note",
+  questions AS Questions,
+  marks AS Marks,
+  duration AS Duration
+FROM "tests"
+WHERE (lower(subject) = "c programming" OR lower(subject) = "c-programming" OR lower(subject) = "programming" OR lower(subject) = "clang") AND (contains(category, "quiz") OR contains(category, "Quiz"))
+SORT file.name ASC
+```
+
+---
+
+## 🏛️ 3. Test Series (GO Overflow & GO Classes)
+
+```dataview
+TABLE WITHOUT ID
+  choice(done, "✅", "❌") AS Status,
+  file.link AS "Test Note",
+  questions AS Questions,
+  marks AS Marks,
+  duration AS Duration
+FROM "tests"
+WHERE (lower(subject) = "c programming" OR lower(subject) = "c-programming" OR lower(subject) = "programming" OR lower(subject) = "clang") AND (contains(category, "Series") OR contains(category, "2027"))
+SORT file.name ASC
+```

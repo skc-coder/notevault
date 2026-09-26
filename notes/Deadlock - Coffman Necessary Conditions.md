@@ -6,9 +6,9 @@
 > 4. **Circular Wait**: A closed chain of processes $\{P_0, P_1, \dots, P_n\}$ exists such that $P_0$ is waiting for a resource held by $P_1$, $P_1$ is waiting for a resource held by $P_2$, ..., and $P_n$ is waiting for a resource held by $P_0$[cite: 1].
 
 > [!theorem] The Four-Legged Table Invariant
-> * The four Coffman conditions are **necessary conditions**, but they are **not individually sufficient**[cite: 1].
-> * Analogous to the four legs of a table: if even one single leg (condition) is broken, a deadlock **cannot** occur[cite: 1].
-> * If all $4$ conditions are satisfied simultaneously, a deadlock **may or may not** occur (depending on instance counts and allocation states)[cite: 1].
+> * The four Coffman conditions are **necessary conditions**, but they are **not individually sufficient**.
+> * Analogous to the four legs of a table: if even one single leg (condition) is broken, a deadlock **cannot** occur.
+> * If all $4$ conditions are satisfied simultaneously, a deadlock **may or may not** occur (depending on instance counts and allocation states).
 > 
 > | Condition Status | System Deadlock State |
 > | :--- | :--- |
@@ -16,4 +16,4 @@
 > | All $4$ conditions satisfied | Deadlock is **possible** (May or may not occur)[cite: 1] |
 
 > [!trap] Circular Wait vs Hold and Wait
-> Circular wait implies the hold-and-wait condition, but circular wait specifically requires the waiting dependency graph to form a directed closed loop[cite: 1]. If processes require at most $1$ resource at any given time, hold and wait is violated, rendering deadlock strictly impossible[cite: 1].
+> Circular wait implies the hold-and-wait condition, but circular wait specifically requires the waiting dependency graph to form a directed closed loop. If processes require at most $1$ resource at any given time, hold and wait is violated, rendering deadlock strictly impossible.

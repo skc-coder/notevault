@@ -77,6 +77,8 @@ https://gateoverflow.in/402869/go-classes-iiith-pgee-2026-mock-test-4-question-7
 - [[Deadlock - Bankers Algorithm|Deadlock - Bankers Algorithm]]
 - [[Deadlock - Detection and Recovery Mechanics|Deadlock - Detection and Recovery Mechanics]]
 - [[Deadlock - Prevention vs Avoidance Trade-Offs|Deadlock - Prevention vs Avoidance Trade-Offs]]
+[deadlock 2](deadlock%202.md)
+
 ---
 
 ## 📂 File Systems
