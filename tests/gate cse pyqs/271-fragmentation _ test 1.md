@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2088/gate-cse-pyqs-computer-networks-fragment
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 12 Qs | **Marks**: 19 marks | **Duration**: 34 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Fragmentation | Test 1](https://gateoverflow.in/exam/2088/gate-cse-pyqs-computer-networks-fragmentation-test-1)

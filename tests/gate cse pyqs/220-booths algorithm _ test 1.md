@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2204/gate-cse-pyqs-digital-logic-booths-algor
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 6 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Booths Algorithm | Test 1](https://gateoverflow.in/exam/2204/gate-cse-pyqs-digital-logic-booths-algorithm-test-1)

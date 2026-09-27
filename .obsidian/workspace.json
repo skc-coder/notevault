@@ -4,123 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "73744af502360336",
+        "id": "e49dd80dca997cc6",
         "type": "tabs",
         "children": [
           {
-            "id": "2ab9aa3cf4c910d8",
+            "id": "f205fa8867633492",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/networking.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "networking"
-            }
-          },
-          {
-            "id": "a33b57c1438655bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Classless Addressing - CIDR Fundamentals.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Classless Addressing - CIDR Fundamentals"
-            }
-          },
-          {
-            "id": "cbf9cf593a5ab89d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/moc clang.md",
+                "file": "notes/data link layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moc clang"
-            }
-          },
-          {
-            "id": "ca8aaae241cac980",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/structures.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "structures"
-            }
-          },
-          {
-            "id": "db72254b450d389c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/C Pointers - Complex Strings and Decrements.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C Pointers - Complex Strings and Decrements"
-            }
-          },
-          {
-            "id": "350bff4f23a090bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/C Structs - Pointer Arithmetic GATE 2006.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C Structs - Pointer Arithmetic GATE 2006"
-            }
-          },
-          {
-            "id": "a17046d87e899a4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/moc dm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "moc dm"
-            }
-          },
-          {
-            "id": "f780362d14da5929",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/moc logic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "moc logic"
+              "title": "data link layer"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,39 +216,46 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "f780362d14da5929",
+  "active": "f205fa8867633492",
   "lastOpenFiles": [
-    "notes/First Order Logic - Validity and Semantics.md",
-    "notes/moc logic.md",
-    "notes/First Order Logic - Core Foundations.md",
-    "notes/moc dm.md",
-    "mocs/moc-logic.md",
-    "notes/First Order Logic - Tautologies vs Validity.md",
-    "notes/First Order Logic - Inference and Arguments.md",
-    "notes/Quantifiers - Null Quantification.md",
-    "notes/Quantifiers - Distributive Properties.md",
-    "notes/Quantifiers - Translation Complex Statements.md",
-    "notes/Quantifiers - Numerical Specifications.md",
-    "notes/Quantifiers - Nested Quantifiers and Orders.md",
-    "notes/Quantifiers - Variable Binding and Scope.md",
-    "notes/First Order Logic - Natural Language Translation.md",
-    "notes/Quantifiers - Universal and Existential.md",
-    "notes/Atomic and Compound Propositions.md",
-    "notes/Mathematical Logic - Propositional Logic Intro.md",
-    "meta/org notes logic.md",
-    "notes/ai logic notes.md",
+    "notes/Network Layer - ARP BOOTP and DHCP.md",
+    "notes/data link layer.md",
+    "notes/Random Access - Exponential Backoff.md",
+    "notes/Random Access - CSMA CD and Min Frame Size.md",
+    "notes/MAC Sublayer - Channel Access Taxonomies.md",
+    "notes/Random Access - Pure and Slotted ALOHA.md",
+    "notes/Flow Control - Sliding Window GBN and SR.md",
+    "notes/Flow Control - Sequence Number Requirements.md",
+    "notes/Flow Control - Stop and Wait Protocols.md",
+    "notes/Network Delays - Latency and Throughput.md",
+    "notes/Error Control - Cyclic Redundancy Checks.md",
+    "notes/Error Control - Hamming Codes Construction.md",
+    "notes/Error Control - Parity and Checksum.md",
+    "notes/Error Control - Hamming Distance and Bounds.md",
+    "notes/Switching - Circuit vs Packet Switching.md",
+    "notes/Framing - Delimiting Methods and Stuffing.md",
+    "notes/fragmentation fields.md",
+    "notes/attachments/Pasted image 20260429125535.webp",
+    "notes/ipv4 fragmentation.md",
+    "notes/attachments/Pasted image 20260429122148.webp",
+    "notes/IPv4 Header.md",
+    "notes/http commands.md",
+    "notes/attachments/Pasted image 20260429104304.webp",
+    "notes/network layers.md",
+    "notes/attachments/Pasted image 20260429105513.webp",
+    "notes/port numbers.md",
+    "notes/attachments/Pasted image 20260429102326.webp",
+    "notes/attachments/Pasted image 20260429095929.webp",
+    "notes/attachments/Pasted image 20260429093538.webp",
+    "notes/attachments/Pasted image 20260429091948.webp",
+    "notes/HTTP.md",
+    "notes/attachments/Pasted image 20260429084112.webp",
+    "notes/attachments/Pasted image 20260429083915.webp",
+    "notes/ICMP.md",
+    "notes/traceroute.md",
+    "notes/Join.md",
+    "maths",
     "mocs",
-    "notes/C Structs - Pointer Arithmetic GATE 2006.md",
-    "meta/notemaker.md",
-    "notes/moc clang.md",
-    "notes/structures.md",
-    "notes/C Pointers - Complex Strings and Decrements.md",
-    "notes/networking.md",
-    "notes/Classless Addressing - CIDR Fundamentals.md",
-    "notes/attachments/File Allocation - Indexed and Multilevel-1790429866134.webp",
-    "notes/attachments/File Allocation - Indexed and Multilevel-1790428556761.webp",
-    "notes/attachments/File Allocation - Linked and FAT-1790427722623.webp",
-    "notes/attachments/File Systems - Fundamentals and Inodes-1790394643912.webp",
     "scripts/build_c_prog_dashboard.py",
     "scripts/build_gate_2027_dashboards.py",
     "subject-dashboards",
@@ -356,13 +264,6 @@
     "scripts/import_tests_v2.py",
     "scripts/update_dataview_paths.py",
     "RXC0vK2EDF.pdf",
-    "tests/go test series da",
-    "notes/attachments/Demand Paging - Effective Memory Access Time-1790321896349.webp",
-    "notes/attachments/Demand Paging - Effective Memory Access Time-1790321892052.webp",
-    "notes/attachments 1/moc algodalgo-1790160314992.webp",
-    "notes/attachments 1/moc algodalgo-1790160313113.webp",
-    "notes/attachments 1/moc algodalgo-1790158380087.webp",
-    "notes/attachments 1/moc algodalgo-1790158160830.webp",
     "00_meta/archive/docs/Canvas.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",

@@ -9,7 +9,7 @@ tags:
 # 📚 Digital Logic — Syllabus Tracker & Materials
 > **GATE 2027 Syllabus**: `Section 2: Digital Logic`
 
-- **Core Concept Note Hub**: [[notes/moc dl|Digital Logic MOC]]
+- **Core Concept Note Hub**: [[../notes/data link layer|Digital Logic MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2338/gate-cse-pyqs-digital-logic-carry-genera
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 7 Qs | **Marks**: 9 marks | **Duration**: 16 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Carry Generator, Fixed Point Representation, Static Hazard | Test 1](https://gateoverflow.in/exam/2338/gate-cse-pyqs-digital-logic-carry-generator-fixed-point-representation-static-hazard-test-1)

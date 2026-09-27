@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2170/gate-cse-pyqs-digital-logic-adder-test-1
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 12 Qs | **Marks**: 14 marks | **Duration**: 25 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Adder | Test 1](https://gateoverflow.in/exam/2170/gate-cse-pyqs-digital-logic-adder-test-1)

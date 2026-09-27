@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2347/gate-cse-pyqs-digital-logic-nand-gates-s
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Nand Gates, Simplification, Minimum Number of Gates & more | Test 10](https://gateoverflow.in/exam/2347/gate-cse-pyqs-digital-logic-nand-gates-simplification-minimum-number-of-gates-%26-more-test-10)

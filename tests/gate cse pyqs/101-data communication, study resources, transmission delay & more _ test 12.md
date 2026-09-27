@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2322/gate-cse-pyqs-computer-networks-data-com
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 6 Qs | **Marks**: 8 marks | **Duration**: 14 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Data Communication, Study Resources, Transmission Delay & more | Test 12](https://gateoverflow.in/exam/2322/gate-cse-pyqs-computer-networks-data-communication-study-resources-transmission-delay-%26-more-test-12)

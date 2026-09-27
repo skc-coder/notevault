@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2486/go-classes-gate-cs-test-series-digital-l
 
 ## 📌 Test Details
 - **Category**: GO Test Series (129)
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 25 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Boolean Algebra, Minimization | Topic Wise Test 4](https://gateoverflow.in/exam/2486/go-classes-gate-cs-test-series-digital-logic-boolean-algebra-minimization-topic-wise-test-4)

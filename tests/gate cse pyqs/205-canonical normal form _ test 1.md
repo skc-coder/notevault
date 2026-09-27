@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2189/gate-cse-pyqs-digital-logic-canonical-no
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 11 Qs | **Marks**: 16 marks | **Duration**: 29 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Canonical Normal Form | Test 1](https://gateoverflow.in/exam/2189/gate-cse-pyqs-digital-logic-canonical-normal-form-test-1)

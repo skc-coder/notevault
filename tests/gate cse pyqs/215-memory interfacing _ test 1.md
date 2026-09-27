@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2199/gate-cse-pyqs-digital-logic-memory-inter
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Memory Interfacing | Test 1](https://gateoverflow.in/exam/2199/gate-cse-pyqs-digital-logic-memory-interfacing-test-1)

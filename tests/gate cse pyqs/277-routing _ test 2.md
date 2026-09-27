@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2094/gate-cse-pyqs-computer-networks-routing-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 4 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Routing | Test 2](https://gateoverflow.in/exam/2094/gate-cse-pyqs-computer-networks-routing-test-2)

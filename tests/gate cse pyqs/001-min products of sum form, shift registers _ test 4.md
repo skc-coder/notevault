@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2341/gate-cse-pyqs-digital-logic-min-products
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `completed`
 - 🔗 **Online Test Link**: [Min Products of Sum Form, Shift Registers | Test 4](https://gateoverflow.in/exam/2341/gate-cse-pyqs-digital-logic-min-products-of-sum-form-shift-registers-test-4)

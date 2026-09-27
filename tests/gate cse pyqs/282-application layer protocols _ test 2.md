@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2099/gate-cse-pyqs-computer-networks-applicat
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 4 Qs | **Marks**: 4 marks | **Duration**: 7 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Application Layer Protocols | Test 2](https://gateoverflow.in/exam/2099/gate-cse-pyqs-computer-networks-application-layer-protocols-test-2)

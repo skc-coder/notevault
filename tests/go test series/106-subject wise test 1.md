@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1344/go-classes-cs-test-series-digital-logic-
 
 ## 📌 Test Details
 - **Category**: GO Test Series (129)
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 30 Qs | **Marks**: 50 marks | **Duration**: 1.5 hrs
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Subject Wise Test 1](https://gateoverflow.in/exam/1344/go-classes-cs-test-series-digital-logic-subject-wise-test-1)

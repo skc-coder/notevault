@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2344/gate-cse-pyqs-digital-logic-finite-autom
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Finite Automata, Integrated Circuits, Hazards | Test 7](https://gateoverflow.in/exam/2344/gate-cse-pyqs-digital-logic-finite-automata-integrated-circuits-hazards-test-7)

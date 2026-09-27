@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2083/gate-cse-pyqs-computer-networks-error-de
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 9 Qs | **Marks**: 10 marks | **Duration**: 18 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Error Detection | Test 1](https://gateoverflow.in/exam/2083/gate-cse-pyqs-computer-networks-error-detection-test-1)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2080/gate-cse-pyqs-computer-networks-communic
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 11 Qs | **Marks**: 14 marks | **Duration**: 25 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Communication | Test 1](https://gateoverflow.in/exam/2080/gate-cse-pyqs-computer-networks-communication-test-1)

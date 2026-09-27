@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2177/gate-cse-pyqs-digital-logic-number-repre
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 9 Qs | **Marks**: 14 marks | **Duration**: 25 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Number Representation | Test 5](https://gateoverflow.in/exam/2177/gate-cse-pyqs-digital-logic-number-representation-test-5)

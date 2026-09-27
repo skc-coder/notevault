@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2201/gate-cse-pyqs-digital-logic-min-sum-of-p
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 1 Qs | **Marks**: 2 marks | **Duration**: 4 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Min Sum of Products Form | Test 2](https://gateoverflow.in/exam/2201/gate-cse-pyqs-digital-logic-min-sum-of-products-form-test-2)

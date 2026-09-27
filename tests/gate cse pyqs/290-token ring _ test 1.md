@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2107/gate-cse-pyqs-computer-networks-token-ri
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Token Ring | Test 1](https://gateoverflow.in/exam/2107/gate-cse-pyqs-computer-networks-token-ring-test-1)

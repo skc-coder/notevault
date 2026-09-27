@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2346/gate-cse-pyqs-digital-logic-carry-look-a
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Carry Look Ahead Adder, Tbb Mockgate 2, Ripple Counter & more | Test 9](https://gateoverflow.in/exam/2346/gate-cse-pyqs-digital-logic-carry-look-ahead-adder-tbb-mockgate-2-ripple-counter-%26-more-test-9)

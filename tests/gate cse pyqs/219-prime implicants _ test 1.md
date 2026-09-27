@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2203/gate-cse-pyqs-digital-logic-prime-implic
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Prime Implicants | Test 1](https://gateoverflow.in/exam/2203/gate-cse-pyqs-digital-logic-prime-implicants-test-1)

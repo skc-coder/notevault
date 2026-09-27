@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2081/gate-cse-pyqs-computer-networks-congesti
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 14 Qs | **Marks**: 21 marks | **Duration**: 38 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Congestion Control | Test 1](https://gateoverflow.in/exam/2081/gate-cse-pyqs-computer-networks-congestion-control-test-1)

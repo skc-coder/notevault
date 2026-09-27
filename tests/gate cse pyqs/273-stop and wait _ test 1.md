@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2090/gate-cse-pyqs-computer-networks-stop-and
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 13 Qs | **Marks**: 19 marks | **Duration**: 34 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Stop and Wait | Test 1](https://gateoverflow.in/exam/2090/gate-cse-pyqs-computer-networks-stop-and-wait-test-1)

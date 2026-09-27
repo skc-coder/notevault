@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2340/gate-cse-pyqs-digital-logic-array-multip
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Array Multiplier, ROM | Test 3](https://gateoverflow.in/exam/2340/gate-cse-pyqs-digital-logic-array-multiplier-rom-test-3)

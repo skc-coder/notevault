@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/959/go-classes-cs-digital-logic-combinational
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 25 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Combinational Circuits | Weekly Quiz 12](https://gateoverflow.in/exam/959/go-classes-cs-digital-logic-combinational-circuits-weekly-quiz-12)

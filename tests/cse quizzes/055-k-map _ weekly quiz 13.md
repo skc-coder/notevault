@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1045/go-classes-cs-digital-logic-k-map-weekly
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 25 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [K-map | Weekly Quiz 13](https://gateoverflow.in/exam/1045/go-classes-cs-digital-logic-k-map-weekly-quiz-13)

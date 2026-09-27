@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2318/gate-cse-pyqs-computer-networks-network-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Network Addressing, Error Correction, Probability | Test 8](https://gateoverflow.in/exam/2318/gate-cse-pyqs-computer-networks-network-addressing-error-correction-probability-test-8)

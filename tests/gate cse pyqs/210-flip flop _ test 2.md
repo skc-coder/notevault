@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2194/gate-cse-pyqs-digital-logic-flip-flop-te
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 6 Qs | **Marks**: 12 marks | **Duration**: 22 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Flip Flop | Test 2](https://gateoverflow.in/exam/2194/gate-cse-pyqs-digital-logic-flip-flop-test-2)

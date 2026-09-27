@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2313/gate-cse-pyqs-computer-networks-udp-slot
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 7 Qs | **Marks**: 8 marks | **Duration**: 14 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [UDP, Slotted Aloha | Test 3](https://gateoverflow.in/exam/2313/gate-cse-pyqs-computer-networks-udp-slotted-aloha-test-3)

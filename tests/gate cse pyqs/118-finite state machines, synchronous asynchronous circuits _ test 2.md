@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2339/gate-cse-pyqs-digital-logic-finite-state
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 7 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Finite State Machines, Synchronous Asynchronous Circuits | Test 2](https://gateoverflow.in/exam/2339/gate-cse-pyqs-digital-logic-finite-state-machines-synchronous-asynchronous-circuits-test-2)

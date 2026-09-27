@@ -10,6 +10,7 @@
 + Multi-Level Indexed (Variation to Indexed)
 - [[File Allocation - Indexed and Multilevel|File Allocation - Indexed and Multilevel]]
 - [[File Allocation - Multilevel File Sizing|File Allocation - Multilevel File Sizing]]
+- [[File Systems - Problem Solving]]
 
 **Key metrics**
 - Fragmentation (internal & external)?

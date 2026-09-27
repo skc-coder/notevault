@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2196/gate-cse-pyqs-digital-logic-min-no-gates
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 7 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Min No Gates | Test 2](https://gateoverflow.in/exam/2196/gate-cse-pyqs-digital-logic-min-no-gates-test-2)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2089/gate-cse-pyqs-computer-networks-csma-cd-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 10 Qs | **Marks**: 11 marks | **Duration**: 20 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [CSMA CD | Test 1](https://gateoverflow.in/exam/2089/gate-cse-pyqs-computer-networks-csma-cd-test-1)

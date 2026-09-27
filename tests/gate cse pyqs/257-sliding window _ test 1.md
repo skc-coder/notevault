@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2074/gate-cse-pyqs-computer-networks-sliding-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 15 marks | **Duration**: 27 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Sliding Window | Test 1](https://gateoverflow.in/exam/2074/gate-cse-pyqs-computer-networks-sliding-window-test-1)

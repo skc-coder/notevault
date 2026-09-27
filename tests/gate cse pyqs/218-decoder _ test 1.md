@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2202/gate-cse-pyqs-digital-logic-decoder-test
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 7 Qs | **Marks**: 8 marks | **Duration**: 14 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Decoder | Test 1](https://gateoverflow.in/exam/2202/gate-cse-pyqs-digital-logic-decoder-test-1)

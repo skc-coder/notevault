@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2192/gate-cse-pyqs-digital-logic-k-map-test-2
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 8 marks | **Duration**: 14 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [K Map | Test 2](https://gateoverflow.in/exam/2192/gate-cse-pyqs-digital-logic-k-map-test-2)

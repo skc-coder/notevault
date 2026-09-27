@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1376/go-classes-cs-test-series-computer-netwo
 
 ## 📌 Test Details
 - **Category**: GO Test Series (129)
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 25 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Topic Wise Test 2](https://gateoverflow.in/exam/1376/go-classes-cs-test-series-computer-networks-topic-wise-test-2)

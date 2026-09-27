@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2312/gate-cse-pyqs-computer-networks-bit-stuf
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 6 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Bit Stuffing, Bridges | Test 2](https://gateoverflow.in/exam/2312/gate-cse-pyqs-computer-networks-bit-stuffing-bridges-test-2)

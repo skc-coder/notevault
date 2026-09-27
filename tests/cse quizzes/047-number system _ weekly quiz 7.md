@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1107/go-classes-gate-cs-digital-logic-number-
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 25 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Number System | Weekly Quiz 7](https://gateoverflow.in/exam/1107/go-classes-gate-cs-digital-logic-number-system-weekly-quiz-7)

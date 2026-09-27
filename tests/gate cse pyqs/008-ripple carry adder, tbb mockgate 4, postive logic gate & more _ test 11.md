@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2348/gate-cse-pyqs-digital-logic-ripple-carry
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 6 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Ripple Carry Adder, Tbb Mockgate 4, Postive Logic Gate & more | Test 11](https://gateoverflow.in/exam/2348/gate-cse-pyqs-digital-logic-ripple-carry-adder-tbb-mockgate-4-postive-logic-gate-%26-more-test-11)

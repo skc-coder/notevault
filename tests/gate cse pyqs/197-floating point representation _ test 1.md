@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2181/gate-cse-pyqs-digital-logic-floating-poi
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 11 Qs | **Marks**: 11 marks | **Duration**: 20 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Floating Point Representation | Test 1](https://gateoverflow.in/exam/2181/gate-cse-pyqs-digital-logic-floating-point-representation-test-1)

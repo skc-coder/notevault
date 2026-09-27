@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2371/gate-overflow-cs-test-series-2027-digita
 
 ## 📌 Test Details
 - **Category**: GATE Overflow 2027 (29)
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 30 Qs | **Marks**: 50 marks | **Duration**: 1.5 hrs
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Shallow Test 1](https://gateoverflow.in/exam/2371/gate-overflow-cs-test-series-2027-digital-logic-shallow-test-1)

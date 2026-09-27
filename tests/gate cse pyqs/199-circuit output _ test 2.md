@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2183/gate-cse-pyqs-digital-logic-circuit-outp
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 15 marks | **Duration**: 27 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Circuit Output | Test 2](https://gateoverflow.in/exam/2183/gate-cse-pyqs-digital-logic-circuit-output-test-2)

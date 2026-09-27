@@ -10,44 +10,16 @@
 | **3. Network**         | Packet / Datagram        | **Host-to-host connectivity**, logical addressing (IP), routing, forwarding, fragmentation[cite: 2]                        | IPv4, IPv6, ICMP, OSPF, RIP[cite: 2]         |
 | **2. Data Link (DLL)** | Frame                    | **Hop-to-hop / Node-to-node framing**, physical addressing (MAC), flow/error control, access control[cite: 2]              | Ethernet (IEEE 802.3), PPP, CSMA/CD[cite: 2] |
 | **1. Physical**        | Bit stream               | Physical medium specs (electrical/optical), bit timing, bit rate control, transmission mode[cite: 2]                       | Manchester encoding, RJ-45, V.35[cite: 2]    |
+coordinates transmission of bit-stream over physical medium, including representation of bits: to be transmitted, bits must be encoded into signals - electrical or optical; P.L. defines type of encoding how Os and 1s are changed to signals (e.g. 1 = +1V, 0 = -1V) bit length – data rate: P.L. defines how long a bit lasts and, accordingly, number of bits sent each second (different values for copper wire, coaxial cable, fiber-optics, ...
 
-> [!theorem]
-> In an OSI traversal involving $N$ intermediate Layer-3 hops (routers) between a Source and a Destination:
-> 1. **End-to-End Layers (Layers 4 to 7):** Visited exactly **1 time** at the Source (downward) and **1 time** at the Destination (upward)[cite: 1]. Intermediate routers do not process transport/application headers[cite: 1].
-> 2. **Network Layer (Layer 3):** Visited at Source, Destination, and once per intermediate router[cite: 1].
-> 3. **Data Link Layer (Layer 2) & Physical Layer (Layer 1):** Visited twice per router (inbound decapsulation + outbound encapsulation), once at Source egress, and once at Destination ingress[cite: 1].
+raming: The D.L.L divides the stream of bits received from the network layer into manageable data units called frames. physical addressing: The D.L.L adds a header to the frame to specify the NIC address of appropriate receiver on the other side (of wire). error control: The D.L.L adds reliability to the physical layer by adding a trailer with information necessary to detect / recover damaged or lost frames. access control. When two or more devices are connected to the same link, the D.L.L determines which device has control over the link at any given time.
 
-```mermaid
-flowchart TD
-    subgraph Host_S["Source Node"]
-        A_S["L7 - Application"] --> P_S["L6 - Presentation"]
-        P_S --> S_S["L5 - Session"]
-        S_S --> T_S["L4 - Transport"]
-        T_S --> N_S["L3 - Network"]
-        N_S --> D_S["L2 - Data Link"]
-        D_S --> PH_S["L1 - Physical"]
-    end
-    
-    subgraph R1["Intermediate Router 1"]
-        PH_R1_IN["L1 In"] --> D_R1_IN["L2 In"]
-        D_R1_IN --> N_R1["L3 Routing Engine"]
-        N_R1 --> D_R1_OUT["L2 Out"]
-        D_R1_OUT --> PH_R1_OUT["L1 Out"]
-    end
-    
-    subgraph Host_D["Destination Node"]
-        PH_D["L1 - Physical"] --> D_D["L2 - Data Link"]
-        D_D --> N_D["L3 - Network"]
-        N_D --> T_D["L4 - Transport"]
-        T_D --> S_D["L5 - Session"]
-        S_D --> P_D["L6 - Presentation"]
-        P_D --> A_D["L7 - Application"]
-    end
+Network Layer logical addressing: The physical addressing implemented by the data link layer handles the addressing / delivery problem locally - over a single wire. If a packet passes the network boundary another addressing system is needed to help distinguish between the source and destination network. routing: The N.L. provides the mechanism for routing/switching packets to their final destination, along the optimal path – across a large internetwork. fragmentation and reassembly: The N.L. sends messages down to the D.L.L. for transmission. Some D.L.L. technologies have limits on the length of messages that can be sent. If the packet that the N.L. wants to send is too large, the N.L. must split the packet up, send each piece to the D.L.L, and then have pieces reassembled once they arrive at the N.L. on the destination machine
+Network Layer While the data link layer oversees the delivery of packets between two devices on the same network, the network layer is responsible for the source-to-destination delivery of packet across multiple networks / links
 
-    PH_S ==> PH_R1_IN
-    PH_R1_OUT ==> PH_D
-```
+Transport Layer port addressing: Computers often run several processes at the same time. For this reason, process-to-process delivery means delivery not only from one computer to the other but also from a specific process on one computer to a specific process on the other. The transport layer header therefore must include a type of address called a port address. segmentation and reassembly: A message is divided into segments, each segment containing a sequence number. These numbers enable the transport layer to reassemble the message correctly upon arrival at the destination, and to identify and replace packets that were lost in the transmission. flow & error control: Flow & error control at this layer are performed end-to-end rather than across a single link.
 
+he transport layer is responsible for process-to-process delivery of entire message. While the network layer gets each packet to the correct computer, the transport layer gets the entire message to the correct process on that computer.
 > [!revision] Revision
 > For a path with $K$ intermediate Layer-3 routers between Source and Destination:
 > $$\text{Total Network Layer Visits} = K + 2$$

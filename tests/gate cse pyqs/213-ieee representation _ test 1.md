@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2197/gate-cse-pyqs-digital-logic-ieee-represe
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 19 marks | **Duration**: 34 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [IEEE Representation | Test 1](https://gateoverflow.in/exam/2197/gate-cse-pyqs-digital-logic-ieee-representation-test-1)

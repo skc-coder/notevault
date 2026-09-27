@@ -7,5 +7,4 @@ topic: gemini-code-1790388083494
 - [[File Systems - allocation strategies]]
 - [[File Systems - Disk Access and I-O Complexity|File Systems - Disk Access and I-O Complexity]]
 - [[File Systems - Free Space Management|File Systems - Free Space Management]]
-
 [cite: 1]

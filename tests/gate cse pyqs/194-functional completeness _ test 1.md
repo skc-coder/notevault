@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2178/gate-cse-pyqs-digital-logic-functional-c
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Functional Completeness | Test 1](https://gateoverflow.in/exam/2178/gate-cse-pyqs-digital-logic-functional-completeness-test-1)

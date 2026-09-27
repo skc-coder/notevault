@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2172/gate-cse-pyqs-digital-logic-digital-coun
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 11 Qs | **Marks**: 16 marks | **Duration**: 29 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Digital Counter | Test 2](https://gateoverflow.in/exam/2172/gate-cse-pyqs-digital-logic-digital-counter-test-2)

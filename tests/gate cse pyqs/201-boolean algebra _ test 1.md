@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2185/gate-cse-pyqs-digital-logic-boolean-alge
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 15 marks | **Duration**: 27 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Boolean Algebra | Test 1](https://gateoverflow.in/exam/2185/gate-cse-pyqs-digital-logic-boolean-algebra-test-1)

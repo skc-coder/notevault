@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2342/gate-cse-pyqs-digital-logic-ripple-count
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 7 Qs | **Marks**: 8 marks | **Duration**: 14 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Ripple Counter Operation, Number System, Minimization & more | Test 5](https://gateoverflow.in/exam/2342/gate-cse-pyqs-digital-logic-ripple-counter-operation-number-system-minimization-%26-more-test-5)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2345/gate-cse-pyqs-digital-logic-clock-cycles
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `completed`
 - 🔗 **Online Test Link**: [Clock Cycles, Reduction, Clock Frequency & more | Test 8](https://gateoverflow.in/exam/2345/gate-cse-pyqs-digital-logic-clock-cycles-reduction-clock-frequency-%26-more-test-8)

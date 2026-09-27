@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2076/gate-cse-pyqs-computer-networks-network-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 6 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Network Switching | Test 1](https://gateoverflow.in/exam/2076/gate-cse-pyqs-computer-networks-network-switching-test-1)

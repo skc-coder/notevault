@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1064/go-classes-gate-cs-computer-networks-net
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 20 marks | **Duration**: 36 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Network layer | Weekly Quiz 5](https://gateoverflow.in/exam/1064/go-classes-gate-cs-computer-networks-network-layer-weekly-quiz-5)

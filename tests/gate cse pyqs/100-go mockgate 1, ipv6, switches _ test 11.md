@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2321/gate-cse-pyqs-computer-networks-go-mockg
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [GO Mockgate 1, Ipv6, Switches | Test 11](https://gateoverflow.in/exam/2321/gate-cse-pyqs-computer-networks-go-mockgate-1-ipv6-switches-test-11)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2180/gate-cse-pyqs-digital-logic-multiplexer-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 13 Qs | **Marks**: 18 marks | **Duration**: 32 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Multiplexer | Test 2](https://gateoverflow.in/exam/2180/gate-cse-pyqs-digital-logic-multiplexer-test-2)

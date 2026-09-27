@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1057/go-classes-gate-cs-computer-networks-ham
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
+- **Subject**: [[../../notes/moc cn|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 25 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Hamming Codes and CRC | Weekly Quiz 3](https://gateoverflow.in/exam/1057/go-classes-gate-cs-computer-networks-hamming-codes-and-crc-weekly-quiz-3)

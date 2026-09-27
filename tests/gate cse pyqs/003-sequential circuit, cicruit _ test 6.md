@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2343/gate-cse-pyqs-digital-logic-sequential-c
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Sequential Circuit, Cicruit | Test 6](https://gateoverflow.in/exam/2343/gate-cse-pyqs-digital-logic-sequential-circuit-cicruit-test-6)

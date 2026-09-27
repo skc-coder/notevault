@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/951/go-classes-cs-digital-logic-boolean-algeb
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc dl|Digital Logic]]
+- **Subject**: [[../../notes/data link layer|Digital Logic]]
 - **Questions**: 15 Qs | **Marks**: 20 marks | **Duration**: 45 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Boolean Algebra | Weekly Quiz 1 Popular](https://gateoverflow.in/exam/951/go-classes-cs-digital-logic-boolean-algebra-weekly-quiz-1)
