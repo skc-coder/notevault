@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2317/gate-cse-pyqs-computer-networks-osi-mode
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Osi Model, Channel Utilization, Propagation Delay & more | Test 7](https://gateoverflow.in/exam/2317/gate-cse-pyqs-computer-networks-osi-model-channel-utilization-propagation-delay-%26-more-test-7)

@@ -27,7 +27,7 @@ Select any subject below to open its dedicated dashboard containing **GATE 2027 
 | 🔣 **Theory of Computation**                 | [[subject-dashboards/theory-of-computation\|TOC Dashboard]]                       | [[notes/moc toc\|TOC MOC]]             |
 | 🛠️ **Compiler Design**                      | [[subject-dashboards/compiler-design\|Compiler Design Dashboard]]                 | [[notes/moc cd\|Compiler Design MOC]]  |
 | 🗄️ **Databases (DBMS)**                     | [[subject-dashboards/databases\|DBMS Dashboard]]                                  | [[notes/moc dbms\|DBMS MOC]]           |
-| 📡 **Computer Networks**                     | [[subject-dashboards/computer-networks\|Computer Networks Dashboard]]             | [[notes/moc cn\|CN MOC]]               |
+| 📡 **Computer Networks**                     | [[subject-dashboards/computer-networks\|Computer Networks Dashboard]]             | [[notes/moc cn slop\|CN MOC]]               |
 
 ---
 

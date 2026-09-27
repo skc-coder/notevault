@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2091/gate-cse-pyqs-computer-networks-distance
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 19 marks | **Duration**: 34 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Distance Vector Routing | Test 1](https://gateoverflow.in/exam/2091/gate-cse-pyqs-computer-networks-distance-vector-routing-test-1)

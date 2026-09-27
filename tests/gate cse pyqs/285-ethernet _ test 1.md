@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2102/gate-cse-pyqs-computer-networks-ethernet
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 8 Qs | **Marks**: 9 marks | **Duration**: 16 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Ethernet | Test 1](https://gateoverflow.in/exam/2102/gate-cse-pyqs-computer-networks-ethernet-test-1)

@@ -1,12 +1,12 @@
 ## Free Space Management Techniques
 
-To allocate disk blocks quickly, the operating system tracks all unallocated blocks using dedicated free-space structures[cite: 1].
+To allocate disk blocks quickly, the operating system tracks all unallocated blocks using dedicated free-space structures.
 
 ### 1. Bit Vector (Bitmap)
 
-The free space is represented as a bit array where each bit represents a physical disk block[cite: 1]:
-* Bit value `0` indicates that the corresponding block is allocated[cite: 1].
-* Bit value `1` indicates that the block is free[cite: 1].
+The free space is represented as a bit array where each bit represents a physical disk block:
+* Bit value `0` indicates that the corresponding block is allocated.
+* Bit value `1` indicates that the block is free.
 
 ```mermaid
 flowchart LR
@@ -24,11 +24,11 @@ flowchart LR
 ```
 
 * **Advantage**: Fast location of the first contiguous run of free blocks via hardware bit-scan instructions.
-* **Disadvantage**: Memory storage overhead to keep the bitmap resident in RAM[cite: 1].
+* **Disadvantage**: Memory storage overhead to keep the bitmap resident in RAM.
 
 ### 2. Free Space Linked List
 
-All free disk blocks are linked together into a chain[cite: 1].
+All free disk blocks are linked together into a chain.
 
 * **Structure**: The system maintains an in-memory head pointer to the first free block[cite: 1, 2].
 * This free block stores a pointer to the next free block, which points to the next, and so forth[cite: 1, 2].
@@ -71,4 +71,4 @@ Operating systems use different underlying file system architectures, unified un
 | **Unix / Solaris** | UFS, ZFS[cite: 2] |
 
 > [!definition] Virtual File System (VFS)
-> The **Virtual File System** is an operating system abstraction layer that defines a uniform interface for file operations, allowing a single OS kernel to transparently mount and access multiple disparate file systems concurrently[cite: 1].
+> The **Virtual File System** is an operating system abstraction layer that defines a uniform interface for file operations, allowing a single OS kernel to transparently mount and access multiple disparate file systems concurrently.

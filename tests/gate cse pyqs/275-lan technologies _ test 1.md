@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2092/gate-cse-pyqs-computer-networks-lan-tech
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 11 Qs | **Marks**: 12 marks | **Duration**: 22 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [LAN Technologies | Test 1](https://gateoverflow.in/exam/2092/gate-cse-pyqs-computer-networks-lan-technologies-test-1)

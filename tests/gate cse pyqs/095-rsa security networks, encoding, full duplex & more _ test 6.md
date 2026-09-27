@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2316/gate-cse-pyqs-computer-networks-rsa-secu
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Rsa Security Networks, Encoding, Full Duplex & more | Test 6](https://gateoverflow.in/exam/2316/gate-cse-pyqs-computer-networks-rsa-security-networks-encoding-full-duplex-%26-more-test-6)

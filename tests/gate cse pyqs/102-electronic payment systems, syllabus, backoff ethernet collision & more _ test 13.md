@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2323/gate-cse-pyqs-computer-networks-electron
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Electronic Payment Systems, Syllabus, Backoff Ethernet Collision & more | Test 13](https://gateoverflow.in/exam/2323/gate-cse-pyqs-computer-networks-electronic-payment-systems-syllabus-backoff-ethernet-collision-%26-more-test-13)

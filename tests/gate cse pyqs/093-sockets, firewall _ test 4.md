@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2314/gate-cse-pyqs-computer-networks-sockets-
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Sockets, Firewall | Test 4](https://gateoverflow.in/exam/2314/gate-cse-pyqs-computer-networks-sockets-firewall-test-4)

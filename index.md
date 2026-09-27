@@ -10,7 +10,7 @@ cssclasses:
 - 🧮 [[notes/moc dm|Discrete Maths MOC]]
 - 🏗️ [[notes/moc dsa|DSA MOC]]
 - ⚡ [[notes/moc algo|Algorithms MOC]]
-- 📡 [[notes/moc cn|CN MOC]]
+- 📡 [[notes/moc cn slop|CN MOC]]
 - 🏛️ [[notes/moc coa|COA MOC]]
 - 🗄️ [[notes/moc dbms|DBMS MOC]]
 - 🔌 [[notes/moc dl|DL MOC]]

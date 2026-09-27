@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2311/gate-cse-pyqs-computer-networks-token-bu
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Token Bucket, Wrap Around Time | Test 1](https://gateoverflow.in/exam/2311/gate-cse-pyqs-computer-networks-token-bucket-wrap-around-time-test-1)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1060/go-classes-gate-cs-computer-networks-flo
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 14 Qs | **Marks**: 20 marks | **Duration**: 36 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Flow control | Weekly Quiz 4](https://gateoverflow.in/exam/1060/go-classes-gate-cs-computer-networks-flow-control-weekly-quiz-4)

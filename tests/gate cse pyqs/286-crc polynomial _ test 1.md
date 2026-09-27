@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2103/gate-cse-pyqs-computer-networks-crc-poly
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 7 Qs | **Marks**: 11 marks | **Duration**: 20 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [CRC Polynomial | Test 1](https://gateoverflow.in/exam/2103/gate-cse-pyqs-computer-networks-crc-polynomial-test-1)

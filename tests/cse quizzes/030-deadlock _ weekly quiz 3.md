@@ -27,7 +27,11 @@ url: "https://gateoverflow.in/exam/1238/go-classes-gate-cs-operating-system-dead
 ---
 
 ## 📝 Analysis & Mistakes
-- [ ] Review key concepts and wrong attempts from this test.
+- [ ] Always consider general case not special case.
+- [ ] No need to uncessarily waste time verifying for traps in quesetions (expect for in C programming). GATE doesnt do that.
+- [ ] Write SPECIAL constraints and then do question and check constraint back
+- [ ] If a question is done quickly hold up! Read it carefully. Give it appropriate time.
+- [ ] If there is ambiguity of answer then read what is being asked carefully and info stated in question. Read each word and then decide.
 
 ## 💡 Variation Questions & Practice Notes
 - Add custom variation questions or detailed revision notes here.

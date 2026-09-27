@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2319/gate-cse-pyqs-computer-networks-sequence
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 5 Qs | **Marks**: 6 marks | **Duration**: 11 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Sequencenumber, Sequence Number, Transmission Media | Test 9](https://gateoverflow.in/exam/2319/gate-cse-pyqs-computer-networks-sequencenumber-sequence-number-transmission-media-test-9)

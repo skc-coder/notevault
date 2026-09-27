@@ -1,23 +1,11 @@
 ---
-cssclasses:
-  - dashboard
-  - cols-4
 tags:
   - gate
   - maths
   - discrete-math
   - moc
 ---
-
-![[attachments/banners/dm.webp|banner]]
-
-<div class="title" style="color:#a855f7; font-family: 'JetBrains Mono', monospace;">DISCRETE MATHEMATICS MODULE</div>
-
-
-- 🧠 Logic & Proof Techniques
-  - Basic Proof Techniques (Direct, Contrapositive, Contradiction, Induction)
-  - Propositional Logic & Quantifiers
-  - [[mocs/moc-logic|Mathematical Logic MOC]]
+[moc logic](moc%20logic.md)
 
 - 🎲 Probability & Statistics
   - [[moc probablity|Probability & Random Variables MOC]]

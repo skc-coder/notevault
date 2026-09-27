@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1216/go-classes-gate-cs-computer-networks-com
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 20 marks | **Duration**: 36 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Complete Computer Networks | Weekly Quiz 7](https://gateoverflow.in/exam/1216/go-classes-gate-cs-computer-networks-complete-computer-networks-weekly-quiz-7)

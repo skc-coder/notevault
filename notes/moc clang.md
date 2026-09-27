@@ -57,6 +57,7 @@ tags:
 - [[notes/pyq analyses clang|PYQ Analyses & Tricky Scenarios]]
 
 ### Module 5: 
+[[structures]]
 
 ---
 

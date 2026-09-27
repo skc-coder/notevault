@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2320/gate-cse-pyqs-computer-networks-socket-p
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 8 Qs | **Marks**: 9 marks | **Duration**: 16 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Socket Programming, GO Back N, Network Layer & more | Test 10](https://gateoverflow.in/exam/2320/gate-cse-pyqs-computer-networks-socket-programming-go-back-n-network-layer-%26-more-test-10)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2324/gate-cse-pyqs-computer-networks-ask-link
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 7 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Ask, Link State Routing, Bridges Switches & more | Test 14](https://gateoverflow.in/exam/2324/gate-cse-pyqs-computer-networks-ask-link-state-routing-bridges-switches-%26-more-test-14)

@@ -26,16 +26,16 @@ flowchart LR
 
 ### Physical Disk Layout
 
-A typical disk partition or file system layout is divided into dedicated functional zones:
+A UINX disk partition or file system layout is divided into dedicated functional zones:
 
-| Disk Region     | Functional Purpose                                                                                                      |
-| :-------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| **Boot Block**  | Contains the bootstrap loader code required to boot the operating system.                                               |
-| **Superblock**  | Stores file system geometry, block size, total block count, free block counts, inode counts, and allocation boundaries. |
-| **Inode Table** | Contiguous array of inodes storing metadata for all existing files and directories.                                     |
-| **Data Blocks** | Storage blocks containing actual file contents and directory payloads.                                                  |
-| **Swap Space**  | Dedicated partition used by virtual memory for paging out active frames.                                                |
-![[File Systems - Fundamentals and Inodes-1790394643912.webp]]
+| Disk Region     | Functional Purpose                                                                                                                          |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Boot Block**  | Contains the bootstrap loader code required to boot the operating system.                                                                   |
+| **Superblock**  | Stores file system geometry, block size, total block count, free block counts, inode counts, and allocation boundaries of next three items. |
+| **Inode Table** | Contiguous array of inodes storing metadata for all existing files and directories.                                                         |
+| **Data Blocks** | Storage blocks containing actual file contents and directory payloads.                                                                      |
+| **Swap Space**  | Dedicated partition used by virtual memory for paging out active frames.                                                                    |
+
 ### Directory Structures
 
 1. **Single-Level Directory**: A single directory shared by the entire system; prone to name collisions.

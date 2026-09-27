@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2096/gate-cse-pyqs-computer-networks-ip-addre
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 2 Qs | **Marks**: 4 marks | **Duration**: 7 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [IP Addressing | Test 2](https://gateoverflow.in/exam/2096/gate-cse-pyqs-computer-networks-ip-addressing-test-2)

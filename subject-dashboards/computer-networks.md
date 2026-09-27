@@ -9,7 +9,7 @@ tags:
 # 📚 Computer Networks — Syllabus Tracker & Materials
 > **GATE 2027 Syllabus**: `Section 10: Computer Networks`
 
-- **Core Concept Note Hub**: [[notes/moc cn|Computer Networks MOC]]
+- **Core Concept Note Hub**: [[../notes/moc cn slop|Computer Networks MOC]]
 - **Master Progress Tracker**: [[gate-progress-tracker|GATE Progress Tracker]]
 
 ---

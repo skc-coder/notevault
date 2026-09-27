@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/1215/go-classes-gate-cs-computer-networks-tcp
 
 ## 📌 Test Details
 - **Category**: CSE quiz
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 20 marks | **Duration**: 36 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [TCP Protocol | Weekly Quiz 6](https://gateoverflow.in/exam/1215/go-classes-gate-cs-computer-networks-tcp-protocol-weekly-quiz-6)

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2087/gate-cse-pyqs-computer-networks-ip-packe
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 3 Qs | **Marks**: 5 marks | **Duration**: 9 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [IP Packet | Test 2](https://gateoverflow.in/exam/2087/gate-cse-pyqs-computer-networks-ip-packet-test-2)

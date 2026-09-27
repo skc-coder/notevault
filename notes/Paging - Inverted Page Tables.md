@@ -33,7 +33,6 @@ flowchart TD
 
 > [!trap] Scaling Trap of Inverted Page Tables
 > * The size of an inverted page table is **completely independent** of the Virtual Address Space ($\text{VAS}$) and the number of processes.
-> * **False Statement**: *"The size of an inverted page table grows with the size of $\text{VAS}$."*
 > * **Truth**: The size grows **only** if physical memory ($\text{PAS}$) increases or if the physical page size decreases.
 
 > [!theorem] Comparison of Memory Access Speeds

@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2084/gate-cse-pyqs-computer-networks-subnetti
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 15 Qs | **Marks**: 15 marks | **Duration**: 27 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Subnetting | Test 1](https://gateoverflow.in/exam/2084/gate-cse-pyqs-computer-networks-subnetting-test-1)

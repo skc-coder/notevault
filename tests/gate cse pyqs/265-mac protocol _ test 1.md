@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2082/gate-cse-pyqs-computer-networks-mac-prot
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 6 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [MAC Protocol | Test 1](https://gateoverflow.in/exam/2082/gate-cse-pyqs-computer-networks-mac-protocol-test-1)

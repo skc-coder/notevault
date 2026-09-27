@@ -19,7 +19,7 @@ url: "https://gateoverflow.in/exam/2105/gate-cse-pyqs-computer-networks-out-of-g
 
 ## 📌 Test Details
 - **Category**: GATE CSE PYQs
-- **Subject**: [[notes/moc cn|Computer Networks]]
+- **Subject**: [[../../notes/moc cn slop|Computer Networks]]
 - **Questions**: 6 Qs | **Marks**: 7 marks | **Duration**: 13 min
 - **Status**: `pending`
 - 🔗 **Online Test Link**: [Out of Gatecse Syllabus | Test 2](https://gateoverflow.in/exam/2105/gate-cse-pyqs-computer-networks-out-of-gatecse-syllabus-test-2)
