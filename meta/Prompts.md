@@ -3,3 +3,4 @@
 [notemaker](notemaker.md)
 [job_notemaker](job_notemaker.md)
 [memorize](memorize.md)
+[[batton pass]]

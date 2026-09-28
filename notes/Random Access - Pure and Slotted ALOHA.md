@@ -21,7 +21,7 @@ flowchart LR
 
 ### Throughput Derivations (Poisson Traffic)
 
-Assume aggregate frame arrivals follow a Poisson distribution with average generation rate $G$ frames per frame transmission time $T_t$[cite: 1]:
+Assume aggregate frame arrivals follow a [[Poisson distribution]] with average generation rate $G$ frames per frame transmission time $T_t$[cite: 1]:
 $$P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}$$
 [cite: 1]
 A transmission succeeds if and only if zero other frames are generated during its vulnerable period ($P(X = 0)$)[cite: 1].
@@ -46,6 +46,7 @@ A transmission succeeds if and only if zero other frames are generated during it
 * Maximize by setting $\frac{dS}{dG} = e^{-G}(1 - G) = 0 \implies G = 1$[cite: 1]:
   $$S_{\max} = 1 \cdot e^{-1} \approx 0.368 = 36.8\%$$
 [cite: 1]
+Remember tha e = 2.7 and 1/e = 3/7!!!
 
 > [!question] Slotted ALOHA Load and Idle Slot Calculations
 > A slotted ALOHA channel exhibits $10\%$ idle slots ($P(X = 0) = 0.10$)[cite: 1].

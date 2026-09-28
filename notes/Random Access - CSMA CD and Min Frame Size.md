@@ -34,8 +34,11 @@ sequenceDiagram
 > $$T_t \ge 2T_p$$[cite: 1]
 > Since $T_t = \frac{L}{B}$:
 > $$\frac{L}{B} \ge 2T_p \implies L \ge 2T_p \times B$$[cite: 1]
-> When accounting for a jamming signal transmission time $T_{\text{jam}}$:
+When host A detects a collision at time $t = 2T_p$, it immediately stops sending data and switches to transmitting a **Jam Signal** (a short 32-bit to 48-bit burst of noise).
+$$T_{\text{jam}} = \frac{\text{Length of Jam Signal (e.g., 48 bits)}}{\text{Bandwidth } B}$$
 > $$T_t \ge 2T_p + T_{\text{jam}}$$[cite: 1]
+
+The sender continuously transmits data for at least 2Tp so that it can determine whether the data safely reached the intended host. If a collision occurs, the colliding parties decide to back off for a random amount of time and then retransmit. There is no acknowledgment here. Acknowledgment is a higher-level function (flow control). Everything here is data, and the main goal is to transmit it safely without collision.
 
 > [!question] CSMA/CD Minimum Frame Size Calculations
 > 1. A $100\text{ Mbps}$ CSMA/CD network has propagation delay $T_p = 100\text{ }\mu\text{s}$[cite: 1]. Find minimum frame size:

@@ -1,0 +1,1 @@
+This thread is getting too laggy. Provide a highly condensed summary of everything we’ve done, decided, and the exact context of where we left off. Format it as a single 'Baton-Pass' instruction so I can copy-paste it into a brand-new chat to continue smoothly

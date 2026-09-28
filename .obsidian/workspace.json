@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f205fa8867633492",
+            "id": "d57fbb75d6395ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/data link layer.md",
+                "file": "notes/transportation layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data link layer"
+              "title": "transportation layer"
+            }
+          },
+          {
+            "id": "a5e7ee6c7464fc2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/UDP - Datagram Format and Properties.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UDP - Datagram Format and Properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,44 +231,46 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "f205fa8867633492",
+  "active": "a5e7ee6c7464fc2a",
   "lastOpenFiles": [
-    "notes/Network Layer - ARP BOOTP and DHCP.md",
-    "notes/data link layer.md",
-    "notes/Random Access - Exponential Backoff.md",
-    "notes/Random Access - CSMA CD and Min Frame Size.md",
-    "notes/MAC Sublayer - Channel Access Taxonomies.md",
-    "notes/Random Access - Pure and Slotted ALOHA.md",
-    "notes/Flow Control - Sliding Window GBN and SR.md",
-    "notes/Flow Control - Sequence Number Requirements.md",
-    "notes/Flow Control - Stop and Wait Protocols.md",
-    "notes/Network Delays - Latency and Throughput.md",
-    "notes/Error Control - Cyclic Redundancy Checks.md",
-    "notes/Error Control - Hamming Codes Construction.md",
-    "notes/Error Control - Parity and Checksum.md",
-    "notes/Error Control - Hamming Distance and Bounds.md",
-    "notes/Switching - Circuit vs Packet Switching.md",
-    "notes/Framing - Delimiting Methods and Stuffing.md",
-    "notes/fragmentation fields.md",
-    "notes/attachments/Pasted image 20260429125535.webp",
-    "notes/ipv4 fragmentation.md",
-    "notes/attachments/Pasted image 20260429122148.webp",
+    "notes/transportation layer.md",
+    "notes/moc cn.md",
+    "notes/application  layer.md",
+    "notes/Application Layer - Overview and Roles.md",
+    "notes/DNS - Query Resolution Modes.md",
+    "notes/Routing Algorithms - DVR vs LSR.md",
+    "gate-cs/cn/traceroute.md",
+    "notes/ping.md",
+    "notes/traceroute.md",
+    "notes/ICMP - Diagnostic Queries and Utilities.md",
+    "notes/network layer.md",
+    "notes/Routing - Link State Routing.md",
+    "notes/Routing - Distance Vector Routing.md",
+    "notes/Routing - Count to Infinity and Solutions.md",
+    "notes/Routing - Distance Vector Example Trace.md",
+    "notes/NAT - Network Address Translation.md",
     "notes/IPv4 Header.md",
-    "notes/http commands.md",
+    "notes/ICMP - Error Reporting Messages.md",
+    "notes/ICMP - Core Protocol Architecture.md",
+    "notes/Fragmentation - Reassembly and Reliability.md",
+    "notes/Fragmentation - Step-by-Step Numerical Traces.md",
+    "notes/Fragmentation - Header Control Fields.md",
+    "notes/Fragmentation - Fundamentals and MTU.md",
+    "notes/IPv4 - Header Format and Structure.md",
+    "notes/attachments/IPv4 - Header Format and Structure-1790594187193.webp",
+    "notes/attachments/IPv4 - Header Format and Structure-1790594182808.webp",
+    "notes/attachments/IPv4 - Header Format and Structure-1790594139667.webp",
+    "notes/attachments/IPv4 - Header Format and Structure-1790594072440.webp",
+    "notes/IPv4 - Delivery and Protocol Fields.md",
+    "notes/IPv4 - Header Fields and Parsing.md",
+    "gate-cs/cn",
+    "gate-cs",
+    "notes/attachments/Pasted image 20260429125535.webp",
+    "notes/attachments/Pasted image 20260429122148.webp",
     "notes/attachments/Pasted image 20260429104304.webp",
-    "notes/network layers.md",
     "notes/attachments/Pasted image 20260429105513.webp",
-    "notes/port numbers.md",
     "notes/attachments/Pasted image 20260429102326.webp",
     "notes/attachments/Pasted image 20260429095929.webp",
-    "notes/attachments/Pasted image 20260429093538.webp",
-    "notes/attachments/Pasted image 20260429091948.webp",
-    "notes/HTTP.md",
-    "notes/attachments/Pasted image 20260429084112.webp",
-    "notes/attachments/Pasted image 20260429083915.webp",
-    "notes/ICMP.md",
-    "notes/traceroute.md",
-    "notes/Join.md",
     "maths",
     "mocs",
     "scripts/build_c_prog_dashboard.py",
@@ -262,8 +279,6 @@
     "scripts/build_subject_dashboards.py",
     "scripts/test_dv.py",
     "scripts/import_tests_v2.py",
-    "scripts/update_dataview_paths.py",
-    "RXC0vK2EDF.pdf",
     "00_meta/archive/docs/Canvas.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled.canvas",
     "00_meta/archive/_notes (roam, etc)/Untitled 1.canvas",
