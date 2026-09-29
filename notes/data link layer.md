@@ -6,8 +6,10 @@ topic: dl
 - [[Switching - Circuit vs Packet Switching|Switching - Circuit vs Packet Switching]]
 - 
 - [[Framing - Delimiting Methods and Stuffing|Framing - Delimiting Methods and Stuffing]]
+- [[Data Link Layer - Ethernet Multicast Addressing|Data Link Layer - Ethernet Multicast Addressing]]
 - 
 - [[Error Control - Hamming Distance and Bounds|Error Control - Hamming Distance and Bounds]]
+- TODO: 2D Parity thing https://gateoverflow.in/3380/gate-it-2008-question-66
 - [[Error Control - Parity and Checksum|Error Control - Parity and Checksum]]
 - [[Error Control - Hamming Codes Construction|Error Control - Hamming Codes Construction]]
 - [[Error Control - Cyclic Redundancy Checks|Error Control - Cyclic Redundancy Checks]]

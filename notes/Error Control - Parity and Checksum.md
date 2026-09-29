@@ -13,7 +13,7 @@ Appends a single bit such that the total count of $1$s in the codeword satisfies
 ### Internet Checksum (1's Complement Arithmetic)
 
 Used widely across TCP, UDP, and IP headers.
-
+[IPv4 Checksum](IPv4%20Checksum.md)
 #### Sender Algorithm
 1. The data payload is grouped into 16-bit binary integer words.
 2. Compute the sum using 1's complement addition (any carry bit emerging from the MSB is wrapped around and added to the LSB).

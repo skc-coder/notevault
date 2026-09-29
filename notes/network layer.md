@@ -10,6 +10,8 @@ topic: nl
 - [[NAT]] // left last 15 minutes
 - [[routing]] // left last 32 minutes
 - **Lecture 32b** – DVR PYQs & Count to Infinity // left startig 40 minutes
+- 
+- [[Network Layer - Life of a Packet|Network Layer - Life of a Packet]]
 
 - [[Network Layer - Architectural Placement|Network Layer - Architectural Placement]]
 - [[IPv4 - Header Format and Structure|IPv4 - Header Format and Structure]]

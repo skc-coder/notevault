@@ -14,6 +14,8 @@ Why 3? Chaining any bit in the combined code needs two more bit filps to get a v
 >    * Try $r = 6$: $2^6 = 64$; $27 + 6 + 1 = 34$ ($64 \ge 34$, holds).
 >    * Minimum parity bits required $= 6$.
 
+**NOTE: The positions are obtained by mixing the data and parity bits.** 
+
 ### Codeword Construction Rules (Even Parity)
 
 1. Number bit positions starting from $1$ ($1, 2, 3, 4, 5, \dots, n$).

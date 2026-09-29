@@ -39,7 +39,8 @@ flowchart TD
   * Transport Layer: **Segment** (or User Datagram in UDP)[cite: 1]
   * Network Layer: **Packet** / **IP Datagram**[cite: 1]
   * Data Link Layer: **Frame**[cite: 1]
-
+  * Trick: Transporting SPF cream.
+  
 ### Port Numbers and Socket Addresses
 Processes on an operating system are assigned port numbers to identify their communication endpoints[cite: 1].
 

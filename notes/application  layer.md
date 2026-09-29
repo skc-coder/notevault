@@ -10,6 +10,4 @@ topic: al
 - [[Remote Access - TELNET Protocol|Remote Access - TELNET Protocol]]
 - [[File Transfer Protocol - Dual Channel Mechanics|File Transfer Protocol - Dual Channel Mechanics]]
 - [[Application Layer - Protocol Comparative Matrix|Application Layer - Protocol Comparative Matrix]]
-- [[Network Layer - Life of a Packet|Network Layer - Life of a Packet]]
-- [[Data Link Layer - Ethernet Multicast Addressing|Data Link Layer - Ethernet Multicast Addressing]]
 

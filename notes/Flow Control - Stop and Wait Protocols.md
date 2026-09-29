@@ -60,3 +60,68 @@ When the sender transmits a frame, it starts a single timer initialized to `Time
 ```
 When a loss occurs, the sender spends **a total of 200 ms** waiting before it triggers a retransmission.
 It does **NOT** wait $50\text{ ms} + 200\text{ ms} = 250\text{ ms}$. The 200 ms timer _is the entire elapsed wall-clock time_ spent on that failed attempt.
+
+### 4. How High Bandwidth & Long Delay Affect Protocols
+
+In any sliding window protocol, link utilization ($\eta$) depends on the ratio of transmission time ($T_t$) to propagation delay ($T_p$):
+
+$$a = \frac{T_p}{T_t} = \frac{\text{Bandwidth} \times \text{Delay}}{\text{Frame Size}}$$
+
+When a link has **High Bandwidth** and **Long Delay**, $T_p \gg T_t$, meaning **$a$ becomes enormous**.
+
+```
+Sender ────────── Packet (Tiny fraction of pipe) ──────────> Receiver
+       [ Sender finishes sending in microseconds ]
+       [ Sits idle for tens of milliseconds waiting for ACK ]
+```
+
+#### A. Stop-and-Wait (Catastrophic Collapse)
+
+- **Rule:** Sender sends exactly $1$ packet and waits for its ACK before sending the next.
+    
+- **Efficiency:**
+    
+    $$\eta = \frac{1}{1 + 2a}$$
+    
+- **On an LFN:** When $a$ is huge (say $a = 1000$), efficiency collapses to:
+    
+    $$\eta = \frac{1}{1 + 2(1000)} \approx \frac{1}{2001} \approx \mathbf{0.05\%}$$
+    
+- **Verdict:** Stop-and-Wait is virtually unusable on high-speed, long-distance links.
+    
+
+#### B. Go-Back-N (GBN)
+
+- **Rule:** Sender can send up to $N$ packets using cumulative ACKs. If a packet is lost, the sender must **retransmit the entire window of $N$ packets from the lost packet onward**.
+    
+- **On an LFN:**
+    
+    - To get $100\%$ link utilization, the window size $N$ must satisfy:
+        
+        $$N \ge 1 + 2a \quad (\text{Window Size } \ge \text{BDP})$$
+        
+    - Because $N$ must be thousands of packets wide to fill the LFN pipe, **a single dropped packet forces the sender to retransmit thousands of already-received packets**.
+        
+    - GBN wastes enormous amounts of high-speed bandwidth re-sending duplicate data.
+        
+
+#### C. Selective Repeat (SR)
+
+- **Rule:** Receiver buffers out-of-order packets and independently ACKs individual packets. The sender **only retransmits the single dropped packet**.
+    
+- **On an LFN:**
+    
+    - Efficiently handles LFNs because only missing segments cross the wire again.
+        
+    - **The Trade-Off (Buffer Memory Explosion):** Both sender and receiver require massive window buffers:
+        
+        $$W_S = W_R = 2^{k-1} \ge \frac{1 + 2a}{2}$$
+        
+    - When $B \times RTT$ is tens of megabytes, both endpoints must allocate dedicated megabytes of high-speed memory just to maintain the receive and retransmit windows.
+        
+
+### Summary Checklist
+
+| **Concept**              | **What It Is** | **Why It Matters / Exam Hook** |
+| ------------------------ | -------------- | ------------------------------ |
+| **BDP ($B \times RTT$)** | Volume of the  |                                |

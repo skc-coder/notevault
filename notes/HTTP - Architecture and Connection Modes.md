@@ -29,3 +29,29 @@ flowchart TD
 
 > [!trap] Non-Persistent Connection Overhead
 > In non-persistent HTTP 1.0, fetching an HTML document containing $N$ objects requires at least $2 \times (1 + N)$ Round Trip Times (RTTs) plus data transmission latency ($1\text{ RTT}$ for TCP connection establishment and $1\text{ RTT}$ for the HTTP object request per object), creating severe throughput degradation over high-latency channels.
+
+### 1. Which is Old vs. Which is Used Nowadays?
+
+- **HTTP/1.0 is OLD and OBSOLETE** (standardized in 1996).
+    
+- **HTTP/1.1 is ACTIVE and UNIVERSALLY SUPPORTED** (standardized in 1997/1999).
+    
+- **What is used on the modern web nowadays?**
+    
+    - The modern internet primarily runs on **HTTP/2** (multiplexed binary frames over a single TCP connection) and **HTTP/3** (running over **QUIC / UDP**)[source: 1, 3].
+        
+    - However, **HTTP/1.1 is still the baseline fallback protocol** implemented by virtually every web server, browser, reverse proxy, and REST API in existence.
+        
+    - HTTP/1.0 is dead and almost never seen in modern production.
+        
+
+### 2. The Core Difference: How They Handle Connections
+
+|**Feature**|**HTTP/1.0 (The Old Way)**|**HTTP/1.1 (The Standard)**|
+|---|---|---|
+|**Connection Style**|**Non-Persistent**|**Persistent** (Default)|
+|**TCP Connections**|Closes immediately after **1 single object** is fetched.|Reuses **1 connection** for multiple requests and responses.|
+|**Webpage with $N$ Images**|Needs $1 + N$ separate TCP connections.|Needs only **1 TCP connection**.|
+|**Total Handshake RTTs**|Incurs at least $2 \times (1 + N)$ RTTs.|Incurs 1 initial RTT for TCP, then 1 RTT per subsequent object.|
+|**Pipelining**|Not supported.|Supported (send multiple requests back-to-back without waiting).|
+|**Host Header**|Optional.|**Mandatory** (enables multiple domains on 1 IP address).|

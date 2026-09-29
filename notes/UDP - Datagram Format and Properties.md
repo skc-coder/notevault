@@ -9,13 +9,14 @@
 
 ### UDP Header Format
 The UDP header is strictly $8\text{ Bytes}$ long, divided into four $16$-bit fields:
+![udp header](attachments/udp%20header.webp)
 
-| Field | Width | Description |
-| :--- | :--- | :--- |
-| **Source Port** | $16\text{ bits}$ | Port number of the sending process (optional/ephemeral)[cite: 1]. |
-| **Destination Port** | $16\text{ bits}$ | Port number of the destination application process[cite: 1]. |
-| **Total Length** | $16\text{ bits}$ | Total length of the UDP segment in bytes ($\text{Header} + \text{Payload}$). Minimum value is $8\text{ Bytes}$[cite: 1]. |
-| **Checksum** | $16\text{ bits}$ | Error detection field covering header, data, and pseudo-IP header. Optional in IPv4, mandatory in IPv6[cite: 1]. |
+| Field                | Width            | Description                                                                                                              |
+| :------------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| **Source Port**      | $16\text{ bits}$ | Port number of the sending process (optional/ephemeral)[cite: 1].                                                        |
+| **Destination Port** | $16\text{ bits}$ | Port number of the destination application process[cite: 1].                                                             |
+| **Total Length**     | $16\text{ bits}$ | Total length of the UDP segment in bytes ($\text{Header} + \text{Payload}$). Minimum value is $8\text{ Bytes}$[cite: 1]. |
+| **Checksum**         | $16\text{ bits}$ | Error detection field covering header, data, and pseudo-IP header. Optional in IPv4, mandatory in IPv6[cite: 1].         |
 
 ```mermaid
 flowchart TD

@@ -1,5 +1,12 @@
 TCP relies on four core operational timers to handle communication anomalies[cite: 1].
 
+| Timer                    | What Triggered It?                         | The Question It Asks                | Mental Anchor                                       |
+| ------------------------ | ------------------------------------------ | ----------------------------------- | --------------------------------------------------- |
+| **RTO (Retransmission)** | Outgoing data segment transmitted          | _"Did my packet get lost?"_         | **R**e-**T**ransmit **O**nce                        |
+| **Persistence**          | Received `rwnd = 0` (buffer full)          | _"Are you ready for data yet?"_     | **P**ersistent **P**robe (poking the closed window) |
+| **Keep-Alive**           | Long period of total silence (e.g., 2 hrs) | _"Did you crash or pull the plug?"_ | **Heartbeat / Vital signs check**                   |
+| **TIME-WAIT (2MSL)**     | Final ACK sent during teardown             | _"Did you get my final goodbye?"_   | **Waiting on the clock** (2MSL) to clear the air    |
+
 ```mermaid
 flowchart TD
     Timers["TCP Protocol Timers"]
